@@ -1,0 +1,12 @@
+
+objtype = "airbase"
+name = "Akrotiri"
+coalition = 2
+subordinates = {
+"1sqn",
+"LF2",
+}
+desc = "Akrotiri"
+recoverytype = "land"
+takeofftype = "runway"
+cost = 20

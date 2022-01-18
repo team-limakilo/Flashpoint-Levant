@@ -1,0 +1,11 @@
+
+objtype = "airbase"
+name = "Gazipasa"
+coalition = 2
+subordinates = {
+"174th",
+}
+desc = "Gazipasa"
+recoverytype = "land"
+takeofftype = "runway"
+cost = 20

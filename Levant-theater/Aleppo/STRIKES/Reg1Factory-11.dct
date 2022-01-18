@@ -1,0 +1,24 @@
+objtype = "Factory"
+intel = 3
+cost = 3
+name = "Reg1Factory-11"
+coalition = 1
+tpldata = {}
+buildings = {
+    {
+        ["name"] = "Factory",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 88539143,
+    },
+}
+desc = "%LOCATIONMETHOD% an energy plant located to the West of Al-Safirah is providing electricity military base. It is located on the military base on the Western edge of town.\
+Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.\
+Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
+\
+Primary objective: Destroy the power plant.\
+\
+Secondary objective: N/A.\
+\
+Threats: AAA, Sa-2.\
+\
+Recommended pilots: 2."

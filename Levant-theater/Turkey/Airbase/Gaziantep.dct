@@ -1,0 +1,14 @@
+
+objtype = "airbase"
+name = "Gaziantep"
+coalition = 2
+subordinates = {
+"104th",
+"184th",
+"1st",
+"33rd"
+}
+desc = "Gaziantep"
+recoverytype = "land"
+takeofftype = "runway"
+cost = 20

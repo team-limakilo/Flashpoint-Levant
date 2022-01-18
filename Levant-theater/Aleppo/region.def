@@ -1,0 +1,6 @@
+
+region = {
+    ["name"] = "Aleppo",
+    ["priority"] = 10,
+	["airspace"] = true,
+}

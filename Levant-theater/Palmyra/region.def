@@ -1,0 +1,12 @@
+
+region = {
+    ["name"] = "Palmyra",
+    ["priority"] = 80,
+		["airspace"] = true,
+    ["limits"] = {
+        ["sam"] = {
+            ["min"] = 2,
+            ["max"] = 2,
+        },
+    },
+}

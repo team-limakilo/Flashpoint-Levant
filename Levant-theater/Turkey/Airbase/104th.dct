@@ -1,0 +1,7 @@
+objtype = "squadronplayer"
+name = "104th"
+coalition = 2
+payloadlimits  = {
+	["ag"] = 120,
+	["aa"] = 20,
+}

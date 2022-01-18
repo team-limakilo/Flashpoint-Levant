@@ -1,0 +1,30 @@
+
+objtype = "airbase"
+name = "Incirlik"
+coalition = 2
+subordinates = {
+"341sqn",
+"No15",
+"Chasse",
+"14th",
+"58th",
+"51st",
+"211st",
+"26sqn",
+"VMFA122",
+"69th",
+"VF21",
+"VF101",
+"VMA311",
+"Patreon",
+}
+players = {
+"51st Squadron 1-1",
+"51st Squadron 1-2",
+"51st Squadron 1-3",
+"51st Squadron 1-4",
+}
+desc = "Incirlik"
+recoverytype = "land"
+takeofftype = "runway"
+cost = 20

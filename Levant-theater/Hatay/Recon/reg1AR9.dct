@@ -1,0 +1,6 @@
+-- Hatay special forces
+objtype = "specialforces"
+intel = 3
+cost = 3
+nocull = true
+coalition = 1

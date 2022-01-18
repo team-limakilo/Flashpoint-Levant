@@ -1,0 +1,5 @@
+Aleppo 		- 10
+Coast 		- 30
+Hama/Homs	- 50
+Palmyra		- 80
+Damascus	- 100

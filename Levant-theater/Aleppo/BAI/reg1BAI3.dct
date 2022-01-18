@@ -1,0 +1,4 @@
+objtype = "logistics"
+intel = 4
+cost = 5
+nocull = true

@@ -1,0 +1,4 @@
+objtype = "sam"
+intel = 3
+cost = 3
+exclusion = "Reg2Sa2-3"

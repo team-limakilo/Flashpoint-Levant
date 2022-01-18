@@ -1,0 +1,24 @@
+objtype = "Factory"
+intel = 3
+cost = 3
+name = "Reg1Factory-1"
+coalition = 1
+tpldata = {}
+buildings = {
+    {
+        ["name"] = "Factory",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 122257410,
+    },
+}
+desc = "%LOCATIONMETHOD% a weapons storage about 4000 feet or 1 kilometer south of Minakh airfield's intersecting runways, its a warehouse with an administrative building close to it, do not mistake the small village with the warehouse. Its coords are the following: %LOCATION%.\
+\
+Primary objective: Destroy the warehouse.\
+\
+Secondary objective: Destroy the administrative building\
+\
+Threats: AAA presence on Minakh along with some Short range SAMs\
+\
+Recommended pilots: 2\
+\
+Recommended ordnance: one Mk84 for each building."

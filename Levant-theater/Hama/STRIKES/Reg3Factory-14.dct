@@ -1,0 +1,29 @@
+objtype = "Factory"
+intel = 5
+cost = 15
+name = "Reg3Factory-14"
+coalition = 1
+tpldata = {}
+buildings = {
+    {
+        ["name"] = "Factory 1",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 83984384,
+    },
+    {
+        ["name"] = "Factory 2",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 83984385,
+    },
+}
+desc = "%LOCATIONMETHOD% an power plant south west of Homs, its right by a lake, there's 2 main generator buildings and several secondary structures. The main buildings stand out due to their smoke stacks.\
+Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.\
+Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
+\
+Primary objective: Destroy the two main buildings.\
+\
+Secondary objective: N/A.\
+\
+Threats: AAA, Medium and High altitude SAMs.\
+\
+Recommended pilots: 2."

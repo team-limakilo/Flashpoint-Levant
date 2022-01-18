@@ -1,0 +1,24 @@
+objtype = "Factory"
+intel = 3
+cost = 3
+name = "Reg1Factory-10"
+coalition = 1
+tpldata = {}
+buildings = {
+    {
+        ["name"] = "Factory",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 88179572
+    }
+}
+desc = "%LOCATIONMETHOD% an industrial plant located to the East of Aleppo. It is located on the Eastern edge of the city at the edge of the rail yard.\
+Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.\
+Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
+\
+Primary objective: Destroy the plant.\
+\
+Secondary objective: N/A.\
+\
+Threats: AAA, low, medium and high altitude SAMs.\
+\
+Recommended pilots: 2."

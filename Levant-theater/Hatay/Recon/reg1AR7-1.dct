@@ -1,0 +1,4 @@
+objtype = "specialforces"
+intel = 3
+cost = 3
+exclusion = "reg1AR7"
