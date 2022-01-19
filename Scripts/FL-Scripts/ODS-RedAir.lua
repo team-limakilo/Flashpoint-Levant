@@ -195,8 +195,8 @@ A2ADispatcher_Red:SetSquadronCapInterval( "Damascus M29", 1, 350, 900 )
 A2ADispatcher_Blue:SetTacticalDisplay(true)
 A2ADispatcher_Red:SetTacticalDisplay(true)
 
-A2ADispatcher_Red:Start()
-A2ADispatcher_Blue:Start()
+-- A2ADispatcher_Red:Start()
+-- A2ADispatcher_Blue:Start()
 
 local CAP_Level = 0
 
