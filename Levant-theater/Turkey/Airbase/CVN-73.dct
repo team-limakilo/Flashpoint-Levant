@@ -6,4 +6,6 @@ subordinates = {"VF111", "VF143", "VFA97"}
 desc = "CVN-73 George Washington"
 recoverytype = "land"
 takeofftype = "runway"
+tacan = "73X GW"
+icls = 11
 cost = 20
