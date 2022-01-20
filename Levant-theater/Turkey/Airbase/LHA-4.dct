@@ -6,4 +6,6 @@ subordinates = {"VMA331"}
 desc = "LHA-4 Nassau"
 recoverytype = "land"
 takeofftype = "runway"
+tacan = "31X LH"
+icls = 4
 cost = 20

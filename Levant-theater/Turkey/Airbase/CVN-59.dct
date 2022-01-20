@@ -6,4 +6,6 @@ subordinates = {}
 desc = "CV-59 Forrestal"
 recoverytype = "land"
 takeofftype = "runway"
+tacan = "59X QJ"
+icls = 12
 cost = 20
