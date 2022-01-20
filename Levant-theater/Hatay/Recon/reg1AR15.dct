@@ -1,4 +1,5 @@
 objtype = "specialforces"
 intel = 3
 cost = 3
+ondemand = true
 coalition = 1
