@@ -677,7 +677,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Excellent",
+                                        ["skill"] = "Good",
                                         ["type"] = "SA-18 Igla-S manpad",
                                         ["unitId"] = 41,
                                         ["y"] = 109835.79348986,
@@ -692,7 +692,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Excellent",
+                                        ["skill"] = "Good",
                                         ["type"] = "Ural-375 ZU-23 Insurgent",
                                         ["unitId"] = 43,
                                         ["y"] = 109836.68858653,
@@ -780,11 +780,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Advancing troops are requesting CAS on the outskirts of Aleppo, the Syrians are holding a position on the extreme north of the city, blocking the highway. We know form previous recon flights the enemy has light armor on the area, and likely has manpads as well. Avoid collateral damage on the city. The targets are between buildings on the extreme north of the city, on its limits, by the highway, a northbound approach is recommended for a better and safer firing solution on the targets.\
-\
-Primary objective: Identify the targets and take them down..\
-\
-Threats: Expect enemy short range air defenses. \
-\
-Pilots recommended: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

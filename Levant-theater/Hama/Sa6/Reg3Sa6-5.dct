@@ -2,3 +2,12 @@ objtype = "sam"
 intel = 3
 cost = 3
 spawnalways = true
+desc = [[%LOCATIONMETHOD% an SA-6 "Gainful" site south of Homs.
+
+Primary objective: Eliminate the SA-6 radar.
+
+Threats: SHORAD and low, medium and long range SAMs.
+
+HARM code: 108
+
+Recommended pilots: 2]]

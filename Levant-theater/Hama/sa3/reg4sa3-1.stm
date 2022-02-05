@@ -626,12 +626,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "During a SCUD hunt, some Falcons identified a possible sa3 site on Hama, probably there to protect the airfield. That said, your flight need to identify and neutralize the site, so you aircraft can fly safely on the area. While not state of the art systems, they still pose a treat and should be dealt with carefully.\\\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\\\
-\\\
-Primary objective: Eliminate the site.\\\
-\\\
-Threats: Medium altitude SAM, AAA and shorad.\\\
-\\\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

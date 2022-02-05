@@ -626,12 +626,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "A few enemy infantry landed alongside some APCs a few hours ago, their apcs landed south with the intent to push towards the city while the infantry have as their objective, to cut off the last supply route of the troops holding their ground. Your objective is to eliminate that group to keep that vital way open for out troops.\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
-\
-Primary objective: Destroy the marines.\
-\
-Threats: AAA, short range SAMs, be advised there's enemy shorad elements inside Antakya, and north and east of the landing area..\
-\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

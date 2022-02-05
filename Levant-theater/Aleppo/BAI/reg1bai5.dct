@@ -2,3 +2,10 @@ objtype = "logistics"
 intel = 4
 cost = 5
 ondemand = true
+desc = [[%LOCATIONMETHOD% an enemy convoy leaving from Jisr and headed to Reyhanli. Your mission is to eliminate the convoy before they can resupply Syrian forces engaged in the Hatay front. The convoy is led by a ZSU-23-4 Shilka and an Strela-1 (SA-9 Gaskin) at the front, followed by two T-55 MBTs, then two BTR-80 APCs, and two Ural supply trucks on the rear.
+
+Primary objective: Destroy all 8 vehicles in the convoy.
+
+Threats: AAA, short-range SAMs and enemy armor.
+
+Recommended pilots: 2]]

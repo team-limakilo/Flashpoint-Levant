@@ -2,3 +2,10 @@ objtype = "logistics"
 intel = 4
 cost = 5
 ondemand = true
+desc = [[%LOCATIONMETHOD% some armored units right on the border checkpoint between Turkey and Syria, a bit east of Reyhanli, those units are protecting reinforcement convoys flooding towards Turkey, and it would be helpfull to deal with them.
+
+Primary objective: Destroy the enemy forces.
+
+Threats: AAA, short range SAMs.
+
+Recommended pilots: 2]]

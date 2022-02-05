@@ -597,12 +597,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "%LOCATIONMETHOD% some armored units right on the border checkpoint between Turkey and Syria, a bit east of Reyhanli, those units are protecting reinforcement convoys flooding towards Turkey, and it would be helpfull to deal with them.\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
-\
-Primary objective: Destroy the enemy forces.\
-\
-Threats: AAA, short range SAMs.\
-\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

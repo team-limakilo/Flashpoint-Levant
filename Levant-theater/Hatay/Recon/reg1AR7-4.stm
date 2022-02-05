@@ -597,14 +597,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Our ground forces identified some enemies entrenched to the east of Kirikhan, on the other side of the River at a cluster of trees, those units are on the way of the main units of the 19th Mechanized Infantry Brigade, the main objective is to soften up the enemy line to make the work of the ground units easier.\
-Be advised, there's civilians on the area, so only fire at confirmed enemy combatants.\
-\
-Primary objective: Eliminate the troops.\
-\
-Secondary objective: N/A.\
-\
-Threats: Manpads and small caliber gunfire, be aware there's an enemy checkpoint south and east of Hatay.\
-\
-Recommended pilots: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

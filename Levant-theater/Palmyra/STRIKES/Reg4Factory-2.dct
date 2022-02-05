@@ -1,9 +1,8 @@
-objtype = "Factory"
+objtype = "FuelDump"
 intel = 3
 cost = 3
 name = "Reg4Factory-2"
 coalition = 1
-tpldata = {}
 buildings = {
     {
         ["name"] = "Factory 1",
@@ -21,14 +20,12 @@ buildings = {
         ["id"]   = 118359154,
     },
 }
-desc = "%LOCATIONMETHOD% an a few fuel tanks north west of Raqqa in an industrial area south of the railroad that cuts the city. You can identify it by its concrete base, theres one group with 4 tanks and 2 groups with only 2 tanks, with a total of 3 groups of tanks.\
-Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
-\
-Primary objective: Destroy the tanks.\
-\
-Secondary objective: N/A.\
-\
-Threats: AAA, Medium and High altitude SAMs.\
-\
-Recommended pilots: 2."
+desc = [[%LOCATIONMETHOD% a group of fuel tanks northwest of Raqqa, in an industrial area south of the railroad that goes through the city. You can identify the tanks by their concrete bases, and there is one group with 4 tanks and two groups with only 2 tanks, for a total of 3 groups of tanks that need to be destroyed.
+
+Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
+
+Primary objective: Destroy the storage tanks.
+
+Threats: AAA, SAMs, and enemy CAP.
+
+Recommended pilots: 2]]

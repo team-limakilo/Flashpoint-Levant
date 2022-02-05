@@ -95,7 +95,7 @@ staticTemplate =
                                                             ["params"] = 
                                                             {
                                                                 ["number"] = 1,
-                                                                ["designation"] = "Laser",
+                                                                ["designation"] = "WP+Laser",
                                                                 ["modulation"] = 0,
                                                                 ["groupId"] = 2,
                                                                 ["frequency"] = 131100000,
@@ -2100,9 +2100,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "A small detachment of British forces, callsign Anvil, were sent to capture a hill just a few hundred meters inside Syrian territory located close to the border post, expecting the Syrians to not put heavy resistence not many troops were assigned to that small detachment, but as soon they got in contact with their troops, the Syrians started to call reinforcements, and the British now need close air support before they get overwhelmed by Syrian forces, we also received info on a convoy with fresh troops coming from A'zaz, north of Minakh via a secondary road west of the main highway, we expect those units to reach the british in 25 to 35 minutes. We have a FAC alongside Anvil that will provide you with information, you can contact it on 131.100, callsign Eyeball.\
-\
-Primary objective: Help Anvil against the enemy vehicles.\
-\
-Threats: Enemy manpads are to be expected.",
+    ["desc"] = "",
 } -- end of staticTemplate

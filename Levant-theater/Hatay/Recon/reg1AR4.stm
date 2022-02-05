@@ -597,14 +597,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Troops of the Turkish 5th Armored Brigade are currently engaged in heavy combat on the city of Antakya, and not only that, they are also being bombarded by mortars, but earlier today, a flight of british harriers returning from a strike mission noticed a few trucks moving to the east of the city, and they suspect those are the mortar teams that are harassing our troops holding the city against the speaheading SAA advances, and they request immediate support there, so your mission is to silence the enemy mortar teams, we have the coords of their last known position, however, due to the extremely mobility of the mortar teams, a search may be required: %LOCATION%.\
-Be advised, this is a city, there's still civilians that didn't manage to evacuate in time, so only fire at confirmed enemy combatants.\
-\
-Primary objective: Eliminate the group .\
-\
-Secondary objective: N/A.\
-\
-Threats: Manpads and small caliber gunfire and a few enemy units on the city of Antakya itself, overflying it is not advised, and also a possible checkpoint a bit south of Hatay.\
-\
-Recommended pilots: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

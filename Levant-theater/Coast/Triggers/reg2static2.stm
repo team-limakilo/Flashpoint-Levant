@@ -557,5 +557,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Ships on port B)",
+    ["desc"] = "",
 } -- end of staticTemplate

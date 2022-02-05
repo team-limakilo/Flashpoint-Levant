@@ -1,0 +1,12 @@
+objtype = "Facility"
+intel = 3
+cost = 1
+desc = [[We have recently confirmed the presence of an insurgent-run radio station north of Raqqa, transmitting anti-western recruitment propaganda. The war against the Syrian government has already taken thousands of lives, but we cannot turn a blind eye to insurgent groups taking advantage of it.
+
+Primary objective: Destroy the radio station.
+
+Secondary objective: Destroy other insurgent assets in the area.
+
+Threats: Mostly Syrian Air Force patrols. We do not know what the insurgents are armed with, so be prepared for anything.
+
+Recommended pilots: 2]]

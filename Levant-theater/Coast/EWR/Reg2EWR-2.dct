@@ -1,3 +1,13 @@
 objtype = "ewr"
 intel = 4
 cost = 2
+priority = 5
+desc = [[A flight of Prowlers have pinned down the locations of two EWRs near Bassel Al-Assad, which are monitoring our assets taking off from Incirlik, Akrotiri, and the aircraft carriers. If silenced, the Syrian forces will have a more delayed response to attacks coming from the east. Your task is to eliminate the EWR near Banyias. Do not eliminate the EWR to the north, another package will handle it.
+
+Primary objective: Eliminate the EWR south of Baniyas.
+
+Threats: Heavy SAM defenses, enemy CAP from the nearby airbase, and SHORAD within the EWR site.
+
+HARM code: 102
+
+Recommended pilots: 2]]

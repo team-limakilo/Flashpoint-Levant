@@ -686,11 +686,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "%LOCATIONMETHOD% an SA2 site west of Hama, located at: %LOCATION%\
-\
-Primary objective: Eliminate the Radars.\
-\
-Threats: Sa2.\
-\
-Recommended pilots: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

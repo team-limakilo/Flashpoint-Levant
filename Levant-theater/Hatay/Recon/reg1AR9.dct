@@ -4,3 +4,12 @@ intel = 3
 cost = 3
 nocull = true
 coalition = 1
+priority = 90
+desc = [[Hatay fell into enemy control and we must liberate it to deny the enemy any chances to use it as a forward operating base and establishing a strong position.
+We know for sure they have units guarding the entrance to the airport and also a patrol walking around the entire perimeter.
+
+Be aware you have troops at your disposal you can load and deploy on the field to assist you.
+
+Primary objective: Clear Hatay from any enemy troops.
+
+Threats: Small caliber fire and MANPADS; The enemy may also have helicopters nearby and fixed wing aircraft flying overhead;]]

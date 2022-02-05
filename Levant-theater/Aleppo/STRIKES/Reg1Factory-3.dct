@@ -1,9 +1,9 @@
-objtype = "Factory"
+objtype = "FuelDump"
 intel = 3
 cost = 3
 name = "Reg1Factory-3"
 coalition = 1
-tpldata = {}
+priority = 65
 buildings = {
     {
         ["name"] = "Factory",
@@ -11,12 +11,10 @@ buildings = {
         ["id"]   = 116850770,
     },
 }
-desc = "%LOCATIONMETHOD% a small fuel depot on the city of Idlib, it's fuel is being used to supply the SAA 18th Armored Division on their push towards Turkey, while not a big supply of fuel, its important that we deny the enemy any opportunity. The fuel tanks are at %LOCATION%.\
-\
-Primary objective: Destroy the tanks.\
-\
-Secondary objective: N/A.\
-\
-Threats: AAA on the city and SA-2's east close to Aleppo.\
-\
-Recommended pilots: 2."
+desc = [[%LOCATIONMETHOD% a small fuel depot in the city of Idlib, which is being used to supply the SAA 18th Armored Division in their push towards Turkey. While the depot is not large, it's important that we deny the enemy of all opportunities.
+
+Primary objective: Destroy the fuel tanks.
+
+Threats: AAA in the city and SA-2s east, close to Aleppo.
+
+Recommended pilots: 2]]

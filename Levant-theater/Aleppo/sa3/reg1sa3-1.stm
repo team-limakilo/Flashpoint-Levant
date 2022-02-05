@@ -626,12 +626,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "West of Aleppo, there's an sa3 site, it's important to deal with it to keep the area safe for coalition aircraft, but be aware for the presence of enemy AAA covering the city of Aleppo and the airport, we also have information on a possible Sa-8 system there as well.\\\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\\\
-\\\
-Primary objective: Destroy the battery.\\\
-\\\
-Threats: Medium and high altitude SAMs, AAA and shorad.\\\
-\\\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

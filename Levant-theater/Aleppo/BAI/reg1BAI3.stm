@@ -763,9 +763,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "In preparation for the ground war, high command ordered a general attack over Syrian positions on the general area north of Aleppo. Your task is to destroy a checkpoint about 5nm north of Minakh(Town) on the city nearby, be advised that intel identified AAA emplacements on the area.\
-\
-Your objective is to disable any heavy vehicles on the area and clear the area from any hostiles.\
-\
-Recommended pilots: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

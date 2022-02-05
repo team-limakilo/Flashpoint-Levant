@@ -1,3 +1,10 @@
 objtype = "logistics"
 intel = 4
 cost = 5
+desc = [[To the surprise of no one, Syria is filled with AAA and SHORAD, as much this was expected, we still need to do something about it, and it's up to your flight to deal with the AAA threats on the eastern sector of Hama, recon flights earlier identified the presence of two sites, one right by the cloverleaf interchange east of the city and another right south of the ruins.
+
+Primary objective: Destroy the batteries (AAA and possibly an SA-8).
+
+Threats: SA-2s, SA-3s, SHORAD, and heavy enemy CAP.
+
+Recommended pilots: 2]]

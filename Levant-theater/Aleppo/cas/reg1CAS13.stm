@@ -1511,9 +1511,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "A convoy from the Turkish army called for CAS on a possible ambush a few miles north of Manbij, at a crossroads, your main objective is to clear the area from any possible hostiles so they can safely travel south to capture Manbij.\
-\
-Primary objective: Clear the road and check for a possible ambush.\
-\
-Threats: Expect enemy small arms fire and possibly manpads and AAA.",
+    ["desc"] = "",
 } -- end of staticTemplate

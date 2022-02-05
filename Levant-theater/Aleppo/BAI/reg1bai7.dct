@@ -2,3 +2,12 @@ objtype = "logistics"
 intel = 4
 cost = 5
 ondemand = true
+desc = [[%LOCATIONMETHOD% an artillery platoon shelling the city of Antakya with little regard for civilians, inflicting severe losses on our troops, including friendly coalition troops and the 5th Armored Brigade. To reduce further losses, command has prioritized the destruction of this battery.
+
+Primary objective: Destroy all artillery pieces in the area.
+
+Secondary objective: Eliminate enemy supply trucks and other support assets.
+
+Threats: AAA, short range SAMs, be advised there's enemy SHORAD elements inside Antakya, west and north of the artillery battery, and at least 2 patrol craft on the coast bombarding some of our friendly positions.
+
+Recommended pilots: 2]]

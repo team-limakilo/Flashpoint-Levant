@@ -2,3 +2,12 @@ objtype = "specialforces"
 intel = 3
 cost = 3
 ondemand = true
+desc = [[Turkish police has reported that an enemy infantry squad is entering the city of Antakya and trying to seize it, so your objective is to eliminate them. They are in the southern sector of the town, close to the main road.
+
+Be advised, this is a city, and there are still civilians that didn't evacuate in time, so only fire at confirmed enemy combatants.
+
+Primary objective: Eliminate the enemy group.
+
+Threats: MANPADS and small caliber gunfire, with more enemy units in the western and northern areas of the city.
+
+Recommended pilots: 1]]

@@ -790,7 +790,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Excellent",
+                                        ["skill"] = "Good",
                                         ["type"] = "SA-18 Igla-S manpad",
                                         ["unitId"] = 6,
                                         ["y"] = 36690.950062058,
@@ -805,7 +805,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Excellent",
+                                        ["skill"] = "Good",
                                         ["AddPropVehicle"] = 
                                         {
                                             ["Branches"] = false,
@@ -852,14 +852,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "%LOCATIONMETHOD% an artillery position shelling the city of Antakya w/o care for civilians still on the area, not only that but also inflicting losses among friendly troops of the 5th Armored Brigade, and your task is to silence that battery for good.\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
-\
-Primary objective: Destroy the artillery pieces.\
-\
-Secondary objective: Wipe the remaining troops on the position.\
-\
-Threats: AAA, short range SAMs, be advised there's enemy shorad elements inside Antakya, west and north of the artillery battery, and at least 2 patrol craft on the coast bombarding some of our friendly positions.\
-\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

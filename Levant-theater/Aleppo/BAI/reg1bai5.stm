@@ -14476,7 +14476,7 @@ staticTemplate =
                                         ["unitId"] = 6,
                                         ["y"] = 40897.698167036,
                                         ["x"] = 86891.421726675,
-                                        ["name"] = "Primary Destroyed Tank 3",
+                                        ["name"] = "Primary Damaged Tank 3",
                                         ["heading"] = 1.4942874314329,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [3]
@@ -14491,7 +14491,7 @@ staticTemplate =
                                         ["unitId"] = 7,
                                         ["y"] = 40867.781288727,
                                         ["x"] = 86889.191451265,
-                                        ["name"] = "Primary Destroyed Tank 4",
+                                        ["name"] = "Primary Damaged Tank 4",
                                         ["heading"] = 1.4963849033425,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
@@ -14506,7 +14506,7 @@ staticTemplate =
                                         ["unitId"] = 8,
                                         ["y"] = 40837.862964089,
                                         ["x"] = 86886.979224751,
-                                        ["name"] = "Primary Destroyed Tank 5",
+                                        ["name"] = "Primary Destroyed IFV 1",
                                         ["heading"] = 1.4969884525019,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [5]
@@ -14521,7 +14521,7 @@ staticTemplate =
                                         ["unitId"] = 9,
                                         ["y"] = 40807.949634332,
                                         ["x"] = 86884.703930757,
-                                        ["name"] = "BAI-1",
+                                        ["name"] = "Primary Destroyed IFV 2",
                                         ["heading"] = 1.4948796290977,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [6]
@@ -14536,7 +14536,7 @@ staticTemplate =
                                         ["unitId"] = 10,
                                         ["y"] = 40778.083437027,
                                         ["x"] = 86882.006192246,
-                                        ["name"] = "BAI-2",
+                                        ["name"] = "Primary Destroyed Truck 1",
                                         ["heading"] = 1.480713307714,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [7]
@@ -14551,7 +14551,7 @@ staticTemplate =
                                         ["unitId"] = 14,
                                         ["y"] = 40749.094486956,
                                         ["x"] = 86876.59265995,
-                                        ["name"] = "BAI-3",
+                                        ["name"] = "Primary Destroyed Truck 2",
                                         ["heading"] = 1.3861781410853,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [8]
@@ -14594,12 +14594,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "%LOCATIONMETHOD% an enemy convoy from Jisr and it heads towards Reyhanli, your mission is to eliminate those units before the manage to reinforce the currently engaged forces on the Hatay region.\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
-\
-Primary objective: Destroy the enemy forces(8 units).\
-\
-Threats: AAA, short range SAMs, enemy armor.\
-\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

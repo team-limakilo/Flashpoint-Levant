@@ -3,3 +3,15 @@ intel = 3
 cost = 2
 ondemand = true
 coalition = 1
+extramarks = {
+    { x = 163957, z = 108387, label = "%TARGET%: Convoy assembly location" },
+    { x = 161920, z = 111350, label = "%TARGET%: Most likely escape route" },
+    { x = 158370, z = 112013, label = "%TARGET%: Convoy destination" },
+}
+desc = [[While approaching Minakh, the French spearhead have identified enemy vehicles fleeing south along the railroad, likely to consolidate a stronger defense in an urban area. We estimate the enemy convoy will reach the marked destination in approximately 30 minutes, and they are still armed, which means you are weapons free on the target.
+
+Primary objective: Destroy the fleeing convoy.
+
+Threats: Small arms fire, and possibly MANPADS and AAA.
+
+Recommended pilots: 2]]

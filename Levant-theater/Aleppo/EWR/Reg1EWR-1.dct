@@ -1,3 +1,13 @@
 objtype = "ewr"
 intel = 4
 cost = 2
+priority = 1
+desc = [[%LOCATIONMETHOD% an EWR northeast of Aleppo, which is strategically placed to survey both Syrian and Turkish airspace. That makes it a top priority target, and its destruction will greatly reduce the enemy's interception capability.
+
+Primary objective: Eliminate the EWR.
+
+Threats: SHORAD around the EWR, and several strategic SAM sites around Aleppo and Kuweires.
+
+HARM code: 102
+
+Recommended pilots: 2]]

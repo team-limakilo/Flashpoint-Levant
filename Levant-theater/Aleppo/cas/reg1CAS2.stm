@@ -728,11 +728,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "A'zaz is the first obstacle between our troops and Aleppo. Recon flights identified heavy Syrian presence on the town and our advancing troops also engaged in combat against troops from inside the town.You have been tasked to destroy the enemy armor entrenched on the western part of the town. While most civilians fled the town, we know a few still live within the combat area, so minimize the collateral damage.\
-\
-Primary objective: Clear the west side of the town overlooking the highway which leads south towards Aleppo while avoiding collateral damage.\
-\
-Threats: Enemy AAA and manpads are to be expected. \
-\
-Pilots recommended: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

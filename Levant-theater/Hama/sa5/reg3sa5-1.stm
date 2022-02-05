@@ -500,7 +500,7 @@ staticTemplate =
                                         ["unitId"] = 44,
                                         ["y"] = 76460.05760922,
                                         ["x"] = -47631.920124757,
-                                        ["name"] = "SA5-4",
+                                        ["name"] = "Primary Destroyed SA5-4",
                                         ["heading"] = 5.2010811709431,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
@@ -515,7 +515,7 @@ staticTemplate =
                                         ["unitId"] = 45,
                                         ["y"] = 76331.029772559,
                                         ["x"] = -47765.728371976,
-                                        ["name"] = "SA5-5",
+                                        ["name"] = "Primary Destroyed SA5-5",
                                         ["heading"] = 4.7996554429844,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [5]
@@ -530,7 +530,7 @@ staticTemplate =
                                         ["unitId"] = 46,
                                         ["y"] = 76551.263937271,
                                         ["x"] = -47676.775913656,
-                                        ["name"] = "SA5-6",
+                                        ["name"] = "Primary Destroyed SA5-6",
                                         ["heading"] = 5.6897733615015,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [6]
@@ -545,7 +545,7 @@ staticTemplate =
                                         ["unitId"] = 47,
                                         ["y"] = 76741.291706731,
                                         ["x"] = -48034.520542623,
-                                        ["name"] = "SA5-7",
+                                        ["name"] = "Primary Destroyed SA5-7",
                                         ["heading"] = 5.8293997016611,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [7]
@@ -560,7 +560,7 @@ staticTemplate =
                                         ["unitId"] = 48,
                                         ["y"] = 76348.590424092,
                                         ["x"] = -48094.890254151,
-                                        ["name"] = "SA5-8",
+                                        ["name"] = "Primary Destroyed SA5-8",
                                         ["heading"] = 4.1364303272266,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [8]
@@ -575,7 +575,7 @@ staticTemplate =
                                         ["unitId"] = 49,
                                         ["y"] = 76599.505640971,
                                         ["x"] = -47582.293874226,
-                                        ["name"] = "SA5-9",
+                                        ["name"] = "Primary Destroyed SA5-9",
                                         ["heading"] = 5.218534463463,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [9]
@@ -590,7 +590,7 @@ staticTemplate =
                                         ["unitId"] = 50,
                                         ["y"] = 76355.71727534,
                                         ["x"] = -47864.78263438,
-                                        ["name"] = "SA5-10",
+                                        ["name"] = "Primary Destroyed SA5-10",
                                         ["heading"] = 4.2935099599061,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [10]
@@ -605,7 +605,7 @@ staticTemplate =
                                         ["unitId"] = 51,
                                         ["y"] = 76529.256460756,
                                         ["x"] = -47599.816892944,
-                                        ["name"] = "SA5-11",
+                                        ["name"] = "Primary Destroyed SA5-11",
                                         ["heading"] = 5.1836278784232,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [11]
@@ -620,7 +620,7 @@ staticTemplate =
                                         ["unitId"] = 65,
                                         ["y"] = 76476.26519331,
                                         ["x"] = -47686.83446924,
-                                        ["name"] = "SA5-1",
+                                        ["name"] = "Primary Destroyed SA5-1",
                                         ["heading"] = 5.2010811709431,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [12]
@@ -1181,11 +1181,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "The Syrians activated their SA-5 site south of Homs, at the Air Defense Academy, while old, its range can pose a threat to our AWACS and Tanker aircraft, so your task is to disable the site and its adjacent defenses. The SA-5 site is very heavily defended by newly adquired SA19's and several AAA batteries and SA-8 launchers.\
-\
-Due to its heavy defenses and big importance, its strongly recommended to form up with multiple pilots to take it down.\
-\
-Your objective is to neutralize the SA5 site.\
-\
-Recommended pilots: 2~4",
+    ["desc"] = "",
 } -- end of staticTemplate

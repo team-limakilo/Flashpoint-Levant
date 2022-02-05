@@ -1,9 +1,9 @@
-objtype = "Factory"
+objtype = "AmmoDump"
 intel = 3
 cost = 3
 name = "Reg1Factory-2"
 coalition = 1
-tpldata = {}
+priority = 65
 buildings = {
     {
         ["name"] = "Factory",
@@ -11,12 +11,10 @@ buildings = {
         ["id"]   = 120717320,
     },
 }
-desc = "%LOCATIONMETHOD% there's armored vehicles stored on a warehouse located within the Syrian border post 5 miles east of Reyhanli, its the biggest building on the area and its roof is black, its location is the following: %LOCATION%.\
-\
-Primary objective: Destroy the warehouse.\
-\
-Secondary objective: N/A.\
-\
-Threats: SA-2's east of the post close to Aleppo.\
-\
-Recommended pilots: 2."
+desc = [[Our spies have confirmed the existence of armored vehicles in a warehouse east of Reyhanli, in a border post. This warehouse is the largest building in the complex, and has a distinctive black roof. We cannot let the Syrian Army send more tanks at us, so you are tasked with destroying it.
+
+Primary objective: Destroy the warehouse.
+
+Threats: AAA and MANPADS.
+
+Recommended pilots: 2]]

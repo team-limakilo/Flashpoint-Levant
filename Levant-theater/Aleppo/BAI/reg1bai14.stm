@@ -8430,12 +8430,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "%LOCATIONMETHOD% an enemy convoy heading to the frontlines, the units are leaving Idlib on its east highway and heading towards a town south of Reyhanli and a bit east of the small lake, the road is marked.\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
-\
-Primary objective: Destroy the enemy forces(8 units).\
-\
-Threats: AAA, short range SAMs, enemy armor.\
-\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

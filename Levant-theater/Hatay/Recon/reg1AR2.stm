@@ -597,14 +597,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "%LOCATIONMETHOD% some enemy groups entered the city of Antakya and are trying to seize it, your objective is to eliminate the group on the southern sector of the town, the enemy tried to push the main road %LOCATION%.\
-Be advised, this is a city, there's still civilians that didn't manage to evacuate in time, so only fire at confirmed enemy combatants.\
-\
-Primary objective: Eliminate the group .\
-\
-Secondary objective: N/A.\
-\
-Threats: Manpads and small caliber gunfire and a few enemy units on the westen and norther areas of the city.\
-\
-Recommended pilots: 1",
+    ["desc"] = "",
 } -- end of staticTemplate

@@ -691,14 +691,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "on the western area of Antakya, some units of the 5th Armored Battalion are engaged in heavy fighting against enemy units, and while they are holding the enemies for now, they can't maintain their positions for much longer w/o support and supplies, your task is to open the way for supply convoys and reinforcements flood the city and stop the enemy advance, your task is to destroy the enemy troops on the western area of the city.\
-Be advised, there's civilians on the area, so only fire at confirmed enemy combatants.\
-\
-Primary objective: Eliminate the troops.\
-\
-Secondary objective: N/A.\
-\
-Threats: Manpads, small caliber fire, Hatay is under enemy control and there's more troops around the city, on its northern area and south as well, between Antakya and Hatay an enemy checkpoint was established and a few troops to the east as well.\
-\
-Recommended pilots: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

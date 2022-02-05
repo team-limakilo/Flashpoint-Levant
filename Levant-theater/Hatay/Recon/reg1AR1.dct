@@ -1,3 +1,11 @@
 objtype = "specialforces"
 intel = 3
 cost = 3
+ondemand = true
+desc = [[%LOCATIONMETHOD% a small enemy infantry group that has estabilished a checkpoint on a bridge between Hatay and Antakya. While this is not a major route, we do not want to leave locals to the mercy of hostile soldiers.
+
+Primary objective: Clear the checkpoint of hostiles.
+
+Threats: MANPADS and small caliber fire.
+
+Recommended pilots: 1]]

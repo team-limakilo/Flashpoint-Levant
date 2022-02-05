@@ -503,6 +503,23 @@ staticTemplate =
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
+                                                        [2] = {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = false,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "SetInvisible",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -525,7 +542,7 @@ staticTemplate =
                                         ["unitId"] = 1,
                                         ["y"] = -3542.4301040989,
                                         ["x"] = -12188.462561841,
-                                        ["name"] = "Primary Undamaged Ship 1",
+                                        ["name"] = "Primary Destroyed Ship 1",
                                         ["heading"] = 1.2915436464758,
                                         ["modulation"] = 0,
                                         ["frequency"] = 127500000,
@@ -541,7 +558,7 @@ staticTemplate =
                                         ["unitId"] = 2,
                                         ["y"] = -3656.6281676529,
                                         ["x"] = -12774.064465887,
-                                        ["name"] = "Primary Undamaged Ship 2",
+                                        ["name"] = "Primary Destroyed Ship 2",
                                         ["heading"] = 1.2915436464758,
                                         ["modulation"] = 0,
                                         ["frequency"] = 127500000,
@@ -601,6 +618,23 @@ staticTemplate =
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
+                                                        [2] = {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = false,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "SetInvisible",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -623,7 +657,7 @@ staticTemplate =
                                         ["unitId"] = 3,
                                         ["y"] = -3649.4829145936,
                                         ["x"] = -11314.657366083,
-                                        ["name"] = "Rezky",
+                                        ["name"] = "Primary Destroyed Rezky",
                                         ["heading"] = 0.82030474843733,
                                         ["modulation"] = 0,
                                         ["frequency"] = 127500000,
@@ -671,5 +705,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Ships on port B)",
+    ["desc"] = "",
 } -- end of staticTemplate

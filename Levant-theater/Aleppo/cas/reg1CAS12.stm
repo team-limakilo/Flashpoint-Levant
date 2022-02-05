@@ -1199,9 +1199,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "While approaching Minakh, vehicles of the armored spearhead identified fleeing enemy vehicles, probably to consolidate a stronger defense on the town south of Minakh following its railroad. We estimate the convoy will reach its destination in approximately 30 minutes.\
-\
-Primary objective: Destroy the fleeing convoy.\
-\
-Threats: Expect enemy small arms fire and possibly manpads and AAA.",
+    ["desc"] = "",
 } -- end of staticTemplate

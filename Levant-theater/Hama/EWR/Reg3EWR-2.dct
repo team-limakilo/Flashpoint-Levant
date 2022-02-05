@@ -1,3 +1,13 @@
 objtype = "ewr"
 intel = 4
 cost = 2
+priority = 10
+desc = [[%LOCATIONMETHOD% an EWR site in the Syrian Air Defense Academy, south of Homs. While this site was used for training of early warning operators before the war, it is still a fully functional EWR installation, leaving no room for doubt about its importance as a war asset. Eliminating it will increase the safety of approaching Homs through the valley in the east.
+
+Primary objective: Eliminate the EWR in the Air Defense Academy.
+
+Threats: Heavy SAM defenses, enemy CAP and interceptors, and SHORAD within the EWR site.
+
+HARM code: 102
+
+Recommended pilots: 2]]

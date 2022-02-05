@@ -534,7 +534,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "Paratrooper AKS-74",
                                         ["unitId"] = 5,
                                         ["y"] = 25004.65538508,
@@ -549,7 +549,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "Paratrooper AKS-74",
                                         ["unitId"] = 19,
                                         ["y"] = 25002.91784509,
@@ -564,7 +564,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "Paratrooper AKS-74",
                                         ["unitId"] = 20,
                                         ["y"] = 25001.437295522,
@@ -579,7 +579,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "Paratrooper AKS-74",
                                         ["unitId"] = 21,
                                         ["y"] = 24999.929780442,
@@ -594,7 +594,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "Soldier M249",
                                         ["unitId"] = 22,
                                         ["y"] = 24998.644066157,
@@ -609,7 +609,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "Soldier M249",
                                         ["unitId"] = 23,
                                         ["y"] = 24997.329780442,
@@ -624,7 +624,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "Paratrooper RPG-16",
                                         ["unitId"] = 24,
                                         ["y"] = 24995.7869233,
@@ -639,7 +639,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "Paratrooper RPG-16",
                                         ["unitId"] = 25,
                                         ["y"] = 24994.072637585,
@@ -807,13 +807,13 @@ staticTemplate =
                                         ["rate"] = 3,
                                         ["y"] = 25004.415888947,
                                         ["x"] = 170665.04563985,
-                                        ["name"] = "MARK=Airborn infantry(reg1AR9)",
+                                        ["name"] = "MARK=%TARGET%: Airborne Troops",
                                         ["heading"] = 0,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 25004.415888947,
                                 ["x"] = 170665.04563985,
-                                ["name"] = "MARK=Airborn infantry(reg1AR9)",
+                                ["name"] = "MARK=%TARGET%: Airborne Troops",
                                 ["dead"] = false,
                             }, -- end of [1]
                             [2] = 
@@ -1490,7 +1490,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Excellent",
+                                        ["skill"] = "Average",
                                         ["type"] = "Infantry AK Ins",
                                         ["unitId"] = 17,
                                         ["y"] = 38684.689750398,
@@ -1579,12 +1579,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Hatay fell into enemy control and we must liberate it to deny the enemy any chances to use it as a forward operating base and establishing a strong position.\
-We know for sure they have units guarding the entrance to the airport and also a patrol walking around the entire perimeter.\
-\
-Be aware you have troops at your disposal you can load and deploy on the field to assist you.\
-\
-Primary objective: Clear Hatay from any enemy troops.\
-\
-Threats: Small caliber fire and manpads; The enemy may also have helicopters nearby and fixed wing aircraft flying overhead;",
+    ["desc"] = "",
 } -- end of staticTemplate

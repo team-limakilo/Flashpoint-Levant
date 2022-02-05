@@ -693,14 +693,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Scout flights identified an anti ship battery on the coast a few miles north of Latakia and it's extremely important that we deal with it because it can pose some serious risk to our ships, so, your mission is to completely neutralize the site.\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
-\
-Primary objective: Destroy the anti ship radar and its batteries.\
-\
-Secondary objective: Destroy all units on the vicinity.\
-\
-Threats: AAA, short range SAMs and also sa3 and sa6 batteries south.\
-\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

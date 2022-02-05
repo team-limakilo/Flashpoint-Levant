@@ -1,3 +1,10 @@
 objtype = "logistics"
 intel = 4
 cost = 5
+desc = [[Tiyas is one of the main and most important airbases in Syria, so just like other airbases, we are going to organize flights to disable the bases, and your part on that is to clear the airbase form enemy SHORAD, that being 2 AAA battery, one located north of the base, and on the south west sheltered ramps on the runway end, we also know about 2 SA-8 sites, one to the sheltered ramps east of the AAA battery south and the second one on the revetments north west of the airbase.
+
+Primary objective: Clear the airbase(25 units).
+
+Threats: Medium altitude SAM, AAA and SHORAD.
+
+Recommended pilots: 2]]

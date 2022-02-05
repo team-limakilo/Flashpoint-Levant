@@ -1,3 +1,13 @@
 objtype = "sam"
 intel = 3
 cost = 3
+priority = 15
+desc = [[East of Aleppo, very close to the airport, a few hundred meters east of it, there's an SA-3 site, it's important to deal with it to keep the area safe for coalition aircraft, but be aware for the presence of enemy AAA covering the city of Aleppo and the airport, we also have information on a possible SA-8 system there as well.
+
+Primary objective: Destroy the SA-3 site.
+
+Threats: Medium and high altitude SAMs, AAA and SHORAD.
+
+HARM code: 123
+
+Recommended pilots: 2]]

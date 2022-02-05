@@ -499,6 +499,23 @@ staticTemplate =
                                                 {
                                                     ["tasks"] = 
                                                     {
+                                                        [1] = {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = false,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "SetInvisible",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -624,7 +641,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
+                                        ["skill"] = "High",
                                         ["type"] = "ALBATROS",
                                         ["unitId"] = 1,
                                         ["y"] = -261806.0144652,
@@ -640,7 +657,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
+                                        ["skill"] = "High",
                                         ["type"] = "MOLNIYA",
                                         ["unitId"] = 2,
                                         ["y"] = -262281.57739576,
@@ -678,11 +695,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "A few minutes ago, a radar from USS Hue City identified a pair of contacts south of Cyprus, those contacts are likely Syrian vessels patrolling the WC quadrant. The first sighting was bearing 173, 79nm from Ankrotiri. Those ships are likely patroling known commercial routes on the region and also looking for submarines.\
-\
-Even with the halt of trade on the region, tankers and cargo ships still pass through that area, so for the safety of the non combatants, those ships must be disabled.\
-\
-Be advised about Soviet activity on the area, while the Soviets are aligned to the Syrian government, they declared neutrality on the conflict. They maintain a naval base at Tartus and often send ships to patrol and escort their cargo vessels and tankers, but from Soviet information passed directly to the coalition, no ships should be present at that area today.\
-\
-Primary Objective: Disable or sink both Syrian ships",
+    ["desc"] = "",
 } -- end of staticTemplate

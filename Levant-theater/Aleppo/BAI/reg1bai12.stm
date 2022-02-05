@@ -614,12 +614,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "%LOCATIONMETHOD% a few units stationed on the border post, they are elements of the 17th armored brigade and are going to hold the ground during the ground invasion, and it would make it easier if we soften the enemy ground troops.\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
-\
-Primary objective: Destroy the enemy forces.\
-\
-Threats: AAA, short range SAMs.\
-\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

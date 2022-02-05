@@ -631,9 +631,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "He've identified an enemy checkpoint on the border post between Turkey and Syria, east of Reyhanli. The syrians are there likely to help to secure a escape route and keep the logistics flowing to the troops inside the Hatay province.\
-\
-Your task is to destroy the AAA and lightily armored behicles and then disable the tanks, after you complete your missions a few squadrons of rangers will be deployed on the area to block any retreat attempts of the Syrians currently engaged on the region.\
-\
-Expect enemy AAA, we confirmed they have a ZSU-57-2 and potentially a Strela.",
+    ["desc"] = "",
 } -- end of staticTemplate

@@ -1,10 +1,10 @@
-objtype = "Factory"
-intel = 5
-cost = 15000
+objtype = "Facility"
 name = "Reg3Factory-13"
 coalition = 1
-tpldata = {}
-minagents = 999
+intel = 5
+cost = 10000
+priority = 1000
+minagents = 1000
 buildings = {
     {
         ["name"] = "Factory 1",
@@ -57,16 +57,18 @@ buildings = {
         ["id"]   = 108365352,
     },
 }
-desc = "%LOCATIONMETHOD% a fuel refinery east of Homs, its a sizeable complex, with lots of fuel tanks and oil processing plants, and its an extremely important target due to the composite materials being produced here. The complex is easy to spot, it stand out quite a lot on the area and the primary objective is to eliminate all the tanks and the processing plants.\
-Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
-\
-Primary objective: Destroy the oil tanks and processing plants.\
-\
-Secondary objective: Destroy the massive white roofed warehouse south on the complex.\
-\
-Threats: AAA, Medium and High altitude SAMs.\
-\
-Recommended pilots: 4.\
-\
-THIS IS THE FINAL MISSION(Temporarily)."
+desc = [[We've been finally authorized by the NATO Military Commitee to strike the Homs Fuel Refinery. It's a large industrial complex east of the city, containing dozens of storage tanks and several oil processing plants, and is of great importance to the Syrian government due to the composite materials produced there. The complex stands out from the rest of the region, making it easy to spot, and your mission is to destroy all industrial facilities in the complex.
+
+Hopefully, this show of power and the damage to the Syrian chemical industry will force their government sign a ceasefire and remove troops from Lebanon, winning us the war.
+
+Caution, this target is in a populated area, be selective with weapon employment to prevent civilian casualties.
+
+Primary objective: Destroy all storage tanks and processing plants.
+
+Secondary objective: Destroy the warehouses on the south side of the complex.
+
+Threats: AAA, Medium and High altitude SAMs.
+
+Recommended pilots: 4
+
+THIS IS THE FINAL MISSION (Temporarily).]]

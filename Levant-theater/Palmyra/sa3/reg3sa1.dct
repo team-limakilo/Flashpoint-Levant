@@ -1,3 +1,12 @@
 objtype = "sam"
 intel = 3
 cost = 3
+desc = [[Raqqa is a city located east of Aleppo, while not the most strategically important city on Syria, it does serve as a regional transportation hub, most oil coming from the eastern oil fields flow thought it's railways, thus making it still a significant target. That said, we know about a SA-3 site located close to the bridge south of the city crossing the river, and that SA-3 site, while not a modern system, still poses a threat to our aircraft, specially low level and slow aircraft like A10s, so your task is to deal with the SAM site.
+
+Primary objective: Eliminate the SA-3 site.
+
+Threats: Medium altitude SAM, AAA and SHORAD.
+
+HARM code: 123
+
+Recommended pilots: 2]]

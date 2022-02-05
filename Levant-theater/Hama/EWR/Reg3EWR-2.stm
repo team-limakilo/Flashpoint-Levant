@@ -625,11 +625,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "%LOCATIONMETHOD% an EWR(55G6, HARM code 102) south of Homs on the Air defense academy, located at: %LOCATION%\
-\
-Primary objective: Eliminate the EWR.\
-\
-Threats: Low, medium and Long range SAMs and Shorad.\
-\
-Recommended pilots: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

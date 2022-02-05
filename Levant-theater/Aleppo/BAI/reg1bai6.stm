@@ -683,12 +683,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "%LOCATIONMETHOD% a few units of an amored battalion entrenched on the western outskirts of Aleppo, on the main road leaving the city, those units are in a very strong position and could cause serious damage to our friendly troops, and it will help a lot if they are softened for the main assault.\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
-\
-Primary objective: Destroy the enemy forces(8 units).\
-\
-Threats: AAA, short range SAMs, enemy armor.\
-\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

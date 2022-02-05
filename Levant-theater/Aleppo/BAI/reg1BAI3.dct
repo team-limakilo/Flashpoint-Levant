@@ -2,3 +2,10 @@ objtype = "logistics"
 intel = 4
 cost = 5
 nocull = true
+desc = [[In preparation for the ground war, high command ordered an attack on Syrian positions in the area north of Aleppo. Your task is to destroy a checkpoint about 5 nautical miles north of the town of Minakh, in a nearby village.
+
+Primary objective: Destroy soft targets and disable tanks in the mission area.
+
+Threats: AAA emplacements in the area, and nearby SAM sites in Aleppo.
+
+Recommended pilots: 2]]

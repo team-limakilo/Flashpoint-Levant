@@ -3,7 +3,6 @@ intel = 3
 cost = 3
 name = "Reg3Factory-8"
 coalition = 1
-tpldata = {}
 buildings = {
     {
         ["name"] = "Factory 1",
@@ -11,14 +10,11 @@ buildings = {
         ["id"]   = 86151284,
     },
 }
-desc = "%LOCATIONMETHOD% an arms factory south of Hama, on the city limits, south of the stadium. You can identify it by its smoke stacks, its on the last block on the city.\
-Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
-\
-Primary objective: Destroy the factory.\
-\
-Secondary objective: N/A.\
-\
-Threats: AAA, Medium and High altitude SAMs.\
-\
-Recommended pilots: 2."
+desc = [[%LOCATIONMETHOD% an arms factory south of Hama, on the city limits, south of the stadium. You can identify it by its smoke stacks, its on the last block on the city.
+Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
+
+Primary objective: Destroy the factory.
+
+Threats: AAA, Medium and High altitude SAMs.
+
+Recommended pilots: 2]]
