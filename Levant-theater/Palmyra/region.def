@@ -1,12 +1,14 @@
-
-region = {
-    ["name"] = "Palmyra",
-    ["priority"] = 80,
-		["airspace"] = true,
-    ["limits"] = {
-        ["sam"] = {
-            ["min"] = 2,
-            ["max"] = 2,
-        },
+name = "Palmyra"
+priority = 80
+airspace = true
+limits = {
+    ["sam"] = {
+        ["min"] = 2,
+        ["max"] = 2,
     },
+}
+links = {
+    air    = { "Hama", "Damascus" },
+    ground = { "Hama", "Damascus" },
+    sea    = {},
 }
