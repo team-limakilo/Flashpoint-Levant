@@ -1,1 +1,1 @@
-SETTINGS:SetPlayerMenuOff()
+_SETTINGS:SetPlayerMenuOff()
