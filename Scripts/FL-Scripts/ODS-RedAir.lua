@@ -30,6 +30,7 @@ A2ADispatcher_Blue:SetSquadronTakeoffInAir( "Incirlik F4E" )
 A2ADispatcher_Blue:SetSquadronLandingNearAirbase( "Incirlik F4E" )
 A2ADispatcher_Blue:SetSquadronOverhead( "Incirlik F4E", 1 )
 A2ADispatcher_Blue:SetSquadronGrouping( "Incirlik F4E", 2, true )
+A2ADispatcher_Blue:SetSquadronCap( "Incirlik F4E", BluCap, 6000, 8000, 460, 900, 800, 1600 )
 
 -- Blue F-5E CAP
 A2ADispatcher_Blue:SetSquadron( "Incirlik F5E", AIRBASE.Syria.Incirlik, { "F5" } )
