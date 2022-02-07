@@ -1,5 +1,7 @@
+Hatay       - 10
 Aleppo 		- 10
 Coast 		- 30
 Hama/Homs	- 50
 Palmyra		- 80
-Damascus	- 100
+Lebanon     - 100
+Damascus	- 150

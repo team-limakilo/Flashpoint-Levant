@@ -1,5 +1,5 @@
 name = "Hatay"
-priority = 1
+priority = 10
 airspace = true
 limits = {
     specialforces = {
