@@ -13,6 +13,9 @@ EWR_Blue:FilterPrefixes( { "WIZARD", "DARKSTAR", "SAM" } )
 EWR_Blue:FilterActive()
 EWR_Blue:FilterStart()
 Detection_Blue = DETECTION_AREAS:New( EWR_Blue, 10000 ) -- 10km grouping
+Detection_Blue:InitDetectRadar( true )
+Detection_Blue:InitDetectVisual( true )
+Detection_Blue:InitDetectOptical( true )
 A2ADispatcher_Blue = AI_A2A_DISPATCHER:New( Detection_Blue )
 A2ADispatcher_Blue:SetEngageRadius( 75000 ) -- CAP engagement radius of 75km
 A2ADispatcher_Blue:SetDefaultCapRacetrack( 10000, 20000 ) -- 10-20km racetracks
@@ -92,6 +95,10 @@ EWR_Red:FilterPrefixes( { "sa2", "sa3", "sa5", "sa6", "aaa", "SAM", "EWR" } )
 EWR_Red:FilterActive()
 EWR_Red:FilterStart()
 Detection_Red = DETECTION_AREAS:New( EWR_Red, 10000 ) -- 10km grouping
+Detection_Red:SetAlphaAngleProbability( 0.1, 1/3 ) -- 10% chance of engaging targets detected at 0º, with cubic probability curve up to 90º
+Detection_Red:InitDetectRadar( true )
+Detection_Red:InitDetectVisual( true )
+Detection_Red:InitDetectOptical( true )
 A2ADispatcher_Red = AI_A2A_DISPATCHER:New( Detection_Red )
 A2ADispatcher_Red:SetEngageRadius( 75000 ) -- CAP engament radius of 75km
 A2ADispatcher_Red:SetDefaultCapRacetrack( 10000, 20000 ) -- 10-15km racetracks
