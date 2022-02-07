@@ -1,12 +1,14 @@
-
-region = {
-    ["name"] = "Hatay",
-    ["priority"] = 1,
-		["airspace"] = true,
-    ["limits"] = {
-        ["specialforces"] = {
-            ["min"] = 16,
-            ["max"] = 16,
-        },
+name = "Hatay"
+priority = 1
+airspace = true
+limits = {
+    specialforces = {
+        min = 16,
+        max = 16,
     },
+}
+links = {
+    air    = { "Aleppo", "Turkey" },
+    ground = { "Aleppo", "Turkey" },
+    sea    = {},
 }

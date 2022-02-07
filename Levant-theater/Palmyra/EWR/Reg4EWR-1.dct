@@ -1,3 +1,13 @@
 objtype = "ewr"
 intel = 5
 cost = 2
+priority = 5
+desc = [[%LOCATIONMETHOD% another EWR site, located within the Tiyas Airbase. While not as important as other EWR sites in the theater, it still serves as an extra pair of eyes for both Syrian SAMs and interceptors.
+
+Primary objective: Eliminate the EWR in Tiyas.
+
+Threats: Heavy SAM defenses, enemy CAP from several directions, and SHORAD within the EWR site.
+
+HARM code: 102
+
+Recommended pilots: 2]]

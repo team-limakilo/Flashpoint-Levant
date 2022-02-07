@@ -557,5 +557,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "reg1trigger5",
+    ["desc"] = "",
 } -- end of staticTemplate

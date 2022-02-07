@@ -1,3 +1,12 @@
 objtype = "sam"
 intel = 3
 cost = 3
+desc = [[There is an SA-3 site near the Homs Air Defense Academy commanded by a high-ranking official who claims he would be able to "shoot down a near-invisible bomber at night". While these claims are unsubstantiated, and we definitely do not have any near-invisible aircraft, we still cannot run the risk of such an unlikely event happening.
+
+Primary objective: Eliminate the SA-3 site.
+
+Threats: Medium altitude SAMs, AAA, SHORAD, and heavy CAP.
+
+HARM code: 123
+
+Recommended pilots: 2]]

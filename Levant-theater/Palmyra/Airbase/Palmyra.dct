@@ -1,9 +1,9 @@
 
 objtype = "airbase"
-name = "Taftanaz"
-coalition = 2
+name = "Palmyra"
+coalition = 1
 subordinates = {}
-desc = "Taftanaz"
+desc = "Palmyra"
 recoverytype = "land"
 takeofftype = "runway"
 cost = 20

@@ -3,7 +3,6 @@ intel = 3
 cost = 3
 name = "Reg3Factory-10"
 coalition = 1
-tpldata = {}
 buildings = {
     {
         ["name"] = "Factory 1",
@@ -11,14 +10,12 @@ buildings = {
         ["id"]   = 86116085,
     },
 }
-desc = "%LOCATIONMETHOD% an factory building north west of Homs on the industrial sector by the city limits. You can identify it by its smoke stacks.\
-Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
-\
-Primary objective: Destroy the factory.\
-\
-Secondary objective: N/A.\
-\
-Threats: AAA, Medium and High altitude SAMs.\
-\
-Recommended pilots: 2."
+desc = [[%LOCATIONMETHOD% a high-tech factory of some sort northwest of Homs. Our spies report "warp drives" and "netcode jammers" being made there, and while we have no idea what those are, the high level of security employed in this factory is still reason enough to warrant targeting it. The factory can be identified by its two red smokestacks.
+
+Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
+
+Primary objective: Destroy the factory.
+
+Threats: AAA, Medium and High altitude SAMs.
+
+Recommended pilots: 2]]

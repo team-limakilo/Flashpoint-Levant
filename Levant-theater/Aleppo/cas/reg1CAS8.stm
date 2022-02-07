@@ -669,11 +669,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Advancing elements of the 5th Armored Brigade alongside airborne troops are requesting aerial support to deal against enemy entrenched troops inside a town about 6nm north of Manbij, right by the river, protecting a bridge crossing, be aware that civilians may be still present on the village, so avoid collateral damage at all costs. The area is heavily forested, but a northbound approach should give you a favorable firing solution on the target.\
-\
-Primary objective: Identify the targets and take them down.\
-\
-Threats: Enemy CAP may be flying on the area.\
-\
-Pilots recommended: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

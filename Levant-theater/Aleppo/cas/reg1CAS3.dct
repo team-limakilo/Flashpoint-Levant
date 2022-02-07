@@ -3,3 +3,19 @@ intel = 3
 cost = 2
 ondemand = true
 coalition = 1
+extramarks = {
+    { x = 171011, z = 107968, label = "A'zaz" }
+}
+desc = [[A small detachment of British forces, Anvil, recently moved to secure a hill south of the Syrian border, with intel that enemy forces would not put up a fight this far from Aleppo, but had their advance interrupted by enemy tanks, and have requested close air support to deal with this threat.
+
+We have also received info on more enemy reinforcements coming from A'zaz via a secondary road west of the main highway, and we expect them to reach the AO in 25 to 35 minutes.
+
+In the meantime, a JTAC from the US Army, Eyeball, has infiltrated the AO and will provide support from the ground. As there are multiple T-55s engaged with Anvil, you should load up with anti-tank weapons, as well as provisions to deal with soft vehicles and infantry.
+
+Primary objective: Help Anvil clear out the enemy vehicles.
+
+Threats: MANPADS and heavy machinegun fire.
+
+Recommended pilots: 1
+
+Resources: JTAC Eyeball on 131.100MHz AM]]

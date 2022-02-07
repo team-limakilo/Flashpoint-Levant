@@ -3,3 +3,15 @@ intel = 3
 cost = 3
 nocull = true
 coalition = 1
+location = { x = 163997, y = 0, z = 60641 }
+desc = [[Earlier today, a recon flight identified enemy activity on top of a hill, east of Kirikhan. Satellite imagery suggests they are beginning to set up an FOB or FAC station. We have prepared a squad to investigate and eliminate the enemy presence, and they are waiting for your transport at FARP Lancelot, on the mark . We need them to be delivered to LZ Samoa, or if that is too dangerous, LZ Cairo can be used instead.
+
+After the squad is deployed to either LZ, they will assault the enemy position on the hill, and then will move back to LZ Samoa for extraction. Bring the troops to FARP Lancelot if possible.
+
+Primary objective: Eliminate the enemy position.
+
+Secondary objective: Transport the friendly squad to one of the LZs and then extract them back to FARP lancelot, or eliminate the enemy emplacement on your own terms.
+
+Threats: MANPADS and small caliber fire.
+
+Recommended pilots: 1]]

@@ -1,8 +1,8 @@
-
-region = {
-    ["name"] = "Coast",
-    ["priority"] = 30,
-		["airspace"] = true,
-    ["limits"] = {
-    },
+name = "Coast"
+priority = 30
+airspace = true
+links = {
+    air    = { "Hama", "Lebanon" },
+    ground = { "Hama", "Lebanon" },
+    sea    = {},
 }

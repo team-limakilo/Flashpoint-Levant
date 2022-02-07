@@ -998,13 +998,13 @@ staticTemplate =
                                         ["rate"] = 3,
                                         ["y"] = 25082.197128459,
                                         ["x"] = 170513.27188139,
-                                        ["name"] = "MARK=Troops(reg1AR16)",
+                                        ["name"] = "MARK=%TARGET%: Airborne Troops",
                                         ["heading"] = 0,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 25082.197128459,
                                 ["x"] = 170513.27188139,
-                                ["name"] = "MARK=Troops(reg1AR16)",
+                                ["name"] = "MARK=%TARGET%: Airborne Troops",
                                 ["dead"] = false,
                             }, -- end of [2]
                             [3] = 
@@ -1105,11 +1105,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Earlier today, a recon flight identified enemy activity east of Kirikhan on top of a hill, satellite imagery suggests they are there to create a defensive position or FAC station, we prepared a squad to investigate and eliminate any enemy presence on top of said hill, your task is to deliver the group at LZ Samoa, south at the bottom of the hill, if the LZ is deemed to dangerous to land or you identify enemy presence there, divert to LZ Cairo and unload the troops there.\
-\
-After you deploy the units on the field, they will make their way to the top of the hill where they will identify and engage the enemy assets, as soon they finish their mission, they will move to LZ Samoa for extraction, after you extract the troops, you can unload then at FARP Lancelot.\
-\
-The infantry group is located at the markpoint reg1AR16.\
-\
-Expect enemy manpads and small caliber fire on the AO.",
+    ["desc"] = "",
 } -- end of staticTemplate

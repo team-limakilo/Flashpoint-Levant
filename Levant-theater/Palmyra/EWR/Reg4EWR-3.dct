@@ -1,3 +1,13 @@
 objtype = "ewr"
 intel = 5
 cost = 2
+priority = 7
+desc = [[Tabqa is one of the last holdouts of the Syrian Air Defense Force in the east, and the destruction of its EWR will leave them blind in the region.
+
+Primary objective: Eliminate the EWR in Tabqa.
+
+Threats: SA-2s, enemy CAP, and SHORAD within the EWR site.
+
+HARM code: 102
+
+Recommended pilots: 2]]

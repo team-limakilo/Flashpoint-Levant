@@ -626,12 +626,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "As a part of the strike package to deal with the Homs refinery, your flight are tasked to deal with the SA3 site west of the main tank farm right after the cloverleaf, your task is to deal with the sa3 and only the sa3. While not state of the art systems, they still pose a treat and should be dealt with carefully.\\\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\\\
-\\\
-Primary objective: Eliminate the site.\\\
-\\\
-Threats: Medium altitude SAM, AAA and shorad.\\\
-\\\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

@@ -499,6 +499,23 @@ staticTemplate =
                                                 {
                                                     ["tasks"] = 
                                                     {
+                                                        [1] = {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = false,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "SetInvisible",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -586,9 +603,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Inteligence managed to get information on a planned amphibious attack being planned by the Syrians. Currently however, their landing ships are located south at Beirut after the occupation started. However, Informants identified they are preparing to leave, probably to execute the amphibious landing. So your mission is to strike and destroy the ships before they manage to even set sail.\
-\
-Primary Objective: Destroy all 3 landing ships\
-\
-Recommended pilots: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

@@ -953,57 +953,16 @@ staticTemplate =
                                         ["rate"] = 3,
                                         ["y"] = 31384.062331285,
                                         ["x"] = 173441.39278554,
-                                        ["name"] = "mark=Airborne troops(reg1ar5)",
+                                        ["name"] = "mark=%TARGET%: Airborne Troops",
                                         ["heading"] = 0,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 31384.062331285,
                                 ["x"] = 173441.39278554,
-                                ["name"] = "mark=Airborne troops(reg1ar5)",
+                                ["name"] = "mark=%TARGET%: Airborne Troops",
                                 ["dead"] = false,
                             }, -- end of [1]
                             [2] = 
-                            {
-                                ["heading"] = 0,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 0,
-                                            ["type"] = "",
-                                            ["name"] = "",
-                                            ["y"] = 45695.883614764,
-                                            ["speed"] = 0,
-                                            ["x"] = 144265.96361311,
-                                            ["formation_template"] = "",
-                                            ["action"] = "",
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 5,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["shape_name"] = "H-flag_R",
-                                        ["type"] = "Red_Flag",
-                                        ["unitId"] = 22,
-                                        ["rate"] = 3,
-                                        ["y"] = 45695.883614764,
-                                        ["x"] = 144265.96361311,
-                                        ["name"] = "mark=Estimated mortar position",
-                                        ["heading"] = 0,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 45695.883614764,
-                                ["x"] = 144265.96361311,
-                                ["name"] = "mark=Estimated mortar position",
-                                ["dead"] = false,
-                            }, -- end of [2]
-                            [3] = 
                             {
                                 ["heading"] = 0,
                                 ["route"] = 
@@ -1035,15 +994,15 @@ staticTemplate =
                                         ["rate"] = 3,
                                         ["y"] = 44955.739019055,
                                         ["x"] = 145465.29643853,
-                                        ["name"] = "mark=LZ Lima",
+                                        ["name"] = "mark=%TARGET%: LZ Lima",
                                         ["heading"] = 0,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 44955.739019055,
                                 ["x"] = 145465.29643853,
-                                ["name"] = "mark=LZ Lima",
+                                ["name"] = "mark=%TARGET%: LZ Lima",
                                 ["dead"] = false,
-                            }, -- end of [3]
+                            }, -- end of [2]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                 }, -- end of [5]
@@ -1450,11 +1409,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Some of our recon teams managed to identify the enemy mortar positions on a town east of Hatay, we need to deploy forces to assault their position before they can escape the area.\
-\
-Some elements of the Polish airborne forces alongside turkish troops are ready to be transported and deployed to LZ Lima, so they can, with your support, clear the village of any hostiles present there, they will then return to LZ Lima and wait for exfil.\
-\
-The airborne units can be identified on the map via the marker reg1ar5, they are waiting on the Iskenderun port, ready to embark.\
-\
-Your objective is to search and destroy the enemy mortars, expect small gun fire and manpads.",
+    ["desc"] = "",
 } -- end of staticTemplate

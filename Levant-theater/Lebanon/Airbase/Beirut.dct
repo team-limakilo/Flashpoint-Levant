@@ -1,0 +1,8 @@
+objtype = "airbase"
+name = "Beirut-Rafic Hariri"
+coalition = 1
+subordinates = {}
+desc = "Beirut-Rafic Hariri"
+recoverytype = "land"
+takeofftype = "runway"
+cost = 20 

@@ -2,3 +2,10 @@ objtype = "logistics"
 intel = 4
 cost = 5
 ondemand = true
+desc = [[%LOCATIONMETHOD% an enemy convoy heading to the frontlines, the units are leaving Idlib on its east highway and heading towards a town south of Reyhanli and a bit east of the small lake, the road is marked.
+
+Primary objective: Destroy the enemy forces(8 units).
+
+Threats: AAA, short range SAMs, enemy armor.
+
+Recommended pilots: 2]]

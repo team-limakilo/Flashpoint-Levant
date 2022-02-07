@@ -663,7 +663,7 @@ staticTemplate =
                                     [1] = 
                                     {
                                         ["category"] = "Armor",
-                                        ["type"] = "BMP-3",
+                                        ["type"] = "BMP-2",
                                         ["unitId"] = 15,
                                         ["rate"] = 15,
                                         ["y"] = 124846.70727194,
@@ -1115,9 +1115,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "A few hours ago, a blackhawk was shot down on a town aproximately 20km east of A'zaz, north of Minakh, a rescue party was sent, but got ambushed as soon they got close to the town and is requesting aerial support as they got pinned down by an enemy BMP-1 and also, Anti tank rocket launchers. Be advised our friendlies are 380 meters west of the town, so watch your fire.\
-\
-Primary objective: Provide CAS to the pinned down rescuing party.\
-\
-Threats: Expect enemy small arms fire and possibly manpads.",
+    ["desc"] = "",
 } -- end of staticTemplate

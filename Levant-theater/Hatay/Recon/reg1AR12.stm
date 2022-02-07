@@ -598,14 +598,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Enemy units have beein identified on the town east of Antakya, right by a small lake, the troops were identified right on the center of the town.\
-Be advised, there's civilians on the area, so only fire at confirmed enemy combatants.\
-\
-Primary objective: Eliminate the troops and free the observation post.\
-\
-Secondary objective: N/A.\
-\
-Threats: Manpads, small caliber fire and AAA, Hatay have AAA, Manpads and there's also checkpoints south and east of it. Kirikahn is under siege and have a few units east and north of it.\
-\
-Recommended pilots: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

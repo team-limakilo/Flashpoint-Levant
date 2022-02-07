@@ -3,3 +3,13 @@ intel = 3
 cost = 2
 ondemand = true
 coalition = 1
+extramarks = {
+    { x = 171011, z = 107968, label = "A'zaz" }
+}
+desc = [[A few hours ago, an UH-60 Blackhawk helicopter was shot down over a town aproximately 20km east of A'zaz. A rescue party was sent, but was ambushed near the town, and is requesting aerial support. They are currently engaged with an enemy BMP-1 and several anti-tank rocket launchers. The rescue party is stationed 400 meters west of the town, so watch your fire.
+
+Primary objective: Provide CAS to the rescue party.
+
+Threats: Small-arms fire and possibly MANPADS.
+
+Recommended pilots: 2]]

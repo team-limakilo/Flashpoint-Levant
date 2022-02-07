@@ -1,3 +1,14 @@
 objtype = "sam"
 intel = 4
 cost = 3
+priority = 16
+desc = [[Kuweires is an airfield in which Syria operate a squadron of L-39 from, while not a particularly dangerous aircraft, it's important we keep the enemy w/o options to strike, so a flight is to bomb the airfeld, however, first, your flight will strike an SA-3 site located west of the runway.
+Anti air and hostile aircraft presence is high in this area.
+
+Primary objective: Destroy the SA-3 site in the airfield.
+
+Threats: Medium and high altitude SAMs, AAA and SHORAD.
+
+HARM code: 123
+
+Recommended pilots: 2]]

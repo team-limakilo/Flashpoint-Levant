@@ -2,3 +2,11 @@ objtype = "specialforces"
 intel = 3
 cost = 3
 ondemand = true
+desc = [[A few enemy forces seized a border observation post with a helipad directly east of Kirikhan, its important we deny that kind of infrastructure to the enemy because they can use it to operate helicopters more easily.
+Be advised, there's civilians on the area, so only fire at confirmed enemy combatants.
+
+Primary objective: Eliminate the troops and free the observation post.
+
+Threats: Manpads, small caliber fire and AAA, Hatay have AAA, Manpads and there's also checkpoints south and east of it. Kirikahn is under siege and have a few units east and north of it.
+
+Recommended pilots: 2]]

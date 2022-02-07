@@ -1,3 +1,10 @@
 objtype = "logistics"
 intel = 4
 cost = 5
+desc = [[Tabqa airfield is located a couple dozen miles from Raqqa and houses a few Syrian aircraft, a squadron of mig19 and mig17, while those aircraft are obsolete, they still can pose a treat if ignored, especially to our ground troops, so the airfield must be disabled, and your part in that is to neutralize the airfield AAA battery just south of the runway.
+
+Primary objective: Eliminate the site.
+
+Threats: Medium altitude SAM, AAA and SHORAD.
+
+Recommended pilots: 2]]

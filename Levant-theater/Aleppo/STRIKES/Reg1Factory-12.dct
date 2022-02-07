@@ -1,9 +1,9 @@
-objtype = "Factory"
+objtype = "FuelDump"
 intel = 3
 cost = 3
 name = "Reg1Factory-12"
 coalition = 1
-tpldata = {}
+priority = 105
 buildings = {
     {
         ["name"] = "Factory 1",
@@ -16,13 +16,14 @@ buildings = {
         ["id"]   = 118095884,
     },
 }
-desc = "%LOCATIONMETHOD% some fuel tanks south of Jirah airfield, they are located in an industrial zone and are separated in 2 groups, one east and another west inside the area.\
-Those are the coordinates: %LOCATION%.\
-\
-Primary objective: Destroy the tanks.\
-\
-Secondary objective: N/A.\
-\
-Threats: Possible AAA and Medium altitude SAMs.\
-\
-Recommended pilots: 2."
+extramarks = {
+    { x = 112590, y = 352, z = 184082, label = "%TARGET%: East group" },
+    { x = 112550, y = 350, z = 184929, label = "%TARGET%: East group" },
+}
+desc = [[%LOCATIONMETHOD% some fuel storage tanks south of Jirah airbase. They are located in an industrial zone, and are separated in two groups of four tanks, on the east and west sides of the zone, respectively.
+
+Primary objective: Destroy the storage tanks.
+
+Threats: Possible AAA and medium-altitude SAMs.
+
+Recommended pilots: 2]]

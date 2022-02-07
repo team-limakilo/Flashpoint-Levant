@@ -431,13 +431,13 @@ staticTemplate =
                                         ["rate"] = 3,
                                         ["y"] = 59778.93549186,
                                         ["x"] = 130740.0282414,
-                                        ["name"] = "mark=Destination",
+                                        ["name"] = "mark=%TARGET%: Convoy Destination",
                                         ["heading"] = 0,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["y"] = 59778.93549186,
                                 ["x"] = 130740.0282414,
-                                ["name"] = "mark=Destination",
+                                ["name"] = "mark=%TARGET%: Convoy Destination",
                                 ["dead"] = false,
                             }, -- end of [1]
                         }, -- end of ["group"]
@@ -14671,9 +14671,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "We've identified an enemy logistical route that's being used to resupply troops on the frontline, and your mission is to destroy a convoy a recon flight identified an hour ago, at that moment the vehicles were stopped at Jisr Ash-Shughur for refueling. Our Intelligence services managed to get a transmition with their destination, which is Reyhanli, knowing this, hunt them and detroy the convoy.\
-\
-Your objective is to destroy all vehicles on the convoy.\
-\
-Recommended pilots: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

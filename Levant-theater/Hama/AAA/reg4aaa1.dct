@@ -1,3 +1,10 @@
 objtype = "logistics"
 intel = 4
 cost = 5
+desc = [[A couple miles north of Hama, on the city of Muhradah, the Syrians have a power plant that not only gives power to the nearby cities, but also the military production facilities down on Hama, which is providing a constant supply of ammunition and weapons to the Syrians skirmishing up north on Aleppo and the border. All that said, your task is to clear the area around the city and power plant from enemy AAA and SHORAD units to open the way for strikers to neutralize the plant.
+
+Primary objective: Destroy the batteries (AAA and possibly an SA-8).
+
+Threats: SA-2s, SA-3s, SHORAD, and heavy enemy CAP.
+
+Recommended pilots: 2]]

@@ -2,3 +2,10 @@ objtype = "logistics"
 intel = 4
 cost = 5
 ondemand = true
+desc = [[A border security patrol has identified an enemy-controlled checkpoint east of Reyhanli. The Syrians are likely working to secure an escape route, and ensuring supplies flow smoothly to troops in the Hatay valley. You are tasked with clearing this checkpoint, so that a squad of US Army rangers can move in and block this route.
+
+Primary objective: Eliminate all lightly-armored hostiles, and either destroy or disable enemy tanks.
+
+Threats: AAA, including a confirmed ZSU-57-2, and an SA-9 Gaskin.
+
+Recommended pilots: 2]]

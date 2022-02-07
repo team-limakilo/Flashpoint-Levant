@@ -498,7 +498,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "rapier_fsa_optical_tracker_unit",
                                         ["unitId"] = 46,
                                         ["y"] = 243544.84058659,
@@ -513,7 +513,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 47,
                                         ["y"] = 243546.97611938,
@@ -528,7 +528,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 48,
                                         ["y"] = 243465.11402893,
@@ -543,7 +543,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "flak18",
                                         ["unitId"] = 49,
                                         ["y"] = 243623.14345571,
@@ -558,7 +558,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "flak18",
                                         ["unitId"] = 50,
                                         ["y"] = 243449.80937724,
@@ -573,7 +573,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 51,
                                         ["y"] = 243548.75573004,
@@ -588,7 +588,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 52,
                                         ["y"] = 243628.83820983,
@@ -603,7 +603,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "SA-18 Igla manpad",
                                         ["unitId"] = 53,
                                         ["y"] = 243647.82607829,
@@ -618,7 +618,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "SA-18 Igla manpad",
                                         ["unitId"] = 54,
                                         ["y"] = 243434.47276908,
@@ -633,7 +633,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "SA-18 Igla manpad",
                                         ["unitId"] = 55,
                                         ["y"] = 243625.56784501,
@@ -648,7 +648,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 56,
                                         ["y"] = 243491.37995513,
@@ -663,7 +663,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 57,
                                         ["y"] = 243606.32031277,
@@ -701,12 +701,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Tabqa airfield is located a couple dozen miles from Raqqa and houses a few Syrian aircraft, a squadron of mig19 and mig17, while those aircraft are obsolete, they still can pose a treat if ignored, especially to our ground troops, so the airfield must be disabled, and your part in that is to neutralize the airfield AAA battery just south of the runway.\\\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\\\
-\\\
-Primary objective: Eliminate the site.\\\
-\\\
-Threats: Medium altitude SAM, AAA and shorad.\\\
-\\\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

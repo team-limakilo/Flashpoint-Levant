@@ -699,11 +699,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "As soon the war broke out, Syrian forces pushed alongside the Eufrates River towards the Dam on the hopes of disrupting power supply on the region. However, elements of the Turkish army managed to intercept the enemy a few hundre meters before they reached their destination, and now are requesting CAS. The enemy are organized in a column formation on the small road leading from the border towards the Dam on the forested area\
-\
-Primary objective: Identify the targets and take them down.\
-\
-Threats: Enemy CAP may be flying on the area.\
-\
-Pilots recommended: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

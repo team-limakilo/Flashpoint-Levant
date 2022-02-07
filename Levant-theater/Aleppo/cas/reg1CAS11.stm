@@ -406,13 +406,13 @@ staticTemplate =
                                                             ["params"] = 
                                                             {
                                                                 ["number"] = 1,
-                                                                ["designation"] = "Laser",
+                                                                ["designation"] = "WP+Laser",
                                                                 ["modulation"] = 0,
                                                                 ["groupId"] = 2,
                                                                 ["frequency"] = 128250000,
                                                                 ["weaponType"] = 1073741822,
                                                                 ["datalink"] = true,
-                                                                ["callname"] = 18,
+                                                                ["callname"] = 17,
                                                             }, -- end of ["params"]
                                                         }, -- end of [2]
                                                     }, -- end of ["tasks"]
@@ -1173,11 +1173,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "A detachment of the British 3rd Battalion alongside elements of the French 1st Armored Division designated to capture Minakh(Town), identified enemy units entreched on the north east town limits, and they are requesting air support to soften the targets for a push, the enemy also has artillery inside the town, but that's not a priority target. We have a FAC on the ground, contact Mantis at 128,250 to get information on the enemies.\
-\
-Primary objective: Soften the armor on the town limits.\
-\
-Secondary objective: Destroy the artillery pieces inside the town.\
-\
-Threats: Expect enemy small arms fire and possibly manpads and AAA.",
+    ["desc"] = "",
 } -- end of staticTemplate

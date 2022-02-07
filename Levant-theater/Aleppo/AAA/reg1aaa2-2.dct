@@ -1,4 +1,12 @@
 objtype = "logistics"
 intel = 4
 cost = 5
+priority = 65
 exclusion = "reg1aaa2"
+desc = [[Unfortunately, the civilian Aleppo International Airport has been repurposed for military use, and to ensure we can safely disable it, we need you to clear enemy AAA and short-range SAM batteries within the perimeter. Intel has identified a site on the western end of the runway, and another site east of the main terminal. We also believe there may be an SA-8 in the south part of the airfield, near the hangars.
+
+Primary objective: Destroy the AAA batteries.
+
+Threats: AAA, MANPADS, and an SA-8 in the airfield, one SA-3 in the outskirts of Aleppo, another to the south of the airfield, and a possible SA-2 to the south. Enemy CAP is also present.
+
+Recommended pilots: 2]]

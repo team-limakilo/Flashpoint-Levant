@@ -2,3 +2,10 @@ objtype = "logistics"
 intel = 4
 cost = 5
 ondemand = true
+desc = [[%LOCATIONMETHOD% enemy forces stationed on the shore southwest of Samandag. They are likely reinforcing the position in preparation for a takeover of the town, so we need them to be eliminated before that happens. There are more enemy troops holding supply routes to the north and surrounding our units inside of the town, but these will be handled by additional rotary elements.
+
+Primary objective: Destroy the armored landing forces.
+
+Threats: Short-range SAMs and AAA in the AO, SA-2s in Latakia, and possible MANPADS in Samandag. Antakya is a hot zone, and should be avoided.
+
+Recommended pilots: 2]]

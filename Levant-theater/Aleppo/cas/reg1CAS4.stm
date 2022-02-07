@@ -816,11 +816,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Scout flights identified an enemy formation north of Minakh, just a few hundred metres from the airport and on the highway, while the advancing forces are strong enough to take care of the T55 and BMPs, they called for an airstrike to soften the enemies before they push to Minakh.\
-\
-Primary objective: Clear the enemy formation.\
-\
-Threats: Enemy AAA and manpads are to be expected. \
-\
-Pilots recommended: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

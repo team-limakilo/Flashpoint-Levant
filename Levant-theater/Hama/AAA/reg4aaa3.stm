@@ -488,7 +488,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "rapier_fsa_optical_tracker_unit",
                                         ["unitId"] = 15,
                                         ["y"] = 80056.460379689,
@@ -503,7 +503,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 16,
                                         ["y"] = 80058.595912483,
@@ -518,7 +518,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 17,
                                         ["y"] = 79976.733822031,
@@ -533,7 +533,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["AddPropVehicle"] = 
                                         {
                                             ["Shield"] = false,
@@ -552,7 +552,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["AddPropVehicle"] = 
                                         {
                                             ["Shield"] = false,
@@ -571,7 +571,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 20,
                                         ["y"] = 80060.375523145,
@@ -586,7 +586,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 21,
                                         ["y"] = 80140.458002936,
@@ -601,7 +601,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "SA-18 Igla manpad",
                                         ["unitId"] = 22,
                                         ["y"] = 80159.445871391,
@@ -616,7 +616,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "SA-18 Igla manpad",
                                         ["unitId"] = 23,
                                         ["y"] = 79946.092562181,
@@ -631,7 +631,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "SA-18 Igla manpad",
                                         ["unitId"] = 24,
                                         ["y"] = 80137.187638115,
@@ -646,7 +646,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 25,
                                         ["y"] = 80002.999748229,
@@ -661,7 +661,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 26,
                                         ["y"] = 80117.940105867,
@@ -726,7 +726,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "rapier_fsa_optical_tracker_unit",
                                         ["unitId"] = 30,
                                         ["y"] = 81346.606607279,
@@ -741,7 +741,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 31,
                                         ["y"] = 81348.742140073,
@@ -756,7 +756,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 32,
                                         ["y"] = 81266.880049621,
@@ -771,7 +771,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["AddPropVehicle"] = 
                                         {
                                             ["Shield"] = false,
@@ -790,7 +790,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["AddPropVehicle"] = 
                                         {
                                             ["Shield"] = false,
@@ -809,7 +809,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 35,
                                         ["y"] = 81350.521750735,
@@ -824,7 +824,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 36,
                                         ["y"] = 81430.604230526,
@@ -839,7 +839,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "SA-18 Igla manpad",
                                         ["unitId"] = 37,
                                         ["y"] = 81449.592098982,
@@ -854,7 +854,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "SA-18 Igla manpad",
                                         ["unitId"] = 38,
                                         ["y"] = 81236.238789772,
@@ -869,7 +869,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "SA-18 Igla manpad",
                                         ["unitId"] = 39,
                                         ["y"] = 81427.333865705,
@@ -884,7 +884,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 40,
                                         ["y"] = 81293.145975819,
@@ -899,7 +899,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 41,
                                         ["y"] = 81408.086333458,
@@ -947,12 +947,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "To the surprise of no one, Syria is filled with AAA and Shorad, as much this was expected, we still need to do something about it, and it's up to your flight to deal with the AAA threats on the eastern sector of Hama, recon flights earlier identified the presence of two sites, one right by the cloverleaf interchange east of the city and another right south of the ruins.\\\\\\\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\\\\\\\
-\\\\\\\
-Primary objective: Destroy the batteries(AAA and possibly and Sa8).\\\\\\\
-\\\\\\\
-Threats: AAA and manpads, on the area also expect sa3 and sa2 sites nearby\\\\\\\
-\\\\\\\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

@@ -1,3 +1,13 @@
 objtype = "ewr"
 intel = 4
 cost = 2
+priority = 6
+desc = [[A Swedish SF 37 has taken several photos of the Palmyra Airbase, and from those, we have derived coordinates of the EWR located within. While it was built to survey the eastern side of Syria, it can still detect aircraft flying towards Damascus from the north, making it a prime target for destruction.
+
+Primary objective: Eliminate the EWR in Palmyra.
+
+Threats: SA-2s, enemy CAP, and SHORAD within the EWR site.
+
+HARM code: 102
+
+Recommended pilots: 2]]

@@ -1,3 +1,12 @@
 objtype = "sam"
 intel = 3
 cost = 3
+desc = [[%LOCATIONMETHOD% increased activity in an SA-3 site south of Hama. The existence of this site isn't a secret, as it has been there for years before the war, so we will send you and your flight to clear the entire site. While not a state-of-the art systems, it still poses a treat and should be dealt with carefully.
+
+Primary objective: Eliminate the SA-3 site.
+
+Threats: Medium altitude SAMs, AAA, SHORAD, and heavy CAP.
+
+HARM code: 123
+
+Recommended pilots: 2]]

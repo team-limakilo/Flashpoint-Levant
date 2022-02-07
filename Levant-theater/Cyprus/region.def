@@ -1,5 +1,8 @@
-region = {
-    ["name"] = "Cyprus",
-    ["priority"] = 5,
-		["airspace"] = false,
+name = "Cyprus"
+priority = 5
+airspace = false
+links = {
+    air    = { "Turkey" },
+    ground = {},
+    sea    = {},
 }

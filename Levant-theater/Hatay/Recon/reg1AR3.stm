@@ -597,14 +597,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "%LOCATIONMETHOD% some enemy groups entered the city of Antakya and are trying to seize it, your objective is to eliminate the group on the northern sector of the city, the enemy tried to push the main road but it got pinned down by Turkish forces of the 5th Armored Brigade, however, the units cant finish the remaining infantry there, so you are going to be dispatched to deal with the leftovers. The enemy position is around those coords: %LOCATION%.\
-Be advised, this is a city, there's still civilians that didn't manage to evacuate in time, so only fire at confirmed enemy combatants.\
-\
-Primary objective: Eliminate the group .\
-\
-Secondary objective: N/A.\
-\
-Threats: Manpads and small caliber gunfire and a few enemy units on the western and southern areas of the city, and also a possible checkpoint a bit south of Hatay.\
-\
-Recommended pilots: 1",
+    ["desc"] = "",
 } -- end of staticTemplate

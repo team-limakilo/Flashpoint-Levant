@@ -506,7 +506,7 @@ staticTemplate =
                                         ["unitId"] = 1,
                                         ["y"] = 75774.511667336,
                                         ["x"] = 112466.85838785,
-                                        ["name"] = "Ground-1-1",
+                                        ["name"] = "Primary Destroyed Ground-1-1",
                                         ["heading"] = 0.38397243543875,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [1]
@@ -521,7 +521,7 @@ staticTemplate =
                                         ["unitId"] = 2,
                                         ["y"] = 75719.670674002,
                                         ["x"] = 112441.42897483,
-                                        ["name"] = "Ground-1-2",
+                                        ["name"] = "Primary Destroyed Ground-1-2",
                                         ["heading"] = 0.4014257279587,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [2]
@@ -536,7 +536,7 @@ staticTemplate =
                                         ["unitId"] = 3,
                                         ["y"] = 75861.1358707,
                                         ["x"] = 112436.41142986,
-                                        ["name"] = "Ground-1-3",
+                                        ["name"] = "Primary Destroyed Ground-1-3",
                                         ["heading"] = 0.24434609527921,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [3]
@@ -551,7 +551,7 @@ staticTemplate =
                                         ["unitId"] = 4,
                                         ["y"] = 75917.088733847,
                                         ["x"] = 112405.47382207,
-                                        ["name"] = "Ground-1-4",
+                                        ["name"] = "Primary Destroyed Ground-1-4",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [4]
@@ -566,7 +566,7 @@ staticTemplate =
                                         ["unitId"] = 5,
                                         ["y"] = 75710.400777106,
                                         ["x"] = 112470.9500311,
-                                        ["name"] = "Ground-1-5",
+                                        ["name"] = "Primary Damaged Ground-1-5",
                                         ["heading"] = 0.36651914291881,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [5]
@@ -581,7 +581,7 @@ staticTemplate =
                                         ["unitId"] = 6,
                                         ["y"] = 75811.949873162,
                                         ["x"] = 112453.06281473,
-                                        ["name"] = "Ground-1-6",
+                                        ["name"] = "Primary Damaged Ground-1-6",
                                         ["heading"] = 0.31415926535898,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [6]
@@ -596,7 +596,7 @@ staticTemplate =
                                         ["unitId"] = 7,
                                         ["y"] = 75892.59067659,
                                         ["x"] = 112401.41953736,
-                                        ["name"] = "Ground-1-7",
+                                        ["name"] = "Primary Damaged Ground-1-7",
                                         ["heading"] = 0.19198621771938,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [7]
@@ -611,7 +611,7 @@ staticTemplate =
                                         ["unitId"] = 8,
                                         ["y"] = 75809.513966939,
                                         ["x"] = 112358.48634197,
-                                        ["name"] = "Ground-1-8",
+                                        ["name"] = "Primary Destroyed Ground-1-8",
                                         ["heading"] = 5.8643062867009,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [8]
@@ -644,13 +644,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "%LOCATIONMETHOD% enemy position in a village a few miles north of Maarrat Misrin, we know for sure they have a few T64 tanks with BMP's and some AAA defenses.\
-Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
-\
-Primary objective: Destroy the entrenched enemy.\
-\
-Threats: AAA, short range SAMs.\
-\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

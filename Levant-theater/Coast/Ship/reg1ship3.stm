@@ -499,6 +499,23 @@ staticTemplate =
                                                 {
                                                     ["tasks"] = 
                                                     {
+                                                        [1] = {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = false,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "SetInvisible",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -532,7 +549,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
+                                        ["skill"] = "High",
                                         ["type"] = "MOLNIYA",
                                         ["unitId"] = 10,
                                         ["y"] = -11777.181225502,
@@ -548,7 +565,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
+                                        ["skill"] = "High",
                                         ["type"] = "MOLNIYA",
                                         ["unitId"] = 11,
                                         ["y"] = -11579.881987858,
@@ -586,9 +603,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "During an attack run, Italian Tornados identified docked ships at the port of Latakia, those ships were strategically positioned there to protect the area from any attempts of an amphibious landing. Your task is to sink or disable all military vessels inside the port to open the way for a Marine landing at the region.\
-\
-Primary Objective: Disable or sink all vessels\
-\
-Recommended pilots: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

@@ -597,13 +597,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "%LOCATIONMETHOD% a small enemy infantry group that estabilished a checkpoint on a bridge a bit south of Hatay, between it and Antakya %LOCATION%.\
-\
-Primary objective: Eliminate the group.\
-\
-Secondary objective: N/A.\
-\
-Threats: Manpads and small caliber gunfire.\
-\
-Recommended pilots: 1",
+    ["desc"] = "",
 } -- end of staticTemplate

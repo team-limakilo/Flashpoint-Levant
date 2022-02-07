@@ -597,14 +597,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "We have an enemy group that established an ambush point a few miles north of Kirikhan on the main road, and its of extreme importance to take those troops before then can cause any issues to our supply routes and kill our soldiers.\
-Be advised, there's civilians on the area, so only fire at confirmed enemy combatants.\
-\
-Primary objective: Eliminate the troops.\
-\
-Secondary objective: N/A.\
-\
-Threats: Manpads and small caliber gunfire, be aware there's an enemy position a bit east of Kirikhan.\
-\
-Recommended pilots: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

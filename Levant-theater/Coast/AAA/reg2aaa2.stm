@@ -488,7 +488,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "rapier_fsa_optical_tracker_unit",
                                         ["unitId"] = 1,
                                         ["y"] = 6301.1524100315,
@@ -503,7 +503,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 2,
                                         ["y"] = 6307.4626447801,
@@ -518,7 +518,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 3,
                                         ["y"] = 6258.7879595905,
@@ -533,7 +533,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["AddPropVehicle"] = 
                                         {
                                             ["Shield"] = false,
@@ -552,7 +552,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["AddPropVehicle"] = 
                                         {
                                             ["Shield"] = false,
@@ -571,7 +571,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 6,
                                         ["y"] = 6303.4288310904,
@@ -586,7 +586,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 7,
                                         ["y"] = 6345.6494143764,
@@ -601,7 +601,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "SA-18 Igla manpad",
                                         ["unitId"] = 8,
                                         ["y"] = 6302.5068456586,
@@ -616,7 +616,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "SA-18 Igla manpad",
                                         ["unitId"] = 9,
                                         ["y"] = 6332.9441166048,
@@ -631,7 +631,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "SA-18 Igla manpad",
                                         ["unitId"] = 10,
                                         ["y"] = 6301.4572845915,
@@ -646,7 +646,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 11,
                                         ["y"] = 6247.6917785715,
@@ -661,7 +661,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 12,
                                         ["y"] = 6362.6321362105,
@@ -726,7 +726,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 43,
                                         ["y"] = 5549.2596183065,
@@ -741,7 +741,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 45,
                                         ["y"] = 5554.670771958,
@@ -806,7 +806,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 46,
                                         ["y"] = 5335.1096768341,
@@ -821,7 +821,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 47,
                                         ["y"] = 5399.868649196,
@@ -836,7 +836,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "High",
+                                        ["skill"] = "Average",
                                         ["type"] = "2S6 Tunguska",
                                         ["unitId"] = 48,
                                         ["y"] = 5454.9100137779,
@@ -884,12 +884,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Bassel Al Assad is undoubtedly one of the most important airbases in Syria right now, it's where Soviets operate and the first line of defense that can deploy fighter aircraft for Syria, so we need to disable it as soon as possible, but we also need to assure the safety of friendly aircraft attacking it. Your task is to clear the air defenses of the airfield, intel identified a AAA battery east on the airbase a few meters south of the heliport and sa8's systems on both ends of the runway, there's also the possibility for a sa19 to be present as well, so be aware of that.\\\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\\\
-\\\
-Primary objective: Destroy the battery.\\\
-\\\
-Threats: AAA, manpads and sa8's, sa3 sites north and south with a sa2 battery west of the base, considerably close. Possible Sa-19.\\\
-\\\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

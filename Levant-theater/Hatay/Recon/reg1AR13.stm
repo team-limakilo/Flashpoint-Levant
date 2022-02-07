@@ -598,14 +598,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Alongside with the siege of Antakya, enemy forces also pushed towards Samandag, and its currently in heavy confrontation against enemy security forces, you must help them with some aerial support on the eastern areas of the city..\
-Be advised, there's civilians on the area, so only fire at confirmed enemy combatants.\
-\
-Primary objective: Eliminate the troops.\
-\
-Secondary objective: N/A.\
-\
-Threats: Manpads, small caliber fire and AAA, Hatay have AAA, Manpads and there's also checkpoints south and east of it. Kirikahn is under siege and have a few units east and north of it.\
-\
-Recommended pilots: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

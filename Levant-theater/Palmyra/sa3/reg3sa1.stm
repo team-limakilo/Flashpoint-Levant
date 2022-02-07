@@ -626,12 +626,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Raqqa is a city located east of Aleppo, while not the most strategically important city on Syria, it does serve as a regional transportation hub, most oil coming from the eastern oil fields flow thought it's railways, thus making it still a significant target. That said, we know about a sa-3 site located close to the bridge south of the city crossing the river, and that Sa-3 site, while not a modern system, still poses a threat to our aircraft, specially low level and slow aircraft like A10's, so your task is to deal with the SAM site.\\\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\\\
-\\\
-Primary objective: Eliminate the site.\\\
-\\\
-Threats: Medium altitude SAM, AAA and shorad.\\\
-\\\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

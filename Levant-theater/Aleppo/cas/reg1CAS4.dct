@@ -3,3 +3,10 @@ intel = 3
 cost = 2
 ondemand = true
 coalition = 1
+desc = [[%LOCATIONMETHOD% an enemy formation northwest of Minakh, on the highway, just a few hundred meters from the airport. While coalition forces are able to take care of the T55s and BMDs there, they've opted for calling an airstrike to soften the front, before pushing into Minakh.
+
+Primary objective: Clear the enemy formation on and around the highway.
+
+Threats: Enemy AAA and MANPADS.
+
+Recommended pilots: 2]]

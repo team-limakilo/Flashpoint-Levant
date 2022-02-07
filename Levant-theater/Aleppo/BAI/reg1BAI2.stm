@@ -791,11 +791,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "We've identified an enemy position on top of a hill on the Syrian side of the border 10nm north of Reyhanli, from that position they can have visual on the entire region and we suspect they are coordinating the offensive from there.\
-\
-Your task is to destroy any units inside the posiition and all structures as well. We know the enemy has AAA emplacements on the area and likely has manpads as well, so don't let your guard down.\
-\
-Expect enemy shorad and pay attention to enemy jets on the region.\
-\
-Recommended pilots: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

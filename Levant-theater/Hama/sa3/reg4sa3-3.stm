@@ -626,12 +626,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "The city of Ar Rastan has an important power plant that is responsible for powering the entire region, and this makes it a vital target on the shock and awe campaign, and your flight on the package are responsible to deal with the sa3 site protecting located a few miles north west of the city, other flights are already tasked to deal with the AAA and the plant itself, and you job is to silence only the SAM site. While not state of the art systems, they still pose a treat and should be dealt with carefully.\\\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\\\
-\\\
-Primary objective: Eliminate the site.\\\
-\\\
-Threats: Medium altitude SAM, AAA and shorad.\\\
-\\\
-Recommended pilots: 2.",
+    ["desc"] = "",
 } -- end of staticTemplate

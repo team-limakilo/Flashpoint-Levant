@@ -2,3 +2,14 @@ objtype = "specialforces"
 intel = 3
 cost = 3
 ondemand = true
+desc = [[Units of the 5th Armored Battalion are engaged in heavy fighting with enemy units in Antakya, and while they are holding the enemies back for now, they are running out of supplies and cannot hold their position for much longer. Your task is to open the way for supply convoys and reinforcements to the city and assist the battalion, by destroying enemy troops on the northern area of the city.
+
+Be advised, there are civilians and friendly forces in the area. Identify your targets before firing!
+
+Primary objective: Eliminate the enemy troops.
+
+Secondary objective: Avoid unecessary civilian casualties.
+
+Threats: MANPADS, AAA and small caliber fire. The region around Hatay is highly contested, and the enemy controls several checkpoints in nearby roads. The safest reported ingress route is from the west of the city.
+
+Recommended pilots: 2]]

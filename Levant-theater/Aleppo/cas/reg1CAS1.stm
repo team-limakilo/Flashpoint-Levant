@@ -809,11 +809,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Command gave the order for a ground push towards Aleppo, the main thrust will come from the north, lead by the 1st French Armored Brigade with support of the 11th Marine Battalion. However, some forward elements encountered more enemy resistence a bit south of Minakh on the highway leading to Aleppo, inside the position the enemy has armored vehicles and artillery pieces, your task is to clear the area to open the way for the main push.\
-\
-Primary objective: Clear the highway from any enemy vehicles and check the surrounding areas for enemy hidden vehicles and troops.\
-\
-Threats: Enemy AAA and manpads are to be expected. \
-\
-Pilots recommended: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

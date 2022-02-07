@@ -1,4 +1,14 @@
 objtype = "sam"
 intel = 3
 cost = 3
+regenerate = true
 spawnalways = true
+desc = [[%LOCATIONMETHOD% an SA-2 "Guideline" northeast of Hama.
+
+Primary objective: Eliminate the Radars.
+
+Threats: SA-2 and enemy CAP.
+
+HARM codes: Flat Face SR: 122; Fan Song TR: 126
+
+Recommended pilots: 2]]

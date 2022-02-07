@@ -2,3 +2,12 @@ objtype = "logistics"
 intel = 4
 cost = 5
 ondemand = true
+desc = [[Scout flights have identified an anti-ship battery on the coast a few miles north of Latakia, and it's extremely important that we deal with it because it can pose some serious risk to our ships, so your mission is to completely neutralize the site.
+
+Primary objective: Destroy the anti-ship radar and its batteries.
+
+Secondary objective: Destroy all units in the vicinity.
+
+Threats: AAA, short range SAMs, and also SA-3 and SA-6 batteries to the south.
+
+Recommended pilots: 2]]

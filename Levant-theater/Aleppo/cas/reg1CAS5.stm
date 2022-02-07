@@ -813,7 +813,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Excellent",
+                                        ["skill"] = "Good",
                                         ["type"] = "SA-18 Igla-S manpad",
                                         ["unitId"] = 41,
                                         ["y"] = 64440.6995251,
@@ -828,7 +828,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Excellent",
+                                        ["skill"] = "Good",
                                         ["type"] = "Soldier RPG",
                                         ["unitId"] = 42,
                                         ["y"] = 64241.838563109,
@@ -843,7 +843,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Excellent",
+                                        ["skill"] = "Good",
                                         ["type"] = "Ural-375 ZU-23 Insurgent",
                                         ["unitId"] = 43,
                                         ["y"] = 65170.390395692,
@@ -931,11 +931,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "Earlier today the 1st Cavalry Division landed rangers on Reyhanli to block any retreat attempts from the Hatay province, however, one of the squads got into heavy combat and are now requesting danger close CAS, they are currently trapped on a block inside the center area of the city. Be advised the attacks will be danger close, avoid collateral damage and do not hit the marines.\
-\
-Primary objective: Eliminate the enemies surrounding our friendly troops.\
-\
-Threats: Expect enemy short range air defenses. \
-\
-Pilots recommended: 2",
+    ["desc"] = "",
 } -- end of staticTemplate

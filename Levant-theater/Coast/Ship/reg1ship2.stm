@@ -499,6 +499,23 @@ staticTemplate =
                                                 {
                                                     ["tasks"] = 
                                                     {
+                                                        [1] = {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = false,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "SetInvisible",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -624,7 +641,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
+                                        ["skill"] = "High",
                                         ["type"] = "La_Combattante_II",
                                         ["unitId"] = 8,
                                         ["y"] = -26878.259058638,
@@ -640,7 +657,7 @@ staticTemplate =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["skill"] = "Average",
+                                        ["skill"] = "High",
                                         ["type"] = "La_Combattante_II",
                                         ["unitId"] = 9,
                                         ["y"] = -26078.259058638,
@@ -678,9 +695,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "A flight of Jaguars returning from a strike mission reported a pair of Syrian La Combattante hugging the coast 25nm west of Tripoli\
-\
-Be advised that just a few nautical miles north, at Tartus, the Soviets have a naval base, we created a no-fly zone on a radius of 20nm around the city, do not approach it nor engage in combat unless in self defense.\
-\
-Primary Objective: Disable or sink both patrol vessels",
+    ["desc"] = "",
 } -- end of staticTemplate

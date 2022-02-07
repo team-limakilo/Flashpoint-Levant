@@ -1,3 +1,16 @@
 objtype = "sam"
 intel = 3
 cost = 3
+priority = 12
+regenerate = true
+desc = [[%LOCATIONMETHOD% an SA-2 site on a hill next to the Al-Safira military base, watching over both Aleppo and Kuweires. We cannot risk flying at high altitude in the vicinity until this site is taken out, which limits our strike potential.
+
+Primary objective: Eliminate the tracking and search radars.
+
+Secondary objective: Eliminate the launchers and supply vehicles.
+
+Threats: Target SA-2, and SA-3s near Aleppo and Kuweires.
+
+HARM codes: Flat Face SR: 122; Fan Song TR: 126
+
+Recommended pilots: 2]]

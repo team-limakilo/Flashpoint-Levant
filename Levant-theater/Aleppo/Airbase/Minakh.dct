@@ -1,0 +1,9 @@
+
+objtype = "airbase"
+name = "Minakh"
+coalition = 1
+subordinates = {}
+desc = "Minakh"
+recoverytype = "land"
+takeofftype = "runway"
+cost = 10

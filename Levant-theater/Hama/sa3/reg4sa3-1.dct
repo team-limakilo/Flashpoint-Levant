@@ -1,3 +1,12 @@
 objtype = "sam"
 intel = 3
 cost = 3
+desc = [[During a SCUD hunt, a flight of F-16 Falcons have confirmed the presence of an SA-3 site in Hama, protecting the airbase. Your flight will have to identify and neutralize this site so that other strike packages can fly safely in the area.
+
+Primary objective: Eliminate the SA-3 site.
+
+Threats: Medium altitude SAMs, AAA, SHORAD, and heavy CAP.
+
+HARM code: 123
+
+Recommended pilots: 2]]

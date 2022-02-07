@@ -3,7 +3,6 @@ intel = 3
 cost = 3
 name = "Reg3Factory-1"
 coalition = 1
-tpldata = {}
 buildings = {
     {
         ["name"] = "Factory 1",
@@ -16,14 +15,14 @@ buildings = {
         ["id"]   = 86083349,
     },
 }
-desc = "%LOCATIONMETHOD% a power plant between Muhradah and Halfaya is the secondary power supply for the military instalations south of Aleppo. The complex have 2 main buildigs identifiable by their smoke stacks with a few support buildings around them and a few fuel tanks to the north.\
-Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.\
-Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
-\
-Primary objective: Destroy the main buildings.\
-\
-Secondary objective: Destroy the fuel tanks.\
-\
-Threats: AAA, Medium and High altitude SAMs.\
-\
-Recommended pilots: 2."
+desc = [[One of the main power stations providing power to both Hama and Homs is located between Muhradah and Halfaya, next to a water reservoir. The complex has two main buildings with a total of four smokestacks, and several fuel storage tanks on the north side.
+
+Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
+
+Primary objective: Destroy the two main buildings.
+
+Secondary objective: Destroy the fuel tanks on the concrete bases.
+
+Threats: AAA, Medium and High altitude SAMs.
+
+Recommended pilots: 2]]

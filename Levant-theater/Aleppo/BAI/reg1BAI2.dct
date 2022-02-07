@@ -2,3 +2,10 @@ objtype = "logistics"
 intel = 4
 cost = 5
 ondemand = true
+desc = [[We've identified an enemy position on top of a hill on the Syrian side of the border, 10nm north of Reyhanli. They are able to observe entire region from there, and we suspect they are coordinating the entire offensive on the Hatay valley.
+
+Primary objective: Destroy enemy units and structures in the position.
+
+Threats: AAA and MANPADS.
+
+Recommended pilots: 2]]

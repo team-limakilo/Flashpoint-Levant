@@ -2,3 +2,12 @@ objtype = "logistics"
 intel = 4
 cost = 5
 ondemand = true
+desc = [[%LOCATIONMETHOD% a hidden enemy position in a village a few miles north of Maarrat Misrin. They have at least three T-55 tanks, one BMP-2 IFV, one BTR-80 APC, and a few ZSU-23-4 and SA-9 Gaskin defenses. We believe these troops are on alert to reinforce Taftanaz if needed, so destroying them will make the lives of our troops easier.
+
+Caution, the target is in a populated area, so be selective with weapons placement to prevent civilian casualties.
+
+Primary objective: Destroy the entrenched enemies.
+
+Threats: AAA, IR SAMs and enemy CAP.
+
+Recommended pilots: 2]]

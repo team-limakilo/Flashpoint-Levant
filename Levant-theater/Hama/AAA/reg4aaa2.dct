@@ -1,3 +1,10 @@
 objtype = "logistics"
 intel = 4
 cost = 5
+desc = [[As the war progresses, it is clear that eliminating enemy air presence is essential to achieve a clean victory, and for that, we tasked aircraft to employ runway busting weapons, like the Tornado with its JP233 munition dispensers, or the Mirage with it's BAP-100, but to mitigate the dangers of low level runways attacks, we need to also clear the surrounding areas from enemy AAA and SHORAD elements that are waiting for the perfect opportunity to score a hit and possible downing a friendly. Your task is to clear the Hama airfield from enemy SHORAD, Intel indentified a AAA battery south of the sheltered ramps on the eastern side of the airfield and also a possible SA-8 close to the administrative buildings north of the airfield, close to the same ramps as the AAA batteries are located, however across it on the north.
+
+Primary objective: Destroy the batteries (AAA and possibly an SA-8).
+
+Threats: SA-2s, SA-3s, SHORAD, and heavy enemy CAP.
+
+Recommended pilots: 2]]

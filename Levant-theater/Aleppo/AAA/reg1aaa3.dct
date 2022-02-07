@@ -1,3 +1,11 @@
 objtype = "logistics"
 intel = 4
 cost = 5
+priority = 65
+desc = [[During a bombing mission targeting enemy encampments near Idlib, coalition aircraft were attacked by heavy AAA fire and SA-8 systems. Two of the pilots managed to divert from the original mission and eliminate an air defense site west of the town, allowing our aircraft to escape safely, but a later recon flight identified another AAA site east of the town, with an SA-8 system still present. We cannot risk sending more attackers to the region until this site is cleared.
+
+Primary objective: Destroy the AAA battery and SA-8.
+
+Threats: AAA and an SA-8. SA-2s may be watching the region, and enemy CAP is also present.
+
+Recommended pilots: 2]]

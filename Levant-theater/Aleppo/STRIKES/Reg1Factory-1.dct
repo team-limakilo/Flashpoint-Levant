@@ -1,9 +1,9 @@
-objtype = "Factory"
+objtype = "AmmoDump"
 intel = 3
 cost = 3
 name = "Reg1Factory-1"
 coalition = 1
-tpldata = {}
+priority = 65
 buildings = {
     {
         ["name"] = "Factory",
@@ -11,14 +11,12 @@ buildings = {
         ["id"]   = 122257410,
     },
 }
-desc = "%LOCATIONMETHOD% a weapons storage about 4000 feet or 1 kilometer south of Minakh airfield's intersecting runways, its a warehouse with an administrative building close to it, do not mistake the small village with the warehouse. Its coords are the following: %LOCATION%.\
-\
-Primary objective: Destroy the warehouse.\
-\
-Secondary objective: Destroy the administrative building\
-\
-Threats: AAA presence on Minakh along with some Short range SAMs\
-\
-Recommended pilots: 2\
-\
-Recommended ordnance: one Mk84 for each building."
+desc = [[%LOCATIONMETHOD% a weapon storage facility about one kilometer south of Minakh, outside of the airbase perimeter. The target is a long white warehouse with a window sticking out of its triangular roof, and it's located next to a single-story office complex.
+
+Primary objective: Destroy the warehouse.
+
+Secondary objective: Destroy the office complex.
+
+Threats: AAA and IR-guided SAMs.
+
+Recommended pilots: 2]]

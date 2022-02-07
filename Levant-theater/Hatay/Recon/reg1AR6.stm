@@ -601,14 +601,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "As our forces advance to liberate the region, they could use some aerial support to soften up the enemy troops inside the occupied city of Kumlu, we identified a fighting position inside the town at the main street at the coords: %LOCATION%.\
-Be advised, there's civilians on the area, so only fire at confirmed enemy combatants.\
-\
-Primary objective: Eliminate the troops.\
-\
-Secondary objective: N/A.\
-\
-Threats: Manpads and small caliber gunfire, be aware there's an enemy checkpoint south and east of Hatay.\
-\
-Recommended pilots: 2",
+    ["desc"] = "",
 } -- end of staticTemplate
