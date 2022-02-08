@@ -10,7 +10,7 @@ buildings = {
         ["id"]   = 88539143,
     },
 }
-desc = [[%LOCATIONMETHOD% an energy plant located to the west of Al-Safirah, providing electric power to the military base. It is located within the base, base on the Western edge of town.
+desc = [[%LOCATIONMETHOD% a power plant in the Al-Safira Military Base, west of the town. Destroy it, and the base will have to run on far less efficient truck-mounted diesel generators, putting more strain on their supply lines.
 
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
 
