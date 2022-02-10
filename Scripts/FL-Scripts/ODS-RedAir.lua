@@ -92,7 +92,7 @@ A2ADispatcher_Blue:SetSquadronGci( "Gaziantep Intercept", 800, 1200, 2, 120, 240
 -- Setting red dispatcher
 EWR_Red = SET_GROUP:New()
 EWR_Red:FilterCoalitions( "red" )
-EWR_Red:FilterPrefixes( { "sa2", "sa3", "sa5", "sa6", "aaa", "SAM", "EWR" } )
+EWR_Red:FilterPrefixes( { "sa2", "sa3", "sa5", "sa6", "aaa", "SAM", "EWR", "Intercept" } )
 EWR_Red:FilterActive()
 EWR_Red:FilterStart()
 Detection_Red = DETECTION_AREAS:New( EWR_Red, 10000 ) -- 10km grouping
