@@ -1,0 +1,8 @@
+name = "Homs Refinery"
+priority = 200
+airspace = true
+links = {
+    air    = { "Damascus" },
+    ground = {},
+    sea    = {},
+}
