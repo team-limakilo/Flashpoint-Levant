@@ -8,19 +8,19 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 118095885,
+        ["id"]   = 122880033,
     },
     {
         ["name"] = "Factory 2",
         ["goal"] = "primary destroyed",
-        ["id"]   = 118095884,
+        ["id"]   = 122880034,
     },
 }
 extramarks = {
     { x = 112590, y = 352, z = 184082, label = "%TARGET%: East group" },
     { x = 112550, y = 350, z = 184929, label = "%TARGET%: East group" },
 }
-desc = [[%LOCATIONMETHOD% some fuel storage tanks south of Jirah airbase. They are located in an industrial zone, and are separated in two groups of four tanks, on the east and west sides of the zone, respectively.
+desc = [[We identified some fuel storage tanks south of Jirah airbase. They are located in an industrial zone, and are separated in two groups of four tanks, on the east and west sides of the zone, respectively.
 
 Primary objective: Destroy the storage tanks.
 

@@ -1,0 +1,15 @@
+objtype = "frontline"
+intel = 3
+cost = 2
+ondemand = true
+coalition = 1
+desc = "A fire team is calling for help on the north area of Aleppo, they are pinned by Syrian infantry with the support of an APC close to the northern exit of the city, by the river and railroad, the enemies are inside a few buildings on the western side of the river with some vehicles on the ground providing support.\
+Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
+\
+Primary objective: Destroy the enemy troops.\
+\
+Secondary objective: N/A.\
+\
+Threats: Enemy CAP.\
+\
+Recommended pilots: 2."

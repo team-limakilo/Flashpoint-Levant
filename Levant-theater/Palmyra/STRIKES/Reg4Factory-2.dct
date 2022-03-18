@@ -7,20 +7,20 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 118358922,
+        ["id"]   = 123143836,
     },
     {
         ["name"] = "Factory 2",
         ["goal"] = "primary destroyed",
-        ["id"]   = 118359127,
+        ["id"]   = 123113491,
     },
     {
         ["name"] = "Factory 3",
         ["goal"] = "primary destroyed",
-        ["id"]   = 118359154,
+        ["id"]   = 123142921,
     },
 }
-desc = [[%LOCATIONMETHOD% a group of fuel tanks northwest of Raqqa, in an industrial area south of the railroad that goes through the city. You can identify the tanks by their concrete bases, and there is one group with 4 tanks and two groups with only 2 tanks, for a total of 3 groups of tanks that need to be destroyed.
+desc = [[%LOCATIONMETHOD% a group of fuel tanks northwest of Raqqa, in an industrial area by the railroad that goes through the city. You can identify the tanks by their concrete bases, and there is one group with 4 tanks and two groups with only 2 tanks, for a total of 3 groups of tanks that need to be destroyed.
 
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
 

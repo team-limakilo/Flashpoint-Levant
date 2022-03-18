@@ -7,10 +7,10 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 114624146,
+        ["id"]   = 118818499,
     },
 }
-desc = [[%LOCATIONMETHOD% a large diesel storage facility directly south of the Bassel Al-Assad airbase. The fuel there has been seen being transported to the nearby train station, which supplies the airbase. The main tanks are in a group of four, and have a distinct concrete foundation.
+desc = [[Recon flights identified a large diesel storage facility directly south of the Bassel Al-Assad airbase. The fuel there has been seen being transported to the nearby train station, which supplies the airbase. The main tanks are in a group of four, and have a distinct concrete foundation.
 
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
 

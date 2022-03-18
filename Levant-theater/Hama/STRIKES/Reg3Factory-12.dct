@@ -7,7 +7,7 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 108364178,
+        ["id"]   = 111903191,
     },
 }
 desc = [[%LOCATIONMETHOD% a fuel tank inside Homs on the industrial sector a bit south west of its downtown, close to the train station and the big roundabout. You can identify it by its concrete base.

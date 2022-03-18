@@ -7,10 +7,10 @@ buildings = {
     {
         ["name"] = "Factory",
         ["goal"] = "primary destroyed",
-        ["id"]   = 88377184,
+        ["id"]   = 90638180,
     },
 }
-desc = [[%LOCATIONMETHOD% a industrial plant located in the North of Aleppo. This is found a block to the North of the railway station.
+desc = [[There's an industrial plant located in the North of Aleppo. This is found a block to the North of the railway station.
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
 
 Primary objective: Destroy the plant.

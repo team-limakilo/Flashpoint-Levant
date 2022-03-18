@@ -7,10 +7,10 @@ buildings = {
     {
         ["name"] = "Factory",
         ["goal"] = "primary destroyed",
-        ["id"]   = 117671972,
+        ["id"]   = 122456109,
     },
 }
-desc = [[%LOCATIONMETHOD% on the city of Idlib, on its north east industrial area, theres two gray warehouses next to the road that separates the complex from the residential district between a large orange warehouse with black roof and a small warehouse green one to its east.
+desc = [[We identified on the city of Idlib, at its north east industrial area, two gray warehouses next to the road that separates the complex from the residential district between a large orange warehouse with black roof and a small warehouse green one to its east. Those buildings serve as an improvised vehicle maintenance depot, by taking it down, we will deny our enemy the capability to repair their damaged vehicles.
 
 Primary objective: Destroy the warehouses.
 

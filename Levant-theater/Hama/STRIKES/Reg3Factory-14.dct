@@ -7,12 +7,12 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 83984384,
+        ["id"]   = 85852160,
     },
     {
         ["name"] = "Factory 2",
         ["goal"] = "primary destroyed",
-        ["id"]   = 83984385,
+        ["id"]   = 85852161,
     },
 }
 desc = [[%LOCATIONMETHOD% an power plant south west of Homs, its right by a lake, there's 2 main generator buildings and several secondary structures. The main buildings stand out due to their smoke stacks.

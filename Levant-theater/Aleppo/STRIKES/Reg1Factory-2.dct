@@ -8,10 +8,10 @@ buildings = {
     {
         ["name"] = "Factory",
         ["goal"] = "primary destroyed",
-        ["id"]   = 120717320,
+        ["id"]   = 125796360,
     },
 }
-desc = [[Our spies have confirmed the existence of armored vehicles in a warehouse east of Reyhanli, in a border post. This warehouse is the largest building in the complex, and has a distinctive black roof. We cannot let the Syrian Army send more tanks at us, so you are tasked with destroying it.
+desc = [[Our spies have confirmed the existence of enemy vehicles in a warehouse east of Reyhanli, in a border post. This warehouse is the largest building in the complex, and has a distinctive black roof. We cannot let the Syrian Army send more vehicles at Turkey, so you are tasked with destroying it.
 
 Primary objective: Destroy the warehouse.
 

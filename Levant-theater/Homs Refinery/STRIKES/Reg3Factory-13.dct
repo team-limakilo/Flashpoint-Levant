@@ -9,52 +9,52 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 108364505,
+        ["id"]   = 183010997,
     },
     {
         ["name"] = "Factory 2",
         ["goal"] = "primary destroyed",
-        ["id"]   = 108365029,
+        ["id"]   = 111903524,
     },
     {
         ["name"] = "Factory 3",
         ["goal"] = "primary destroyed",
-        ["id"]   = 108364656,
+        ["id"]   = 111904050,
     },
     {
         ["name"] = "Factory 4",
         ["goal"] = "primary destroyed",
-        ["id"]   = 108364636,
+        ["id"]   = 111903967,
     },
     {
         ["name"] = "Factory 5",
         ["goal"] = "primary destroyed",
-        ["id"]   = 108364594,
+        ["id"]   = 111903657,
     },
     {
         ["name"] = "Factory 6",
         ["goal"] = "primary destroyed",
-        ["id"]   = 108364046,
+        ["id"]   = 111903614,
     },
     {
         ["name"] = "Factory 7",
         ["goal"] = "primary destroyed",
-        ["id"]   = 108364888,
+        ["id"]   = 111903311,
     },
     {
         ["name"] = "Factory 8",
         ["goal"] = "primary destroyed",
-        ["id"]   = 108364299,
+        ["id"]   = 111902924,
     },
         {
         ["name"] = "Factory 9",
         ["goal"] = "primary destroyed",
-        ["id"]   = 108363910,
+        ["id"]   = 183010896,
     },
     {
         ["name"] = "Factory 10",
         ["goal"] = "primary destroyed",
-        ["id"]   = 108365352,
+        ["id"]   = 111903059,
     },
 }
 desc = [[We've been finally authorized by the NATO Military Commitee to strike the Homs Fuel Refinery. It's a large industrial complex east of the city, containing dozens of storage tanks and several oil processing plants, and is of great importance to the Syrian government due to the composite materials produced there. The complex stands out from the rest of the region, making it easy to spot, and your mission is to destroy all industrial facilities in the complex.

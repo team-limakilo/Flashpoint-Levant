@@ -1,0 +1,15 @@
+objtype = "frontline"
+intel = 3
+cost = 2
+ondemand = true
+coalition = 1
+desc = "A small advanced recon detachment scouting the northern outskirts of Aleppo got identified and is currently being overrun by Syrian armor, they radioed some information about the enemy composition, being a modern russian made T72B, alongside a T55, 2 BMP1's and 2 BTR80's. Its important for us to stop their advance before the enemies achieve a breakthrough and reach our recently established FOB on a village north of Aleppo. The enemies were identified pushing trough the road alongside the railroad running from the north of Aleppo. Please stop the enemy advance.\
+Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
+\
+Primary objective: Destroy the enemy spearhead.\
+\
+Secondary objective: N/A.\
+\
+Threats: Enemy CAP.\
+\
+Recommended pilots: 2."

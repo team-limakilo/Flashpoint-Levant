@@ -1,0 +1,15 @@
+objtype = "frontline"
+intel = 3
+cost = 2
+ondemand = true
+coalition = 1
+desc = "A small squad is stuck under enemy MG and tank fire inside Aleppo, a few blocks north of the stadium north of the Citadel, the infantry are all on top and in front a industrial building on the western side of the river, close to a railroad bridge, and by a small park full of threes and the tank just before the bridge on the western side of the river, quickly move to eliminate the enemy troops.\
+Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
+\
+Primary objective: Eliminate the enemy troops pinning down our forces.\
+\
+Secondary objective: Exfil the troops and land them on the FARP Helena(100% optional, it will not change the outcome).\
+\
+Threats: Enemy CAP.\
+\
+Recommended pilots: 2."

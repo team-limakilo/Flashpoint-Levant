@@ -7,7 +7,7 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 86116563,
+        ["id"]   = 88082282,
     },
 }
 desc = [[%LOCATIONMETHOD% an factory building north of Homs on the industrial sector by the city limits a bit south of the cloverleaf intersection. You can identify it by its smoke stacks.

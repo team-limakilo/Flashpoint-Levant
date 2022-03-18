@@ -1,0 +1,15 @@
+objtype = "frontline"
+intel = 3
+cost = 2
+ondemand = true
+coalition = 1
+desc = "While the french 1st Armored battalion pushes a detachment is heading towards the Aleppo power plant with the intent of cutting off power to the entire region, however, there's a heavy enemy presence on the area, and the troops are requiring close air support to capture the plant. The enemy likely has anti air systems on the plant, so beware and avoid collateral damage at all costs.\
+Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
+\
+Primary objective: Eliminate the enemy forces.\
+\
+Secondary objective: N/A.\
+\
+Threats: Enemy CAP, AAA and manpads.\
+\
+Recommended pilots: 2."

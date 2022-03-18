@@ -1,0 +1,17 @@
+objtype = "frontline"
+intel = 3
+cost = 2
+ondemand = true
+coalition = 1
+desc = "As we speak, the join force of French and German troops are currently fighting inside Aleppo's western sector, however, they came under mortar fire, so a detachment was formed to take out the position, but they got pinned down by enemy troops, your task is to clear the mortar teams and take out any TOO on the area around the friendly units.\
+The mortar position is just a few hundred meters south of the stadium directly west of the citadel, be aware the Syrians have manpads on rooftops at seemingly random places, be alert at all times.\
+Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.\
+Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
+\
+Primary objective: Destroy the mortar teams shelling friendly forces.\
+\
+Secondary objective: N/A.\
+\
+Threats: Small weapons fire, Manpads and AAA.\
+\
+Recommended pilots: 2."

@@ -8,10 +8,10 @@ buildings = {
     {
         ["name"] = "Factory",
         ["goal"] = "primary destroyed",
-        ["id"]   = 122257410,
+        ["id"]   = 127467522,
     },
 }
-desc = [[%LOCATIONMETHOD% a weapon storage facility about one kilometer south of Minakh, outside of the airbase perimeter. The target is a long white warehouse with a window sticking out of its triangular roof, and it's located next to a single-story office complex.
+desc = [[Intel shows Syria established a weapon storage facility about one kilometer south of Minakh, outside of the airbase perimeter. The target is a long white warehouse with a window sticking out of its triangular roof, and it's located next to a single-story office complex.
 
 Primary objective: Destroy the warehouse.
 

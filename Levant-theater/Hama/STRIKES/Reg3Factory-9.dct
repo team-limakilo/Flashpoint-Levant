@@ -7,12 +7,12 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 86147640,
+        ["id"]   = 88114645,
     },
     {
         ["name"] = "Factory 2",
         ["goal"] = "primary destroyed",
-        ["id"]   = 86147611,
+        ["id"]   = 88114612,
     },
 }
 desc = [[%LOCATIONMETHOD% a power plant a few miles south west of Hama, and north west of Ar Rastanz. They are the only industrial looking buildings on the area, the plant is composed by 2 main buildings, a few support structures and several fuel tanks.

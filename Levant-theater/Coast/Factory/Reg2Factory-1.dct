@@ -7,15 +7,15 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 85950466,
+        ["id"]   = 87917812,
     },
     {
         ["name"] = "Factory 2",
         ["goal"] = "primary destroyed",
-        ["id"]   = 85950465,
+        ["id"]   = 87918453,
     },
 }
-desc = [[%LOCATIONMETHOD% an oil refinery north of Baniyas. There are several storage tanks and two large processing facilities located there. Your targets are the two processing facilities, identifiable by their red and white smoke stacks.
+desc = [[There's an oil refinery north of Baniyas. There are several storage tanks and two large processing facilities located there. Your targets are the two processing facilities, identifiable by their red and white smoke stacks.
 
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
 

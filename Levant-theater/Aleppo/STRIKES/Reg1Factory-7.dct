@@ -7,7 +7,7 @@ buildings = {
     {
         ["name"] = "Factory",
         ["goal"] = "primary destroyed",
-        ["id"]   = 88508180
+        ["id"]   = 90769176
     }
 }
 desc = [[%LOCATIONMETHOD% an industrial plant located to the East of Aleppo. It is located in an industrial area on the edge of the city, North East of the airport.

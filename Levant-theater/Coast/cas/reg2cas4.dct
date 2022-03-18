@@ -1,0 +1,15 @@
+objtype = "frontline"
+intel = 3
+cost = 2
+ondemand = true
+coalition = 1
+desc = "Intel identified a group of enemy armored vehicles pushing on the highway 214, the road that goes south-north on the western side of Aleppo, they believe the Syrians are trying to attack the recently established FARP and also block the main road access we are using to supply our main forces, your task is to intercept the enemy vehicles and destroy them before they reach defenseless friendly units.\
+Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
+\
+Primary objective: Stop the enemy push towards our forces.\
+\
+Secondary objective: N/A.\
+\
+Threats: Small weapons fire, Manpads and AAA.\
+\
+Recommended pilots: 2."

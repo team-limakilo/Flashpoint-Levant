@@ -7,10 +7,10 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 117409374,
+        ["id"]   = 121995285,
     },
 }
-desc = [[%LOCATIONMETHOD% a warehouse west of Raqqa, near the river, which is probably housing WMDs. You can identify it by its large size, larger than other buildings in the vicinity, and with a gray roof.
+desc = [[%LOCATIONMETHOD% a warehouse west of Raqqa, near the river, which is probably housing WMDs(Chemical weapons). You can identify it by its large size, larger than other buildings in the vicinity, and with a gray roof.
 
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
 

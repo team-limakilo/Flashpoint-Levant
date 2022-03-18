@@ -7,12 +7,12 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 86083306,
+        ["id"]   = 88049387,
     },
         {
         ["name"] = "Factory 2",
         ["goal"] = "primary destroyed",
-        ["id"]   = 86083349,
+        ["id"]   = 88049430,
     },
 }
 desc = [[One of the main power stations providing power to both Hama and Homs is located between Muhradah and Halfaya, next to a water reservoir. The complex has two main buildings with a total of four smokestacks, and several fuel storage tanks on the north side.

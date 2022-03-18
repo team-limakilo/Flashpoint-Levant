@@ -7,22 +7,22 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 115382268,
+        ["id"]   = 119772594,
     },
         {
         ["name"] = "Factory 2",
         ["goal"] = "primary destroyed",
-        ["id"]   = 115409089,
+        ["id"]   = 119770801,
     },
         {
         ["name"] = "Factory 3",
         ["goal"] = "primary destroyed",
-        ["id"]   = 115412529,
+        ["id"]   = 119767285,
     },
         {
         ["name"] = "Factory 4",
         ["goal"] = "primary destroyed",
-        ["id"]   = 115414288,
+        ["id"]   = 119740681,
     },
 }
 extramarks = {

@@ -1,0 +1,2193 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 68,
+                    ["name"] = "USSR",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [52]
+                [53] = 
+                {
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
+                }, -- end of [53]
+                [54] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [54]
+                [55] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [55]
+                [56] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [56]
+                [57] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [57]
+                [58] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [58]
+                [59] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [59]
+                [60] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [60]
+                [61] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [61]
+                [62] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [62]
+                [63] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [63]
+                [64] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [64]
+                [65] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [65]
+                [66] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [66]
+                [67] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [67]
+                [68] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [68]
+                [69] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [69]
+                [70] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [70]
+                [71] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [71]
+                [72] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [72]
+                [73] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [73]
+                [74] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [74]
+                [75] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [75]
+                [76] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [76]
+                [77] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [77]
+                [78] = 
+                {
+                    ["id"] = 0,
+                    ["name"] = "Russia",
+                }, -- end of [78]
+                [79] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [79]
+                [80] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [80]
+                [81] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [81]
+                [82] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [82]
+                [83] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [83]
+                [84] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [84]
+                [85] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [85]
+                [86] = 
+                {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [86]
+                [87] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [87]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 415,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 124359.13257124,
+                                            ["x"] = 141818.66943119,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 30,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "Challenger2",
+                                        ["unitId"] = 137,
+                                        ["y"] = 124359.13257124,
+                                        ["x"] = 141818.66943119,
+                                        ["name"] = "aaaaaa-1-1",
+                                        ["heading"] = 4.6949356878647,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "Challenger2",
+                                        ["unitId"] = 138,
+                                        ["y"] = 124331.15459944,
+                                        ["x"] = 141736.21718225,
+                                        ["name"] = "aaaaaa-1-2",
+                                        ["heading"] = 4.8520153205442,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "MCV-80",
+                                        ["unitId"] = 139,
+                                        ["y"] = 124264.1020977,
+                                        ["x"] = 141559.85416913,
+                                        ["name"] = "aaaaaa-1-3",
+                                        ["heading"] = 4.7647488579445,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "MCV-80",
+                                        ["unitId"] = 140,
+                                        ["y"] = 124290.88662354,
+                                        ["x"] = 141625.15528586,
+                                        ["name"] = "aaaaaa-1-4",
+                                        ["heading"] = 4.5204027626653,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "MCV-80",
+                                        ["unitId"] = 141,
+                                        ["y"] = 124309.0381204,
+                                        ["x"] = 141674.96122236,
+                                        ["name"] = "aaaaaa-1-5",
+                                        ["heading"] = 4.7647488579445,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                }, -- end of ["units"]
+                                ["y"] = 124359.13257124,
+                                ["x"] = 141818.66943119,
+                                ["name"] = "aaaaaa-1",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 398,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 119240.19708319,
+                                            ["x"] = 133476.87328946,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 31,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "TPZ",
+                                        ["unitId"] = 142,
+                                        ["y"] = 119240.19708319,
+                                        ["x"] = 133476.87328946,
+                                        ["name"] = "aaaaaa-2-1",
+                                        ["heading"] = 4.625122517785,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 119240.19708319,
+                                ["x"] = 133476.87328946,
+                                ["name"] = "aaaaaa-2",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 396,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 119253.03235285,
+                                            ["x"] = 133410.81283277,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["number"] = 1,
+                                                            ["auto"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["enabled"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                        ["groupId"] = 1,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 33,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "VAB_Mephisto",
+                                        ["unitId"] = 157,
+                                        ["y"] = 119253.03235285,
+                                        ["x"] = 133410.81283277,
+                                        ["name"] = "aaaaaa-4-1",
+                                        ["heading"] = 4.4854961776254,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 119253.03235285,
+                                ["x"] = 133410.81283277,
+                                ["name"] = "aaaaaa-4",
+                                ["start_time"] = 0,
+                            }, -- end of [3]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 81,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 117857.42551344,
+                                                ["x"] = 132429.81496977,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 117823.46469062,
+                                                ["x"] = 132601.47354755,
+                                            }, -- end of [2]
+                                            [3] = 
+                                            {
+                                                ["y"] = 117820.89209777,
+                                                ["x"] = 132621.30452092,
+                                            }, -- end of [3]
+                                            [4] = 
+                                            {
+                                                ["y"] = 117820.26302035,
+                                                ["x"] = 132631.28324751,
+                                            }, -- end of [4]
+                                            [5] = 
+                                            {
+                                                ["y"] = 117820.24819408,
+                                                ["x"] = 132641.28177021,
+                                            }, -- end of [5]
+                                            [6] = 
+                                            {
+                                                ["y"] = 117820.8067612,
+                                                ["x"] = 132651.26488494,
+                                            }, -- end of [6]
+                                            [7] = 
+                                            {
+                                                ["y"] = 117822.53509549,
+                                                ["x"] = 132666.16268173,
+                                            }, -- end of [7]
+                                            [8] = 
+                                            {
+                                                ["y"] = 117825.10035406,
+                                                ["x"] = 132680.93983666,
+                                            }, -- end of [8]
+                                            [9] = 
+                                            {
+                                                ["y"] = 117831.80897888,
+                                                ["x"] = 132710.17666646,
+                                            }, -- end of [9]
+                                            [10] = 
+                                            {
+                                                ["y"] = 117835.91120885,
+                                                ["x"] = 132724.60256631,
+                                            }, -- end of [10]
+                                            [11] = 
+                                            {
+                                                ["y"] = 117839.09365673,
+                                                ["x"] = 132734.08119941,
+                                            }, -- end of [11]
+                                            [12] = 
+                                            {
+                                                ["y"] = 117846.95817241,
+                                                ["x"] = 132752.4667527,
+                                            }, -- end of [12]
+                                            [13] = 
+                                            {
+                                                ["y"] = 117849.43650976,
+                                                ["x"] = 132756.80456185,
+                                            }, -- end of [13]
+                                            [14] = 
+                                            {
+                                                ["y"] = 117855.0852532,
+                                                ["x"] = 132765.05376932,
+                                            }, -- end of [14]
+                                            [15] = 
+                                            {
+                                                ["y"] = 117906.30832908,
+                                                ["x"] = 132832.8733353,
+                                            }, -- end of [15]
+                                            [16] = 
+                                            {
+                                                ["y"] = 118021.4569831,
+                                                ["x"] = 132977.64040842,
+                                            }, -- end of [16]
+                                            [17] = 
+                                            {
+                                                ["y"] = 118041.23562159,
+                                                ["x"] = 133006.51143805,
+                                            }, -- end of [17]
+                                            [18] = 
+                                            {
+                                                ["y"] = 118054.19093117,
+                                                ["x"] = 133027.88884464,
+                                            }, -- end of [18]
+                                            [19] = 
+                                            {
+                                                ["y"] = 118104.16971815,
+                                                ["x"] = 133120.22254926,
+                                            }, -- end of [19]
+                                            [20] = 
+                                            {
+                                                ["y"] = 118166.21408745,
+                                                ["x"] = 133240.10118991,
+                                            }, -- end of [20]
+                                            [21] = 
+                                            {
+                                                ["y"] = 118189.51682737,
+                                                ["x"] = 133278.592653,
+                                            }, -- end of [21]
+                                            [22] = 
+                                            {
+                                                ["y"] = 118203.46940155,
+                                                ["x"] = 133299.33477956,
+                                            }, -- end of [22]
+                                            [23] = 
+                                            {
+                                                ["y"] = 118212.66573039,
+                                                ["x"] = 133311.17901342,
+                                            }, -- end of [23]
+                                            [24] = 
+                                            {
+                                                ["y"] = 118219.26305253,
+                                                ["x"] = 133318.69252802,
+                                            }, -- end of [24]
+                                            [25] = 
+                                            {
+                                                ["y"] = 118229.77189901,
+                                                ["x"] = 133329.39271511,
+                                            }, -- end of [25]
+                                            [26] = 
+                                            {
+                                                ["y"] = 118248.32944693,
+                                                ["x"] = 133346.13704575,
+                                            }, -- end of [26]
+                                            [27] = 
+                                            {
+                                                ["y"] = 118312.55148229,
+                                                ["x"] = 133401.80293725,
+                                            }, -- end of [27]
+                                            [28] = 
+                                            {
+                                                ["y"] = 118330.23079875,
+                                                ["x"] = 133419.47568991,
+                                            }, -- end of [28]
+                                            [29] = 
+                                            {
+                                                ["y"] = 118360.76875867,
+                                                ["x"] = 133452.52105274,
+                                            }, -- end of [29]
+                                            [30] = 
+                                            {
+                                                ["y"] = 118364.63797845,
+                                                ["x"] = 133455.66350688,
+                                            }, -- end of [30]
+                                            [31] = 
+                                            {
+                                                ["y"] = 118369.43569249,
+                                                ["x"] = 133456.91374822,
+                                            }, -- end of [31]
+                                            [32] = 
+                                            {
+                                                ["y"] = 118373.91967546,
+                                                ["x"] = 133454.90786496,
+                                            }, -- end of [32]
+                                            [33] = 
+                                            {
+                                                ["y"] = 118377.82349322,
+                                                ["x"] = 133451.79364275,
+                                            }, -- end of [33]
+                                            [34] = 
+                                            {
+                                                ["y"] = 118599.20122178,
+                                                ["x"] = 133256.87036724,
+                                            }, -- end of [34]
+                                            [35] = 
+                                            {
+                                                ["y"] = 118607.42511311,
+                                                ["x"] = 133251.19749162,
+                                            }, -- end of [35]
+                                            [36] = 
+                                            {
+                                                ["y"] = 118611.81004719,
+                                                ["x"] = 133248.78815832,
+                                            }, -- end of [36]
+                                            [37] = 
+                                            {
+                                                ["y"] = 118616.46740395,
+                                                ["x"] = 133247.15979614,
+                                            }, -- end of [37]
+                                            [38] = 
+                                            {
+                                                ["y"] = 118621.31554804,
+                                                ["x"] = 133247.22224352,
+                                            }, -- end of [38]
+                                            [39] = 
+                                            {
+                                                ["y"] = 118625.85846507,
+                                                ["x"] = 133249.46369402,
+                                            }, -- end of [39]
+                                            [40] = 
+                                            {
+                                                ["y"] = 118629.77780682,
+                                                ["x"] = 133252.66015264,
+                                            }, -- end of [40]
+                                            [41] = 
+                                            {
+                                                ["y"] = 118633.41025346,
+                                                ["x"] = 133256.08722887,
+                                            }, -- end of [41]
+                                            [42] = 
+                                            {
+                                                ["y"] = 118640.32896959,
+                                                ["x"] = 133263.30140555,
+                                            }, -- end of [42]
+                                            [43] = 
+                                            {
+                                                ["y"] = 118659.94707421,
+                                                ["x"] = 133286.00713412,
+                                            }, -- end of [43]
+                                            [44] = 
+                                            {
+                                                ["y"] = 118715.39873019,
+                                                ["x"] = 133356.88916368,
+                                            }, -- end of [44]
+                                            [45] = 
+                                            {
+                                                ["y"] = 118726.94454078,
+                                                ["x"] = 133373.21292213,
+                                            }, -- end of [45]
+                                            [46] = 
+                                            {
+                                                ["y"] = 118734.78394842,
+                                                ["x"] = 133385.99687949,
+                                            }, -- end of [46]
+                                            [47] = 
+                                            {
+                                                ["y"] = 118854.56584746,
+                                                ["x"] = 133575.74779453,
+                                            }, -- end of [47]
+                                        }, -- end of [1]
+                                        [2] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 118854.57329875,
+                                                ["x"] = 133575.76019191,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 118898.82503026,
+                                                ["x"] = 133654.1170623,
+                                            }, -- end of [2]
+                                            [3] = 
+                                            {
+                                                ["y"] = 119100.8214015,
+                                                ["x"] = 134061.80528192,
+                                            }, -- end of [3]
+                                            [4] = 
+                                            {
+                                                ["y"] = 119137.85176305,
+                                                ["x"] = 134143.82915178,
+                                            }, -- end of [4]
+                                            [5] = 
+                                            {
+                                                ["y"] = 119145.03762993,
+                                                ["x"] = 134162.49062098,
+                                            }, -- end of [5]
+                                            [6] = 
+                                            {
+                                                ["y"] = 119149.50219128,
+                                                ["x"] = 134176.80729957,
+                                            }, -- end of [6]
+                                            [7] = 
+                                            {
+                                                ["y"] = 119151.89990508,
+                                                ["x"] = 134186.51389304,
+                                            }, -- end of [7]
+                                            [8] = 
+                                            {
+                                                ["y"] = 119154.73990305,
+                                                ["x"] = 134201.24155535,
+                                            }, -- end of [8]
+                                            [9] = 
+                                            {
+                                                ["y"] = 119157.53545158,
+                                                ["x"] = 134221.0435657,
+                                            }, -- end of [9]
+                                            [10] = 
+                                            {
+                                                ["y"] = 119159.63559897,
+                                                ["x"] = 134245.95139251,
+                                            }, -- end of [10]
+                                            [11] = 
+                                            {
+                                                ["y"] = 119161.11767673,
+                                                ["x"] = 134290.92280683,
+                                            }, -- end of [11]
+                                            [12] = 
+                                            {
+                                                ["y"] = 119153.44380676,
+                                                ["x"] = 135050.80210484,
+                                            }, -- end of [12]
+                                            [13] = 
+                                            {
+                                                ["y"] = 119156.59167022,
+                                                ["x"] = 135085.65668337,
+                                            }, -- end of [13]
+                                            [14] = 
+                                            {
+                                                ["y"] = 119163.81700772,
+                                                ["x"] = 135140.17478827,
+                                            }, -- end of [14]
+                                            [15] = 
+                                            {
+                                                ["y"] = 119168.63990822,
+                                                ["x"] = 135164.70198303,
+                                            }, -- end of [15]
+                                            [16] = 
+                                            {
+                                                ["y"] = 119176.00970071,
+                                                ["x"] = 135193.77915554,
+                                            }, -- end of [16]
+                                            [17] = 
+                                            {
+                                                ["y"] = 119196.80634517,
+                                                ["x"] = 135260.61178184,
+                                            }, -- end of [17]
+                                            [18] = 
+                                            {
+                                                ["y"] = 119390.09199474,
+                                                ["x"] = 135823.32108164,
+                                            }, -- end of [18]
+                                            [19] = 
+                                            {
+                                                ["y"] = 119397.79626694,
+                                                ["x"] = 135841.77524444,
+                                            }, -- end of [19]
+                                            [20] = 
+                                            {
+                                                ["y"] = 119408.56618623,
+                                                ["x"] = 135864.33400833,
+                                            }, -- end of [20]
+                                            [21] = 
+                                            {
+                                                ["y"] = 119422.84301314,
+                                                ["x"] = 135890.71460169,
+                                            }, -- end of [21]
+                                            [22] = 
+                                            {
+                                                ["y"] = 119428.02557363,
+                                                ["x"] = 135899.26661517,
+                                            }, -- end of [22]
+                                            [23] = 
+                                            {
+                                                ["y"] = 119430.91983895,
+                                                ["x"] = 135903.34099513,
+                                            }, -- end of [23]
+                                            [24] = 
+                                            {
+                                                ["y"] = 119434.11787541,
+                                                ["x"] = 135907.1831594,
+                                            }, -- end of [24]
+                                            [25] = 
+                                            {
+                                                ["y"] = 119437.57505728,
+                                                ["x"] = 135910.79402899,
+                                            }, -- end of [25]
+                                            [26] = 
+                                            {
+                                                ["y"] = 119441.22683334,
+                                                ["x"] = 135914.20852706,
+                                            }, -- end of [26]
+                                            [27] = 
+                                            {
+                                                ["y"] = 119448.89247831,
+                                                ["x"] = 135920.62774356,
+                                            }, -- end of [27]
+                                            [28] = 
+                                            {
+                                                ["y"] = 119464.91949258,
+                                                ["x"] = 135932.58801127,
+                                            }, -- end of [28]
+                                            [29] = 
+                                            {
+                                                ["y"] = 119693.69488155,
+                                                ["x"] = 136085.16861934,
+                                            }, -- end of [29]
+                                            [30] = 
+                                            {
+                                                ["y"] = 120403.6295226,
+                                                ["x"] = 136524.50146648,
+                                            }, -- end of [30]
+                                            [31] = 
+                                            {
+                                                ["y"] = 120431.77163268,
+                                                ["x"] = 136545.30425547,
+                                            }, -- end of [31]
+                                            [32] = 
+                                            {
+                                                ["y"] = 120439.36597777,
+                                                ["x"] = 136551.80743171,
+                                            }, -- end of [32]
+                                            [33] = 
+                                            {
+                                                ["y"] = 120446.5039039,
+                                                ["x"] = 136558.80607832,
+                                            }, -- end of [33]
+                                            [34] = 
+                                            {
+                                                ["y"] = 120739.92487345,
+                                                ["x"] = 136852.13406529,
+                                            }, -- end of [34]
+                                            [35] = 
+                                            {
+                                                ["y"] = 120762.16787977,
+                                                ["x"] = 136879.15238581,
+                                            }, -- end of [35]
+                                            [36] = 
+                                            {
+                                                ["y"] = 120838.98583737,
+                                                ["x"] = 136984.01546083,
+                                            }, -- end of [36]
+                                            [37] = 
+                                            {
+                                                ["y"] = 121035.64522465,
+                                                ["x"] = 137261.36125508,
+                                            }, -- end of [37]
+                                            [38] = 
+                                            {
+                                                ["y"] = 121040.63948814,
+                                                ["x"] = 137270.021789,
+                                            }, -- end of [38]
+                                            [39] = 
+                                            {
+                                                ["y"] = 121044.92224588,
+                                                ["x"] = 137279.05494551,
+                                            }, -- end of [39]
+                                            [40] = 
+                                            {
+                                                ["y"] = 121046.75440972,
+                                                ["x"] = 137283.70664919,
+                                            }, -- end of [40]
+                                            [41] = 
+                                            {
+                                                ["y"] = 121048.35693776,
+                                                ["x"] = 137288.44286748,
+                                            }, -- end of [41]
+                                            [42] = 
+                                            {
+                                                ["y"] = 121049.70979176,
+                                                ["x"] = 137293.25529365,
+                                            }, -- end of [42]
+                                            [43] = 
+                                            {
+                                                ["y"] = 121050.79290717,
+                                                ["x"] = 137298.13552319,
+                                            }, -- end of [43]
+                                            [44] = 
+                                            {
+                                                ["y"] = 121051.59902812,
+                                                ["x"] = 137303.0692053,
+                                            }, -- end of [44]
+                                            [45] = 
+                                            {
+                                                ["y"] = 121052.13868408,
+                                                ["x"] = 137308.03962624,
+                                            }, -- end of [45]
+                                            [46] = 
+                                            {
+                                                ["y"] = 121052.42567106,
+                                                ["x"] = 137313.03096308,
+                                            }, -- end of [46]
+                                            [47] = 
+                                            {
+                                                ["y"] = 121052.30498495,
+                                                ["x"] = 137323.02686147,
+                                            }, -- end of [47]
+                                            [48] = 
+                                            {
+                                                ["y"] = 121051.34897072,
+                                                ["x"] = 137332.98019295,
+                                            }, -- end of [48]
+                                            [49] = 
+                                            {
+                                                ["y"] = 121050.52657699,
+                                                ["x"] = 137337.91150417,
+                                            }, -- end of [49]
+                                            [50] = 
+                                            {
+                                                ["y"] = 121048.20113459,
+                                                ["x"] = 137347.63229992,
+                                            }, -- end of [50]
+                                            [51] = 
+                                            {
+                                                ["y"] = 121045.19241016,
+                                                ["x"] = 137357.16699139,
+                                            }, -- end of [51]
+                                            [52] = 
+                                            {
+                                                ["y"] = 121039.9043177,
+                                                ["x"] = 137371.20284297,
+                                            }, -- end of [52]
+                                            [53] = 
+                                            {
+                                                ["y"] = 121021.79608557,
+                                                ["x"] = 137412.39422728,
+                                            }, -- end of [53]
+                                            [54] = 
+                                            {
+                                                ["y"] = 120973.82093129,
+                                                ["x"] = 137516.89701071,
+                                            }, -- end of [54]
+                                            [55] = 
+                                            {
+                                                ["y"] = 120968.6396644,
+                                                ["x"] = 137530.97100268,
+                                            }, -- end of [55]
+                                            [56] = 
+                                            {
+                                                ["y"] = 120965.80838189,
+                                                ["x"] = 137540.5598882,
+                                            }, -- end of [56]
+                                            [57] = 
+                                            {
+                                                ["y"] = 120963.6575119,
+                                                ["x"] = 137550.32225088,
+                                            }, -- end of [57]
+                                            [58] = 
+                                            {
+                                                ["y"] = 120962.16950428,
+                                                ["x"] = 137560.21102111,
+                                            }, -- end of [58]
+                                            [59] = 
+                                            {
+                                                ["y"] = 120961.3662299,
+                                                ["x"] = 137570.17912654,
+                                            }, -- end of [59]
+                                            [60] = 
+                                            {
+                                                ["y"] = 120961.32742456,
+                                                ["x"] = 137580.17413048,
+                                            }, -- end of [60]
+                                            [61] = 
+                                            {
+                                                ["y"] = 120962.66734066,
+                                                ["x"] = 137605.13413961,
+                                            }, -- end of [61]
+                                            [62] = 
+                                            {
+                                                ["y"] = 121019.12777274,
+                                                ["x"] = 138122.00616304,
+                                            }, -- end of [62]
+                                            [63] = 
+                                            {
+                                                ["y"] = 121019.03626491,
+                                                ["x"] = 138142.00388043,
+                                            }, -- end of [63]
+                                            [64] = 
+                                            {
+                                                ["y"] = 121017.59868723,
+                                                ["x"] = 138166.95938116,
+                                            }, -- end of [64]
+                                            [65] = 
+                                            {
+                                                ["y"] = 120999.47303632,
+                                                ["x"] = 138381.12334591,
+                                            }, -- end of [65]
+                                            [66] = 
+                                            {
+                                                ["y"] = 120997.22028861,
+                                                ["x"] = 138621.1013063,
+                                            }, -- end of [66]
+                                            [67] = 
+                                            {
+                                                ["y"] = 121006.14435222,
+                                                ["x"] = 138955.96755413,
+                                            }, -- end of [67]
+                                            [68] = 
+                                            {
+                                                ["y"] = 121008.29614821,
+                                                ["x"] = 138980.87204327,
+                                            }, -- end of [68]
+                                            [69] = 
+                                            {
+                                                ["y"] = 121010.50094678,
+                                                ["x"] = 138995.70317821,
+                                            }, -- end of [69]
+                                            [70] = 
+                                            {
+                                                ["y"] = 121012.71766551,
+                                                ["x"] = 139005.44870393,
+                                            }, -- end of [70]
+                                            [71] = 
+                                            {
+                                                ["y"] = 121015.64476776,
+                                                ["x"] = 139015.01435399,
+                                            }, -- end of [71]
+                                            [72] = 
+                                            {
+                                                ["y"] = 121022.52975414,
+                                                ["x"] = 139033.78963508,
+                                            }, -- end of [72]
+                                            [73] = 
+                                            {
+                                                ["y"] = 121043.61338912,
+                                                ["x"] = 139084.58656449,
+                                            }, -- end of [73]
+                                            [74] = 
+                                            {
+                                                ["y"] = 121047.93624346,
+                                                ["x"] = 139093.60177618,
+                                            }, -- end of [74]
+                                            [75] = 
+                                            {
+                                                ["y"] = 121225.54348062,
+                                                ["x"] = 139423.8665264,
+                                            }, -- end of [75]
+                                            [76] = 
+                                            {
+                                                ["y"] = 121251.18448226,
+                                                ["x"] = 139466.78453475,
+                                            }, -- end of [76]
+                                            [77] = 
+                                            {
+                                                ["y"] = 121270.78633316,
+                                                ["x"] = 139495.77514719,
+                                            }, -- end of [77]
+                                            [78] = 
+                                            {
+                                                ["y"] = 121422.20890552,
+                                                ["x"] = 139700.87037119,
+                                            }, -- end of [78]
+                                            [79] = 
+                                            {
+                                                ["y"] = 121447.89008641,
+                                                ["x"] = 139743.76542472,
+                                            }, -- end of [79]
+                                            [80] = 
+                                            {
+                                                ["y"] = 121478.6641394,
+                                                ["x"] = 139801.01187298,
+                                            }, -- end of [80]
+                                            [81] = 
+                                            {
+                                                ["y"] = 121491.62313068,
+                                                ["x"] = 139828.06627882,
+                                            }, -- end of [81]
+                                            [82] = 
+                                            {
+                                                ["y"] = 121499.29331314,
+                                                ["x"] = 139846.5333377,
+                                            }, -- end of [82]
+                                            [83] = 
+                                            {
+                                                ["y"] = 121506.01746094,
+                                                ["x"] = 139865.36664469,
+                                            }, -- end of [83]
+                                            [84] = 
+                                            {
+                                                ["y"] = 121516.07099124,
+                                                ["x"] = 139898.88792882,
+                                            }, -- end of [84]
+                                            [85] = 
+                                            {
+                                                ["y"] = 121532.96840522,
+                                                ["x"] = 139966.81172002,
+                                            }, -- end of [85]
+                                            [86] = 
+                                            {
+                                                ["y"] = 121541.86261432,
+                                                ["x"] = 140010.91925431,
+                                            }, -- end of [86]
+                                            [87] = 
+                                            {
+                                                ["y"] = 121545.32675232,
+                                                ["x"] = 140035.67461126,
+                                            }, -- end of [87]
+                                            [88] = 
+                                            {
+                                                ["y"] = 121594.3805596,
+                                                ["x"] = 140548.23426209,
+                                            }, -- end of [88]
+                                            [89] = 
+                                            {
+                                                ["y"] = 121605.76447504,
+                                                ["x"] = 140607.13819989,
+                                            }, -- end of [89]
+                                            [90] = 
+                                            {
+                                                ["y"] = 121621.44245171,
+                                                ["x"] = 140670.21175909,
+                                            }, -- end of [90]
+                                            [91] = 
+                                            {
+                                                ["y"] = 121657.61657322,
+                                                ["x"] = 140789.85103323,
+                                            }, -- end of [91]
+                                            [92] = 
+                                            {
+                                                ["y"] = 121731.20499448,
+                                                ["x"] = 140997.15625837,
+                                            }, -- end of [92]
+                                            [93] = 
+                                            {
+                                                ["y"] = 121839.51620493,
+                                                ["x"] = 141266.14854131,
+                                            }, -- end of [93]
+                                            [94] = 
+                                            {
+                                                ["y"] = 121858.36557784,
+                                                ["x"] = 141307.00565821,
+                                            }, -- end of [94]
+                                            [95] = 
+                                            {
+                                                ["y"] = 121874.62430357,
+                                                ["x"] = 141337.99556209,
+                                            }, -- end of [95]
+                                            [96] = 
+                                            {
+                                                ["y"] = 121905.31873393,
+                                                ["x"] = 141389.54296711,
+                                            }, -- end of [96]
+                                            [97] = 
+                                            {
+                                                ["y"] = 122202.92111043,
+                                                ["x"] = 141852.04981209,
+                                            }, -- end of [97]
+                                            [98] = 
+                                            {
+                                                ["y"] = 122226.39249366,
+                                                ["x"] = 141884.43434123,
+                                            }, -- end of [98]
+                                            [99] = 
+                                            {
+                                                ["y"] = 122239.08340593,
+                                                ["x"] = 141899.88746601,
+                                            }, -- end of [99]
+                                            [100] = 
+                                            {
+                                                ["y"] = 122245.93468287,
+                                                ["x"] = 141907.169565,
+                                            }, -- end of [100]
+                                            [101] = 
+                                            {
+                                                ["y"] = 122253.36741007,
+                                                ["x"] = 141913.85190252,
+                                            }, -- end of [101]
+                                            [102] = 
+                                            {
+                                                ["y"] = 122257.39672853,
+                                                ["x"] = 141916.80910805,
+                                            }, -- end of [102]
+                                            [103] = 
+                                            {
+                                                ["y"] = 122261.68901241,
+                                                ["x"] = 141919.36724382,
+                                            }, -- end of [103]
+                                            [104] = 
+                                            {
+                                                ["y"] = 122266.25331436,
+                                                ["x"] = 141921.40318655,
+                                            }, -- end of [104]
+                                            [105] = 
+                                            {
+                                                ["y"] = 122271.03629972,
+                                                ["x"] = 141922.83962417,
+                                            }, -- end of [105]
+                                            [106] = 
+                                            {
+                                                ["y"] = 122275.94402842,
+                                                ["x"] = 141923.80300727,
+                                            }, -- end of [106]
+                                            [107] = 
+                                            {
+                                                ["y"] = 122285.85067106,
+                                                ["x"] = 141925.17376233,
+                                            }, -- end of [107]
+                                            [108] = 
+                                            {
+                                                ["y"] = 122295.81243913,
+                                                ["x"] = 141926.01360102,
+                                            }, -- end of [108]
+                                            [109] = 
+                                            {
+                                                ["y"] = 122305.80678383,
+                                                ["x"] = 141926.27968822,
+                                            }, -- end of [109]
+                                            [110] = 
+                                            {
+                                                ["y"] = 122320.79559587,
+                                                ["x"] = 141925.75866331,
+                                            }, -- end of [110]
+                                            [111] = 
+                                            {
+                                                ["y"] = 122345.67531543,
+                                                ["x"] = 141923.3400449,
+                                            }, -- end of [111]
+                                            [112] = 
+                                            {
+                                                ["y"] = 122559.92631857,
+                                                ["x"] = 141905.71681931,
+                                            }, -- end of [112]
+                                            [113] = 
+                                            {
+                                                ["y"] = 122864.07399422,
+                                                ["x"] = 141883.20932368,
+                                            }, -- end of [113]
+                                            [114] = 
+                                            {
+                                                ["y"] = 122913.59316474,
+                                                ["x"] = 141876.33504638,
+                                            }, -- end of [114]
+                                            [115] = 
+                                            {
+                                                ["y"] = 123090.33997362,
+                                                ["x"] = 141842.32426458,
+                                            }, -- end of [115]
+                                            [116] = 
+                                            {
+                                                ["y"] = 123134.15237601,
+                                                ["x"] = 141832.08330486,
+                                            }, -- end of [116]
+                                            [117] = 
+                                            {
+                                                ["y"] = 123143.68541658,
+                                                ["x"] = 141829.06645802,
+                                            }, -- end of [117]
+                                            [118] = 
+                                            {
+                                                ["y"] = 123152.951839,
+                                                ["x"] = 141825.31928543,
+                                            }, -- end of [118]
+                                            [119] = 
+                                            {
+                                                ["y"] = 123157.41311177,
+                                                ["x"] = 141823.06479685,
+                                            }, -- end of [119]
+                                            [120] = 
+                                            {
+                                                ["y"] = 123161.72312738,
+                                                ["x"] = 141820.53258097,
+                                            }, -- end of [120]
+                                            [121] = 
+                                            {
+                                                ["y"] = 123165.87842071,
+                                                ["x"] = 141817.75110417,
+                                            }, -- end of [121]
+                                            [122] = 
+                                            {
+                                                ["y"] = 123173.80790838,
+                                                ["x"] = 141811.66305215,
+                                            }, -- end of [122]
+                                            [123] = 
+                                            {
+                                                ["y"] = 123269.29420958,
+                                                ["x"] = 141731.0371283,
+                                            }, -- end of [123]
+                                            [124] = 
+                                            {
+                                                ["y"] = 123273.51279863,
+                                                ["x"] = 141728.35764859,
+                                            }, -- end of [124]
+                                            [125] = 
+                                            {
+                                                ["y"] = 123277.89351478,
+                                                ["x"] = 141725.95646499,
+                                            }, -- end of [125]
+                                            [126] = 
+                                            {
+                                                ["y"] = 123282.4160203,
+                                                ["x"] = 141723.82535268,
+                                            }, -- end of [126]
+                                            [127] = 
+                                            {
+                                                ["y"] = 123291.69628881,
+                                                ["x"] = 141720.09169429,
+                                            }, -- end of [127]
+                                            [128] = 
+                                            {
+                                                ["y"] = 123320.06283088,
+                                                ["x"] = 141710.33715949,
+                                            }, -- end of [128]
+                                            [129] = 
+                                            {
+                                                ["y"] = 123348.8591915,
+                                                ["x"] = 141701.93822428,
+                                            }, -- end of [129]
+                                            [130] = 
+                                            {
+                                                ["y"] = 123363.48783376,
+                                                ["x"] = 141698.63200104,
+                                            }, -- end of [130]
+                                            [131] = 
+                                            {
+                                                ["y"] = 123373.36824075,
+                                                ["x"] = 141697.10614985,
+                                            }, -- end of [131]
+                                            [132] = 
+                                            {
+                                                ["y"] = 123378.34666099,
+                                                ["x"] = 141696.65480363,
+                                            }, -- end of [132]
+                                            [133] = 
+                                            {
+                                                ["y"] = 123383.34289903,
+                                                ["x"] = 141696.47493635,
+                                            }, -- end of [133]
+                                            [134] = 
+                                            {
+                                                ["y"] = 123388.34109497,
+                                                ["x"] = 141696.60457876,
+                                            }, -- end of [134]
+                                            [135] = 
+                                            {
+                                                ["y"] = 123393.31582834,
+                                                ["x"] = 141697.09801135,
+                                            }, -- end of [135]
+                                            [136] = 
+                                            {
+                                                ["y"] = 123398.2254582,
+                                                ["x"] = 141698.03116748,
+                                            }, -- end of [136]
+                                            [137] = 
+                                            {
+                                                ["y"] = 123403.04088233,
+                                                ["x"] = 141699.36870727,
+                                            }, -- end of [137]
+                                            [138] = 
+                                            {
+                                                ["y"] = 123407.76825474,
+                                                ["x"] = 141700.99553762,
+                                            }, -- end of [138]
+                                            [139] = 
+                                            {
+                                                ["y"] = 123421.65404258,
+                                                ["x"] = 141706.66665347,
+                                            }, -- end of [139]
+                                            [140] = 
+                                            {
+                                                ["y"] = 123458.60883474,
+                                                ["x"] = 141721.9517012,
+                                            }, -- end of [140]
+                                            [141] = 
+                                            {
+                                                ["y"] = 123468.12679432,
+                                                ["x"] = 141725.01636208,
+                                            }, -- end of [141]
+                                            [142] = 
+                                            {
+                                                ["y"] = 123487.49381099,
+                                                ["x"] = 141729.99972991,
+                                            }, -- end of [142]
+                                            [143] = 
+                                            {
+                                                ["y"] = 123594.65853776,
+                                                ["x"] = 141754.77919868,
+                                            }, -- end of [143]
+                                            [144] = 
+                                            {
+                                                ["y"] = 123619.33417842,
+                                                ["x"] = 141758.77462861,
+                                            }, -- end of [144]
+                                            [145] = 
+                                            {
+                                                ["y"] = 123639.22134956,
+                                                ["x"] = 141760.86972087,
+                                            }, -- end of [145]
+                                            [146] = 
+                                            {
+                                                ["y"] = 123659.19479326,
+                                                ["x"] = 141761.8484831,
+                                            }, -- end of [146]
+                                            [147] = 
+                                            {
+                                                ["y"] = 123679.19180763,
+                                                ["x"] = 141761.7151629,
+                                            }, -- end of [147]
+                                            [148] = 
+                                            {
+                                                ["y"] = 123699.15096688,
+                                                ["x"] = 141760.4778975,
+                                            }, -- end of [148]
+                                            [149] = 
+                                            {
+                                                ["y"] = 123714.04992713,
+                                                ["x"] = 141758.75176116,
+                                            }, -- end of [149]
+                                            [150] = 
+                                            {
+                                                ["y"] = 123738.6713925,
+                                                ["x"] = 141754.43306404,
+                                            }, -- end of [150]
+                                            [151] = 
+                                            {
+                                                ["y"] = 123767.91466978,
+                                                ["x"] = 141747.76053606,
+                                            }, -- end of [151]
+                                            [152] = 
+                                            {
+                                                ["y"] = 123791.92202219,
+                                                ["x"] = 141740.79791839,
+                                            }, -- end of [152]
+                                            [153] = 
+                                            {
+                                                ["y"] = 123824.98502044,
+                                                ["x"] = 141729.32599284,
+                                            }, -- end of [153]
+                                            [154] = 
+                                            {
+                                                ["y"] = 123908.64840628,
+                                                ["x"] = 141696.16453561,
+                                            }, -- end of [154]
+                                            [155] = 
+                                            {
+                                                ["y"] = 123931.27611349,
+                                                ["x"] = 141685.54752287,
+                                            }, -- end of [155]
+                                            [156] = 
+                                            {
+                                                ["y"] = 123944.46416921,
+                                                ["x"] = 141678.40351364,
+                                            }, -- end of [156]
+                                            [157] = 
+                                            {
+                                                ["y"] = 123957.25882218,
+                                                ["x"] = 141670.57830406,
+                                            }, -- end of [157]
+                                            [158] = 
+                                            {
+                                                ["y"] = 123969.57098269,
+                                                ["x"] = 141662.01406797,
+                                            }, -- end of [158]
+                                            [159] = 
+                                            {
+                                                ["y"] = 123981.27910328,
+                                                ["x"] = 141652.64272733,
+                                            }, -- end of [159]
+                                            [160] = 
+                                            {
+                                                ["y"] = 123988.66934481,
+                                                ["x"] = 141645.90841381,
+                                            }, -- end of [160]
+                                            [161] = 
+                                            {
+                                                ["y"] = 123995.65416035,
+                                                ["x"] = 141638.75565034,
+                                            }, -- end of [161]
+                                            [162] = 
+                                            {
+                                                ["y"] = 124002.20018494,
+                                                ["x"] = 141631.1977571,
+                                            }, -- end of [162]
+                                            [163] = 
+                                            {
+                                                ["y"] = 124011.31846445,
+                                                ["x"] = 141619.28957701,
+                                            }, -- end of [163]
+                                            [164] = 
+                                            {
+                                                ["y"] = 124033.68672622,
+                                                ["x"] = 141586.13227805,
+                                            }, -- end of [164]
+                                            [165] = 
+                                            {
+                                                ["y"] = 124083.58222746,
+                                                ["x"] = 141511.24156473,
+                                            }, -- end of [165]
+                                            [166] = 
+                                            {
+                                                ["y"] = 124098.89185062,
+                                                ["x"] = 141491.48126141,
+                                            }, -- end of [166]
+                                            [167] = 
+                                            {
+                                                ["y"] = 124108.84492944,
+                                                ["x"] = 141480.26465705,
+                                            }, -- end of [167]
+                                            [168] = 
+                                            {
+                                                ["y"] = 124115.98053358,
+                                                ["x"] = 141473.26117468,
+                                            }, -- end of [168]
+                                            [169] = 
+                                            {
+                                                ["y"] = 124123.60219847,
+                                                ["x"] = 141466.79162698,
+                                            }, -- end of [169]
+                                            [170] = 
+                                            {
+                                                ["y"] = 124127.61632512,
+                                                ["x"] = 141463.81190387,
+                                            }, -- end of [170]
+                                            [171] = 
+                                            {
+                                                ["y"] = 124131.77525772,
+                                                ["x"] = 141461.03771396,
+                                            }, -- end of [171]
+                                            [172] = 
+                                            {
+                                                ["y"] = 124136.08258099,
+                                                ["x"] = 141458.49928557,
+                                            }, -- end of [172]
+                                            [173] = 
+                                            {
+                                                ["y"] = 124140.53593159,
+                                                ["x"] = 141456.22862876,
+                                            }, -- end of [173]
+                                            [174] = 
+                                            {
+                                                ["y"] = 124145.12769332,
+                                                ["x"] = 141454.25440065,
+                                            }, -- end of [174]
+                                            [175] = 
+                                            {
+                                                ["y"] = 124149.84498885,
+                                                ["x"] = 141452.5969734,
+                                            }, -- end of [175]
+                                            [176] = 
+                                            {
+                                                ["y"] = 124154.66507881,
+                                                ["x"] = 141451.26964063,
+                                            }, -- end of [176]
+                                            [177] = 
+                                            {
+                                                ["y"] = 124159.57222899,
+                                                ["x"] = 141450.31892107,
+                                            }, -- end of [177]
+                                            [178] = 
+                                            {
+                                                ["y"] = 124164.536154,
+                                                ["x"] = 141449.7263934,
+                                            }, -- end of [178]
+                                            [179] = 
+                                            {
+                                                ["y"] = 124174.52129067,
+                                                ["x"] = 141449.2144301,
+                                            }, -- end of [179]
+                                            [180] = 
+                                            {
+                                                ["y"] = 124184.51911185,
+                                                ["x"] = 141449.30203741,
+                                            }, -- end of [180]
+                                            [181] = 
+                                            {
+                                                ["y"] = 124189.50155151,
+                                                ["x"] = 141449.69047108,
+                                            }, -- end of [181]
+                                            [182] = 
+                                            {
+                                                ["y"] = 124194.42823164,
+                                                ["x"] = 141450.52991974,
+                                            }, -- end of [182]
+                                            [183] = 
+                                            {
+                                                ["y"] = 124199.24118545,
+                                                ["x"] = 141451.88299059,
+                                            }, -- end of [183]
+                                            [184] = 
+                                            {
+                                                ["y"] = 124203.90971785,
+                                                ["x"] = 141453.66789845,
+                                            }, -- end of [184]
+                                            [185] = 
+                                            {
+                                                ["y"] = 124208.38219765,
+                                                ["x"] = 141455.89790102,
+                                            }, -- end of [185]
+                                            [186] = 
+                                            {
+                                                ["y"] = 124212.6180123,
+                                                ["x"] = 141458.55165457,
+                                            }, -- end of [186]
+                                            [187] = 
+                                            {
+                                                ["y"] = 124216.57566256,
+                                                ["x"] = 141461.60443927,
+                                            }, -- end of [187]
+                                            [188] = 
+                                            {
+                                                ["y"] = 124220.21635134,
+                                                ["x"] = 141465.02874259,
+                                            }, -- end of [188]
+                                            [189] = 
+                                            {
+                                                ["y"] = 124226.91956443,
+                                                ["x"] = 141472.44662672,
+                                            }, -- end of [189]
+                                            [190] = 
+                                            {
+                                                ["y"] = 124233.0357726,
+                                                ["x"] = 141480.35327153,
+                                            }, -- end of [190]
+                                            [191] = 
+                                            {
+                                                ["y"] = 124238.62282707,
+                                                ["x"] = 141488.64625589,
+                                            }, -- end of [191]
+                                            [192] = 
+                                            {
+                                                ["y"] = 124241.96230666,
+                                                ["x"] = 141494.05741439,
+                                            }, -- end of [192]
+                                        }, -- end of [2]
+                                        [3] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 111779.39068495,
+                                                ["x"] = 134096.83531864,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 111779.39068495,
+                                                ["x"] = 134096.83531864,
+                                            }, -- end of [2]
+                                        }, -- end of [3]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 384,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 117855.394774,
+                                            ["x"] = 132429.40163531,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 7.1944444444444,
+                                            ["action"] = "On Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                        [2] = 
+                                        {
+                                            ["alt"] = 381,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 693.40806182858,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 118852.97728324,
+                                            ["x"] = 133576.7107307,
+                                            ["ETA_locked"] = false,
+                                            ["speed"] = 5.5555555555556,
+                                            ["action"] = "On Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [2]
+                                        [3] = 
+                                        {
+                                            ["alt"] = 410,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 5264.4587908121,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 124240.40101075,
+                                            ["x"] = 141495.04807935,
+                                            ["ETA_locked"] = false,
+                                            ["speed"] = 2.5694444444444,
+                                            ["action"] = "On Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [3]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 23,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "spring",
+                                        ["skill"] = "Average",
+                                        ["type"] = "T-72B3",
+                                        ["unitId"] = 107,
+                                        ["y"] = 117855.394774,
+                                        ["x"] = 132429.40163531,
+                                        ["name"] = "Primary destroyed tank 1",
+                                        ["heading"] = 6.0997097710719,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "T-55",
+                                        ["unitId"] = 131,
+                                        ["y"] = 117860.53715012,
+                                        ["x"] = 132399.85269164,
+                                        ["name"] = "Primary destroyed tank 2",
+                                        ["heading"] = 6.1108818439572,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "BMP-1",
+                                        ["unitId"] = 134,
+                                        ["y"] = 117864.56990229,
+                                        ["x"] = 132370.17613899,
+                                        ["name"] = "Primary destroyed tank 3",
+                                        ["heading"] = 6.1481224328364,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "BMP-1",
+                                        ["unitId"] = 135,
+                                        ["y"] = 117866.73266478,
+                                        ["x"] = 132340.38430007,
+                                        ["name"] = "Primary destroyed tank 4",
+                                        ["heading"] = 6.2107166320081,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "Desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 136,
+                                        ["y"] = 117866.7614005,
+                                        ["x"] = 132310.52928236,
+                                        ["name"] = "Primary destroyed tank 5",
+                                        ["heading"] = 6.2822227985849,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 154,
+                                        ["y"] = 117864.94495325,
+                                        ["x"] = 132280.68980265,
+                                        ["name"] = "aaaaaa-1",
+                                        ["heading"] = 0.060798932954776,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [6]
+                                }, -- end of ["units"]
+                                ["y"] = 117855.394774,
+                                ["x"] = 132429.40163531,
+                                ["name"] = "aaaaaa",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Red",
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "reg2cas6",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "Syria",
+    ["desc"] = "Pushing north",
+} -- end of staticTemplate
