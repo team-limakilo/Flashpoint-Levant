@@ -3,5 +3,8 @@ dofile(lfs.writedir()..[[Scripts\FL-Scripts\MOOSE-Loader.lua]])
 dofile(lfs.writedir()..[[Scripts\FL-Scripts\MOOSE-Settings.lua]])
 dofile(lfs.writedir()..[[Scripts\FL-Scripts\ODS-Logistics.lua]])
 dofile(lfs.writedir()..[[Scripts\FL-Scripts\ODS-RedAir.lua]])
+dofile(lfs.writedir()..[[Scripts\FL-Scripts\ODS-CSAR.lua]])
 dofile(lfs.writedir()..[[Scripts\FL-Scripts\GazDesignator.lua]])
 dofile(lfs.writedir()..[[Scripts\FL-Scripts\EjectedPilotKiller.lua]])
+
+env.setErrorMessageBoxEnabled(false)
