@@ -1,4 +1,4 @@
-objtype = "logistics"
+objtype = "shorad"
 intel = 4
 cost = 5
 desc = [[Now that we've taken Aleppo, our next target is Latakia. It has a port of huge importance, which provides logistics to one of the largest airbases in Syria, and stands in the way to inland Syria. And because of that, we deem it important to keep the airspace safe, so your task is to eliminate the AAA site located southeast of Latakia, near the train station in the city's south exit. 

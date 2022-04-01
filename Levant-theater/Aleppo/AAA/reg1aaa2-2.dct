@@ -1,4 +1,4 @@
-objtype = "logistics"
+objtype = "shorad"
 intel = 4
 cost = 5
 priority = 65

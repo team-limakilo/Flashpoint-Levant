@@ -1,4 +1,4 @@
-objtype = "logistics"
+objtype = "shorad"
 intel = 4
 cost = 5
 desc = [[The port of Tartus is famous for containing a Soviet resupply base, and because of that, it's well equiped to maintain and refit warships. Our objective is to deny the Syrians the naval facilities and soviet equipment, but first, you need to deal with enemy air defenses in the vicinity, those being the AAA battery north of the port, right by the sea, and the SA-8 site inside of the harbor.

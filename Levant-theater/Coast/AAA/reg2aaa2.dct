@@ -1,4 +1,4 @@
-objtype = "logistics"
+objtype = "shorad"
 intel = 4
 cost = 5
 desc = [[Bassel Al Assad is undoubtedly one of the most important airbases in Syria right now, it's where Soviets operate and the first line of defense that can deploy fighter aircraft for Syria, so we need to disable it as soon as possible, but we also need to assure the safety of friendly aircraft attacking it. Your task is to clear the air defenses of the airfield, intel identified a AAA battery east on the airbase a few meters south of the heliport and SA-8s systems on both ends of the runway, there's also the possibility for a SA-19 to be present as well, so be aware of that.
