@@ -1,3 +1,4 @@
 objtype = "shorad"
 nocull = true
+ignore = true
 desc = "Ships on port A)"
