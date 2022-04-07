@@ -10,7 +10,9 @@ CSAR.AircraftType["Ka-50"] = 0
 
 local MOOSE_CSAR = CSAR:New(coalition.side.BLUE, "Blue Pilot")
 MOOSE_CSAR.countryblue = country.id.CJTF_BLUE
+MOOSE_CSAR.radioSound = "beaconsilent.ogg" -- Required (empty) sound file
 MOOSE_CSAR.useprefix = false -- Enable for all helis
+MOOSE_CSAR.maxdownedpilots = 20 -- Many
 MOOSE_CSAR.coordtype = 1 -- L/L DMS
 
 function MOOSE_CSAR:OnAfterPilotDown(from, event, to, spawnedGroup, frequency, unitName, coordinatesText)
