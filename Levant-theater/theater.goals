@@ -14,6 +14,6 @@ neutral = {
 
 red = {
 	flag       = 60,
-	tickets    = 750,
+	tickets    = 500,
 	difficulty = "realistic",
 }
