@@ -7,67 +7,61 @@ priority = 1000
 minagents = 1000
 buildings = {
     {
-        ["name"] = "Factory 1",
+        ["name"] = "Refinery 1",
         ["goal"] = "primary destroyed",
         ["id"]   = 183010997,
     },
     {
-        ["name"] = "Factory 2",
+        ["name"] = "Fuel tank 1",
         ["goal"] = "primary destroyed",
         ["id"]   = 111903524,
     },
     {
-        ["name"] = "Factory 3",
+        ["name"] = "Fuel tank 2",
         ["goal"] = "primary destroyed",
         ["id"]   = 111904050,
     },
     {
-        ["name"] = "Factory 4",
+        ["name"] = "Fuel tank 3",
         ["goal"] = "primary destroyed",
         ["id"]   = 111903967,
     },
     {
-        ["name"] = "Factory 5",
+        ["name"] = "Fuel tank 4",
         ["goal"] = "primary destroyed",
         ["id"]   = 111903657,
     },
     {
-        ["name"] = "Factory 6",
+        ["name"] = "Fuel tank 5",
         ["goal"] = "primary destroyed",
         ["id"]   = 111903614,
     },
     {
-        ["name"] = "Factory 7",
+        ["name"] = "Fuel tank 6",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 111903059,
+    },
+    {
+        ["name"] = "Fuel tank 7",
         ["goal"] = "primary destroyed",
         ["id"]   = 111903311,
     },
     {
-        ["name"] = "Factory 8",
+        ["name"] = "Fuel tank 8",
         ["goal"] = "primary destroyed",
         ["id"]   = 111902924,
     },
         {
-        ["name"] = "Factory 9",
+        ["name"] = "Refinery 2",
         ["goal"] = "primary destroyed",
         ["id"]   = 183010896,
     },
-    {
-        ["name"] = "Factory 10",
-        ["goal"] = "primary destroyed",
-        ["id"]   = 111903059,
-    },
 }
-desc = [[We've been finally authorized by the NATO Military Commitee to strike the Homs Fuel Refinery. It's a large industrial complex east of the city, containing dozens of storage tanks and several oil processing plants, and is of great importance to the Syrian government due to the composite materials produced there. The complex stands out from the rest of the region, making it easy to spot, and your mission is to destroy all industrial facilities in the complex.
+desc = [[The NATO Military Commitee has finally authorized a strike on the Homs Refinery. The refinery is a very large industrial complex located just of the city, housing dozens of liquid storage tanks and several oil processing plants, and is very important to the Syrian government due to the advanced composite materials it produces. Your mission is to destroy the several industrial facilities in the complex. We hope the damage incurred on the Syrian chemical industry will force their government sign a ceasefire and remove troops from Lebanon.
 
-Hopefully, this show of power and the damage to the Syrian chemical industry will force their government sign a ceasefire and remove troops from Lebanon, winning us the war.
+Primary objective: Destroy the marked storage tanks and refineries.
 
-Caution, this target is in a populated area, be selective with weapon employment to prevent civilian casualties.
-
-Primary objective: Destroy all storage tanks and processing plants.
-
-Secondary objective: Destroy the warehouses on the south side of the complex.
-
-Threats: AAA, Medium and High altitude SAMs.
+Threats: SA-19, SA-13, MANPADS, AAA, and Medium and High altitude SAMs.
 
 Recommended pilots: 4
 
