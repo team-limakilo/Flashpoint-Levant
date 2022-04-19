@@ -1,9 +1,11 @@
 objtype = "shorad"
 intel = 4
 cost = 5
-desc = [[Due to the importance of oil exports to the Syrian economy, one of our strategic targets is the Baniyas refinery, which will be the target of a large strike operation later. However, we know Syrians did not leave the complex undefended, so your task is to clear the air defenses near the refinery, so the refinery can be dealth with safely.
+desc = [[Due to the importance of oil exports to the Syrian economy, one of our strategic targets is the Baniyas refinery, which will be the target of a large strike operation later. However, we know Syrians did not leave the complex undefended, so your task is to clear the air defenses near the refinery, allowing the refinery to be dealth with safely.
 
-Primary objective: Destroy the AAA battery.
+Primary objective: Destroy at least half of the AAA battery.
+
+Secondary objective: Eliminate the SA-8.
 
 Threats: AAA, MANPADS and SA-8. SA-3 and SA-2 sites close.
 

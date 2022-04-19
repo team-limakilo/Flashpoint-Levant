@@ -1,12 +1,14 @@
 objtype = "shorad"
 intel = 4
 cost = 5
-desc = [[The port of Tartus is famous for containing a Soviet resupply base, and because of that, it's well equiped to maintain and refit warships. Our objective is to deny the Syrians the naval facilities and soviet equipment, but first, you need to deal with enemy air defenses in the vicinity, those being the AAA battery north of the port, right by the sea, and the SA-8 site inside of the harbor.
+desc = [[The port of Tartus is famous for containing a Soviet resupply base, and because of that, it's well equiped to maintain and refit warships. In the longer term, we plan to deny the Syrians access to naval facilities and soviet equipment, but first, you must deal with enemy air defenses in the vicinity, including a AAA battery north of the port, and the SA-8 site inside of the harbor.
 
-Caution, do not engage the soviet installations or any of their ships. You are only authorized to attack Syrian air defenses.
+Caution, do not attack any of the soviet warships. You are only authorized to enter the no-fly zone to attack Syrian air defenses.
 
-Primary objective: Destroy the AAA battery.
+Primary objective: Destroy at least half of the AAA battery.
 
-Threats: AAA, MANPADS and SA-8. SA-3 and SA-2 sites close.
+Secondary objective: Eliminate the SA-8.
+
+Threats: AAA, MANPADS and SA-8. SA-3 and SA-2 sites close. Soviet ships may engage if previously shot at.
 
 Recommended pilots: 2]]

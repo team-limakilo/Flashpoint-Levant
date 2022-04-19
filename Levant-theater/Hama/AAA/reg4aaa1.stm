@@ -534,7 +534,7 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "flak18",
+                                        ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 18,
                                         ["y"] = 62959.033865257,
                                         ["x"] = 24253.794605556,
@@ -549,7 +549,7 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "flak18",
+                                        ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 19,
                                         ["y"] = 62785.699786778,
                                         ["x"] = 24358.079790346,
@@ -665,7 +665,7 @@ staticTemplate =
                                 }, -- end of ["units"]
                                 ["y"] = 62880.730996129,
                                 ["x"] = 24311.385630416,
-                                ["name"] = "Ground-1",
+                                ["name"] = "Primary Damaged Ground-1",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                             [2] = 

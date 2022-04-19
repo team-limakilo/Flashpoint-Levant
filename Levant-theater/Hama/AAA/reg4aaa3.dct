@@ -1,10 +1,14 @@
 objtype = "shorad"
-intel = 4
-cost = 5
-desc = [[To the surprise of no one, Syria is filled with AAA and SHORAD, as much this was expected, we still need to do something about it, and it's up to your flight to deal with the AAA threats on the eastern sector of Hama, recon flights earlier identified the presence of two sites, one right by the cloverleaf interchange east of the city and another right south of the ruins.
+intel = 2
+cost = 10
+extramarks = {
+    { x = 9616, y = 290, z = 81356, label = "%TARGET%: Battery 1" },
+    { x = 7194, y = 305, z = 80080, label = "%TARGET%: Battery 2" },
+}
+desc = [[As we've expected, strategic locations in Syria are surrounded with AAA batteries, which we need to do something about. Right now, there are two AAA sites on the east side of Hama, one next to the cloverleaf interchange, and another south of the historical ruins, that need to be taken out.
 
-Primary objective: Destroy the batteries (AAA and possibly an SA-8).
+Primary objective: Destroy at least half of each AAA battery.
 
-Threats: SA-2s, SA-3s, SHORAD, and heavy enemy CAP.
+Threats: SA-2, SA-3, AAA, and heavy enemy CAP.
 
-Recommended pilots: 2]]
+Recommended pilots: 4]]

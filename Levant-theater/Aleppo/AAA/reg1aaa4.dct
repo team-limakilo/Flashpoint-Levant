@@ -4,7 +4,9 @@ cost = 5
 priority = 67
 desc = [[Kuweires is an important airbase hosting several Syrian squadrons, equipped with MiG-19 Farmers, MiG-21 Fishbeds, Su-22 Fitters, and Su-24 Fencers. We want to limit the enemy's interception and strike capabilities, so you are tasked with clearing the AAA battery in the northeast part of the base, allowing other flights to safely attack the runway and ammunition depots.
 
-Primary objective: Clear the AAA battery in Kuweires.
+Primary objective: Destroy at least half of the AAA battery.
+
+Secondary objective: Eliminate the SA-8.
 
 Threats: SA-2, SA-3, SA-8, AAA, and enemy interceptors.
 

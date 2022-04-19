@@ -1,12 +1,20 @@
 objtype = "shorad"
-intel = 4
-cost = 5
-priority = 65
+intel = 2
+cost = 10
+priority = 0.65
 exclusion = "reg1aaa2"
-desc = [[Unfortunately, the civilian Aleppo International Airport has been repurposed for military use, and to ensure we can safely disable it, we need you to clear enemy AAA and short-range SAM batteries within the perimeter. Intel has identified a site on the western end of the runway, and another site east of the main terminal. We also believe there may be an SA-8 in the south part of the airfield, near the hangars.
+location = { x = 125682, y = 382, z = 122973 }
+extramarks = {
+    { x = 125345, y = 382, z = 121576, label = "%TARGET%: Battery 1" },
+    { x = 125930, y = 382, z = 124359, label = "%TARGET%: Battery 2" },
+    { x = 125224, y = 382, z = 123937, label = "%TARGET%: SA-8?" },
+}
+desc = [[Unfortunately, the Aleppo International Airport has been repurposed for military use, and to ensure we can operate nearby, we need you to thin out enemy AAA and short-range SAM batteries within the airfield. Intel has identified several guns on the western end of the runway, and another group east of the main terminal. There may also be an SA-8 on the south part of the airfield, near the hangars.
 
-Primary objective: Destroy the AAA batteries.
+Primary objective: Destroy at least half of each AAA battery.
+
+Secondary objective: Eliminate the SA-8, if present.
 
 Threats: AAA, MANPADS, and an SA-8 in the airfield, one SA-3 in the outskirts of Aleppo, another to the south of the airfield, and a possible SA-2 to the south. Enemy CAP is also present.
 
-Recommended pilots: 2]]
+Recommended pilots: 4]]

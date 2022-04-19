@@ -1,10 +1,10 @@
 objtype = "shorad"
 intel = 4
 cost = 5
-desc = [[Tabqa airfield is located a couple dozen miles from Raqqa and houses a few Syrian aircraft, a squadron of mig19 and mig17, while those aircraft are obsolete, they still can pose a treat if ignored, especially to our ground troops, so the airfield must be disabled, and your part in that is to neutralize the airfield AAA battery just south of the runway.
+desc = [[The Tabqa airbase is located a few dozen miles south-west of Raqqa and houses a squadron of MiG-17s and MiG-19s, which pose a threat to some of our more isolated ground troops in the region. To deny their strike capability, we must first eliminate AAA south of the runway, allowing the airfield to be taken out of commission by bombers.
 
-Primary objective: Eliminate the site.
+Primary objective: Destroy at least half the AAA battery.
 
-Threats: Medium altitude SAM, AAA and SHORAD.
+Threats: Medium altitude SAMs, AAA and enemy CAP.
 
 Recommended pilots: 2]]

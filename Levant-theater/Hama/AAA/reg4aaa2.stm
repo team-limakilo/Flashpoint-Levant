@@ -493,7 +493,7 @@ staticTemplate =
                                         ["unitId"] = 15,
                                         ["y"] = 75148.269425638,
                                         ["x"] = 8279.3845242576,
-                                        ["name"] = "Primary Destroyed shorad 4",
+                                        ["name"] = "Target shorad 4",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
@@ -508,7 +508,7 @@ staticTemplate =
                                         ["unitId"] = 16,
                                         ["y"] = 75150.404958432,
                                         ["x"] = 8182.2861426976,
-                                        ["name"] = "Primary Destroyed shorad 5",
+                                        ["name"] = "Target shorad 5",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [2]
@@ -523,7 +523,7 @@ staticTemplate =
                                         ["unitId"] = 17,
                                         ["y"] = 75068.54286798,
                                         ["x"] = 8221.4375772576,
-                                        ["name"] = "Primary Destroyed shorad 6",
+                                        ["name"] = "Target shorad 6",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [3]
@@ -538,11 +538,11 @@ staticTemplate =
                                         {
                                             ["Shield"] = false,
                                         }, -- end of ["AddPropVehicle"]
-                                        ["type"] = "flak18",
+                                        ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 18,
                                         ["y"] = 75226.572294766,
                                         ["x"] = 8221.7934993976,
-                                        ["name"] = "Primary Destroyed shorad 7",
+                                        ["name"] = "Target shorad 7",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
@@ -557,11 +557,11 @@ staticTemplate =
                                         {
                                             ["Shield"] = false,
                                         }, -- end of ["AddPropVehicle"]
-                                        ["type"] = "flak18",
+                                        ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 19,
                                         ["y"] = 75053.238216287,
                                         ["x"] = 8326.0786841876,
-                                        ["name"] = "Primary Destroyed shorad 8",
+                                        ["name"] = "Target shorad 8",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [5]
@@ -576,7 +576,7 @@ staticTemplate =
                                         ["unitId"] = 20,
                                         ["y"] = 75152.184569094,
                                         ["x"] = 8389.7887458876,
-                                        ["name"] = "Primary Destroyed shorad 9",
+                                        ["name"] = "Target shorad 9",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [6]
@@ -591,7 +591,7 @@ staticTemplate =
                                         ["unitId"] = 21,
                                         ["y"] = 75232.267048885,
                                         ["x"] = 8319.6720858076,
-                                        ["name"] = "Primary Destroyed shorad 10",
+                                        ["name"] = "Target shorad 10",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [7]
@@ -606,7 +606,7 @@ staticTemplate =
                                         ["unitId"] = 22,
                                         ["y"] = 75251.254917341,
                                         ["x"] = 8131.3929188255,
-                                        ["name"] = "Primary Destroyed shorad 11",
+                                        ["name"] = "Target shorad 11",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [8]
@@ -621,7 +621,7 @@ staticTemplate =
                                         ["unitId"] = 23,
                                         ["y"] = 75037.901608131,
                                         ["x"] = 8150.3938496712,
-                                        ["name"] = "Primary Destroyed shorad 12",
+                                        ["name"] = "Target shorad 12",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [9]
@@ -636,7 +636,7 @@ staticTemplate =
                                         ["unitId"] = 24,
                                         ["y"] = 75228.996684065,
                                         ["x"] = 8391.9771132805,
-                                        ["name"] = "Primary Destroyed shorad 13",
+                                        ["name"] = "Target shorad 13",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [10]
@@ -651,7 +651,7 @@ staticTemplate =
                                         ["unitId"] = 25,
                                         ["y"] = 75094.808794178,
                                         ["x"] = 8275.3749768976,
-                                        ["name"] = "Primary Destroyed shorad 14",
+                                        ["name"] = "Target shorad 14",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [11]
@@ -666,14 +666,14 @@ staticTemplate =
                                         ["unitId"] = 26,
                                         ["y"] = 75209.749151817,
                                         ["x"] = 8274.0384611076,
-                                        ["name"] = "Primary Destroyed shorad 15",
+                                        ["name"] = "Target shorad 15",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [12]
                                 }, -- end of ["units"]
                                 ["y"] = 75148.269425638,
                                 ["x"] = 8279.3845242576,
-                                ["name"] = "Ground-1",
+                                ["name"] = "Primary Damaged Ground-1",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                             [2] = 
@@ -731,7 +731,7 @@ staticTemplate =
                                         ["unitId"] = 27,
                                         ["y"] = 74697.157551378,
                                         ["x"] = 9402.1678106365,
-                                        ["name"] = "Primary Destroyed shorad 1",
+                                        ["name"] = "Target shorad 1",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [1]
@@ -746,7 +746,7 @@ staticTemplate =
                                         ["unitId"] = 28,
                                         ["y"] = 74727.457591147,
                                         ["x"] = 9381.156866891,
-                                        ["name"] = "Primary Destroyed shorad 2",
+                                        ["name"] = "Target shorad 2",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [2]
@@ -761,7 +761,7 @@ staticTemplate =
                                         ["unitId"] = 29,
                                         ["y"] = 74669.356300814,
                                         ["x"] = 9380.0284981836,
-                                        ["name"] = "Primary Destroyed shorad 3",
+                                        ["name"] = "Target shorad 3",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [3]

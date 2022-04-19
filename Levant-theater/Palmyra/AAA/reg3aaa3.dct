@@ -1,10 +1,12 @@
 objtype = "shorad"
 intel = 4
 cost = 5
-desc = [[Palmyra is a known airbase located on the city of Palmyra, the airbase is currently being used to by a squadron of mig23 and mig21, while the mig21 is not a modern aircraft, it still poses a threat, meanwhile the mig23 on the other hand, are decently capable aircraft, that while not on par with the most modern aircraft of the coalition, they are still dangerous, so the order to disable the runway was given, and your task is to assist on that objective by clearing the airfield from the AAA battery located on the western end of the runway and the SA-8 system close to the civilian ramp, be aware that enemy aircraft does scramble from the airfield so keep your eyes open.
+desc = [[The airbase of Palmyra is host to numerous squadrons using a range of aircraft, including MiG-21s, MiG-23s, and MiG-25s. While not modern, they still pose a threat to coalition aircraft, and to deny the use of the airbase, we need to first thin out air defences around the airfield, which will allow it to be striked more precisely in the future.
 
-Primary objective: Eliminate the site.
+Primary objective: Destroy at least half the AAA battery.
 
-Threats: Medium altitude SAM, AAA and SHORAD.
+Secondary objective: Eliminate the such as SA-8 and Shilka within the airfield.
+
+Threats: Medium altitude SAMs, AAA, SHORAD, and enemy CAP.
 
 Recommended pilots: 2]]

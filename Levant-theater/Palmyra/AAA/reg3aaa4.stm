@@ -503,7 +503,7 @@ staticTemplate =
                                         ["unitId"] = 46,
                                         ["y"] = 156508.1021878,
                                         ["x"] = -59507.131480917,
-                                        ["name"] = "Primary Destroyed AAA-1-1",
+                                        ["name"] = "Target AAA-1-1",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
@@ -518,7 +518,7 @@ staticTemplate =
                                         ["unitId"] = 47,
                                         ["y"] = 156510.23772059,
                                         ["x"] = -59604.229862477,
-                                        ["name"] = "Primary Destroyed AAA-1-2",
+                                        ["name"] = "Target AAA-1-2",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [2]
@@ -533,7 +533,7 @@ staticTemplate =
                                         ["unitId"] = 48,
                                         ["y"] = 156428.37563014,
                                         ["x"] = -59565.078427917,
-                                        ["name"] = "Primary Destroyed AAA-1-3",
+                                        ["name"] = "Target AAA-1-3",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [3]
@@ -544,11 +544,11 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "flak18",
+                                        ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 49,
                                         ["y"] = 156586.40505693,
                                         ["x"] = -59564.722505777,
-                                        ["name"] = "Primary Destroyed AAA-1-4",
+                                        ["name"] = "Target AAA-1-4",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
@@ -559,11 +559,11 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "flak18",
+                                        ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 50,
                                         ["y"] = 156413.07097845,
                                         ["x"] = -59460.437320987,
-                                        ["name"] = "Primary Destroyed AAA-1-5",
+                                        ["name"] = "Target AAA-1-5",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [5]
@@ -578,7 +578,7 @@ staticTemplate =
                                         ["unitId"] = 51,
                                         ["y"] = 156512.01733126,
                                         ["x"] = -59396.727259287,
-                                        ["name"] = "Primary Destroyed AAA-1-6",
+                                        ["name"] = "Target AAA-1-6",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [6]
@@ -593,7 +593,7 @@ staticTemplate =
                                         ["unitId"] = 52,
                                         ["y"] = 156592.09981105,
                                         ["x"] = -59466.843919367,
-                                        ["name"] = "Primary Destroyed AAA-1-7",
+                                        ["name"] = "Target AAA-1-7",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [7]
@@ -608,7 +608,7 @@ staticTemplate =
                                         ["unitId"] = 53,
                                         ["y"] = 156611.0876795,
                                         ["x"] = -59655.123086349,
-                                        ["name"] = "Primary Destroyed AAA-1-8",
+                                        ["name"] = "Target AAA-1-8",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [8]
@@ -623,7 +623,7 @@ staticTemplate =
                                         ["unitId"] = 54,
                                         ["y"] = 156397.73437029,
                                         ["x"] = -59636.122155504,
-                                        ["name"] = "Primary Destroyed AAA-1-9",
+                                        ["name"] = "Target AAA-1-9",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [9]
@@ -638,7 +638,7 @@ staticTemplate =
                                         ["unitId"] = 55,
                                         ["y"] = 156588.82944623,
                                         ["x"] = -59394.538891894,
-                                        ["name"] = "Primary Destroyed AAA-1-10",
+                                        ["name"] = "Target AAA-1-10",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [10]
@@ -653,7 +653,7 @@ staticTemplate =
                                         ["unitId"] = 56,
                                         ["y"] = 156454.64155634,
                                         ["x"] = -59511.141028277,
-                                        ["name"] = "Primary Destroyed AAA-1-11",
+                                        ["name"] = "Target AAA-1-11",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [11]
@@ -668,14 +668,14 @@ staticTemplate =
                                         ["unitId"] = 57,
                                         ["y"] = 156569.58191398,
                                         ["x"] = -59512.477544067,
-                                        ["name"] = "Primary Destroyed AAA-1-12",
+                                        ["name"] = "Target AAA-1-12",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [12]
                                 }, -- end of ["units"]
                                 ["y"] = 156508.1021878,
                                 ["x"] = -59507.131480917,
-                                ["name"] = "Primary Destroyed AAA-1",
+                                ["name"] = "Primary Damaged AAA-1",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                             [2] = 
@@ -733,7 +733,7 @@ staticTemplate =
                                         ["unitId"] = 58,
                                         ["y"] = 155761.07183414,
                                         ["x"] = -57759.865310032,
-                                        ["name"] = "Primary Destroyed AAA-2-1",
+                                        ["name"] = "Target AAA-2-1",
                                         ["heading"] = 5.6374134839417,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [1]
@@ -748,7 +748,7 @@ staticTemplate =
                                         ["unitId"] = 59,
                                         ["y"] = 155838.18016227,
                                         ["x"] = -57779.143113402,
-                                        ["name"] = "Primary Destroyed AAA-2-2",
+                                        ["name"] = "Target AAA-2-2",
                                         ["heading"] = 5.7944931166212,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [2]
@@ -763,14 +763,14 @@ staticTemplate =
                                         ["unitId"] = 60,
                                         ["y"] = 155788.14345736,
                                         ["x"] = -57824.583088354,
-                                        ["name"] = "Primary Destroyed AAA-2-3",
+                                        ["name"] = "Target AAA-2-3",
                                         ["heading"] = 5.0614548307836,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["y"] = 155761.07183414,
                                 ["x"] = -57759.865310032,
-                                ["name"] = "Primary Destroyed AAA-2",
+                                ["name"] = "AAA-2",
                                 ["start_time"] = 0,
                             }, -- end of [2]
                             [3] = 
@@ -828,7 +828,7 @@ staticTemplate =
                                         ["unitId"] = 61,
                                         ["y"] = 157224.04555966,
                                         ["x"] = -57505.389499551,
-                                        ["name"] = "Primary Destroyed AAA-3-1",
+                                        ["name"] = "Target AAA-3-1",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
@@ -843,7 +843,7 @@ staticTemplate =
                                         ["unitId"] = 62,
                                         ["y"] = 157226.18109245,
                                         ["x"] = -57602.487881111,
-                                        ["name"] = "Primary Destroyed AAA-3-2",
+                                        ["name"] = "Target AAA-3-2",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [2]
@@ -858,7 +858,7 @@ staticTemplate =
                                         ["unitId"] = 63,
                                         ["y"] = 157144.319002,
                                         ["x"] = -57563.336446551,
-                                        ["name"] = "Primary Destroyed AAA-3-3",
+                                        ["name"] = "Target AAA-3-3",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [3]
@@ -869,11 +869,11 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "flak18",
+                                        ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 64,
                                         ["y"] = 157302.34842879,
                                         ["x"] = -57562.980524411,
-                                        ["name"] = "Primary Destroyed AAA-3-4",
+                                        ["name"] = "Target AAA-3-4",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
@@ -884,11 +884,11 @@ staticTemplate =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["skill"] = "Average",
-                                        ["type"] = "flak18",
+                                        ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 65,
                                         ["y"] = 157129.01435031,
                                         ["x"] = -57458.695339621,
-                                        ["name"] = "Primary Destroyed AAA-3-5",
+                                        ["name"] = "Target AAA-3-5",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [5]
@@ -903,7 +903,7 @@ staticTemplate =
                                         ["unitId"] = 66,
                                         ["y"] = 157227.96070312,
                                         ["x"] = -57394.985277921,
-                                        ["name"] = "Primary Destroyed AAA-3-6",
+                                        ["name"] = "Target AAA-3-6",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [6]
@@ -918,7 +918,7 @@ staticTemplate =
                                         ["unitId"] = 67,
                                         ["y"] = 157308.04318291,
                                         ["x"] = -57465.101938001,
-                                        ["name"] = "Primary Destroyed AAA-3-7",
+                                        ["name"] = "Target AAA-3-7",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [7]
@@ -933,7 +933,7 @@ staticTemplate =
                                         ["unitId"] = 68,
                                         ["y"] = 157327.03105136,
                                         ["x"] = -57653.381104983,
-                                        ["name"] = "Primary Destroyed AAA-3-8",
+                                        ["name"] = "Target AAA-3-8",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [8]
@@ -948,7 +948,7 @@ staticTemplate =
                                         ["unitId"] = 69,
                                         ["y"] = 157113.67774215,
                                         ["x"] = -57634.380174137,
-                                        ["name"] = "Primary Destroyed AAA-3-9",
+                                        ["name"] = "Target AAA-3-9",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [9]
@@ -963,7 +963,7 @@ staticTemplate =
                                         ["unitId"] = 70,
                                         ["y"] = 157304.77281809,
                                         ["x"] = -57392.796910528,
-                                        ["name"] = "Primary Destroyed AAA-3-10",
+                                        ["name"] = "Target AAA-3-10",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [10]
@@ -978,7 +978,7 @@ staticTemplate =
                                         ["unitId"] = 71,
                                         ["y"] = 157170.5849282,
                                         ["x"] = -57509.399046911,
-                                        ["name"] = "Primary Destroyed AAA-3-11",
+                                        ["name"] = "Target AAA-3-11",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [11]
@@ -993,14 +993,14 @@ staticTemplate =
                                         ["unitId"] = 72,
                                         ["y"] = 157285.52528584,
                                         ["x"] = -57510.735562701,
-                                        ["name"] = "Primary Destroyed AAA-3-12",
+                                        ["name"] = "Target AAA-3-12",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [12]
                                 }, -- end of ["units"]
                                 ["y"] = 157224.04555966,
                                 ["x"] = -57505.389499551,
-                                ["name"] = "Primary Destroyed AAA-3",
+                                ["name"] = "Primary Damaged AAA-3",
                                 ["start_time"] = 0,
                             }, -- end of [3]
                             [4] = 
@@ -1058,7 +1058,7 @@ staticTemplate =
                                         ["unitId"] = 73,
                                         ["y"] = 158125.46419424,
                                         ["x"] = -59428.437810949,
-                                        ["name"] = "Primary Destroyed AAA-4-1",
+                                        ["name"] = "Target AAA-4-1",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [1]
@@ -1073,7 +1073,7 @@ staticTemplate =
                                         ["unitId"] = 74,
                                         ["y"] = 158155.76423401,
                                         ["x"] = -59449.448754695,
-                                        ["name"] = "Primary Destroyed AAA-4-2",
+                                        ["name"] = "Target AAA-4-2",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [2]
@@ -1088,14 +1088,14 @@ staticTemplate =
                                         ["unitId"] = 75,
                                         ["y"] = 158097.66294368,
                                         ["x"] = -59450.577123402,
-                                        ["name"] = "Primary Destroyed AAA-4-3",
+                                        ["name"] = "Target AAA-4-3",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["y"] = 158125.46419424,
                                 ["x"] = -59428.437810949,
-                                ["name"] = "Primary Destroyed AAA-4",
+                                ["name"] = "AAA-4",
                                 ["start_time"] = 0,
                             }, -- end of [4]
                         }, -- end of ["group"]

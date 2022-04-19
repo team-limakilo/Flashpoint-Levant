@@ -1,10 +1,19 @@
 objtype = "shorad"
-intel = 4
-cost = 5
-desc = [[Tiyas is one of the main and most important airbases in Syria, so just like other airbases, we are going to organize flights to disable the bases, and your part on that is to clear the airbase form enemy SHORAD, that being 2 AAA battery, one located north of the base, and on the south west sheltered ramps on the runway end, we also know about 2 SA-8 sites, one to the sheltered ramps east of the AAA battery south and the second one on the revetments north west of the airbase.
+intel = 2
+cost = 10
+location = { x = -58496, y = 548, z = 157438 }
+extramarks = {
+    { x = -57555, y = 548, z = 157226, label = "%TARGET%: Battery 1" },
+    { x = -59467, y = 548, z = 156479, label = "%TARGET%: Battery 2" },
+    { x = -57792, y = 548, z = 155789, label = "%TARGET%: First SA-8" },
+    { x = -59468, y = 548, z = 158126, label = "%TARGET%: Second SA-8" },
+}
+desc = [[Tiyas Airbase is one of the main airbases in Syria, and in preparation for runway strikes, we need to disable its two AAA batteries. One of them is located north of the base, near the ammo and fuel depot, and another is located to the south, near the reinforced hangars on the western side of the base. Recon photos have also confirmed the presence of two SA-8s with Shilka cover, located north and south of the runway ends.
 
-Primary objective: Clear the airbase(25 units).
+Primary objective: Destroy at least half each AAA battery.
 
-Threats: Medium altitude SAM, AAA and SHORAD.
+Secondary objective: Eliminate mobile SHORAD elements, such as SA-8s and Shilkas.
 
-Recommended pilots: 2]]
+Threats: Medium altitude SAMs, AAA, SA-8s, and enemy CAP.
+
+Recommended pilots: 4]]

@@ -493,7 +493,7 @@ staticTemplate =
                                         ["unitId"] = 1,
                                         ["y"] = 5546.9392777066,
                                         ["x"] = 22201.10411546,
-                                        ["name"] = "Primary Destroyed AAA 1",
+                                        ["name"] = "Target AAA 1",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
@@ -508,7 +508,7 @@ staticTemplate =
                                         ["unitId"] = 2,
                                         ["y"] = 5553.2495124553,
                                         ["x"] = 22129.339489686,
-                                        ["name"] = "Primary Destroyed AAA 2",
+                                        ["name"] = "Target AAA 2",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [2]
@@ -523,7 +523,7 @@ staticTemplate =
                                         ["unitId"] = 3,
                                         ["y"] = 5504.5748272657,
                                         ["x"] = 22153.004529999,
-                                        ["name"] = "Primary Destroyed AAA 3",
+                                        ["name"] = "Target AAA 3",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [3]
@@ -538,11 +538,11 @@ staticTemplate =
                                         {
                                             ["Shield"] = false,
                                         }, -- end of ["AddPropVehicle"]
-                                        ["type"] = "flak18",
+                                        ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 4,
                                         ["y"] = 5595.739016654,
                                         ["x"] = 22153.273450912,
-                                        ["name"] = "Primary Destroyed AAA 4",
+                                        ["name"] = "Target AAA 4",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
@@ -557,11 +557,11 @@ staticTemplate =
                                         {
                                             ["Shield"] = false,
                                         }, -- end of ["AddPropVehicle"]
-                                        ["type"] = "flak18",
+                                        ["type"] = "S-60_Type59_Artillery",
                                         ["unitId"] = 5,
                                         ["y"] = 5505.3815900036,
                                         ["x"] = 22246.051165776,
-                                        ["name"] = "Primary Destroyed AAA 5",
+                                        ["name"] = "Target AAA 5",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [5]
@@ -576,7 +576,7 @@ staticTemplate =
                                         ["unitId"] = 6,
                                         ["y"] = 5549.2156987656,
                                         ["x"] = 22268.371601526,
-                                        ["name"] = "Primary Destroyed AAA 6",
+                                        ["name"] = "Target AAA 6",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [6]
@@ -591,7 +591,7 @@ staticTemplate =
                                         ["unitId"] = 7,
                                         ["y"] = 5591.4362820516,
                                         ["x"] = 22246.589007602,
-                                        ["name"] = "Primary Destroyed AAA 7",
+                                        ["name"] = "Target AAA 7",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [7]
@@ -606,7 +606,7 @@ staticTemplate =
                                         ["unitId"] = 8,
                                         ["y"] = 5548.2937133338,
                                         ["x"] = 22241.545762229,
-                                        ["name"] = "Primary Destroyed AAA 8",
+                                        ["name"] = "Target AAA 8",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [8]
@@ -621,7 +621,7 @@ staticTemplate =
                                         ["unitId"] = 9,
                                         ["y"] = 5578.73098428,
                                         ["x"] = 22199.038539011,
-                                        ["name"] = "Primary Destroyed AAA 9",
+                                        ["name"] = "Target AAA 9",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [9]
@@ -636,7 +636,7 @@ staticTemplate =
                                         ["unitId"] = 10,
                                         ["y"] = 5547.2441522666,
                                         ["x"] = 22165.977365397,
-                                        ["name"] = "Primary Destroyed AAA 10",
+                                        ["name"] = "Target AAA 10",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [10]
@@ -651,7 +651,7 @@ staticTemplate =
                                         ["unitId"] = 11,
                                         ["y"] = 5493.4786462466,
                                         ["x"] = 22197.0945681,
-                                        ["name"] = "Primary Destroyed AAA 11",
+                                        ["name"] = "Target AAA 11",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [11]
@@ -666,14 +666,14 @@ staticTemplate =
                                         ["unitId"] = 12,
                                         ["y"] = 5608.4190038856,
                                         ["x"] = 22195.75805231,
-                                        ["name"] = "Primary Destroyed AAA 12",
+                                        ["name"] = "Target AAA 12",
                                         ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [12]
                                 }, -- end of ["units"]
                                 ["y"] = 5546.9392777066,
                                 ["x"] = 22201.10411546,
-                                ["name"] = "AAA Battery",
+                                ["name"] = "Primary Damaged AAA Battery",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                             [2] = 
@@ -731,7 +731,7 @@ staticTemplate =
                                         ["unitId"] = 43,
                                         ["y"] = 5259.7932622807,
                                         ["x"] = 22603.437615121,
-                                        ["name"] = "Primary Destroyed Sa-8 1",
+                                        ["name"] = "Target Sa-8 1",
                                         ["heading"] = 4.3633231299858,
                                         ["playerCanDrive"] = true,
                                     }, -- end of [1]
@@ -746,7 +746,7 @@ staticTemplate =
                                         ["unitId"] = 45,
                                         ["y"] = 5265.2044159322,
                                         ["x"] = 22585.442189754,
-                                        ["name"] = "Primary Destroyed Sa-8 3",
+                                        ["name"] = "Target Sa-8 3",
                                         ["heading"] = 4.2935099599061,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]

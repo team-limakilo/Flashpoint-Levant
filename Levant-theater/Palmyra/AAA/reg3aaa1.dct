@@ -1,10 +1,10 @@
 objtype = "shorad"
 intel = 4
 cost = 5
-desc = [[Raqqa is a city located east of Aleppo, while not the most strategically important city on Syria, it does serve as a regional transportation hub, most oil coming from the eastern oil fields flow thought it's railways, thus making it still a significant target. With that in mind, we must make the city safe for our aircraft by neutralizing any resistence from the enemy, so you have the tast to neutralize the enemy AAA battery identified on the eastern exit of the city, a few dozen meters south of the railway.
+desc = [[Raqqa is an important city in eastern Syria, situated on the banks of the Euphrates river, and serves as a primary transportation hub for oil produced further east. With that in mind, we must make the city safe for coalition aircraft by neutralizing enemy defenses, so you are tasked with neutralizing the enemy AAA battery naer the eastern exit of the city, just south of the local railway.
 
-Primary objective: Eliminate the site.
+Primary objective: Destroy at least half the AAA battery.
 
-Threats: Medium altitude SAM, AAA and SHORAD.
+Threats: Medium altitude SAMs, AAA and enemy CAP.
 
 Recommended pilots: 2]]
