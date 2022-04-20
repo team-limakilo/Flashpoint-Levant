@@ -1,28 +1,24 @@
 objtype = "FuelDump"
-intel = 3
+intel = 5
 cost = 3
 name = "Reg1Factory-12"
 coalition = 1
 priority = 105
 buildings = {
     {
-        ["name"] = "Factory 1",
+        ["name"] = "East Group",
         ["goal"] = "primary destroyed",
         ["id"]   = 122880033,
     },
     {
-        ["name"] = "Factory 2",
+        ["name"] = "West Group",
         ["goal"] = "primary destroyed",
         ["id"]   = 122880034,
     },
 }
-extramarks = {
-    { x = 112590, y = 352, z = 184082, label = "%TARGET%: East group" },
-    { x = 112550, y = 350, z = 184929, label = "%TARGET%: East group" },
-}
-desc = [[We identified some fuel storage tanks south of Jirah airbase. They are located in an industrial zone, and are separated in two groups of four tanks, on the east and west sides of the zone, respectively.
+desc = [[We have identified several fuel storage tanks south of Jirah airbase, which are being used as backups to the airbase's main fuel storage. They are located in an industrial zone, and are separated in two groups of four tanks, one on the east and another on west sides of the zone, respectively.
 
-Primary objective: Destroy the storage tanks.
+Primary objective: Destroy the fuel tanks.
 
 Threats: Possible AAA and medium-altitude SAMs.
 

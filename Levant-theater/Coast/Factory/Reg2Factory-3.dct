@@ -1,35 +1,29 @@
 objtype = "FuelDump"
-intel = 3
+intel = 5
 cost = 3
 name = "Reg2Factory-3"
 coalition = 1
 buildings = {
     {
-        ["name"] = "Factory 1",
-        ["goal"] = "primary destroyed",
-        ["id"]   = 119772594,
-    },
-        {
-        ["name"] = "Factory 2",
-        ["goal"] = "primary destroyed",
-        ["id"]   = 119770801,
-    },
-        {
-        ["name"] = "Factory 3",
-        ["goal"] = "primary destroyed",
-        ["id"]   = 119767285,
-    },
-        {
-        ["name"] = "Factory 4",
+        ["name"] = "Group 1",
         ["goal"] = "primary destroyed",
         ["id"]   = 119740681,
     },
-}
-extramarks = {
-    { x = 54860, y = 9, z = -5382, label = "%TARGET%: Group 1" },
-    { x = 55270, y = 7, z = -4911, label = "%TARGET%: Group 2" },
-    { x = 56135, y = 5, z = -4285, label = "%TARGET%: Group 3" },
-    { x = 56486, y = 6, z = -3698, label = "%TARGET%: Group 4" },
+    {
+        ["name"] = "Group 2",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 119767285,
+    },
+    {
+        ["name"] = "Group 3",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 119770801,
+    },
+    {
+        ["name"] = "Group 4",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 119772594,
+    },
 }
 desc = [[%LOCATIONMETHOD% several fuel storage tanks in the industrial area east of Latakia. They are used as a buffer between the local port and the Banyias refinery, making them ideal strike targets.
 

@@ -1,23 +1,25 @@
 objtype = "Factory"
-intel = 3
+intel = 5
 cost = 3
 name = "Reg1Factory-4"
 coalition = 1
 buildings = {
     {
-        ["name"] = "Factory 1",
+        ["name"] = "West Wing",
         ["goal"] = "primary destroyed",
         ["id"]   = 122456109,
-        ["name"] = "Factory 2",
+    },
+    {
+        ["name"] = "East Wing",
         ["goal"] = "primary destroyed",
         ["id"]   = 122456091,
     },
 }
-desc = [[We have intel on an improvised vehicle maintenance depot located within an industrial complex in the northeastern part of Idlib. This depot has been set up inside of a pair of joined gray warehouses, sitting between a black-roofed and a green warehouse, next to the road that divides the industrial complex from the residential district.
+desc = [[We have intel on an improvised vehicle maintenance depot located within an industrial complex in the northeastern part of Idlib. This depot has been set up inside of a large double warehouse, located between a black-roofed and a green warehouse, next to the road that divides the industrial complex from the residential district.
 
-These warehouses are somewhat reinforced, so it is recommended that you take at least two 1000lb bombs, one for each warehouse. However, be very careful with them, as they are surrounded by civilian infrastructure.
+The target warehouse is somewhat reinforced, so it is recommended that you take at least two 1000lb bombs, one for each wing. However, be careful with them, as they are surrounded by civilian infrastructure.
 
-Primary objective: Destroy the two joined gray warehouses.
+Primary objective: Destroy the two sides of the gray warehouse.
 
 Threats: SA-8 and AAA around Idlib, and SA-2s close to Aleppo.
 

@@ -1,5 +1,5 @@
 objtype = "AmmoDump"
-intel = 3
+intel = 5
 cost = 3
 name = "Reg1Factory-1"
 coalition = 1
@@ -11,7 +11,7 @@ buildings = {
         ["id"]   = 127467522,
     },
 }
-desc = [[Intel shows Syria established a weapon storage facility about one kilometer south of Minakh, outside of the airbase perimeter. The target is a long white warehouse with a window sticking out of its triangular roof, and it's located next to a single-story office complex.
+desc = [[Intel shows Syrian forces have established a weapon storage facility about one kilometer south of Minakh, outside of the airbase perimeter. The target is a long white warehouse with a window sticking out of its triangular roof, and it's located next to a single-story office complex.
 
 Primary objective: Destroy the warehouse.
 

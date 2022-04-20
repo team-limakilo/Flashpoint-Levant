@@ -1,5 +1,5 @@
 objtype = "Factory"
-intel = 3
+intel = 5
 cost = 3
 name = "Reg3Factory-3"
 coalition = 1

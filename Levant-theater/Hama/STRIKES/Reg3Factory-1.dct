@@ -1,21 +1,21 @@
 objtype = "Factory"
-intel = 3
+intel = 5
 cost = 3
 name = "Reg3Factory-1"
 coalition = 1
 buildings = {
     {
-        ["name"] = "Factory 1",
+        ["name"] = "Building 1",
         ["goal"] = "primary destroyed",
         ["id"]   = 88049387,
     },
         {
-        ["name"] = "Factory 2",
+        ["name"] = "Building 2",
         ["goal"] = "primary destroyed",
         ["id"]   = 88049430,
     },
 }
-desc = [[One of the main power stations providing power to both Hama and Homs is located between Muhradah and Halfaya, next to a water reservoir. The complex has two main buildings with a total of four smokestacks, and several fuel storage tanks on the north side.
+desc = [[One of the main power stations providing power to the Hama region is located between the villages of Muhradah and Halfaya, next to a water reservoir. The complex has two main buildings with a total of four smokestacks, and several fuel storage tanks on the north side.
 
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
 

@@ -7,52 +7,52 @@ priority = 1000
 minagents = 1000
 buildings = {
     {
-        ["name"] = "Refinery 1",
+        ["name"] = "Refinery",
         ["goal"] = "primary destroyed",
         ["id"]   = 183010997,
     },
     {
-        ["name"] = "Fuel tank 1",
+        ["name"] = "Fuel tank",
         ["goal"] = "primary destroyed",
         ["id"]   = 111903524,
     },
     {
-        ["name"] = "Fuel tank 2",
+        ["name"] = "Fuel tank",
         ["goal"] = "primary destroyed",
         ["id"]   = 111904050,
     },
     {
-        ["name"] = "Fuel tank 3",
+        ["name"] = "Fuel tank",
         ["goal"] = "primary destroyed",
         ["id"]   = 111903967,
     },
     {
-        ["name"] = "Fuel tank 4",
+        ["name"] = "Fuel tank",
         ["goal"] = "primary destroyed",
         ["id"]   = 111903657,
     },
     {
-        ["name"] = "Fuel tank 5",
+        ["name"] = "Fuel tank",
         ["goal"] = "primary destroyed",
         ["id"]   = 111903614,
     },
     {
-        ["name"] = "Fuel tank 6",
+        ["name"] = "Fuel tank",
         ["goal"] = "primary destroyed",
         ["id"]   = 111903059,
     },
     {
-        ["name"] = "Fuel tank 7",
+        ["name"] = "Fuel tank",
         ["goal"] = "primary destroyed",
         ["id"]   = 111903311,
     },
     {
-        ["name"] = "Fuel tank 8",
+        ["name"] = "Fuel tank",
         ["goal"] = "primary destroyed",
         ["id"]   = 111902924,
     },
         {
-        ["name"] = "Refinery 2",
+        ["name"] = "Refinery",
         ["goal"] = "primary destroyed",
         ["id"]   = 183010896,
     },

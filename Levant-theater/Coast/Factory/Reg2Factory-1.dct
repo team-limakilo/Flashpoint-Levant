@@ -1,21 +1,21 @@
 objtype = "Facility"
-intel = 3
+intel = 5
 cost = 3
 name = "Reg2Factory-1"
 coalition = 1
 buildings = {
     {
-        ["name"] = "Factory 1",
+        ["name"] = "West Facility",
         ["goal"] = "primary destroyed",
         ["id"]   = 87917812,
     },
     {
-        ["name"] = "Factory 2",
+        ["name"] = "East Facility",
         ["goal"] = "primary destroyed",
         ["id"]   = 87918453,
     },
 }
-desc = [[There's an oil refinery north of Baniyas. There are several storage tanks and two large processing facilities located there. Your targets are the two processing facilities, identifiable by their red and white smoke stacks.
+desc = [[There is an important oil refinery north of Baniyas which needs to be disabled, and most importantly, you are to destroy the two chemical processing facilities, identifiable by their red and white smoke stacks.
 
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
 

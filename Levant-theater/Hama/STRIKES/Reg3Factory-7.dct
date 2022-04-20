@@ -1,5 +1,5 @@
 objtype = "FuelDump"
-intel = 3
+intel = 5
 cost = 3
 name = "Reg3Factory-7"
 coalition = 1
