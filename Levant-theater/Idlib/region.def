@@ -1,0 +1,8 @@
+name = "Idlib"
+priority = 10
+airspace = true
+links = {
+    air    = { "Hatay", "Aleppo", "Hama" },
+    ground = { "Hatay", "Aleppo", "Hama" },
+    sea    = {},
+}

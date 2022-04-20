@@ -2,7 +2,7 @@ name = "Hama"
 priority = 50
 airspace = true
 links = {
-    air    = { "Coast", "Palmyra" },
-    ground = { "Coast", "Palmyra" },
+    air    = { "Coast", "Idlib", "Palmyra" },
+    ground = { "Coast", "Idlib", "Palmyra" },
     sea    = {},
 }

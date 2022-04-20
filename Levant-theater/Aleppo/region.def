@@ -2,7 +2,7 @@ name = "Aleppo"
 priority = 10
 airspace = true
 links = {
-    air    = { "Hatay", "Coast", "Turkey" },
-    ground = { "Hatay", "Coast", "Turkey" },
+    air    = { "Hatay", "Idlib", "Coast", "Turkey" },
+    ground = { "Hatay", "Idlib", "Coast", "Turkey" },
     sea    = {},
 }
