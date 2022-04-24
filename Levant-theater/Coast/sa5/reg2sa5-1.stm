@@ -455,7 +455,7 @@ staticTemplate =
                                         ["unitId"] = 94,
                                         ["y"] = 28700.6889205,
                                         ["x"] = 44689.45135121,
-                                        ["name"] = "Primary Destroyed SA5-1",
+                                        ["name"] = "SA5-1",
                                         ["heading"] = 1.6580627893946,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
@@ -470,7 +470,7 @@ staticTemplate =
                                         ["unitId"] = 95,
                                         ["y"] = 28679.373902982,
                                         ["x"] = 44794.052826064,
-                                        ["name"] = "Primary Destroyed SA5-2",
+                                        ["name"] = "SA5-2",
                                         ["heading"] = 1.6580627893946,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]
@@ -485,7 +485,7 @@ staticTemplate =
                                         ["unitId"] = 101,
                                         ["y"] = 28684.110573542,
                                         ["x"] = 44615.243512446,
-                                        ["name"] = "Primary Destroyed SA5-3",
+                                        ["name"] = "SA5-3",
                                         ["heading"] = 1.6580627893946,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [3]
@@ -500,7 +500,7 @@ staticTemplate =
                                         ["unitId"] = 96,
                                         ["y"] = 28633.980810121,
                                         ["x"] = 44836.682861099,
-                                        ["name"] = "Primary Destroyed SA5-4",
+                                        ["name"] = "SA5-4",
                                         ["heading"] = 5.7944931166212,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
@@ -515,7 +515,7 @@ staticTemplate =
                                         ["unitId"] = 99,
                                         ["y"] = 28580.693266328,
                                         ["x"] = 44751.422791029,
-                                        ["name"] = "Primary Destroyed SA5-5",
+                                        ["name"] = "SA5-5",
                                         ["heading"] = 5.0265482457437,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [5]
@@ -530,7 +530,7 @@ staticTemplate =
                                         ["unitId"] = 102,
                                         ["y"] = 28718.056712551,
                                         ["x"] = 44849.313982591,
-                                        ["name"] = "Primary Destroyed SA5-6",
+                                        ["name"] = "SA5-6",
                                         ["heading"] = 1.0995574287564,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [6]
@@ -545,7 +545,7 @@ staticTemplate =
                                         ["unitId"] = 93,
                                         ["y"] = 28569.641035022,
                                         ["x"] = 44693.00385413,
-                                        ["name"] = "Primary Destroyed SA5-7",
+                                        ["name"] = "SA5-7",
                                         ["heading"] = 5.4628805587423,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [7]
@@ -560,7 +560,7 @@ staticTemplate =
                                         ["unitId"] = 97,
                                         ["y"] = 28592.996298191,
                                         ["x"] = 44631.463438604,
-                                        ["name"] = "Primary Destroyed SA5-8",
+                                        ["name"] = "SA5-8",
                                         ["heading"] = 4.1364303272266,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [8]
@@ -575,7 +575,7 @@ staticTemplate =
                                         ["unitId"] = 98,
                                         ["y"] = 28610.297457324,
                                         ["x"] = 44576.560702877,
-                                        ["name"] = "Primary Destroyed SA5-9",
+                                        ["name"] = "SA5-9",
                                         ["heading"] = 3.6477381366681,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [9]
@@ -590,7 +590,7 @@ staticTemplate =
                                         ["unitId"] = 100,
                                         ["y"] = 28598.850503472,
                                         ["x"] = 44794.447548611,
-                                        ["name"] = "Primary Destroyed SA5-10",
+                                        ["name"] = "SA5-10",
                                         ["heading"] = 5.3407075111026,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [10]
@@ -605,7 +605,7 @@ staticTemplate =
                                         ["unitId"] = 104,
                                         ["y"] = 28771.203562969,
                                         ["x"] = 44775.000417839,
-                                        ["name"] = "Primary Destroyed SA5-11",
+                                        ["name"] = "SA5-11",
                                         ["heading"] = 1.0995574287564,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [11]
@@ -620,7 +620,7 @@ staticTemplate =
                                         ["unitId"] = 103,
                                         ["y"] = 28785.165447247,
                                         ["x"] = 44683.472509789,
-                                        ["name"] = "Primary Destroyed SA5-12",
+                                        ["name"] = "SA5-12",
                                         ["heading"] = 2.164208272473,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [12]
@@ -635,14 +635,14 @@ staticTemplate =
                                         ["unitId"] = 92,
                                         ["y"] = 28646.322264697,
                                         ["x"] = 44736.217405953,
-                                        ["name"] = "Primary Destroyed SA5-13",
+                                        ["name"] = "SA5-13",
                                         ["heading"] = 1.6580627893946,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [13]
                                 }, -- end of ["units"]
                                 ["y"] = 28700.6889205,
                                 ["x"] = 44689.45135121,
-                                ["name"] = "SA5",
+                                ["name"] = "Primary Incapacitated SA5",
                                 ["start_time"] = 0,
                             }, -- end of [1]
                             [2] = 
