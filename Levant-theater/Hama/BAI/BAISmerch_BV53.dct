@@ -1,0 +1,12 @@
+-- Contributor: Fuzzle
+objtype = "artillery"
+intel = 1
+cost = 5
+ondemand = true
+desc = [[The Syrian Army has activated its artillery battalions and distributed them throughout the theater to strike our forces. A target of opportunity has presented itself north-west of Kafr Nabi, where a platoon of Smerch rocket artillery vehicles have positioned themselves. Hit them before they can engage our forces.
+
+Primary Objective: Search and destroy the artillery platoon.
+
+Threats: AAA, SA-2, SA-5, and enemy CAP.
+
+Recommended pilots: 2]]

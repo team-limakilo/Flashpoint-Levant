@@ -1,0 +1,12 @@
+-- Contributor: Fuzzle
+objtype = "artillery"
+intel = 1
+cost = 5
+ondemand = true
+desc = [[We've received intelligence that a Syrian Army unit is preparing to deploy Scud ballistic missiles against friendly positions in Antakya, from roughly 10nm north of Hama. Search the target grid, find the missile site and destroy the launch vehicles.
+
+Primary Objective: Search and destroy the Scud launchers.
+
+Threats: AAA, SA-2, SA-5, and enemy CAP.
+
+Recommended pilots: 2]]

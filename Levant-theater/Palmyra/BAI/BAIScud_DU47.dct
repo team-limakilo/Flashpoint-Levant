@@ -1,0 +1,12 @@
+-- Contributor: Fuzzle
+objtype = "artillery"
+intel = 1
+cost = 5
+ondemand = true
+desc = [[We've received intelligence that a Syrian Army unit is preparing to deploy Scud ballistic missiles against the friendly-occupied port town of Iskenderun, from the mountains to the north of Palmyra. Search the target grid, find the missile site and destroy the launch vehicles.
+
+Primary Objective: Search and destroy the Scud launchers.
+
+Threats: AAA, enemy CAP.
+
+Recommended pilots: 2]]

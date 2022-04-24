@@ -2,6 +2,7 @@ objtype = "logistics"
 intel = 4
 cost = 5
 ondemand = true
+priority = 80
 desc = [[We have identified an enemy supply route to the frontline, and your mission is to destroy one of the convoys that is departing soon. The convoy is currently unloading supplies in Jisr Ash-Shughur, and our intelligence services have confirmed that it is scheduled to leave for Reyhanli in a few hours.
 
 Primary objective: Destroy all vehicles in the convoy.
