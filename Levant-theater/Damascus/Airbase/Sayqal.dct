@@ -1,6 +1,6 @@
 objtype = "airbase"
-name = "Hama"
-desc = "Hama"
+name = "Sayqal"
+desc = "Sayqal"
 coalition = 1
 subordinates = {}
 recoverytype = "land"
