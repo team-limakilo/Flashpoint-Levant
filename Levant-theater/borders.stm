@@ -2,6 +2,293 @@ staticTemplate =
 {
     ["coalition"] = 
     {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["id"] = 68,
+                    ["name"] = "USSR",
+                }, -- end of [52]
+                [53] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [53]
+                [54] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [54]
+                [55] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [55]
+                [56] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [56]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
         ["blue"] = 
         {
             ["name"] = "blue",
@@ -43,10 +330,10 @@ staticTemplate =
                                                     {
                                                         [1] = 
                                                         {
-                                                            ["number"] = 1,
+                                                            ["enabled"] = true,
                                                             ["auto"] = true,
                                                             ["id"] = "EngageTargets",
-                                                            ["enabled"] = true,
+                                                            ["number"] = 1,
                                                             ["key"] = "CAS",
                                                             ["params"] = 
                                                             {
@@ -65,8 +352,8 @@ staticTemplate =
                                             ["type"] = "Turning Point",
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
-                                            ["y"] = -166503.72154665,
-                                            ["x"] = 93817.166227375,
+                                            ["y"] = -166425.7687951,
+                                            ["x"] = 93551.251062368,
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
                                         }, -- end of [1]
@@ -231,10 +518,10 @@ staticTemplate =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["ETA"] = 5917.7758214022,
+                                            ["ETA"] = 5917.6398385455,
                                             ["ETA_locked"] = false,
-                                            ["y"] = 49884.161777647,
-                                            ["x"] = 185330.5821587,
+                                            ["y"] = 49898.576126657,
+                                            ["x"] = 185313.5530387,
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
                                         }, -- end of [8]
@@ -264,7 +551,7 @@ staticTemplate =
                                         }, -- end of [9]
                                         [10] = 
                                         {
-                                            ["alt"] = 1265,
+                                            ["alt"] = 1700,
                                             ["action"] = "Turning Point",
                                             ["alt_type"] = "BARO",
                                             ["speed"] = 44.444444444444,
@@ -279,10 +566,10 @@ staticTemplate =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["ETA"] = 6852.0871153541,
+                                            ["ETA"] = 6967.9733389688,
                                             ["ETA_locked"] = false,
-                                            ["y"] = 74903.492441626,
-                                            ["x"] = 199485.44037467,
+                                            ["y"] = 81062.014034586,
+                                            ["x"] = 197052.80494963,
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
                                         }, -- end of [10]
@@ -303,7 +590,7 @@ staticTemplate =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["ETA"] = 7317.1305380732,
+                                            ["ETA"] = 7281.7295583391,
                                             ["ETA_locked"] = false,
                                             ["y"] = 94208.405743059,
                                             ["x"] = 192102.26989018,
@@ -327,7 +614,7 @@ staticTemplate =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["ETA"] = 7368.6934264395,
+                                            ["ETA"] = 7333.2924467054,
                                             ["ETA_locked"] = false,
                                             ["y"] = 96477.691909288,
                                             ["x"] = 192421.88766007,
@@ -351,7 +638,7 @@ staticTemplate =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["ETA"] = 7490.07784527,
+                                            ["ETA"] = 7485.1866913489,
                                             ["ETA_locked"] = false,
                                             ["y"] = 102942.01662509,
                                             ["x"] = 190475.98080559,
@@ -1119,10 +1406,10 @@ staticTemplate =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["ETA"] = 36339.079969323,
+                                            ["ETA"] = 41941.614971055,
                                             ["ETA_locked"] = false,
-                                            ["y"] = -244599.51141951,
-                                            ["x"] = 77899.553004881,
+                                            ["y"] = -244491.01162532,
+                                            ["x"] = 77175.217616984,
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
                                         }, -- end of [45]
@@ -1142,9 +1429,9 @@ staticTemplate =
                                         ["speed"] = 44.444444444444,
                                         ["type"] = "AH-64A",
                                         ["unitId"] = 1,
-                                        ["psi"] = -1.375696220371,
-                                        ["y"] = -166503.72154665,
-                                        ["x"] = 93817.166227375,
+                                        ["psi"] = -1.3702900510696,
+                                        ["y"] = -166425.7687951,
+                                        ["x"] = 93551.251062368,
                                         ["name"] = "Rotary-1-1",
                                         ["payload"] = 
                                         {
@@ -1156,7 +1443,7 @@ staticTemplate =
                                             ["chaff"] = 30,
                                             ["gun"] = 100,
                                         }, -- end of ["payload"]
-                                        ["heading"] = 1.375696220371,
+                                        ["heading"] = 1.3702900510696,
                                         ["callsign"] = 
                                         {
                                             [1] = 1,
@@ -1167,8 +1454,8 @@ staticTemplate =
                                         ["onboard_num"] = "010",
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["y"] = -166503.72154665,
-                                ["x"] = 93817.166227375,
+                                ["y"] = -166425.7687951,
+                                ["x"] = 93551.251062368,
                                 ["name"] = "Turkey",
                                 ["communication"] = true,
                                 ["start_time"] = 0,
@@ -1202,10 +1489,10 @@ staticTemplate =
                                                     {
                                                         [1] = 
                                                         {
-                                                            ["enabled"] = true,
+                                                            ["number"] = 1,
                                                             ["auto"] = true,
                                                             ["id"] = "EngageTargets",
-                                                            ["number"] = 1,
+                                                            ["enabled"] = true,
                                                             ["key"] = "CAS",
                                                             ["params"] = 
                                                             {
@@ -2143,30 +2430,6 @@ staticTemplate =
                                         }, -- end of [39]
                                         [40] = 
                                         {
-                                            ["alt"] = 787,
-                                            ["action"] = "Turning Point",
-                                            ["alt_type"] = "BARO",
-                                            ["speed"] = 44.444444444444,
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 5471.3602997151,
-                                            ["ETA_locked"] = false,
-                                            ["y"] = 74787.123106634,
-                                            ["x"] = 199220.9007577,
-                                            ["formation_template"] = "",
-                                            ["speed_locked"] = true,
-                                        }, -- end of [40]
-                                        [41] = 
-                                        {
                                             ["alt"] = 1847,
                                             ["action"] = "Turning Point",
                                             ["alt_type"] = "BARO",
@@ -2182,14 +2445,14 @@ staticTemplate =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["ETA"] = 5959.6280458666,
+                                            ["ETA"] = 5957.3493319121,
                                             ["ETA_locked"] = false,
                                             ["y"] = 53379.1046855,
                                             ["x"] = 202773.50237579,
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
-                                        }, -- end of [41]
-                                        [42] = 
+                                        }, -- end of [40]
+                                        [41] = 
                                         {
                                             ["alt"] = 1770,
                                             ["action"] = "Turning Point",
@@ -2212,8 +2475,8 @@ staticTemplate =
                                             ["x"] = 185149.06976566,
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
-                                        }, -- end of [42]
-                                        [43] = 
+                                        }, -- end of [41]
+                                        [42] = 
                                         {
                                             ["alt"] = 1770,
                                             ["action"] = "Turning Point",
@@ -2236,8 +2499,8 @@ staticTemplate =
                                             ["x"] = 160677.03020366,
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
-                                        }, -- end of [43]
-                                        [44] = 
+                                        }, -- end of [42]
+                                        [43] = 
                                         {
                                             ["alt"] = 1770,
                                             ["action"] = "Turning Point",
@@ -2260,7 +2523,7 @@ staticTemplate =
                                             ["x"] = 123640.25144937,
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
-                                        }, -- end of [44]
+                                        }, -- end of [43]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["groupId"] = 2,
@@ -2337,10 +2600,10 @@ staticTemplate =
                                                     {
                                                         [1] = 
                                                         {
-                                                            ["enabled"] = true,
+                                                            ["number"] = 1,
                                                             ["key"] = "CAS",
                                                             ["id"] = "EngageTargets",
-                                                            ["number"] = 1,
+                                                            ["enabled"] = true,
                                                             ["auto"] = true,
                                                             ["params"] = 
                                                             {
@@ -2715,10 +2978,10 @@ staticTemplate =
                                                     {
                                                         [1] = 
                                                         {
-                                                            ["number"] = 1,
+                                                            ["enabled"] = true,
                                                             ["key"] = "CAS",
                                                             ["id"] = "EngageTargets",
-                                                            ["enabled"] = true,
+                                                            ["number"] = 1,
                                                             ["auto"] = true,
                                                             ["params"] = 
                                                             {
@@ -3543,293 +3806,6 @@ staticTemplate =
                 }, -- end of [22]
             }, -- end of ["country"]
         }, -- end of ["blue"]
-        ["neutrals"] = 
-        {
-            ["name"] = "neutrals",
-            ["country"] = 
-            {
-                [1] = 
-                {
-                    ["id"] = 70,
-                    ["name"] = "Algeria",
-                }, -- end of [1]
-                [2] = 
-                {
-                    ["id"] = 83,
-                    ["name"] = "Argentina",
-                }, -- end of [2]
-                [3] = 
-                {
-                    ["id"] = 23,
-                    ["name"] = "Austria",
-                }, -- end of [3]
-                [4] = 
-                {
-                    ["id"] = 65,
-                    ["name"] = "Bahrain",
-                }, -- end of [4]
-                [5] = 
-                {
-                    ["id"] = 86,
-                    ["name"] = "Bolivia",
-                }, -- end of [5]
-                [6] = 
-                {
-                    ["id"] = 64,
-                    ["name"] = "Brazil",
-                }, -- end of [6]
-                [7] = 
-                {
-                    ["id"] = 25,
-                    ["name"] = "Bulgaria",
-                }, -- end of [7]
-                [8] = 
-                {
-                    ["id"] = 63,
-                    ["name"] = "Chile",
-                }, -- end of [8]
-                [9] = 
-                {
-                    ["id"] = 76,
-                    ["name"] = "Cuba",
-                }, -- end of [9]
-                [10] = 
-                {
-                    ["id"] = 84,
-                    ["name"] = "Cyprus",
-                }, -- end of [10]
-                [11] = 
-                {
-                    ["id"] = 29,
-                    ["name"] = "Egypt",
-                }, -- end of [11]
-                [12] = 
-                {
-                    ["id"] = 62,
-                    ["name"] = "Ethiopia",
-                }, -- end of [12]
-                [13] = 
-                {
-                    ["id"] = 30,
-                    ["name"] = "Finland",
-                }, -- end of [13]
-                [14] = 
-                {
-                    ["id"] = 78,
-                    ["name"] = "GDR",
-                }, -- end of [14]
-                [15] = 
-                {
-                    ["id"] = 87,
-                    ["name"] = "Ghana",
-                }, -- end of [15]
-                [16] = 
-                {
-                    ["id"] = 31,
-                    ["name"] = "Greece",
-                }, -- end of [16]
-                [17] = 
-                {
-                    ["id"] = 61,
-                    ["name"] = "Honduras",
-                }, -- end of [17]
-                [18] = 
-                {
-                    ["id"] = 32,
-                    ["name"] = "Hungary",
-                }, -- end of [18]
-                [19] = 
-                {
-                    ["id"] = 33,
-                    ["name"] = "India",
-                }, -- end of [19]
-                [20] = 
-                {
-                    ["id"] = 60,
-                    ["name"] = "Indonesia",
-                }, -- end of [20]
-                [21] = 
-                {
-                    ["id"] = 17,
-                    ["name"] = "Insurgents",
-                }, -- end of [21]
-                [22] = 
-                {
-                    ["id"] = 35,
-                    ["name"] = "Iraq",
-                }, -- end of [22]
-                [23] = 
-                {
-                    ["id"] = 69,
-                    ["name"] = "Italian Social Republic",
-                }, -- end of [23]
-                [24] = 
-                {
-                    ["id"] = 36,
-                    ["name"] = "Japan",
-                }, -- end of [24]
-                [25] = 
-                {
-                    ["id"] = 59,
-                    ["name"] = "Jordan",
-                }, -- end of [25]
-                [26] = 
-                {
-                    ["id"] = 71,
-                    ["name"] = "Kuwait",
-                }, -- end of [26]
-                [27] = 
-                {
-                    ["id"] = 79,
-                    ["name"] = "Lebanon",
-                }, -- end of [27]
-                [28] = 
-                {
-                    ["id"] = 58,
-                    ["name"] = "Libya",
-                }, -- end of [28]
-                [29] = 
-                {
-                    ["id"] = 57,
-                    ["name"] = "Malaysia",
-                }, -- end of [29]
-                [30] = 
-                {
-                    ["id"] = 56,
-                    ["name"] = "Mexico",
-                }, -- end of [30]
-                [31] = 
-                {
-                    ["id"] = 55,
-                    ["name"] = "Morocco",
-                }, -- end of [31]
-                [32] = 
-                {
-                    ["id"] = 88,
-                    ["name"] = "Nigeria",
-                }, -- end of [32]
-                [33] = 
-                {
-                    ["id"] = 73,
-                    ["name"] = "Oman",
-                }, -- end of [33]
-                [34] = 
-                {
-                    ["id"] = 39,
-                    ["name"] = "Pakistan",
-                }, -- end of [34]
-                [35] = 
-                {
-                    ["id"] = 89,
-                    ["name"] = "Peru",
-                }, -- end of [35]
-                [36] = 
-                {
-                    ["id"] = 54,
-                    ["name"] = "Philippines",
-                }, -- end of [36]
-                [37] = 
-                {
-                    ["id"] = 77,
-                    ["name"] = "Portugal",
-                }, -- end of [37]
-                [38] = 
-                {
-                    ["id"] = 72,
-                    ["name"] = "Qatar",
-                }, -- end of [38]
-                [39] = 
-                {
-                    ["id"] = 41,
-                    ["name"] = "Romania",
-                }, -- end of [39]
-                [40] = 
-                {
-                    ["id"] = 42,
-                    ["name"] = "Saudi Arabia",
-                }, -- end of [40]
-                [41] = 
-                {
-                    ["id"] = 44,
-                    ["name"] = "Slovakia",
-                }, -- end of [41]
-                [42] = 
-                {
-                    ["id"] = 85,
-                    ["name"] = "Slovenia",
-                }, -- end of [42]
-                [43] = 
-                {
-                    ["id"] = 75,
-                    ["name"] = "South Africa",
-                }, -- end of [43]
-                [44] = 
-                {
-                    ["id"] = 53,
-                    ["name"] = "Sudan",
-                }, -- end of [44]
-                [45] = 
-                {
-                    ["id"] = 22,
-                    ["name"] = "Switzerland",
-                }, -- end of [45]
-                [46] = 
-                {
-                    ["id"] = 52,
-                    ["name"] = "Thailand",
-                }, -- end of [46]
-                [47] = 
-                {
-                    ["id"] = 66,
-                    ["name"] = "Third Reich",
-                }, -- end of [47]
-                [48] = 
-                {
-                    ["id"] = 51,
-                    ["name"] = "Tunisia",
-                }, -- end of [48]
-                [49] = 
-                {
-                    ["id"] = 74,
-                    ["name"] = "United Arab Emirates",
-                }, -- end of [49]
-                [50] = 
-                {
-                    ["id"] = 82,
-                    ["name"] = "UN",
-                }, -- end of [50]
-                [51] = 
-                {
-                    ["id"] = 7,
-                    ["name"] = "USAF Aggressors",
-                }, -- end of [51]
-                [52] = 
-                {
-                    ["id"] = 68,
-                    ["name"] = "USSR",
-                }, -- end of [52]
-                [53] = 
-                {
-                    ["id"] = 50,
-                    ["name"] = "Venezuela",
-                }, -- end of [53]
-                [54] = 
-                {
-                    ["id"] = 49,
-                    ["name"] = "Vietnam",
-                }, -- end of [54]
-                [55] = 
-                {
-                    ["id"] = 48,
-                    ["name"] = "Yemen",
-                }, -- end of [55]
-                [56] = 
-                {
-                    ["id"] = 67,
-                    ["name"] = "Yugoslavia",
-                }, -- end of [56]
-            }, -- end of ["country"]
-        }, -- end of ["neutrals"]
         ["red"] = 
         {
             ["name"] = "red",
@@ -3871,10 +3847,10 @@ staticTemplate =
                                                     {
                                                         [1] = 
                                                         {
-                                                            ["enabled"] = true,
+                                                            ["number"] = 1,
                                                             ["auto"] = true,
                                                             ["id"] = "EngageTargets",
-                                                            ["number"] = 1,
+                                                            ["enabled"] = true,
                                                             ["key"] = "CAS",
                                                             ["params"] = 
                                                             {
@@ -4970,13 +4946,13 @@ staticTemplate =
                                         ["speed"] = 44.444444444444,
                                         ["AddPropAircraft"] = 
                                         {
-                                            ["OperatorNVG"] = true,
-                                            ["HideAngleBoxes"] = false,
                                             ["SimplifiedAI"] = false,
+                                            ["TrackAirTargets"] = true,
+                                            ["OperatorNVG"] = true,
                                             ["ExhaustScreen"] = true,
                                             ["PilotNVG"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["TrackAirTargets"] = true,
+                                            ["HideAngleBoxes"] = false,
                                             ["NS430allow"] = true,
                                         }, -- end of ["AddPropAircraft"]
                                         ["type"] = "Mi-24P",
@@ -5042,10 +5018,10 @@ staticTemplate =
                                                     {
                                                         [1] = 
                                                         {
-                                                            ["number"] = 1,
+                                                            ["enabled"] = true,
                                                             ["auto"] = true,
                                                             ["id"] = "EngageTargets",
-                                                            ["enabled"] = true,
+                                                            ["number"] = 1,
                                                             ["key"] = "CAS",
                                                             ["params"] = 
                                                             {
@@ -5589,13 +5565,13 @@ staticTemplate =
                                         ["speed"] = 44.444444444444,
                                         ["AddPropAircraft"] = 
                                         {
-                                            ["SimplifiedAI"] = false,
-                                            ["TrackAirTargets"] = true,
                                             ["OperatorNVG"] = true,
+                                            ["HideAngleBoxes"] = false,
+                                            ["SimplifiedAI"] = false,
                                             ["ExhaustScreen"] = true,
                                             ["PilotNVG"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["HideAngleBoxes"] = false,
+                                            ["TrackAirTargets"] = true,
                                             ["NS430allow"] = true,
                                         }, -- end of ["AddPropAircraft"]
                                         ["type"] = "Mi-24P",
@@ -6717,10 +6693,10 @@ staticTemplate =
                                                     {
                                                         [1] = 
                                                         {
-                                                            ["number"] = 1,
+                                                            ["enabled"] = true,
                                                             ["auto"] = true,
                                                             ["id"] = "EngageTargets",
-                                                            ["enabled"] = true,
+                                                            ["number"] = 1,
                                                             ["key"] = "CAS",
                                                             ["params"] = 
                                                             {
@@ -7313,10 +7289,10 @@ staticTemplate =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["ETA"] = 11545.587450022,
+                                            ["ETA"] = 11451.911134472,
                                             ["ETA_locked"] = false,
-                                            ["y"] = -100992.15844016,
-                                            ["x"] = -65450.60187062,
+                                            ["y"] = -100946.46003557,
+                                            ["x"] = -65315.379468113,
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
                                         }, -- end of [25]
@@ -7360,13 +7336,13 @@ staticTemplate =
                                         ["speed"] = 44.444444444444,
                                         ["AddPropAircraft"] = 
                                         {
-                                            ["SimplifiedAI"] = false,
-                                            ["TrackAirTargets"] = true,
                                             ["OperatorNVG"] = true,
+                                            ["HideAngleBoxes"] = false,
+                                            ["SimplifiedAI"] = false,
                                             ["ExhaustScreen"] = true,
                                             ["PilotNVG"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["HideAngleBoxes"] = false,
+                                            ["TrackAirTargets"] = true,
                                             ["NS430allow"] = true,
                                         }, -- end of ["AddPropAircraft"]
                                         ["type"] = "Mi-24P",
@@ -7432,10 +7408,10 @@ staticTemplate =
                                                     {
                                                         [1] = 
                                                         {
-                                                            ["enabled"] = true,
+                                                            ["number"] = 1,
                                                             ["auto"] = true,
                                                             ["id"] = "EngageTargets",
-                                                            ["number"] = 1,
+                                                            ["enabled"] = true,
                                                             ["key"] = "CAS",
                                                             ["params"] = 
                                                             {
@@ -7524,10 +7500,10 @@ staticTemplate =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["ETA"] = 5585.7893237047,
+                                            ["ETA"] = 5584.8943882107,
                                             ["ETA_locked"] = false,
-                                            ["y"] = 257762.78336066,
-                                            ["x"] = -190620.33990064,
+                                            ["y"] = 257627.4767893,
+                                            ["x"] = -190700.34659552,
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
                                         }, -- end of [4]
@@ -8147,13 +8123,13 @@ staticTemplate =
                                         ["speed"] = 44.444444444444,
                                         ["AddPropAircraft"] = 
                                         {
-                                            ["OperatorNVG"] = true,
-                                            ["HideAngleBoxes"] = false,
                                             ["SimplifiedAI"] = false,
+                                            ["TrackAirTargets"] = true,
+                                            ["OperatorNVG"] = true,
                                             ["ExhaustScreen"] = true,
                                             ["PilotNVG"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["TrackAirTargets"] = true,
+                                            ["HideAngleBoxes"] = false,
                                             ["NS430allow"] = true,
                                         }, -- end of ["AddPropAircraft"]
                                         ["type"] = "Mi-24P",
@@ -8219,10 +8195,10 @@ staticTemplate =
                                                     {
                                                         [1] = 
                                                         {
-                                                            ["enabled"] = true,
+                                                            ["number"] = 1,
                                                             ["key"] = "CAS",
                                                             ["id"] = "EngageTargets",
-                                                            ["number"] = 1,
+                                                            ["enabled"] = true,
                                                             ["auto"] = true,
                                                             ["params"] = 
                                                             {
@@ -8862,13 +8838,13 @@ staticTemplate =
                                         ["speed"] = 44.444444444444,
                                         ["AddPropAircraft"] = 
                                         {
-                                            ["SimplifiedAI"] = false,
-                                            ["TrackAirTargets"] = true,
                                             ["OperatorNVG"] = true,
+                                            ["HideAngleBoxes"] = false,
+                                            ["SimplifiedAI"] = false,
                                             ["ExhaustScreen"] = true,
                                             ["PilotNVG"] = true,
                                             ["GunnersAISkill"] = 90,
-                                            ["HideAngleBoxes"] = false,
+                                            ["TrackAirTargets"] = true,
                                             ["NS430allow"] = true,
                                         }, -- end of ["AddPropAircraft"]
                                         ["type"] = "Mi-24P",
