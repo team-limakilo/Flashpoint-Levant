@@ -1,6 +1,6 @@
 name = "Damascus"
 priority = 150
-airspace = true
+airspace = false
 links = {
     air    = { "Palmyra", "Homs Refinery" },
     ground = { "Palmyra" },
