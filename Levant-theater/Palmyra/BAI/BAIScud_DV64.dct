@@ -5,7 +5,7 @@ cost = 5
 ondemand = true
 desc = [[We've received intelligence that a Syrian Army unit is preparing to deploy Scud ballistic missiles against the friendly-occupied port town of Iskenderun, from somewhere to the south of Tabqa. Search the target grid, find the missile site and destroy the launch vehicles.
 
-Primary Objective: Search and destroy the Scud launchers.
+Primary Objective: Search and destroy the Scud launchers in grid DV64.
 
 Threats: AAA, enemy CAP.
 
