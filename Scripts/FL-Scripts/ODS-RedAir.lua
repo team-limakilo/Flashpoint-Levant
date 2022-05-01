@@ -145,22 +145,22 @@ A2ADispatcher_Red:SetSquadronOverhead( "Kuweires GCI", 1 )
 A2ADispatcher_Red:SetSquadronGrouping( "Kuweires GCI", 2, true )
 A2ADispatcher_Red:SetSquadronGci( "Kuweires GCI", 800, 1200, 4, 350, 1400 )
 
+-- Abu al-Duhur CAP
+A2ADispatcher_Red:SetSquadron( "Abu CAP", AIRBASE.Syria.Abu_al_Duhur, { "M23" } )
+A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot( "Abu CAP" )
+A2ADispatcher_Red:SetSquadronLandingAtRunway( "Abu CAP" )
+A2ADispatcher_Red:SetSquadronOverhead( "Abu CAP", 1 )
+A2ADispatcher_Red:SetSquadronGrouping( "Abu CAP", 2, true )
+A2ADispatcher_Red:SetSquadronCap( "Abu CAP", CAPZone2, 4000, 7000, 500, 900, 600, 1200 )
+A2ADispatcher_Red:SetSquadronCapInterval( "Abu CAP", 1, 350, 1400 )
+
 -- Abu al-Duhur GCI
 A2ADispatcher_Red:SetSquadron( "Abu GCI", AIRBASE.Syria.Abu_al_Duhur, { "M23" } )
 A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot( "Abu GCI" )
 A2ADispatcher_Red:SetSquadronLandingAtRunway( "Abu GCI" )
 A2ADispatcher_Red:SetSquadronOverhead( "Abu GCI", 1 )
 A2ADispatcher_Red:SetSquadronGrouping( "Abu GCI", 2, true )
-A2ADispatcher_Red:SetSquadronGci( "Abu GCI", 800, 1200, 4, 350, 1400 )
-
--- Bassel CAP
-A2ADispatcher_Red:SetSquadron( "Bassel", AIRBASE.Syria.Bassel_Al_Assad, { "M23" } )
-A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot( "Bassel" )
-A2ADispatcher_Red:SetSquadronLandingAtRunway( "Bassel" )
-A2ADispatcher_Red:SetSquadronOverhead( "Bassel", 1 )
-A2ADispatcher_Red:SetSquadronGrouping( "Bassel", 2, true )
-A2ADispatcher_Red:SetSquadronCap( "Bassel", CAPZone2, 4000, 7000, 500, 900, 600, 1200 )
-A2ADispatcher_Red:SetSquadronCapInterval( "Bassel", 1, 350, 1400 )
+A2ADispatcher_Red:SetSquadronGci( "Abu GCI", 800, 1200, 2, 350, 1400 )
 
 -- Bassel GCI
 A2ADispatcher_Red:SetSquadron( "Bassel GCI", AIRBASE.Syria.Bassel_Al_Assad, { "M21", "M23" } )
