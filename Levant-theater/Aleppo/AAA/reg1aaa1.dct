@@ -1,6 +1,6 @@
 objtype = "shorad"
 intel = 4
-cost = 5
+cost = 3
 priority = 62
 desc = [[We have reports of a AAA battery northwest of the Aleppo citadel which needs to be taken out to make way for friendly flights. It's located only a few hundred meters NE of the central train station, making it easy to acquire visually, but be careful to not fly too close to the guns.
 

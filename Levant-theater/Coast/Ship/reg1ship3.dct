@@ -1,6 +1,6 @@
 objtype = "sea"
 intel = 5
-cost = 15
+cost = 5
 desc = [[During an attack run, Italian Tornados identified docked ships at the port of Latakia, those ships were strategically positioned there to protect the area from any attempts of an amphibious landing. Your task is to sink or disable all military vessels inside the port to open the way for a Marine landing at the region.
 
 Primary Objective: Disable or sink all vessels

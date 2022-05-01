@@ -1,7 +1,7 @@
 time = 0  -- infinite(this is in seconds btw)
 blue = {
 	flag            = 45,
-	tickets         = 200,
+	tickets         = 160,
 	player_cost     = 1,
 	modifier_reward = 1,
 	modifier_loss   = 1,

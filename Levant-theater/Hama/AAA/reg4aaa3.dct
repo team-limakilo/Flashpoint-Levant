@@ -1,6 +1,6 @@
 objtype = "shorad"
 intel = 2
-cost = 10
+cost = 6
 extramarks = {
     { x = 9616, y = 290, z = 81356, label = "%TARGET%: Battery 1" },
     { x = 7194, y = 305, z = 80080, label = "%TARGET%: Battery 2" },

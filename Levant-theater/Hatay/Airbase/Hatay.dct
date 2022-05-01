@@ -7,4 +7,6 @@ desc = "Hatay"
 capturable = true
 recoverytype = "land"
 takeofftype = "runway"
-cost = 10
+-- Hatay already has a mission attached + it saves a lot of tickets
+-- by being a valid RTB airbase
+cost = 0

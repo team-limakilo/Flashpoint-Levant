@@ -1,6 +1,6 @@
 objtype = "shorad"
 intel = 4
-cost = 5
+cost = 3
 priority = 65
 desc = [[During a bombing mission targeting enemy encampments near Idlib, coalition aircraft were attacked by heavy AAA fire and SA-8 systems. Two of the pilots managed to divert from the original mission and eliminated an air defense site west of the town, allowing our aircraft to escape safely, but a later recon flight identified another AAA site east of the town, with an SA-8 system still present. We cannot risk sending more attackers to the region until this site is cleared.
 

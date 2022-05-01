@@ -6,4 +6,4 @@ subordinates = {}
 desc = "Kuweires"
 recoverytype = "land"
 takeofftype = "runway"
-cost = 30
+cost = 0
