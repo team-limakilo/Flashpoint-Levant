@@ -682,7 +682,7 @@ staticTemplate =
             }, -- end of ["country"]
         }, -- end of ["red"]
     }, -- end of ["coalition"]
-    ["name"] = "BAISmerch_BV53",
+    ["name"] = "BAISmerch_BV75",
     ["requiredModules"] = 
     {
     }, -- end of ["requiredModules"]
