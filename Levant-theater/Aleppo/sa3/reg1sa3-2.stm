@@ -503,7 +503,7 @@ staticTemplate =
                                         ["unitId"] = 2,
                                         ["y"] = 127560.5225191,
                                         ["x"] = 123210.57028577,
-                                        ["name"] = "Primary destroyed launcher 1",
+                                        ["name"] = "Launcher 1",
                                         ["heading"] = 3.1590459461097,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]
@@ -518,7 +518,7 @@ staticTemplate =
                                         ["unitId"] = 3,
                                         ["y"] = 127524.99551801,
                                         ["x"] = 123209.31428068,
-                                        ["name"] = "Primary destroyed launcher 2",
+                                        ["name"] = "Launcher 2",
                                         ["heading"] = 3.1590459461097,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [3]
@@ -533,7 +533,7 @@ staticTemplate =
                                         ["unitId"] = 4,
                                         ["y"] = 127578.64487824,
                                         ["x"] = 123238.56125633,
-                                        ["name"] = "Primary destroyed launcher 3",
+                                        ["name"] = "Launcher 3",
                                         ["heading"] = 3.1590459461097,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
@@ -548,7 +548,7 @@ staticTemplate =
                                         ["unitId"] = 5,
                                         ["y"] = 127504.00229009,
                                         ["x"] = 123236.58753404,
-                                        ["name"] = "Primary destroyed launcher 4",
+                                        ["name"] = "Launcher 4",
                                         ["heading"] = 3.1590459461097,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [5]
