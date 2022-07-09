@@ -20,8 +20,8 @@ A2ADispatcher_Blue = AI_A2A_DISPATCHER:New( Detection_Blue )
 A2ADispatcher_Blue:SetEngageRadius( 75000 ) -- CAP engagement radius of 75km
 A2ADispatcher_Blue:SetDefaultCapRacetrack( 30000, 40000 ) -- 30-40km racetracks
 A2ADispatcher_Blue:SetDefaultFuelThreshold( 0.3 ) -- RTB early to prevent auto-AAR
-A2ADispatcher_Blue:SetIntercept( 300 ) -- Calculated interception delay
-A2ADispatcher_Blue:SetGciRadius( 75000 ) -- Intercept targets less than 75km away from airbases
+A2ADispatcher_Blue:SetIntercept( 60 ) -- Interception delay in seconds
+A2ADispatcher_Blue:SetGciRadius( 90000 ) -- Intercept targets less than 90km away from airbases
 A2ADispatcher_Blue:SetBorderZone( { BluCap, FleetCAP } )
 
 -- Blue F-4E CAP
@@ -104,8 +104,8 @@ A2ADispatcher_Red = AI_A2A_DISPATCHER:New( Detection_Red )
 A2ADispatcher_Red:SetEngageRadius( 75000 ) -- CAP engament radius of 75km
 A2ADispatcher_Red:SetDefaultCapRacetrack( 30000, 40000 ) -- 30-40km racetracks
 A2ADispatcher_Red:SetDefaultFuelThreshold( 0.3 ) -- RTB early to prevent out of fuel ejections
-A2ADispatcher_Red:SetIntercept( 300 ) -- Calculated interception delay
-A2ADispatcher_Red:SetGciRadius( 150000 ) -- Intercept targets less than 150km away from airbases
+A2ADispatcher_Red:SetIntercept( 180 ) -- Interception delay in seconds
+A2ADispatcher_Red:SetGciRadius( 180000 ) -- Intercept targets less than 180km away from airbases
 A2ADispatcher_Red:SetBorderZone( { CAPZone1, CAPZone2, CAPZone3, CAPZone4 } )
 
 -- Aleppo CAP
@@ -125,7 +125,7 @@ A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot( "Aleppo GCI" )
 A2ADispatcher_Red:SetSquadronLandingAtRunway( "Aleppo GCI" )
 A2ADispatcher_Red:SetSquadronOverhead( "Aleppo GCI", 1 )
 A2ADispatcher_Red:SetSquadronGrouping( "Aleppo GCI", 2, true )
-A2ADispatcher_Red:SetSquadronGci( "Aleppo GCI", 800, 1200, 4, 350, 1400 )
+A2ADispatcher_Red:SetSquadronGci( "Aleppo GCI", 800, 1200, 4, 600, 1200 )
 -- GCI parameters: min engage speed, max engage speed, max airborne aircraft, min regen interval, max regen interval
 
 -- Airspawn 1 CAP (Disabled)
@@ -143,7 +143,7 @@ A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot( "Kuweires GCI" )
 A2ADispatcher_Red:SetSquadronLandingAtRunway( "Kuweires GCI" )
 A2ADispatcher_Red:SetSquadronOverhead( "Kuweires GCI", 1 )
 A2ADispatcher_Red:SetSquadronGrouping( "Kuweires GCI", 2, true )
-A2ADispatcher_Red:SetSquadronGci( "Kuweires GCI", 800, 1200, 4, 350, 1400 )
+A2ADispatcher_Red:SetSquadronGci( "Kuweires GCI", 800, 1200, 4, 900, 1400 )
 
 -- Abu al-Duhur CAP
 A2ADispatcher_Red:SetSquadron( "Abu CAP", AIRBASE.Syria.Abu_al_Duhur, { "M23" } )
@@ -152,7 +152,7 @@ A2ADispatcher_Red:SetSquadronLandingAtRunway( "Abu CAP" )
 A2ADispatcher_Red:SetSquadronOverhead( "Abu CAP", 1 )
 A2ADispatcher_Red:SetSquadronGrouping( "Abu CAP", 2, true )
 A2ADispatcher_Red:SetSquadronCap( "Abu CAP", CAPZone2, 4000, 7000, 500, 900, 600, 1200 )
-A2ADispatcher_Red:SetSquadronCapInterval( "Abu CAP", 1, 350, 1400 )
+A2ADispatcher_Red:SetSquadronCapInterval( "Abu CAP", 1, 450, 900 )
 
 -- Abu al-Duhur GCI
 A2ADispatcher_Red:SetSquadron( "Abu GCI", AIRBASE.Syria.Abu_al_Duhur, { "M23" } )
@@ -160,7 +160,7 @@ A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot( "Abu GCI" )
 A2ADispatcher_Red:SetSquadronLandingAtRunway( "Abu GCI" )
 A2ADispatcher_Red:SetSquadronOverhead( "Abu GCI", 1 )
 A2ADispatcher_Red:SetSquadronGrouping( "Abu GCI", 2, true )
-A2ADispatcher_Red:SetSquadronGci( "Abu GCI", 800, 1200, 2, 350, 1400 )
+A2ADispatcher_Red:SetSquadronGci( "Abu GCI", 800, 1200, 4, 600, 1200 )
 
 -- Bassel GCI
 A2ADispatcher_Red:SetSquadron( "Bassel GCI", AIRBASE.Syria.Bassel_Al_Assad, { "M21", "M23" } )
@@ -168,7 +168,7 @@ A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot( "Bassel GCI" )
 A2ADispatcher_Red:SetSquadronLandingAtRunway( "Bassel GCI" )
 A2ADispatcher_Red:SetSquadronOverhead( "Bassel GCI", 1 )
 A2ADispatcher_Red:SetSquadronGrouping( "Bassel GCI", 2, true )
-A2ADispatcher_Red:SetSquadronGci( "Bassel GCI", 800, 1500, 4, 350, 700 )
+A2ADispatcher_Red:SetSquadronGci( "Bassel GCI", 800, 1500, 4, 500, 1000 )
 
 -- Hama GCI
 A2ADispatcher_Red:SetSquadron( "Hama GCI", AIRBASE.Syria.Hama, { "M29Easy" } )
@@ -176,7 +176,7 @@ A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot( "Hama GCI" )
 A2ADispatcher_Red:SetSquadronLandingAtRunway( "Hama GCI" )
 A2ADispatcher_Red:SetSquadronOverhead( "Hama GCI", 1 )
 A2ADispatcher_Red:SetSquadronGrouping( "Hama GCI", 2, true )
-A2ADispatcher_Red:SetSquadronGci( "Hama GCI", 1000, 1500, 4, 350, 700 )
+A2ADispatcher_Red:SetSquadronGci( "Hama GCI", 1000, 1500, 2, 500, 1000 )
 
 -- Airspawn 2 CAP (Disabled)
 -- A2ADispatcher_Red:SetSquadron( "77th", "Airspawn 2", { "M21", "M23", "M25" } )
@@ -202,7 +202,7 @@ A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot( "Palmyra GCI" )
 A2ADispatcher_Red:SetSquadronLandingAtRunway( "Palmyra GCI" )
 A2ADispatcher_Red:SetSquadronOverhead( "Palmyra GCI", 1 )
 A2ADispatcher_Red:SetSquadronGrouping( "Palmyra GCI", 2, true )
-A2ADispatcher_Red:SetSquadronGci( "Palmyra GCI", 800, 1500, 2, 350, 700 )
+A2ADispatcher_Red:SetSquadronGci( "Palmyra GCI", 800, 1500, 2, 900, 1200 )
 
 -- Tiyas GCI
 A2ADispatcher_Red:SetSquadron( "Tiyas GCI", AIRBASE.Syria.Tiyas, { "M25" } )
@@ -210,7 +210,7 @@ A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot( "Tiyas GCI" )
 A2ADispatcher_Red:SetSquadronLandingAtRunway( "Tiyas GCI" )
 A2ADispatcher_Red:SetSquadronOverhead( "Tiyas GCI", 1 )
 A2ADispatcher_Red:SetSquadronGrouping( "Tiyas GCI", 2, true )
-A2ADispatcher_Red:SetSquadronGci( "Tiyas GCI", 1200, 1800, 4, 700, 1400 )
+A2ADispatcher_Red:SetSquadronGci( "Tiyas GCI", 1200, 1800, 4, 900, 1200 )
 
 -- Airspawn 3 CAP (Disabled)
 -- A2ADispatcher_Red:SetSquadron( "38th", "Airspawn 3", { "M23", "M25", "M29" } )
@@ -236,7 +236,7 @@ A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot( "Damascus GCI" )
 A2ADispatcher_Red:SetSquadronLandingAtRunway( "Damascus GCI" )
 A2ADispatcher_Red:SetSquadronOverhead( "Damascus GCI", 1 )
 A2ADispatcher_Red:SetSquadronGrouping( "Damascus GCI", 2, true )
-A2ADispatcher_Red:SetSquadronGci( "Damascus GCI", 800, 1500, 6, 450, 900 )
+A2ADispatcher_Red:SetSquadronGci( "Damascus GCI", 800, 1500, 6, 450, 600 )
 
 
 -- Debug messages
