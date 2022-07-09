@@ -1,0 +1,10 @@
+-- Contributor: Cadence
+objtype = "logistics"
+intel = 3
+cost = 5
+ondemand = true
+desc = [[Recon flights have revealed a Syrian army logistics and staging post to the south of Jisr Ash-Shughur. This is likely funneling weapons, fuel and ammo to the forces fighting in the Hatay province. The post is comprised of several tents, from which supplies are currently being loaded onto trucks. Destroy the tents, fuel stores, and all trucks present at the site.
+
+Threats: AAA.
+
+Recommended Pilots: 2]]

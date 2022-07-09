@@ -1,0 +1,10 @@
+-- Contributor: Cadence
+objtype = "logistics"
+intel = 3
+cost = 5
+ondemand = true
+desc = [[The Syrians have established a FARP in the valley between Jisr Ash-Shughur and Ein eikorum, with the intent of refueling and rearming helicopters operating in the region. Destroy all supplies and munitions at the site, and any helicopters currently stationed in it.
+
+Threats: AAA and short-range SAMs.
+
+Recommended Pilots: 2]]

@@ -1,0 +1,2039 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["id"] = 68,
+                    ["name"] = "USSR",
+                }, -- end of [52]
+                [53] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [53]
+                [54] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [54]
+                [55] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [55]
+                [56] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [56]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 80,
+                    ["name"] = "CJTF Blue",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [22]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["helicopter"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["modulation"] = 0,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["radioSet"] = false,
+                                ["task"] = "CAS",
+                                ["uncontrolled"] = true,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 500,
+                                            ["action"] = "From Ground Area",
+                                            ["alt_type"] = "BARO",
+                                            ["properties"] = 
+                                            {
+                                                ["addopt"] = 
+                                                {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 44.444444444444,
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["number"] = 1,
+                                                            ["key"] = "CAS",
+                                                            ["id"] = "EngageTargets",
+                                                            ["enabled"] = true,
+                                                            ["auto"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["targetTypes"] = 
+                                                                {
+                                                                    [1] = "Helicopters",
+                                                                    [2] = "Ground Units",
+                                                                    [3] = "Light armed ships",
+                                                                }, -- end of ["targetTypes"]
+                                                                ["priority"] = 0,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffGround",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["y"] = 38893.536530447,
+                                            ["x"] = 61683.379771732,
+                                            ["formation_template"] = "",
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["alt"] = 500,
+                                        ["hardpoint_racks"] = true,
+                                        ["alt_type"] = "BARO",
+                                        ["livery_id"] = "SyAAF",
+                                        ["skill"] = "Random",
+                                        ["ropeLength"] = 15,
+                                        ["speed"] = 44.444444444444,
+                                        ["AddPropAircraft"] = 
+                                        {
+                                            ["LeftEngineResource"] = 90,
+                                            ["RightEngineResource"] = 90,
+                                            ["PilotNVG"] = true,
+                                            ["NetCrewControlPriority"] = 0,
+                                            ["GunnersAISkill"] = 90,
+                                            ["HideAngleBoxes"] = false,
+                                            ["OperatorNVG"] = true,
+                                            ["ExhaustScreen"] = true,
+                                            ["SimplifiedAI"] = false,
+                                            ["TrackAirTargets"] = true,
+                                            ["R60equipment"] = true,
+                                            ["NS430allow"] = true,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["type"] = "Mi-24P",
+                                        ["unitId"] = 8,
+                                        ["psi"] = -0,
+                                        ["y"] = 38893.536530447,
+                                        ["x"] = 61683.379771732,
+                                        ["name"] = "PRIMARY DESTROYED Helicopters-1",
+                                        ["payload"] = 
+                                        {
+                                            ["pylons"] = 
+                                            {
+                                                [1] = 
+                                                {
+                                                    ["CLSID"] = "{B919B0F4-7C25-455E-9A02-CEA51DB895E3}",
+                                                }, -- end of [1]
+                                                [2] = 
+                                                {
+                                                    ["CLSID"] = "{UB-32A-24}",
+                                                }, -- end of [2]
+                                                [3] = 
+                                                {
+                                                    ["CLSID"] = "{UB-32A-24}",
+                                                }, -- end of [3]
+                                                [4] = 
+                                                {
+                                                    ["CLSID"] = "{UB-32A-24}",
+                                                }, -- end of [4]
+                                                [5] = 
+                                                {
+                                                    ["CLSID"] = "{UB-32A-24}",
+                                                }, -- end of [5]
+                                                [6] = 
+                                                {
+                                                    ["CLSID"] = "{B919B0F4-7C25-455E-9A02-CEA51DB895E3}",
+                                                }, -- end of [6]
+                                            }, -- end of ["pylons"]
+                                            ["fuel"] = 1701,
+                                            ["flare"] = 192,
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 0,
+                                            ["gun"] = 100,
+                                        }, -- end of ["payload"]
+                                        ["heading"] = 0,
+                                        ["callsign"] = 
+                                        {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Enfield11",
+                                        }, -- end of ["callsign"]
+                                        ["onboard_num"] = "010",
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["alt"] = 500,
+                                        ["hardpoint_racks"] = true,
+                                        ["alt_type"] = "BARO",
+                                        ["livery_id"] = "SyAAF",
+                                        ["skill"] = "Random",
+                                        ["ropeLength"] = 15,
+                                        ["speed"] = 44.444444444444,
+                                        ["AddPropAircraft"] = 
+                                        {
+                                            ["PilotNVG"] = true,
+                                            ["GunnersAISkill"] = 90,
+                                            ["SimplifiedAI"] = false,
+                                            ["OperatorNVG"] = true,
+                                            ["ExhaustScreen"] = true,
+                                            ["TrackAirTargets"] = true,
+                                            ["HideAngleBoxes"] = false,
+                                            ["R60equipment"] = true,
+                                            ["NS430allow"] = true,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["type"] = "Mi-24P",
+                                        ["unitId"] = 9,
+                                        ["psi"] = -0.19198621771938,
+                                        ["y"] = 38864.770206016,
+                                        ["x"] = 61683.968843222,
+                                        ["name"] = "PRIMARY DESTROYED Helicopters-2",
+                                        ["payload"] = 
+                                        {
+                                            ["pylons"] = 
+                                            {
+                                                [1] = 
+                                                {
+                                                    ["CLSID"] = "{B919B0F4-7C25-455E-9A02-CEA51DB895E3}",
+                                                }, -- end of [1]
+                                                [2] = 
+                                                {
+                                                    ["CLSID"] = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
+                                                }, -- end of [2]
+                                                [3] = 
+                                                {
+                                                    ["CLSID"] = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
+                                                }, -- end of [3]
+                                                [4] = 
+                                                {
+                                                    ["CLSID"] = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
+                                                }, -- end of [4]
+                                                [5] = 
+                                                {
+                                                    ["CLSID"] = "{3C612111-C7AD-476E-8A8E-2485812F4E5C}",
+                                                }, -- end of [5]
+                                                [6] = 
+                                                {
+                                                    ["CLSID"] = "{B919B0F4-7C25-455E-9A02-CEA51DB895E3}",
+                                                }, -- end of [6]
+                                            }, -- end of ["pylons"]
+                                            ["fuel"] = 1701,
+                                            ["flare"] = 192,
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 0,
+                                            ["gun"] = 100,
+                                        }, -- end of ["payload"]
+                                        ["heading"] = 0.19198621771938,
+                                        ["callsign"] = 
+                                        {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 2,
+                                            ["name"] = "Enfield12",
+                                        }, -- end of ["callsign"]
+                                        ["onboard_num"] = "011",
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = 38893.536530447,
+                                ["x"] = 61683.379771732,
+                                ["name"] = "PRIMARY DESTROYED Helicopters",
+                                ["communication"] = true,
+                                ["start_time"] = 0,
+                                ["uncontrollable"] = false,
+                                ["frequency"] = 127.5,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["helicopter"]
+                    ["name"] = "CJTF Red",
+                    ["id"] = 81,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 38882.020329357,
+                                                ["x"] = 61697.492574094,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 38881.43238721,
+                                                ["x"] = 61697.531911627,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 161,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 38905.50336976,
+                                            ["x"] = 61708.861802984,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "ZU-23 Closed Insurgent",
+                                        ["unitId"] = 4,
+                                        ["skill"] = "Average",
+                                        ["y"] = 38905.50336976,
+                                        ["x"] = 61708.861802984,
+                                        ["name"] = "AAA Emplacement-2",
+                                        ["heading"] = 0.1221730476396,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "ZU-23 Closed Insurgent",
+                                        ["unitId"] = 3,
+                                        ["skill"] = "Average",
+                                        ["y"] = 38945.306203569,
+                                        ["x"] = 61662.209768453,
+                                        ["name"] = "AAA Emplacement-1",
+                                        ["heading"] = 2.0769418098733,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = 38905.50336976,
+                                ["x"] = 61708.861802984,
+                                ["name"] = "AAA Emplacement",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 38911.228863962,
+                                                ["x"] = 61685.022811056,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 38911.038811665,
+                                                ["x"] = 61684.832758759,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 161,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 38912.274151596,
+                                            ["x"] = 61693.955269022,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "ATZ-10",
+                                        ["unitId"] = 7,
+                                        ["skill"] = "Average",
+                                        ["y"] = 38912.274151596,
+                                        ["x"] = 61693.955269022,
+                                        ["name"] = "PRIMARY DESTROYED Trucks-3",
+                                        ["heading"] = 1.1170107212764,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "Ural-4320 APA-5D",
+                                        ["unitId"] = 6,
+                                        ["skill"] = "Average",
+                                        ["y"] = 38912.179125448,
+                                        ["x"] = 61688.253700108,
+                                        ["name"] = "PRIMARY DESTROYED Trucks-2",
+                                        ["heading"] = 1.6580627893946,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 5,
+                                        ["skill"] = "Average",
+                                        ["y"] = 38946.673617379,
+                                        ["x"] = 61674.855013159,
+                                        ["name"] = "PRIMARY DESTROYED Trucks-1",
+                                        ["heading"] = 4.4854961776254,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                }, -- end of ["units"]
+                                ["y"] = 38912.274151596,
+                                ["x"] = 61693.955269022,
+                                ["name"] = "PRIMARY DESTROYED Trucks",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 161,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 38874.93094092,
+                                            ["x"] = 61650.548865078,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 25,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "Strela-1 9P31",
+                                        ["unitId"] = 29,
+                                        ["skill"] = "Average",
+                                        ["y"] = 38874.93094092,
+                                        ["x"] = 61650.548865078,
+                                        ["name"] = "IR SAM-1",
+                                        ["heading"] = 4.4854961776254,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38874.93094092,
+                                ["x"] = 61650.548865078,
+                                ["name"] = "IR SAM",
+                                ["start_time"] = 0,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 38930.501466568,
+                                                ["x"] = 61707.035494596,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 38913.602986173,
+                                                ["x"] = 61678.048588151,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 161,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 38930.817917512,
+                                            ["x"] = 61707.288655351,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 26,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 31,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Random",
+                                        ["y"] = 38930.817917512,
+                                        ["x"] = 61707.288655351,
+                                        ["name"] = "APCs-2",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "BRDM-2",
+                                        ["unitId"] = 30,
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Random",
+                                        ["y"] = 38935.754552234,
+                                        ["x"] = 61690.390174956,
+                                        ["name"] = "APCs-1",
+                                        ["heading"] = 0.27925268031909,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = 38930.817917512,
+                                ["x"] = 61707.288655351,
+                                ["name"] = "APCs",
+                                ["start_time"] = 0,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 38966.153344919,
+                                                ["x"] = 61759.141659743,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 38966.373696094,
+                                                ["x"] = 61759.624420455,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 161,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 38949.279328376,
+                                            ["x"] = 61701.239696953,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 27,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "Soldier AK",
+                                        ["unitId"] = 35,
+                                        ["skill"] = "Random",
+                                        ["y"] = 38949.279328376,
+                                        ["x"] = 61701.239696953,
+                                        ["name"] = "Chumps-4",
+                                        ["heading"] = 4.9741883681838,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "Soldier AK",
+                                        ["unitId"] = 34,
+                                        ["skill"] = "Random",
+                                        ["y"] = 38939.828977262,
+                                        ["x"] = 61713.666098568,
+                                        ["name"] = "Chumps-3",
+                                        ["heading"] = 6.0562925044203,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["type"] = "Soldier AK",
+                                        ["unitId"] = 33,
+                                        ["skill"] = "Random",
+                                        ["y"] = 38881.01573856,
+                                        ["x"] = 61677.994911185,
+                                        ["name"] = "Chumps-2",
+                                        ["heading"] = 3.7175513067479,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["type"] = "Soldier AK",
+                                        ["unitId"] = 32,
+                                        ["skill"] = "Random",
+                                        ["y"] = 38919.233327952,
+                                        ["x"] = 61692.171776977,
+                                        ["name"] = "Chumps-1",
+                                        ["heading"] = 1.6406094968747,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["y"] = 38949.279328376,
+                                ["x"] = 61701.239696953,
+                                ["name"] = "Chumps",
+                                ["start_time"] = 0,
+                            }, -- end of [5]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38930.550201729,
+                                            ["speed"] = 0,
+                                            ["x"] = 61700.969409686,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["type"] = "outpost_road",
+                                        ["unitId"] = 1,
+                                        ["rate"] = 5,
+                                        ["y"] = 38930.550201729,
+                                        ["x"] = 61700.969409686,
+                                        ["name"] = "Static Road outpost-1-1",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38930.550201729,
+                                ["x"] = 61700.969409686,
+                                ["name"] = "Static Road outpost-1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 0,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38915.286034268,
+                                            ["speed"] = 0,
+                                            ["x"] = 61708.728821917,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 2,
+                                        ["rate"] = 10,
+                                        ["y"] = 38915.286034268,
+                                        ["x"] = 61708.728821917,
+                                        ["name"] = "Static Watch tower armed-1-1",
+                                        ["heading"] = 0,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38915.286034268,
+                                ["x"] = 61708.728821917,
+                                ["name"] = "Static Watch tower armed-1",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 4.6425758103049,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38913.466782528,
+                                            ["speed"] = 0,
+                                            ["x"] = 61677.587235413,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "GSM Rus",
+                                        ["type"] = "FARP Fuel Depot",
+                                        ["unitId"] = 10,
+                                        ["rate"] = 20,
+                                        ["y"] = 38913.466782528,
+                                        ["x"] = 61677.587235413,
+                                        ["name"] = "PRIMARY DESTROYED FARP Fuel Depot-1",
+                                        ["heading"] = 4.6425758103049,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38913.466782528,
+                                ["x"] = 61677.587235413,
+                                ["name"] = "PRIMARY DESTROYED FARP Fuel Depot-1",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 3.2288591161895,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38913.368603946,
+                                            ["speed"] = 0,
+                                            ["x"] = 61670.322020368,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "GSM Rus",
+                                        ["type"] = "FARP Fuel Depot",
+                                        ["unitId"] = 11,
+                                        ["rate"] = 20,
+                                        ["y"] = 38913.368603946,
+                                        ["x"] = 61670.322020368,
+                                        ["name"] = "PRIMARY DESTROYED FARP Fuel Depot-2",
+                                        ["heading"] = 3.2288591161895,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38913.368603946,
+                                ["x"] = 61670.322020368,
+                                ["name"] = "PRIMARY DESTROYED FARP Fuel Depot-2",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 3.9618974020271,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38910.177732966,
+                                            ["speed"] = 0,
+                                            ["x"] = 61662.014251442,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "SetkaKP",
+                                        ["type"] = "FARP Ammo Dump Coating",
+                                        ["unitId"] = 12,
+                                        ["rate"] = 50,
+                                        ["y"] = 38910.177732966,
+                                        ["x"] = 61662.014251442,
+                                        ["name"] = "PRIMARY DESTROYED FARP Ammo Storage-1",
+                                        ["heading"] = 3.9618974020271,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38910.177732966,
+                                ["x"] = 61662.014251442,
+                                ["name"] = "PRIMARY DESTROYED FARP Ammo Storage-1",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38904.769187297,
+                                            ["speed"] = 0,
+                                            ["x"] = 61670.058119199,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 13,
+                                        ["rate"] = 3,
+                                        ["y"] = 38904.769187297,
+                                        ["x"] = 61670.058119199,
+                                        ["name"] = "Static Mark Tyre Black-1-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38904.769187297,
+                                ["x"] = 61670.058119199,
+                                ["name"] = "Static Mark Tyre Black-1",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38905.374204512,
+                                            ["speed"] = 0,
+                                            ["x"] = 61694.326031966,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 14,
+                                        ["rate"] = 3,
+                                        ["y"] = 38905.374204512,
+                                        ["x"] = 61694.326031966,
+                                        ["name"] = "Static Mark Tyre Black-2-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38905.374204512,
+                                ["x"] = 61694.326031966,
+                                ["name"] = "Static Mark Tyre Black-2",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38882.181877907,
+                                            ["speed"] = 0,
+                                            ["x"] = 61693.72101475,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 15,
+                                        ["rate"] = 3,
+                                        ["y"] = 38882.181877907,
+                                        ["x"] = 61693.72101475,
+                                        ["name"] = "Static Mark Tyre Black-3-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38882.181877907,
+                                ["x"] = 61693.72101475,
+                                ["name"] = "Static Mark Tyre Black-3",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38883.459136474,
+                                            ["speed"] = 0,
+                                            ["x"] = 61670.125343334,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 16,
+                                        ["rate"] = 3,
+                                        ["y"] = 38883.459136474,
+                                        ["x"] = 61670.125343334,
+                                        ["name"] = "Static Mark Tyre Black-4-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38883.459136474,
+                                ["x"] = 61670.125343334,
+                                ["name"] = "Static Mark Tyre Black-4",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38877.341740181,
+                                            ["speed"] = 0,
+                                            ["x"] = 61670.327015739,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 17,
+                                        ["rate"] = 3,
+                                        ["y"] = 38877.341740181,
+                                        ["x"] = 61670.327015739,
+                                        ["name"] = "Static Mark Tyre Black-5-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38877.341740181,
+                                ["x"] = 61670.327015739,
+                                ["name"] = "Static Mark Tyre Black-5",
+                                ["dead"] = false,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38854.20899278,
+                                            ["speed"] = 0,
+                                            ["x"] = 61671.032629907,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 18,
+                                        ["rate"] = 3,
+                                        ["y"] = 38854.20899278,
+                                        ["x"] = 61671.032629907,
+                                        ["name"] = "Static Mark Tyre Black-6-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38854.20899278,
+                                ["x"] = 61671.032629907,
+                                ["name"] = "Static Mark Tyre Black-6",
+                                ["dead"] = false,
+                            }, -- end of [11]
+                            [12] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38876.93839537,
+                                            ["speed"] = 0,
+                                            ["x"] = 61693.72101475,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 19,
+                                        ["rate"] = 3,
+                                        ["y"] = 38876.93839537,
+                                        ["x"] = 61693.72101475,
+                                        ["name"] = "Static Mark Tyre Black-7-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38876.93839537,
+                                ["x"] = 61693.72101475,
+                                ["name"] = "Static Mark Tyre Black-7",
+                                ["dead"] = false,
+                            }, -- end of [12]
+                            [13] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38854.20899278,
+                                            ["speed"] = 0,
+                                            ["x"] = 61693.660044543,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 16,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 20,
+                                        ["rate"] = 3,
+                                        ["y"] = 38854.20899278,
+                                        ["x"] = 61693.660044543,
+                                        ["name"] = "Static Mark Tyre Black-8-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38854.20899278,
+                                ["x"] = 61693.660044543,
+                                ["name"] = "Static Mark Tyre Black-8",
+                                ["dead"] = false,
+                            }, -- end of [13]
+                            [14] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38867.863137133,
+                                            ["speed"] = 0,
+                                            ["x"] = 61670.058119199,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 17,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 21,
+                                        ["rate"] = 3,
+                                        ["y"] = 38867.863137133,
+                                        ["x"] = 61670.058119199,
+                                        ["name"] = "Static Mark Tyre Black-9-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38867.863137133,
+                                ["x"] = 61670.058119199,
+                                ["name"] = "Static Mark Tyre Black-9",
+                                ["dead"] = false,
+                            }, -- end of [14]
+                            [15] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38868.132033674,
+                                            ["speed"] = 0,
+                                            ["x"] = 61693.72101475,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 18,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 22,
+                                        ["rate"] = 3,
+                                        ["y"] = 38868.132033674,
+                                        ["x"] = 61693.72101475,
+                                        ["name"] = "Static Mark Tyre Black-10-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38868.132033674,
+                                ["x"] = 61693.72101475,
+                                ["name"] = "Static Mark Tyre Black-10",
+                                ["dead"] = false,
+                            }, -- end of [15]
+                            [16] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38854.328084436,
+                                            ["speed"] = 0,
+                                            ["x"] = 61681.869970601,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 19,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 23,
+                                        ["rate"] = 3,
+                                        ["y"] = 38854.328084436,
+                                        ["x"] = 61681.869970601,
+                                        ["name"] = "Static Mark Tyre Black-11-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38854.328084436,
+                                ["x"] = 61681.869970601,
+                                ["name"] = "Static Mark Tyre Black-11",
+                                ["dead"] = false,
+                            }, -- end of [16]
+                            [17] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38877.005619505,
+                                            ["speed"] = 0,
+                                            ["x"] = 61681.687894569,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 20,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 24,
+                                        ["rate"] = 3,
+                                        ["y"] = 38877.005619505,
+                                        ["x"] = 61681.687894569,
+                                        ["name"] = "Static Mark Tyre Black-12-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38877.005619505,
+                                ["x"] = 61681.687894569,
+                                ["name"] = "Static Mark Tyre Black-12",
+                                ["dead"] = false,
+                            }, -- end of [17]
+                            [18] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38883.190239933,
+                                            ["speed"] = 0,
+                                            ["x"] = 61681.553446299,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 21,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 25,
+                                        ["rate"] = 3,
+                                        ["y"] = 38883.190239933,
+                                        ["x"] = 61681.553446299,
+                                        ["name"] = "Static Mark Tyre Black-13-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38883.190239933,
+                                ["x"] = 61681.553446299,
+                                ["name"] = "Static Mark Tyre Black-13",
+                                ["dead"] = false,
+                            }, -- end of [18]
+                            [19] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38894.282222223,
+                                            ["speed"] = 0,
+                                            ["x"] = 61670.259791604,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 22,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 26,
+                                        ["rate"] = 3,
+                                        ["y"] = 38894.282222223,
+                                        ["x"] = 61670.259791604,
+                                        ["name"] = "Static Mark Tyre Black-14-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38894.282222223,
+                                ["x"] = 61670.259791604,
+                                ["name"] = "Static Mark Tyre Black-14",
+                                ["dead"] = false,
+                            }, -- end of [19]
+                            [20] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38893.878877412,
+                                            ["speed"] = 0,
+                                            ["x"] = 61694.057135425,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 23,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 27,
+                                        ["rate"] = 3,
+                                        ["y"] = 38893.878877412,
+                                        ["x"] = 61694.057135425,
+                                        ["name"] = "Static Mark Tyre Black-15-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38893.878877412,
+                                ["x"] = 61694.057135425,
+                                ["name"] = "Static Mark Tyre Black-15",
+                                ["dead"] = false,
+                            }, -- end of [20]
+                            [21] = 
+                            {
+                                ["heading"] = 0.081028233663264,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 38904.769187297,
+                                            ["speed"] = 0,
+                                            ["x"] = 61681.217325624,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 24,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "H-tyre_B",
+                                        ["type"] = "Black_Tyre",
+                                        ["unitId"] = 28,
+                                        ["rate"] = 3,
+                                        ["y"] = 38904.769187297,
+                                        ["x"] = 61681.217325624,
+                                        ["name"] = "Static Mark Tyre Black-16-1",
+                                        ["heading"] = 0.081028233663264,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 38904.769187297,
+                                ["x"] = 61681.217325624,
+                                ["name"] = "Static Mark Tyre Black-16",
+                                ["dead"] = false,
+                            }, -- end of [21]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 0,
+                    ["name"] = "Russia",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [11]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "BAI_HeliFARP",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "The Syrians have established a FARP in the valley between Jisr Ash-Shughur and Ein eikorum to refuel and rearm helicopters. Destroy all supplies and munitions at the site and any helicopters present.\
+\
+Expected threats: AAA and SR SAM",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "Syria",
+    ["desc"] = "The Syrians have established a FARP in the valley between Jisr Ash-Shughur and Ein eikorum to refuel and rearm helicopters. Destroy all supplies and munitions at the site and any helicopters present.\
+\
+Expected threats: AAA and SR SAM",
+} -- end of staticTemplate
