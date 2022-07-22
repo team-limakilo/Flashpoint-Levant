@@ -1,7 +1,7 @@
 objtype = "shorad"
 intel = 2
 cost = 6
-priority = 68
+priority = 105
 exclusion = "reg1aaa2"
 location = { x = 125682, y = 382, z = 122973 }
 extramarks = {

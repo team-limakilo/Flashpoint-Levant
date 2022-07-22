@@ -1,0 +1,14 @@
+objtype = "frontline"
+intel = 3
+cost = 2
+ondemand = true
+name = "Reg5cas5"
+coalition = 1
+Priority = 50
+desc = [[Syria is currently using its Grad MLRS's to hit our defensive positions, one of such batteries was identified 7 clicks south of Saida, near a small industrial area, by the coast and close to a small marina; Your mission is to destroy the MLRS's to stop the constant barrages at our friendlies;
+
+Primary objective: Destroy the battery.
+
+Threats: Technicals.
+
+Recommended pilots: 2]]

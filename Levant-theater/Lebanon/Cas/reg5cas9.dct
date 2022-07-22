@@ -1,0 +1,14 @@
+objtype = "frontline"
+intel = 3
+cost = 2
+ondemand = true
+name = "Reg5cas9"
+coalition = 1
+Priority = 60
+desc = [[While returning from a CAS mission, a flight of 2 French Gazelles identified a Syrian convoy pushing towads the city, on the north-south access road by the coast, on the northern outskirts of the city, however, the convoy seemed to be stopped, and so, your are tasked to inflict as much damage on said convoy while they are stationary;
+
+Primary objective: Destroy the enemy convoy.
+
+Threats: Technicals, RPGs.
+
+Recommended pilots: 2]]

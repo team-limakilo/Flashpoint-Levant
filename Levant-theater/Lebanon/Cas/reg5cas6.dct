@@ -1,0 +1,14 @@
+objtype = "frontline"
+intel = 3
+cost = 2
+ondemand = true
+name = "Reg5cas6"
+coalition = 1
+Priority = 55
+desc = [[In preparation for the landings, the Marines want to clear the shores south of Beirut, more specifically on Haret Chbib, as earlier today, a recon flight of Royal Navy Sea Harriers, identified entrenched Syrian armor ready to take on any attempt to land on Lebanese shores; Your asignment is to soften the enemy armor and make it combat inefective in order to make the landings easier;
+
+Primary objective: Soften the enemy armor position.
+
+Threats: Technicals.
+
+Recommended pilots: 2]]

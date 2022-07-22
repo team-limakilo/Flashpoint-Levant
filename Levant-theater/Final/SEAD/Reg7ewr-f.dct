@@ -1,0 +1,15 @@
+objtype = "c2"
+name = "Reg7ewr-f"
+coalition = 1
+intel = 5
+cost = 5000
+priority = 1000
+minagents = 1000
+exclusion = "reg7-final"
+desc = [[One of the enemy command installations are located within the Marj as Sultan south helibase, its a sizeable EWR complex operated by the SyADF forces, which also provide command and control to their aerial forces on the theatre. And so, its destruction is important to degrade the enemy capability to coordinate aerial assets on the battlefield. Specially putting into consideration their reliance on ground control. Be aware the site is heavily defended by several air defense systems and also be mindful of ordnance placement, as the complex is located extremely close to a population center.
+
+Primary objective: Destroy the Radars and command bunker.
+
+Threats: SA-19, SA-13, MANPADS, AAA, Medium and High altitude SAMs and interceptors from Sayqal and Al-Dumayr.
+
+Recommended pilots: 4]]

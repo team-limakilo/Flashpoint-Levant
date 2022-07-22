@@ -1,0 +1,14 @@
+objtype = "frontline"
+intel = 3
+cost = 2
+ondemand = true
+name = "Reg5cas8"
+coalition = 1
+Priority = 60
+desc = [[Syrian resistence is fiercer than expected, and it seems like Syria will not let go of Beirut without heavy fighting; Syrian troops are currently blocking the avenue that comes directly from the airport and goes directly into the downtown, south east of the two stadiums, and just a few hundred meters before the overpass. Your task is to clear the road from enemy units, but be mindful of collateral damage;
+
+Primary objective: Eliminate the enemy troops.
+
+Threats: Technicals.
+
+Recommended pilots: 2]]

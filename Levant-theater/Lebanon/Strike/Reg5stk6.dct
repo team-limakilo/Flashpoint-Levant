@@ -1,0 +1,14 @@
+objtype = "AmmoDump"
+intel = 3
+cost = 3
+name = "Reg5stk6"
+coalition = 1
+priority = 65
+
+desc = [[As the war continues, there are still elements of the Lebanese army resisting the Syrian occupation, and recently, they retook Wujah Al Hajar from the Syrians, but are unsure they will be able to hold for much longer, as Syria has a FOB north of it, by the town of Chekka, south of it, right by the tanker oil pumps. Your mission is to destroy the FOB, and after the FOB is cleared, if not winchester, you also have clearence to destroy any vehicles close to the FOB(just a couple hundred meters around it)
+
+Primary objective: Destroy the FOB.
+
+Threats: AAA and manpads.
+
+Recommended pilots: 2]]

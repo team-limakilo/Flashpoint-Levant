@@ -1,0 +1,14 @@
+objtype = "frontline"
+intel = 3
+cost = 2
+ondemand = true
+name = "reg5bai1"
+coalition = 1
+Priority = 50
+desc = [[A recon flight identified a small Syrian FARP located in the town of Baalbek, and its being used to ressuply their helicopters, so your mission is to disable it so the enemies cannot use it to support helicopters to harass our Marines during the landings and subsequent push; The FARP was established just west of the old Roman ruins on the center of the town, but be aware of the civilian buildings nearby, we don't want to cause any harm to the locals we are liberating;
+
+Primary objective: Destroy the enemy FARP.
+
+Threats: AAA.
+
+Recommended pilots: 2]]

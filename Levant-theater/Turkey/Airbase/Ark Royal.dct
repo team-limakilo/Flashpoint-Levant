@@ -1,0 +1,11 @@
+
+objtype = "airbase"
+name = "HMS Ark Royal"
+coalition = 2
+subordinates = {"801NAS"}
+desc = "HMS Ark Royal"
+recoverytype = "land"
+takeofftype = "runway"
+tacan = "7X AR"
+icls = 15
+cost = 20

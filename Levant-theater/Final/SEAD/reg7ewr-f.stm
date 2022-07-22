@@ -1,0 +1,1152 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [52]
+                [53] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [53]
+                [54] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [54]
+                [55] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [55]
+                [56] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [56]
+                [57] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [57]
+                [58] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [58]
+                [59] = 
+                {
+                    ["id"] = 0,
+                    ["name"] = "Russia",
+                }, -- end of [59]
+                [60] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [60]
+                [61] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [61]
+                [62] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [62]
+                [63] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [63]
+                [64] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [64]
+                [65] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [65]
+                [66] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [66]
+                [67] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [67]
+                [68] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [68]
+                [69] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [69]
+                [70] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [70]
+                [71] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [71]
+                [72] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [72]
+                [73] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [73]
+                [74] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [74]
+                [75] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [75]
+                [76] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [76]
+                [77] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [77]
+                [78] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [78]
+                [79] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [79]
+                [80] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [80]
+                [81] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [81]
+                [82] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [82]
+                [83] = 
+                {
+                    ["id"] = 68,
+                    ["name"] = "USSR",
+                }, -- end of [83]
+                [84] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [84]
+                [85] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [85]
+                [86] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [86]
+                [87] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [87]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 80,
+                    ["name"] = "CJTF Blue",
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 81,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = 62042.853626178,
+                                                ["x"] = -163496.41842103,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = 62039.404353368,
+                                                ["x"] = -163481.75901159,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 611,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 48239.867551373,
+                                            ["x"] = -171303.94941614,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["number"] = 1,
+                                                            ["auto"] = true,
+                                                            ["id"] = "EWR",
+                                                            ["enabled"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "1L13 EWR",
+                                        ["unitId"] = 92,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48239.867551373,
+                                        ["x"] = -171303.94941614,
+                                        ["name"] = "Primary Destroyed EWR 1",
+                                        ["heading"] = 1.553343034275,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "55G6 EWR",
+                                        ["unitId"] = 93,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48499.181768805,
+                                        ["x"] = -171194.44997557,
+                                        ["name"] = "Primary Destroyed EWR 2",
+                                        ["heading"] = 0.47123889803847,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["type"] = "1L13 EWR",
+                                        ["unitId"] = 103,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48354.690491791,
+                                        ["x"] = -171432.05289162,
+                                        ["name"] = "Primary Destroyed EWR 3",
+                                        ["heading"] = 4.8520153205442,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["type"] = "55G6 EWR",
+                                        ["unitId"] = 104,
+                                        ["skill"] = "Average",
+                                        ["y"] = 47975.535846651,
+                                        ["x"] = -171316.84885099,
+                                        ["name"] = "Primary Destroyed EWR 4",
+                                        ["heading"] = 2.7925268031909,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["y"] = 48239.867551373,
+                                ["x"] = -171303.94941614,
+                                ["name"] = "Primary Destroyed EWR 1",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 608,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 48339.572686601,
+                                            ["x"] = -171229.89409536,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "Osa 9A33 ln",
+                                        ["unitId"] = 105,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48339.572686601,
+                                        ["x"] = -171229.89409536,
+                                        ["name"] = "Shorad 1-1",
+                                        ["heading"] = 1.4137166941154,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "Strela-10M3",
+                                        ["unitId"] = 106,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48444.310373814,
+                                        ["x"] = -171099.23278068,
+                                        ["name"] = "Shorad 1-2",
+                                        ["heading"] = 0.22689280275926,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["type"] = "ZSU_57_2",
+                                        ["unitId"] = 107,
+                                        ["skill"] = "Average",
+                                        ["AddPropVehicle"] = 
+                                        {
+                                            ["Branches"] = false,
+                                        }, -- end of ["AddPropVehicle"]
+                                        ["y"] = 48149.799498834,
+                                        ["x"] = -171496.33358416,
+                                        ["name"] = "Shorad 1-3",
+                                        ["heading"] = 2.9496064358704,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 111,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48527.535096129,
+                                        ["x"] = -171044.00779994,
+                                        ["name"] = "Shorad 1-4",
+                                        ["heading"] = 0.48869219055841,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 112,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48477.51729147,
+                                        ["x"] = -171055.55135739,
+                                        ["name"] = "Shorad 1-5",
+                                        ["heading"] = 0.034906585039887,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["type"] = "ZSU_57_2",
+                                        ["unitId"] = 113,
+                                        ["skill"] = "Average",
+                                        ["AddPropVehicle"] = 
+                                        {
+                                            ["Branches"] = false,
+                                        }, -- end of ["AddPropVehicle"]
+                                        ["y"] = 48577.800635393,
+                                        ["x"] = -171158.46751258,
+                                        ["name"] = "Shorad 1-6",
+                                        ["heading"] = 0.68067840827779,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 133,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48680.785498952,
+                                        ["x"] = -171187.10121723,
+                                        ["name"] = "Shorad 1-15",
+                                        ["heading"] = 1.0821041362365,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["type"] = "BMP-1",
+                                        ["unitId"] = 114,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48668.490752845,
+                                        ["x"] = -171181.8772503,
+                                        ["name"] = "Shorad 1-7",
+                                        ["heading"] = 1.0821041362365,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 115,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48487.251958831,
+                                        ["x"] = -171484.00736522,
+                                        ["name"] = "Shorad 1-8",
+                                        ["heading"] = 3.1590459461097,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 116,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48088.684484981,
+                                        ["x"] = -171412.65293551,
+                                        ["name"] = "Shorad 1-9",
+                                        ["heading"] = 3.4557519189488,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 117,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48452.057126111,
+                                        ["x"] = -171492.76200947,
+                                        ["name"] = "Shorad 1-10",
+                                        ["heading"] = 3.4732052114687,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 118,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48123.401746951,
+                                        ["x"] = -171454.47255419,
+                                        ["name"] = "Shorad 1-11",
+                                        ["heading"] = 3.0194196059502,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 119,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48091.012163032,
+                                        ["x"] = -171482.96153302,
+                                        ["name"] = "Shorad 1-12",
+                                        ["heading"] = 3.1590459461097,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [13]
+                                    [14] = 
+                                    {
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 120,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48569.868490301,
+                                        ["x"] = -171088.65081596,
+                                        ["name"] = "Shorad 1-13",
+                                        ["heading"] = 0.62831853071796,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [14]
+                                    [15] = 
+                                    {
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 121,
+                                        ["skill"] = "Average",
+                                        ["y"] = 47960.086882256,
+                                        ["x"] = -171571.98064631,
+                                        ["name"] = "Shorad 1-14",
+                                        ["heading"] = 2.8448866807508,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [15]
+                                    [16] = 
+                                    {
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 135,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48478.687340925,
+                                        ["x"] = -171642.98130632,
+                                        ["name"] = "Shorad 1-16",
+                                        ["heading"] = 0.34906585039887,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [16]
+                                    [17] = 
+                                    {
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 136,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48407.857778042,
+                                        ["x"] = -171720.98694903,
+                                        ["name"] = "Shorad 1-17",
+                                        ["heading"] = 0.034906585039887,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [17]
+                                    [18] = 
+                                    {
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 137,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48438.834689917,
+                                        ["x"] = -171659.74215833,
+                                        ["name"] = "Shorad 1-18",
+                                        ["heading"] = 5.8992128717408,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [18]
+                                    [19] = 
+                                    {
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 139,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48075.925511917,
+                                        ["x"] = -172189.83338306,
+                                        ["name"] = "Shorad 1-19",
+                                        ["heading"] = 3.7873644768277,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [19]
+                                    [20] = 
+                                    {
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 142,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48465.320772451,
+                                        ["x"] = -171615.97679911,
+                                        ["name"] = "Shorad 1-20",
+                                        ["heading"] = 1.0821041362365,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [20]
+                                    [21] = 
+                                    {
+                                        ["type"] = "BMP-1",
+                                        ["unitId"] = 143,
+                                        ["skill"] = "Average",
+                                        ["y"] = 47794.821456809,
+                                        ["x"] = -171386.77199802,
+                                        ["name"] = "Shorad 1-21",
+                                        ["heading"] = 4.310963252426,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [21]
+                                    [22] = 
+                                    {
+                                        ["type"] = "BRDM-2",
+                                        ["unitId"] = 144,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48104.616341323,
+                                        ["x"] = -172212.16554403,
+                                        ["name"] = "Shorad 1-22",
+                                        ["heading"] = 5.0789081233035,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [22]
+                                }, -- end of ["units"]
+                                ["y"] = 48339.572686601,
+                                ["x"] = -171229.89409536,
+                                ["name"] = "Shorad 1",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 610,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 47979.739811814,
+                                            ["x"] = -171577.20314972,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 122,
+                                        ["skill"] = "Average",
+                                        ["y"] = 47979.739811814,
+                                        ["x"] = -171577.20314972,
+                                        ["name"] = "Supply 1-1",
+                                        ["heading"] = 2.9146998508305,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 123,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48168.027894011,
+                                        ["x"] = -171432.00469381,
+                                        ["name"] = "Supply 1-2",
+                                        ["heading"] = 2.9146998508305,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 124,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48486.463329264,
+                                        ["x"] = -171453.88087535,
+                                        ["name"] = "Supply 1-3",
+                                        ["heading"] = 2.1991148575129,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 125,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48491.061736922,
+                                        ["x"] = -171144.84939136,
+                                        ["name"] = "Supply 1-4",
+                                        ["heading"] = 2.4434609527921,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 126,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48146.493465242,
+                                        ["x"] = -171311.16652933,
+                                        ["name"] = "Supply 1-5",
+                                        ["heading"] = 2.1991148575129,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 127,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48483.7819378,
+                                        ["x"] = -171142.5719123,
+                                        ["name"] = "Supply 1-6",
+                                        ["heading"] = 2.164208272473,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 128,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48035.105549832,
+                                        ["x"] = -171315.05045726,
+                                        ["name"] = "Supply 1-7",
+                                        ["heading"] = 2.9146998508305,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 140,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48102.4386726,
+                                        ["x"] = -172187.46606686,
+                                        ["name"] = "Supply 1-8",
+                                        ["heading"] = 0.45378560551853,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 141,
+                                        ["skill"] = "Average",
+                                        ["y"] = 48459.666634333,
+                                        ["x"] = -171602.11242266,
+                                        ["name"] = "Supply 1-9",
+                                        ["heading"] = 4.2760566673861,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [9]
+                                }, -- end of ["units"]
+                                ["y"] = 47979.739811814,
+                                ["x"] = -171577.20314972,
+                                ["name"] = "Supply 1",
+                                ["start_time"] = 0,
+                            }, -- end of [3]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "CJTF Red",
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 1.535889741755,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 48286.920157833,
+                                            ["speed"] = 0,
+                                            ["x"] = -171226.79452808,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "ComCenter",
+                                        ["type"] = ".Command Center",
+                                        ["unitId"] = 129,
+                                        ["rate"] = 100,
+                                        ["y"] = 48286.920157833,
+                                        ["x"] = -171226.79452808,
+                                        ["name"] = "Primary Undamaged HQ 1",
+                                        ["heading"] = 1.535889741755,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 48286.920157833,
+                                ["x"] = -171226.79452808,
+                                ["name"] = "Primary Undamaged HQ 1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 6.2308254296198,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = 48232.050643818,
+                                            ["speed"] = 0,
+                                            ["x"] = -171230.1387865,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["shape_name"] = "ferma_a",
+                                        ["type"] = "Farm A",
+                                        ["unitId"] = 130,
+                                        ["rate"] = 100,
+                                        ["y"] = 48232.050643818,
+                                        ["x"] = -171230.1387865,
+                                        ["name"] = "Primary Destroyed HQ 2",
+                                        ["heading"] = 6.2308254296198,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 48232.050643818,
+                                ["x"] = -171230.1387865,
+                                ["name"] = "Primary Destroyed HQ 2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "reg7ewr-f",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "Syria",
+    ["desc"] = "reg7ewr-f",
+} -- end of staticTemplate

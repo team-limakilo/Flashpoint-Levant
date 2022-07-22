@@ -44,299 +44,404 @@ staticTemplate =
                 }, -- end of [7]
                 [8] = 
                 {
-                    ["id"] = 32,
-                    ["name"] = "Hungary",
+                    ["id"] = 31,
+                    ["name"] = "Greece",
                 }, -- end of [8]
                 [9] = 
                 {
-                    ["id"] = 33,
-                    ["name"] = "India",
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
                 }, -- end of [9]
                 [10] = 
                 {
-                    ["id"] = 35,
-                    ["name"] = "Iraq",
+                    ["id"] = 33,
+                    ["name"] = "India",
                 }, -- end of [10]
                 [11] = 
                 {
-                    ["id"] = 36,
-                    ["name"] = "Japan",
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
                 }, -- end of [11]
                 [12] = 
                 {
-                    ["id"] = 39,
-                    ["name"] = "Pakistan",
+                    ["id"] = 36,
+                    ["name"] = "Japan",
                 }, -- end of [12]
                 [13] = 
                 {
-                    ["id"] = 41,
-                    ["name"] = "Romania",
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
                 }, -- end of [13]
                 [14] = 
                 {
-                    ["id"] = 42,
-                    ["name"] = "Saudi Arabia",
+                    ["id"] = 41,
+                    ["name"] = "Romania",
                 }, -- end of [14]
                 [15] = 
                 {
-                    ["id"] = 44,
-                    ["name"] = "Slovakia",
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
                 }, -- end of [15]
                 [16] = 
                 {
-                    ["id"] = 48,
-                    ["name"] = "Yemen",
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
                 }, -- end of [16]
                 [17] = 
                 {
-                    ["id"] = 49,
-                    ["name"] = "Vietnam",
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
                 }, -- end of [17]
                 [18] = 
                 {
-                    ["id"] = 50,
-                    ["name"] = "Venezuela",
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
                 }, -- end of [18]
                 [19] = 
                 {
-                    ["id"] = 51,
-                    ["name"] = "Tunisia",
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
                 }, -- end of [19]
                 [20] = 
                 {
-                    ["id"] = 52,
-                    ["name"] = "Thailand",
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
                 }, -- end of [20]
                 [21] = 
                 {
-                    ["id"] = 53,
-                    ["name"] = "Sudan",
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
                 }, -- end of [21]
                 [22] = 
                 {
-                    ["id"] = 54,
-                    ["name"] = "Philippines",
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
                 }, -- end of [22]
                 [23] = 
                 {
-                    ["id"] = 55,
-                    ["name"] = "Morocco",
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
                 }, -- end of [23]
                 [24] = 
                 {
-                    ["id"] = 56,
-                    ["name"] = "Mexico",
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
                 }, -- end of [24]
                 [25] = 
                 {
-                    ["id"] = 57,
-                    ["name"] = "Malaysia",
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
                 }, -- end of [25]
                 [26] = 
                 {
-                    ["id"] = 58,
-                    ["name"] = "Libya",
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
                 }, -- end of [26]
                 [27] = 
                 {
-                    ["id"] = 59,
-                    ["name"] = "Jordan",
+                    ["id"] = 58,
+                    ["name"] = "Libya",
                 }, -- end of [27]
                 [28] = 
                 {
-                    ["id"] = 60,
-                    ["name"] = "Indonesia",
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
                 }, -- end of [28]
                 [29] = 
                 {
-                    ["id"] = 61,
-                    ["name"] = "Honduras",
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
                 }, -- end of [29]
                 [30] = 
                 {
-                    ["id"] = 62,
-                    ["name"] = "Ethiopia",
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
                 }, -- end of [30]
                 [31] = 
                 {
-                    ["id"] = 63,
-                    ["name"] = "Chile",
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
                 }, -- end of [31]
                 [32] = 
                 {
-                    ["id"] = 65,
-                    ["name"] = "Bahrain",
+                    ["id"] = 63,
+                    ["name"] = "Chile",
                 }, -- end of [32]
                 [33] = 
                 {
-                    ["id"] = 66,
-                    ["name"] = "Third Reich",
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
                 }, -- end of [33]
                 [34] = 
                 {
-                    ["id"] = 67,
-                    ["name"] = "Yugoslavia",
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
                 }, -- end of [34]
                 [35] = 
                 {
-                    ["id"] = 68,
-                    ["name"] = "USSR",
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
                 }, -- end of [35]
                 [36] = 
                 {
-                    ["id"] = 69,
-                    ["name"] = "Italian Social Republic",
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
                 }, -- end of [36]
                 [37] = 
                 {
-                    ["id"] = 70,
-                    ["name"] = "Algeria",
+                    ["id"] = 68,
+                    ["name"] = "USSR",
                 }, -- end of [37]
                 [38] = 
                 {
-                    ["id"] = 71,
-                    ["name"] = "Kuwait",
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
                 }, -- end of [38]
                 [39] = 
                 {
-                    ["id"] = 72,
-                    ["name"] = "Qatar",
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
                 }, -- end of [39]
                 [40] = 
                 {
-                    ["id"] = 73,
-                    ["name"] = "Oman",
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
                 }, -- end of [40]
                 [41] = 
                 {
-                    ["id"] = 74,
-                    ["name"] = "United Arab Emirates",
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
                 }, -- end of [41]
                 [42] = 
                 {
-                    ["id"] = 75,
-                    ["name"] = "South Africa",
+                    ["id"] = 73,
+                    ["name"] = "Oman",
                 }, -- end of [42]
                 [43] = 
                 {
-                    ["id"] = 76,
-                    ["name"] = "Cuba",
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
                 }, -- end of [43]
                 [44] = 
                 {
-                    ["id"] = 77,
-                    ["name"] = "Portugal",
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
                 }, -- end of [44]
                 [45] = 
                 {
-                    ["id"] = 78,
-                    ["name"] = "GDR",
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
                 }, -- end of [45]
                 [46] = 
                 {
-                    ["id"] = 79,
-                    ["name"] = "Lebanon",
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
                 }, -- end of [46]
                 [47] = 
                 {
-                    ["id"] = 82,
-                    ["name"] = "UN",
+                    ["id"] = 78,
+                    ["name"] = "GDR",
                 }, -- end of [47]
                 [48] = 
                 {
-                    ["id"] = 83,
-                    ["name"] = "Argentina",
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
                 }, -- end of [48]
                 [49] = 
                 {
-                    ["id"] = 84,
-                    ["name"] = "Cyprus",
+                    ["id"] = 82,
+                    ["name"] = "UN",
                 }, -- end of [49]
                 [50] = 
                 {
-                    ["id"] = 85,
-                    ["name"] = "Slovenia",
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
                 }, -- end of [50]
                 [51] = 
                 {
-                    ["id"] = 1,
-                    ["name"] = "Ukraine",
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
                 }, -- end of [51]
                 [52] = 
                 {
-                    ["id"] = 11,
-                    ["name"] = "Belgium",
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
                 }, -- end of [52]
                 [53] = 
                 {
-                    ["id"] = 16,
-                    ["name"] = "Georgia",
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
                 }, -- end of [53]
                 [54] = 
                 {
-                    ["id"] = 13,
-                    ["name"] = "Denmark",
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
                 }, -- end of [54]
                 [55] = 
                 {
-                    ["id"] = 12,
-                    ["name"] = "Norway",
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
                 }, -- end of [55]
                 [56] = 
                 {
-                    ["id"] = 26,
-                    ["name"] = "Czech Republic",
+                    ["id"] = 89,
+                    ["name"] = "Peru",
                 }, -- end of [56]
                 [57] = 
                 {
-                    ["id"] = 45,
-                    ["name"] = "South Korea",
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
                 }, -- end of [57]
                 [58] = 
                 {
-                    ["id"] = 28,
-                    ["name"] = "Croatia",
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
                 }, -- end of [58]
                 [59] = 
                 {
-                    ["id"] = 46,
-                    ["name"] = "Sweden",
+                    ["id"] = 4,
+                    ["name"] = "UK",
                 }, -- end of [59]
                 [60] = 
                 {
-                    ["id"] = 18,
-                    ["name"] = "Abkhazia",
+                    ["id"] = 6,
+                    ["name"] = "Germany",
                 }, -- end of [60]
                 [61] = 
                 {
-                    ["id"] = 19,
-                    ["name"] = "South Ossetia",
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
                 }, -- end of [61]
                 [62] = 
                 {
-                    ["id"] = 37,
-                    ["name"] = "Kazakhstan",
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
                 }, -- end of [62]
                 [63] = 
                 {
-                    ["id"] = 24,
-                    ["name"] = "Belarus",
+                    ["id"] = 15,
+                    ["name"] = "Israel",
                 }, -- end of [63]
                 [64] = 
                 {
-                    ["id"] = 43,
-                    ["name"] = "Serbia",
+                    ["id"] = 9,
+                    ["name"] = "Spain",
                 }, -- end of [64]
                 [65] = 
                 {
-                    ["id"] = 34,
-                    ["name"] = "Iran",
+                    ["id"] = 8,
+                    ["name"] = "Canada",
                 }, -- end of [65]
                 [66] = 
                 {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [66]
+                [67] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [67]
+                [68] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [68]
+                [69] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [69]
+                [70] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [70]
+                [71] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [71]
+                [72] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [72]
+                [73] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [73]
+                [74] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [74]
+                [75] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [75]
+                [76] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [76]
+                [77] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [77]
+                [78] = 
+                {
+                    ["id"] = 0,
+                    ["name"] = "Russia",
+                }, -- end of [78]
+                [79] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [79]
+                [80] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [80]
+                [81] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [81]
+                [82] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [82]
+                [83] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [83]
+                [84] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [84]
+                [85] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [85]
+                [86] = 
+                {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [86]
+                [87] = 
+                {
                     ["id"] = 38,
                     ["name"] = "North Korea",
-                }, -- end of [66]
+                }, -- end of [87]
             }, -- end of ["country"]
         }, -- end of ["neutrals"]
         ["blue"] = 
@@ -346,79 +451,9 @@ staticTemplate =
             {
                 [1] = 
                 {
-                    ["id"] = 31,
-                    ["name"] = "Greece",
-                }, -- end of [1]
-                [2] = 
-                {
-                    ["id"] = 64,
-                    ["name"] = "Brazil",
-                }, -- end of [2]
-                [3] = 
-                {
-                    ["id"] = 4,
-                    ["name"] = "UK",
-                }, -- end of [3]
-                [4] = 
-                {
-                    ["id"] = 6,
-                    ["name"] = "Germany",
-                }, -- end of [4]
-                [5] = 
-                {
-                    ["id"] = 15,
-                    ["name"] = "Israel",
-                }, -- end of [5]
-                [6] = 
-                {
-                    ["id"] = 9,
-                    ["name"] = "Spain",
-                }, -- end of [6]
-                [7] = 
-                {
-                    ["id"] = 8,
-                    ["name"] = "Canada",
-                }, -- end of [7]
-                [8] = 
-                {
-                    ["id"] = 2,
-                    ["name"] = "USA",
-                }, -- end of [8]
-                [9] = 
-                {
-                    ["id"] = 3,
-                    ["name"] = "Turkey",
-                }, -- end of [9]
-                [10] = 
-                {
-                    ["id"] = 5,
-                    ["name"] = "France",
-                }, -- end of [10]
-                [11] = 
-                {
-                    ["id"] = 10,
-                    ["name"] = "The Netherlands",
-                }, -- end of [11]
-                [12] = 
-                {
-                    ["id"] = 20,
-                    ["name"] = "Italy",
-                }, -- end of [12]
-                [13] = 
-                {
-                    ["id"] = 21,
-                    ["name"] = "Australia",
-                }, -- end of [13]
-                [14] = 
-                {
-                    ["id"] = 40,
-                    ["name"] = "Poland",
-                }, -- end of [14]
-                [15] = 
-                {
                     ["id"] = 80,
                     ["name"] = "CJTF Blue",
-                }, -- end of [15]
+                }, -- end of [1]
             }, -- end of ["country"]
         }, -- end of ["blue"]
         ["red"] = 
@@ -428,7 +463,7 @@ staticTemplate =
             {
                 [1] = 
                 {
-                    ["id"] = 0,
+                    ["id"] = 81,
                     ["vehicle"] = 
                     {
                         ["group"] = 
@@ -440,6 +475,8 @@ staticTemplate =
                                 {
                                 }, -- end of ["tasks"]
                                 ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
                                 ["route"] = 
                                 {
                                     ["spans"] = 
@@ -449,13 +486,13 @@ staticTemplate =
                                     {
                                         [1] = 
                                         {
-                                            ["alt"] = 438,
+                                            ["alt"] = 447,
                                             ["type"] = "Turning Point",
                                             ["ETA"] = 0,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["y"] = 109674.09851439,
-                                            ["x"] = 130946.9688045,
+                                            ["y"] = 110512.0153291,
+                                            ["x"] = 132856.54006831,
                                             ["ETA_locked"] = true,
                                             ["speed"] = 0,
                                             ["action"] = "Off Road",
@@ -473,140 +510,506 @@ staticTemplate =
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
-                                ["groupId"] = 1,
+                                ["groupId"] = 4,
                                 ["hidden"] = false,
                                 ["units"] = 
                                 {
                                     [1] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "High",
-                                        ["type"] = "snr s-125 tr",
-                                        ["unitId"] = 1,
-                                        ["y"] = 109674.09851439,
-                                        ["x"] = 130946.9688045,
-                                        ["name"] = "Primary destroyed Radar 1",
-                                        ["heading"] = 6.2641478001644,
+                                        ["type"] = "SON_9",
+                                        ["unitId"] = 38,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110512.0153291,
+                                        ["x"] = 132856.54006831,
+                                        ["name"] = "AAA Battery 1-1",
+                                        ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [1]
                                     [2] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "High",
-                                        ["type"] = "5p73 s-125 ln",
-                                        ["unitId"] = 2,
-                                        ["y"] = 109694.50987888,
-                                        ["x"] = 130892.57326002,
-                                        ["name"] = "Launcher 1",
-                                        ["heading"] = 3.1590459461097,
+                                        ["type"] = "generator_5i57",
+                                        ["unitId"] = 39,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110663.20694797,
+                                        ["x"] = 132852.50029559,
+                                        ["name"] = "AAA Battery 1-2",
+                                        ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [2]
                                     [3] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "High",
-                                        ["type"] = "5p73 s-125 ln",
-                                        ["unitId"] = 3,
-                                        ["y"] = 109658.98287779,
-                                        ["x"] = 130891.31725493,
-                                        ["name"] = "Launcher 2",
-                                        ["heading"] = 3.1590459461097,
+                                        ["type"] = "Ural-375 PBU",
+                                        ["unitId"] = 45,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110659.16376053,
+                                        ["x"] = 132854.06867856,
+                                        ["name"] = "AAA Battery 1-3",
+                                        ["heading"] = 0.19198621771938,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [3]
                                     [4] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "High",
-                                        ["type"] = "5p73 s-125 ln",
-                                        ["unitId"] = 4,
-                                        ["y"] = 109712.63223802,
-                                        ["x"] = 130920.56423058,
-                                        ["name"] = "Launcher 3",
-                                        ["heading"] = 3.1590459461097,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 40,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110509.82488919,
+                                        ["x"] = 132767.79266538,
+                                        ["name"] = "AAA Battery 1-4",
+                                        ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [4]
                                     [5] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "High",
-                                        ["type"] = "5p73 s-125 ln",
-                                        ["unitId"] = 5,
-                                        ["y"] = 109637.98964987,
-                                        ["x"] = 130918.59050829,
-                                        ["name"] = "Launcher 4",
-                                        ["heading"] = 3.1590459461097,
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 43,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110591.90038549,
+                                        ["x"] = 132807.39552723,
+                                        ["name"] = "AAA Battery 1-5",
+                                        ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [5]
                                     [6] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "High",
-                                        ["type"] = "Ural-4320T",
-                                        ["unitId"] = 6,
-                                        ["y"] = 109666.19706779,
-                                        ["x"] = 130932.41418582,
-                                        ["name"] = "Ground-1-6",
-                                        ["heading"] = 6.2641478001644,
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 46,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110428.22563749,
+                                        ["x"] = 132810.83610474,
+                                        ["name"] = "AAA Battery 1-6",
+                                        ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [6]
                                     [7] = 
                                     {
-                                        ["transportable"] = 
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["skill"] = "High",
-                                        ["type"] = "Ural-4320T",
-                                        ["unitId"] = 7,
-                                        ["y"] = 109685.70797791,
-                                        ["x"] = 130932.41418582,
-                                        ["name"] = "Ground-1-7",
-                                        ["heading"] = 6.2641478001644,
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 37,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110591.32643097,
+                                        ["x"] = 132902.67197748,
+                                        ["name"] = "AAA Battery 1-7",
+                                        ["heading"] = 0,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 41,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110429.61877955,
+                                        ["x"] = 132906.84063971,
+                                        ["name"] = "AAA Battery 1-8",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 42,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110508.75228299,
+                                        ["x"] = 132944.26049239,
+                                        ["name"] = "AAA Battery 1-9",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 44,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110516.98458209,
+                                        ["x"] = 132853.28194673,
+                                        ["name"] = "AAA Battery 1-10",
+                                        ["heading"] = 0.57595865315813,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["type"] = "ZSU_57_2",
+                                        ["unitId"] = 48,
+                                        ["skill"] = "Average",
+                                        ["AddPropVehicle"] = 
+                                        {
+                                            ["Branches"] = false,
+                                        }, -- end of ["AddPropVehicle"]
+                                        ["y"] = 110653.4401373,
+                                        ["x"] = 132980.23374802,
+                                        ["name"] = "AAA Battery 1-11",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["type"] = "Igla manpad INS",
+                                        ["unitId"] = 47,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110660.71055343,
+                                        ["x"] = 132975.60184244,
+                                        ["name"] = "AAA Battery 1-12",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["type"] = "Igla manpad INS",
+                                        ["unitId"] = 36,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110408.11047973,
+                                        ["x"] = 133013.72945582,
+                                        ["name"] = "AAA Battery 1-13",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
                                 }, -- end of ["units"]
-                                ["y"] = 109674.09851439,
-                                ["x"] = 130946.9688045,
-                                ["name"] = "SA-3",
+                                ["y"] = 110512.0153291,
+                                ["x"] = 132856.54006831,
+                                ["name"] = "AAA Battery 1",
                                 ["start_time"] = 0,
                             }, -- end of [1]
+                            [2] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 454,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 110088.13792423,
+                                            ["x"] = 130821.74120189,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "p-19 s-125 sr",
+                                        ["unitId"] = 53,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110088.13792423,
+                                        ["x"] = 130821.74120189,
+                                        ["name"] = "Primary Destroyed Radar 1",
+                                        ["heading"] = 0.57595865315813,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "snr s-125 tr",
+                                        ["unitId"] = 50,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110098.36476356,
+                                        ["x"] = 130803.63856913,
+                                        ["name"] = "Primary Destroyed Radar 2",
+                                        ["heading"] = 0.57595865315813,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["type"] = "5p73 s-125 ln",
+                                        ["unitId"] = 52,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110020.35224224,
+                                        ["x"] = 130861.18692395,
+                                        ["name"] = "Sa3 1-3",
+                                        ["heading"] = 0.57595865315813,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["type"] = "5p73 s-125 ln",
+                                        ["unitId"] = 54,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110135.67754702,
+                                        ["x"] = 130893.98586384,
+                                        ["name"] = "Sa3 1-4",
+                                        ["heading"] = 0.57595865315813,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["type"] = "5p73 s-125 ln",
+                                        ["unitId"] = 55,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110173.7666385,
+                                        ["x"] = 130813.57555959,
+                                        ["name"] = "Sa3 1-5",
+                                        ["heading"] = 0.57595865315813,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["type"] = "5p73 s-125 ln",
+                                        ["unitId"] = 49,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110124.74806349,
+                                        ["x"] = 130728.82301184,
+                                        ["name"] = "Sa3 1-6",
+                                        ["heading"] = 0.57595865315813,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 56,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110061.02535878,
+                                        ["x"] = 130802.71259027,
+                                        ["name"] = "Sa3 1-7",
+                                        ["heading"] = 6.0737457969403,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 51,
+                                        ["skill"] = "Average",
+                                        ["y"] = 110064.70864033,
+                                        ["x"] = 130800.40036749,
+                                        ["name"] = "Sa3 1-8",
+                                        ["heading"] = 0.05235987755983,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                }, -- end of ["units"]
+                                ["y"] = 110088.13792423,
+                                ["x"] = 130821.74120189,
+                                ["name"] = "Sa3 1",
+                                ["start_time"] = 0,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 394,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 109316.75949149,
+                                            ["x"] = 128067.08954509,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["type"] = "SON_9",
+                                        ["unitId"] = 59,
+                                        ["skill"] = "Average",
+                                        ["y"] = 109316.75949149,
+                                        ["x"] = 128067.08954509,
+                                        ["name"] = "AAA Battery 1-1-1",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["type"] = "generator_5i57",
+                                        ["unitId"] = 60,
+                                        ["skill"] = "Average",
+                                        ["y"] = 109467.95111036,
+                                        ["x"] = 128063.04977238,
+                                        ["name"] = "AAA Battery 1-1-2",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["type"] = "Ural-375 PBU",
+                                        ["unitId"] = 66,
+                                        ["skill"] = "Average",
+                                        ["y"] = 109463.90792292,
+                                        ["x"] = 128064.61815535,
+                                        ["name"] = "AAA Battery 1-1-3",
+                                        ["heading"] = 0.19198621771938,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 61,
+                                        ["skill"] = "Average",
+                                        ["y"] = 109314.56905159,
+                                        ["x"] = 127978.34214217,
+                                        ["name"] = "AAA Battery 1-1-4",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 64,
+                                        ["skill"] = "Average",
+                                        ["y"] = 109396.64454788,
+                                        ["x"] = 128017.94500402,
+                                        ["name"] = "AAA Battery 1-1-5",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 67,
+                                        ["skill"] = "Average",
+                                        ["y"] = 109232.96979988,
+                                        ["x"] = 128021.38558153,
+                                        ["name"] = "AAA Battery 1-1-6",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 58,
+                                        ["skill"] = "Average",
+                                        ["y"] = 109396.07059336,
+                                        ["x"] = 128113.22145427,
+                                        ["name"] = "AAA Battery 1-1-7",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["type"] = "KS-19",
+                                        ["unitId"] = 62,
+                                        ["skill"] = "Average",
+                                        ["y"] = 109234.36294194,
+                                        ["x"] = 128117.39011649,
+                                        ["name"] = "AAA Battery 1-1-8",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["type"] = "S-60_Type59_Artillery",
+                                        ["unitId"] = 63,
+                                        ["skill"] = "Average",
+                                        ["y"] = 109313.49644538,
+                                        ["x"] = 128154.80996917,
+                                        ["name"] = "AAA Battery 1-1-9",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 65,
+                                        ["skill"] = "Average",
+                                        ["y"] = 109321.72874448,
+                                        ["x"] = 128063.83142351,
+                                        ["name"] = "AAA Battery 1-1-10",
+                                        ["heading"] = 0.57595865315813,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [10]
+                                    [11] = 
+                                    {
+                                        ["type"] = "ZSU_57_2",
+                                        ["unitId"] = 69,
+                                        ["skill"] = "Average",
+                                        ["AddPropVehicle"] = 
+                                        {
+                                            ["Branches"] = false,
+                                        }, -- end of ["AddPropVehicle"]
+                                        ["y"] = 109458.18429969,
+                                        ["x"] = 128190.78322481,
+                                        ["name"] = "AAA Battery 1-1-11",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["type"] = "Igla manpad INS",
+                                        ["unitId"] = 68,
+                                        ["skill"] = "Average",
+                                        ["y"] = 109465.45471582,
+                                        ["x"] = 128186.15131923,
+                                        ["name"] = "AAA Battery 1-1-12",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["type"] = "Igla manpad INS",
+                                        ["unitId"] = 57,
+                                        ["skill"] = "Average",
+                                        ["y"] = 109308.78722852,
+                                        ["x"] = 128259.22108272,
+                                        ["name"] = "AAA Battery 1-1-13",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [13]
+                                }, -- end of ["units"]
+                                ["y"] = 109316.75949149,
+                                ["x"] = 128067.08954509,
+                                ["name"] = "AAA Battery 1-1",
+                                ["start_time"] = 0,
+                            }, -- end of [3]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
-                    ["name"] = "Russia",
-                }, -- end of [1]
-                [2] = 
-                {
-                    ["id"] = 27,
-                    ["name"] = "China",
-                }, -- end of [2]
-                [3] = 
-                {
-                    ["id"] = 47,
-                    ["name"] = "Syria",
-                }, -- end of [3]
-                [4] = 
-                {
-                    ["id"] = 81,
                     ["name"] = "CJTF Red",
-                }, -- end of [4]
+                }, -- end of [1]
             }, -- end of ["country"]
         }, -- end of ["red"]
     }, -- end of ["coalition"]
@@ -626,5 +1029,5 @@ staticTemplate =
         }, -- end of ["DEFAULT"]
     }, -- end of ["localization"]
     ["theatre"] = "Syria",
-    ["desc"] = "",
+    ["desc"] = "reg1sa3-1",
 } -- end of staticTemplate

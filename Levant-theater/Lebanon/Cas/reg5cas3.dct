@@ -1,0 +1,14 @@
+objtype = "frontline"
+intel = 3
+cost = 2
+ondemand = true
+name = "Reg5cas3"
+coalition = 1
+Priority = 10
+desc = [[During a routine patrol on Bent Jbail, a group of combat engineers got ambushed by Syrian militia, and got pinned down by technicals after their M113 got tracked due to an RPG hit, they are requesting aerial support danger close, just 1100 feet east of their position, be mindful of the ordnance placement;
+
+Primary objective: Assist the ground forces by destroying the ambush.
+
+Threats: Technicals, RPGs.
+
+Recommended pilots: 2]]

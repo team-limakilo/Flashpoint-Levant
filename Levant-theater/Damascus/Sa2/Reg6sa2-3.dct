@@ -1,0 +1,16 @@
+objtype = "sam"
+intel = 3
+cost = 3
+name = "Reg6sa2-3"
+coalition = 1
+priority = 30
+desc = [[The area just west of Damascus has seen significant military presence since the initial days of the occupation of Lebanon, as so, Syria has positioned several SAM sites near the area, as the war progressed and our landings on Lebanon started several of those sites were abandoned or outright destroyed, however, a SAM batteries are still in operation. An Elint flight of AJS-37 Viggens identified an Sa-2 site south of Al Zabadani, and your mission is to silence said battery.
+HARM Codes: (Flat Face SR - 122)(Fan Song TR - 126)
+
+Primary objective: Destroy the Search and tracking radars.
+
+Secondary objective: Destroy the launchers.
+
+Threats: SAM network on Damascus and Beeka valley, MiG-25 and MiG-29 interceptors, AAA and Manpads.
+
+Recommended pilots: 2]]

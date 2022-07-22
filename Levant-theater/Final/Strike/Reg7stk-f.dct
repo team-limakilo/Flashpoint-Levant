@@ -1,0 +1,17 @@
+objtype = "c2"
+name = "Reg7stk-f"
+coalition = 1
+intel = 5
+cost = 5000
+priority = 1000
+minagents = 1000
+exclusion = "reg7-final"
+desc = [[We have identified the enemy command and control center north west of Damascus, a few miles north of the presidential palace, and high command is tasking several strike flights towards the area. The site is heavily defended by several SHORAD systems, as well under the big air defense umbrella covering the entire region. The site has several command bunkers and communication towers, the mission targets are said bunkers and towers.
+
+By destroying the installations, we will severely degrade the enemy's capability to coordinate forces on the theatre, providing us with a massive advantage. Be aware of the enemy concentration of defenses on the area.
+
+Primary objective: Destroy the bunkers and radio towers.
+
+Threats: SA-19, SA-13, MANPADS, AAA, Medium and High altitude SAMs and interceptors from Sayqal and Al-Dumayr.
+
+Recommended pilots: 4]]

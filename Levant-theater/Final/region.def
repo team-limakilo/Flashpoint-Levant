@@ -1,0 +1,8 @@
+name = "Final"
+priority = 150
+airspace = false
+links = {
+    air    = { "Damascus" },
+    ground = { "Damascus" },
+    sea    = {},
+}

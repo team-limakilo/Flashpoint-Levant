@@ -1,0 +1,16 @@
+objtype = "sam"
+intel = 3
+cost = 3
+name = "Reg6sa3-1"
+coalition = 1
+priority = 65
+desc = [[Elint flights identified an Sa3 site just north of Damascus, close to the town of At Tall, and your flight task is to disable the site to help in the creation of an aerial corridor where strike aircraft can use to attack military targets on the Capital.
+HARM Codes: (Flat Face SR - 122)(Low Blow TR - 123)
+
+Primary objective: Destroy the Search and tracking radars.
+
+Secondary objective: N/A.
+
+Threats: Beeka Valley and Damascus SAM network, MiG29 and MiG25 fighters, AAA and Manpads.
+
+Recommended pilots: 2]]

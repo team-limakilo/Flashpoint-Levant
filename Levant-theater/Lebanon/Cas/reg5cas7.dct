@@ -1,0 +1,14 @@
+objtype = "frontline"
+intel = 3
+cost = 2
+ondemand = true
+name = "Reg5cas7"
+coalition = 1
+Priority = 57
+desc = [[As the Marine landings progress, Syrians are starting to mount desperate defenses, completely blocking access roads and highways hoping to delay as much as possible the advances of the coalition ground forces alongside elements of the Lebanese resistance; One of those desperate defenses, was mounted on the highway going into Beirut, on the west side of the airport, just by the sea, they amassed several armored vehicles and blocked the highway, so your mission is to destroy the vehicles the highway;
+
+Primary objective: Bomb the enemy armor position.
+
+Threats: Technicals.
+
+Recommended pilots: 2]]

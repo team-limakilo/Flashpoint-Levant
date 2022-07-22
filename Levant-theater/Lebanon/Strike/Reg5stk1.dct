@@ -1,0 +1,26 @@
+objtype = "AmmoDump"
+intel = 3
+cost = 3
+name = "Reg5stk1"
+coalition = 1
+priority = 65
+buildings = {
+    {
+        ["name"] = "Hangar",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 181567499,
+    },{
+        ["name"] = "Warehouse",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 181567500,
+    },
+}
+desc = [[As soon as Syria moved in Lebanon, most of the military infrastructure fell into Syrian hands, and that includes Rene Mouawad Airport, which despite its small size, its being used by Syria as a staging point for aircraft, both fixed and rotary wing, supporting their ground forces against the coalition push into Damascus and the forces landing to liberate Lebanon. Your task is to destroy the airport storage facilities, there are 2 buildings, just behind the ramp.
+
+Primary objective: Destroy the airport facilities.
+
+Secondary objective: Bomb the runway and destroy the fuel tanks.
+
+Threats: AAA.
+
+Recommended pilots: 2]]

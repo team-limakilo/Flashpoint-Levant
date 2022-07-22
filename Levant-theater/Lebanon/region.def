@@ -1,8 +1,8 @@
 name = "Lebanon"
 priority = 100
-airspace = false
+airspace = true
 links = {
-    air    = { "Coast" },
-    ground = { "Coast" },
+    air    = { "Damascus", "Coast" },
+    ground = { "Damascus", "Coast" },
     sea    = {},
 }

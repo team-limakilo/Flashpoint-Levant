@@ -1,0 +1,14 @@
+objtype = "frontline"
+intel = 3
+cost = 2
+ondemand = true
+name = "Reg5cas1"
+coalition = 1
+Priority = 1
+desc = [[A small detachment of Dutch forces from the UNIFIL is requesting immediate air support just north of Naqoura, they got attacked by Syrian armor, they managed to fend the first attack, but are in risk of being overrun by Syrian forces pushing towards the base via the coastal road. You need to depart immediately and inflict as many casualties on the advancing enemy troops as possible to support our ground forces;
+
+Primary objective: Assist the ground forces by destroying the advancing enemy.
+
+Threats: AAA.
+
+Recommended pilots: 2]]
