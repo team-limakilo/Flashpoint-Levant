@@ -32,7 +32,7 @@ temp_min = 25
 temp_max = 40
 qnh_min = 760
 qnh_max = 768
-weight = 2
+weight = 3
 
 # Two Layers Few and Scattered
 # METAR:FEW/SCT 8/10 SCT 23/24
@@ -44,7 +44,7 @@ temp_min = 25
 temp_max = 40
 qnh_min = 760
 qnh_max = 768
-weight = 2
+weight = 3
 
 # Two Layer Scattered
 # METAR:SCT 8/9 FEW 21
@@ -194,7 +194,7 @@ weight = 0.5
 # METAR:SCT/BKN 14/18 BKN 24/27 FEW 40
 [weather.broken_3]
 cloud_preset = "Preset15"
-cloud_base_min = 1500 # Min 840
+cloud_base_min = 1800 # Min 840
 cloud_base_max = 5040 # Max 5040
 temp_min = 25
 temp_max = 30
@@ -206,7 +206,7 @@ weight = 0.5
 # METAR:BKN 14/18 BKN 28/30 FEW 40
 [weather.broken_4]
 cloud_preset = "Preset16"
-cloud_base_min = 1500 # Min 1260
+cloud_base_min = 1800 # Min 1260
 cloud_base_max = 4200 # Max 4200
 temp_min = 25
 temp_max = 30
@@ -218,7 +218,7 @@ weight = 0.5
 # METAR:BKN/OVC LYR 7/13 20/22 32/34
 [weather.broken_5]
 cloud_preset = "Preset17"
-cloud_base_min = 1500 # Min 0
+cloud_base_min = 1800 # Min 0
 cloud_base_max = 2520 # Max 2520
 temp_min = 25
 temp_max = 30
@@ -230,7 +230,7 @@ weight = 0.5
 # METAR:BKN/OVC LYR 13/15 25/29 38/41
 [weather.broken_6]
 cloud_preset = "Preset18"
-cloud_base_min = 1500 # Min 0
+cloud_base_min = 1800 # Min 0
 cloud_base_max = 3780 # Max 3780
 temp_min = 25
 temp_max = 30
@@ -242,7 +242,7 @@ weight = 0.5
 # METAR:OVC 9/16 BKN/OVC LYR 23/24 31/33
 [weather.broken_7]
 cloud_preset = "Preset19"
-cloud_base_min = 1500 # Min 0
+cloud_base_min = 1800 # Min 0
 cloud_base_max = 2940 # Max 2940
 temp_min = 20
 temp_max = 30
@@ -254,7 +254,7 @@ weight = 0.5
 # METAR:BKN/OVC 13/18 BKN 28/30 SCT FEW 38
 [weather.broken_8]
 cloud_preset = "Preset20"
-cloud_base_min = 1500 # Min 0
+cloud_base_min = 1800 # Min 0
 cloud_base_max = 3780 # Max 3780
 temp_min = 20
 temp_max = 30
@@ -266,7 +266,7 @@ weight = 0.5
 # METAR:BKN/OVC LYR 7/8 17/19
 [weather.overcast_1]
 cloud_preset = "Preset21"
-cloud_base_min = 1500 # Min 1260
+cloud_base_min = 1800 # Min 1260
 cloud_base_max = 4200 # Max 4200
 temp_min = 20
 temp_max = 30
@@ -278,7 +278,7 @@ weight = 0.5
 # METAR:BKN LYR 7/10 17/20
 [weather.overcast_2]
 cloud_preset = "Preset22"
-cloud_base_min = 1500 # Min 420
+cloud_base_min = 1800 # Min 420
 cloud_base_max = 4200 # Max 4200
 temp_min = 20
 temp_max = 30
@@ -290,7 +290,7 @@ weight = 0.5
 # METAR:BKN LYR 11/14 18/25 SCT 32/35
 [weather.overcast_3]
 cloud_preset = "Preset23"
-cloud_base_min = 1500 # Min 840
+cloud_base_min = 1800 # Min 840
 cloud_base_max = 3360 # Max 3360
 temp_min = 20
 temp_max = 30
@@ -302,7 +302,7 @@ weight = 1
 # METAR:BKN/OVC 3/7 17/22 BKN 34
 [weather.overcast_4]
 cloud_preset = "Preset24"
-cloud_base_min = 1500 # Min 420 
+cloud_base_min = 1800 # Min 420 
 cloud_base_max = 2520 # Max 2520
 temp_min = 20
 temp_max = 30
@@ -314,7 +314,7 @@ weight = 0.5
 # METAR:OVC LYR 12/14 22/25 40/42
 [weather.overcast_5]
 cloud_preset = "Preset25"
-cloud_base_min = 1500 # Min 420
+cloud_base_min = 1800 # Min 420
 cloud_base_max = 3360 # Max 3360
 temp_min = 20
 temp_max = 30
@@ -326,7 +326,7 @@ weight = 0.5
 # METAR:OVC 9/15 BKN 23/25 SCT 32
 [weather.overcast_6]
 cloud_preset = "Preset26"
-cloud_base_min = 1500 # Min 420
+cloud_base_min = 1800 # Min 420
 cloud_base_max = 2940 # Max 2940
 temp_min = 20
 temp_max = 30
@@ -338,7 +338,7 @@ weight = 0.5
 # METAR:OVC 8/15 SCT/BKN 25/26 34/36
 [weather.overcast_7]
 cloud_preset = "Preset27"
-cloud_base_min = 1500 # Min 420
+cloud_base_min = 1800 # Min 420
 cloud_base_max = 2520 # Max 2520
 temp_min = 20
 temp_max = 30
