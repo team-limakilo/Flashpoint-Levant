@@ -41,7 +41,7 @@ local function LogisticsAssets()
 end
 
 local function EnemyAttackers()
-	SPAWN:New('CASrandom1'):InitDelayOn():InitLimit(2, 0):SpawnScheduled(3600, 0.3):InitRepeatOnLanding()
+	-- SPAWN:New('CASrandom1'):InitDelayOn():InitLimit(2, 0):SpawnScheduled(3600, 0.3):InitRepeatOnLanding()
 
 	SPAWN:New('AShM'):InitDelayOn():InitLimit(2, 0):SpawnScheduled(3600, 0.3):InitRepeatOnLanding()
 
