@@ -1,6 +1,7 @@
 objtype = "sea"
 intel = 5
 cost = 5
+ondemand = true
 desc = [[Inteligence managed to get information on a planned amphibious attack being planned by the Syrians. Currently however, their landing ships are located south at Beirut after the occupation started. However, Informants identified they are preparing to leave, probably to execute the amphibious landing. So your mission is to strike and destroy the ships before they manage to even set sail.
 
 Primary Objective: Destroy all 3 landing ships

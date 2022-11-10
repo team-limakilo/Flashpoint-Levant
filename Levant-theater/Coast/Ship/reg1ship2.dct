@@ -1,6 +1,7 @@
 objtype = "sea"
 intel = 5
 cost = 5
+ondemand = true
 desc = [[A flight of Jaguars returning from a strike mission reported a pair of Syrian La Combattante hugging the coast 25nm west of Tripoli
 
 Be advised that just a few nautical miles north, at Tartus, the Soviets have a naval base, we created a no-fly zone on a radius of 20nm around the city, do not approach it nor engage in combat unless in self defense.
