@@ -1,0 +1,8 @@
+-- Contributor: Fuzzle
+objtype = "sea"
+intel = 0
+cost = 5
+ondemand = true
+desc = [[A Syrian oil shipment has slipped through the nets of the coalition bloackade and made it to the Lebanese port of Chekka. Luckily, intelligence assets have delayed port activities, so the ships will not be able to unload anything for a long time. Sink both tankers to deny the enemy these resources.
+
+Threats: Coastal SAMs]]

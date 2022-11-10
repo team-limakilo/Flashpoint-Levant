@@ -1,0 +1,8 @@
+-- Contributor: Fuzzle
+objtype = "sea"
+intel = 0
+cost = 5
+ondemand = true
+desc = [[We've detected two Syrian Rezky-class frigates patrolling the Mediterranean, which may post a threat to our forces in the theatre. Find and destroy them, but be aware that civilian ships are still active in the area, and care must be taken to avoid collateral damage.
+
+Threats: AAA, short-range SAMs]]

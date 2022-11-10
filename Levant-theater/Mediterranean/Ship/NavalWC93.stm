@@ -1,0 +1,171 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 81,
+                    ["name"] = "CJTF Red",
+                    ["ship"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["enabled"] = true,
+                                        ["auto"] = false,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] = 
+                                        {
+                                            ["action"] = 
+                                            {
+                                                ["id"] = "SetInvisible",
+                                                ["params"] = 
+                                                {
+                                                    ["value"] = true,
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = -0,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -182183.25537853,
+                                            ["x"] = -131153.8643192,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Turning Point",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                        [2] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 22058.17043295,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -35981.019365225,
+                                            ["x"] = -120748.5537916,
+                                            ["ETA_locked"] = false,
+                                            ["speed"] = 7.20222,
+                                            ["action"] = "Turning Point",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [2]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["modulation"] = 0,
+                                        ["livery_id"] = "NoName",
+                                        ["skill"] = "Average",
+                                        ["type"] = "HandyWind",
+                                        ["unitId"] = 27,
+                                        ["y"] = -182183.25537853,
+                                        ["x"] = -131153.8643192,
+                                        ["name"] = "PRIMARY INCAPACITATED-1",
+                                        ["heading"] = 1.4997454628359,
+                                        ["frequency"] = 127500000,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["modulation"] = 0,
+                                        ["skill"] = "Average",
+                                        ["type"] = "La_Combattante_II",
+                                        ["unitId"] = 28,
+                                        ["y"] = -181383.25537853,
+                                        ["x"] = -131953.8643192,
+                                        ["name"] = "Naval-2-1",
+                                        ["heading"] = 1.4997454628359,
+                                        ["frequency"] = 127500000,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = -182183.25537853,
+                                ["x"] = -131153.8643192,
+                                ["name"] = "Naval-2",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["ship"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "NavalWC93",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "A bulk transport ship has been confirmed to be transporting weapons and has slipped the blockade further west in the Mediterranean. These arms cannot be allowed to reach the Syrians. Interdict and destroy the cargo transport.\
+Threats: escort AAA",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "Syria",
+    ["desc"] = "A bulk transport ship has been confirmed to be transporting weapons and has slipped the blockade further west in the Mediterranean. These arms cannot be allowed to reach the Syrians. Interdict and destroy the cargo transport.\
+Threats: escort AAA",
+} -- end of staticTemplate

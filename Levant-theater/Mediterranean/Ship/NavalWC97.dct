@@ -1,0 +1,8 @@
+-- Contributor: Fuzzle
+objtype = "sea"
+intel = 0
+cost = 5
+ondemand = true
+desc = [[We've intercepted communications that the Syrians have commandeered a Zvezdny-type civilian transport and will attempt to use it to insert commandos onto the island of Cyprus to disrupt our operations. Our naval assets have detected them in grid WC97 and determined their most likely landing point on Cyprus to be the town of Mazotos in grid WD45. Find and destroy the transport before it can make landfall.
+
+Threats: escort gunboats]]

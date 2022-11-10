@@ -1,0 +1,8 @@
+-- Contributor: Fuzzle
+objtype = "sea"
+intel = 0
+cost = 5
+ondemand = true
+desc = [[The Syrian Navy has dispatched a pair of La Combattante II fast attack craft up the coast from Beirut, looking to block any coalition landing craft from accessing Latakia. Interdict the formation and prevent them from establishing a blockade.
+
+Threats: AAA, coastal SAMs]]

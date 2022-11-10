@@ -1,0 +1,8 @@
+-- Contributor: Fuzzle
+objtype = "sea"
+intel = 0
+cost = 5
+ondemand = true
+desc = [[The Syrian Navy has deployed a pair of Molniya-class frigates south along the coast from Saida, potentially to harass Israeli shipping in response to the recently established coalition presence. Find and destroy the frigates, however be advised that civilian shipping is active in the area and neutral casualties must be avoided at all costs.
+
+Threats: AAA, coastal SAMs]]

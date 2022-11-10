@@ -1,0 +1,8 @@
+-- Contributor: Fuzzle
+objtype = "sea"
+intel = 0
+cost = 5
+ondemand = true
+desc = [[A cargo ship has been confirmed to be transporting weapons and has slipped through the NATO blockade in the Mediterranean. These arms cannot be allowed to reach the Syrians. Interdict and destroy the ship.
+
+Threats: escort AAA]]

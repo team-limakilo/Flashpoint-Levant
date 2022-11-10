@@ -1,0 +1,8 @@
+-- Contributor: Fuzzle
+objtype = "sea"
+intel = 0
+cost = 5
+ondemand = true
+desc = [[We've received intel that the Syrians are dispatching a convoy of supply ships carrying weapons and supplies from Tripoli to Latakia with the intent of rearming their entrenched ground troops. Accompanying them is a Rezky-class frigate. Find and destroy both supply ships and the frigate, however be aware that their route ends near neutral Soviet troops stationed in Tartus - avoid engaging those at all costs.
+
+Threats: short-range SAMs, AAA, coastal SAMs]]

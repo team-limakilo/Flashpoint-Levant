@@ -1,0 +1,8 @@
+-- Contributor: Fuzzle
+objtype = "sea"
+intel = 0
+cost = 5
+ondemand = true
+desc = [[The Syrian Navy has deployed a pair of Rezky-class frigates to patrol the waters west of Beirut (large grids XC, WC) and hamper our naval operations in the area, mixing themselves with local civilian ships. Hunt down and destroy the frigates, but avoid civilian casualties at all costs.
+
+Threats: AAA]]

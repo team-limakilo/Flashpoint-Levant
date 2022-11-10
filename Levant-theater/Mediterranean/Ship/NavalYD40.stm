@@ -1,0 +1,211 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["name"] = "CJTF Red",
+                    ["ship"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -21026.699932328,
+                                            ["x"] = -76466.735963558,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Turning Point",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["modulation"] = 0,
+                                        ["skill"] = "Average",
+                                        ["type"] = "ELNYA",
+                                        ["unitId"] = 27,
+                                        ["y"] = -21026.699932328,
+                                        ["x"] = -76466.735963558,
+                                        ["name"] = "PRIMARY INCAPACITATED 1",
+                                        ["heading"] = 4.2760566673861,
+                                        ["frequency"] = 127500000,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["modulation"] = 0,
+                                        ["skill"] = "Average",
+                                        ["type"] = "ELNYA",
+                                        ["unitId"] = 28,
+                                        ["y"] = -20504.854018957,
+                                        ["x"] = -75877.922606708,
+                                        ["name"] = "PRIMARY INCAPACITATED 2",
+                                        ["heading"] = 4.2760566673861,
+                                        ["frequency"] = 127500000,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = -21026.699932328,
+                                ["x"] = -76466.735963558,
+                                ["name"] = "Naval-1",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["ship"]
+                    ["id"] = 81,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["y"] = -18070.131454708,
+                                                ["x"] = -74687.615340423,
+                                            }, -- end of [1]
+                                            [2] = 
+                                            {
+                                                ["y"] = -18519.73511336,
+                                                ["x"] = -74881.649277095,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 6,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -18070.131454708,
+                                            ["x"] = -74687.615340423,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Osa 9A33 ln",
+                                        ["unitId"] = 29,
+                                        ["y"] = -18070.131454708,
+                                        ["x"] = -74687.615340423,
+                                        ["name"] = "Ground-1-1",
+                                        ["heading"] = 4.8694686130642,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -18070.131454708,
+                                ["x"] = -74687.615340423,
+                                ["name"] = "Ground-1",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "NavalYD40",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "An oil shipment has slipped through the nets of the coalition bloackade and made it to the Lebanese port of Chekka. Luckily, intelligence assets embedded in-country have bogged the port authority down, leaving the ships full for a limited window. Sink both tankers to deny the enemy this much-needed asset.\
+Threats: Coastal SAMs",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "Syria",
+    ["desc"] = "An oil shipment has slipped through the nets of the coalition bloackade and made it to the Lebanese port of Chekka. Luckily, intelligence assets embedded in-country have bogged the port authority down, leaving the ships full for a limited window. Sink both tankers to deny the enemy this much-needed asset.\
+Threats: Coastal SAMs",
+} -- end of staticTemplate

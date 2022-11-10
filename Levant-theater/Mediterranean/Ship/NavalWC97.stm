@@ -1,0 +1,184 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 81,
+                    ["name"] = "CJTF Red",
+                    ["ship"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["enabled"] = false,
+                                        ["auto"] = false,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] = 
+                                        {
+                                            ["action"] = 
+                                            {
+                                                ["id"] = "SetInvisible",
+                                                ["params"] = 
+                                                {
+                                                    ["value"] = true,
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = -0,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -176868.77069864,
+                                            ["x"] = -92726.629157218,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Turning Point",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                        [2] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 11979.609417815,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -218602.58045544,
+                                            ["x"] = -15806.520778166,
+                                            ["ETA_locked"] = false,
+                                            ["speed"] = 7.30511,
+                                            ["action"] = "Turning Point",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [2]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["modulation"] = 0,
+                                        ["livery_id"] = "SYR_34",
+                                        ["skill"] = "Average",
+                                        ["type"] = "speedboat",
+                                        ["unitId"] = 25,
+                                        ["y"] = -176868.77069864,
+                                        ["x"] = -92726.629157218,
+                                        ["name"] = "Naval-1-2",
+                                        ["heading"] = 5.7860717685083,
+                                        ["frequency"] = 127500000,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["modulation"] = 0,
+                                        ["livery_id"] = "SYR_35",
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZWEZDNY",
+                                        ["unitId"] = 26,
+                                        ["y"] = -176065.97324886,
+                                        ["x"] = -93529.432638208,
+                                        ["name"] = "PRIMARY INCAPACITATED ship 1",
+                                        ["heading"] = 5.7860717685083,
+                                        ["frequency"] = 127500000,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["modulation"] = 0,
+                                        ["skill"] = "Average",
+                                        ["type"] = "speedboat",
+                                        ["unitId"] = 27,
+                                        ["y"] = -175249.65538012,
+                                        ["x"] = -94334.088823116,
+                                        ["name"] = "Naval-1-1",
+                                        ["heading"] = 5.7860717685083,
+                                        ["frequency"] = 127500000,
+                                    }, -- end of [3]
+                                }, -- end of ["units"]
+                                ["y"] = -176868.77069864,
+                                ["x"] = -92726.629157218,
+                                ["name"] = "Naval-1",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["ship"]
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "NavalWC97",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "We've intercepted communications that the Syrians have commandeered a Zvezdny-type civilian transport and will attempt to use it to insert commandos onto the island of Cyprus to disrupt out operations. Our naval assets have detected them in grid WC97 and determined their most likely landing point on Cyprus to be the town of Mazotos in grid WD45. Find and destroy the transport before it can make landfall.\
+Threats: escort gunboats",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "Syria",
+    ["desc"] = "We've intercepted communications that the Syrians have commandeered a Zvezdny-type civilian transport and will attempt to use it to insert commandos onto the island of Cyprus to disrupt out operations. Our naval assets have detected them in grid WC97 and determined their most likely landing point on Cyprus to be the town of Mazotos in grid WD45. Find and destroy the transport before it can make landfall.\
+Threats: escort gunboats",
+} -- end of staticTemplate

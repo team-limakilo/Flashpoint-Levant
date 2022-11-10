@@ -1,0 +1,8 @@
+name = "Mediterranean"
+priority = 35
+airspace = false
+links = {
+    air    = { "Coast", "Cyprus", "Israel" },
+    ground = {},
+    sea    = { "Coast", "Cyprus", "Israel" },
+}
