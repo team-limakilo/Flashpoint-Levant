@@ -1,4 +1,4 @@
-objtype = "factory"
+objtype = "port"
 intel = 3
 cost = 3
 name = "Reg5stk3"

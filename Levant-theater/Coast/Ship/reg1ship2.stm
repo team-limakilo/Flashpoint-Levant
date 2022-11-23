@@ -643,6 +643,7 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "High",
                                         ["type"] = "La_Combattante_II",
+                                        ["livery_id"] = "SYR_34",
                                         ["unitId"] = 8,
                                         ["y"] = -26878.259058638,
                                         ["x"] = -70941.69162147,
@@ -659,6 +660,7 @@ staticTemplate =
                                         }, -- end of ["transportable"]
                                         ["skill"] = "High",
                                         ["type"] = "La_Combattante_II",
+                                        ["livery_id"] = "SYR_35",
                                         ["unitId"] = 9,
                                         ["y"] = -26078.259058638,
                                         ["x"] = -71741.69162147,

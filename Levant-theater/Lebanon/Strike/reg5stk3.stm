@@ -551,6 +551,7 @@ staticTemplate =
                                     [1] = 
                                     {
                                         ["type"] = "La_Combattante_II",
+                                        ["livery_id"] = "SYR_35",
                                         ["modulation"] = 0,
                                         ["unitId"] = 40,
                                         ["skill"] = "Average",
@@ -648,6 +649,7 @@ staticTemplate =
                                     [1] = 
                                     {
                                         ["type"] = "La_Combattante_II",
+                                        ["livery_id"] = "SYR_36",
                                         ["modulation"] = 0,
                                         ["unitId"] = 42,
                                         ["skill"] = "Average",
