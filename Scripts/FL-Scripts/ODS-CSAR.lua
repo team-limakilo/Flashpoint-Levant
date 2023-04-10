@@ -7,6 +7,7 @@ assert(dct and dct.theater, "Could not load ODS-CSAR: DCT not found")
 -- No apache CSAR because of non-enforceable speed limit
 CSAR.AircraftType["AH-64D_BLK_II"] = 0
 CSAR.AircraftType["Ka-50"] = 0
+CSAR.AircraftType["Ka-50_3"] = 0
 
 local MOOSE_CSAR = CSAR:New(coalition.side.BLUE, "Blue Pilot")
 MOOSE_CSAR.countryblue = country.id.CJTF_BLUE
