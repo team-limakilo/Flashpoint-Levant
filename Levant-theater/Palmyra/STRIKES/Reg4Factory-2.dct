@@ -20,7 +20,7 @@ buildings = {
         ["id"]   = 123143836,
     },
 }
-desc = [[%LOCATIONMETHOD% a group of fuel tanks on the northwestern sector of Raqqa, next to the railroad that cuts through the city. You can identify the tanks by their concrete bases, and there is one group with 4 tanks and two groups with only 2 tanks, for a total of 3 groups of tanks that need to be destroyed.
+desc = [[%LOCATIONMETHOD% a group of fuel tanks on the northwestern sector of Raqqa, next to the railroad that cuts through the city. You can identify the tanks by their concrete bases, and there are two groups with 4 tanks and one group with only 2 tanks, for a total of 3 groups of tanks that need to be destroyed.
 
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
 
