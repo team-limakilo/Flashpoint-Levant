@@ -7,10 +7,10 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 88119068,
+        ["id"]   = 82624964,
     },
 }
-desc = [[%LOCATIONMETHOD% an arms factory south of Hama, on the city limits, south of the stadium. You can identify it by its smoke stacks, its on the last block on the city.
+desc = [[%LOCATIONMETHOD% a weapons factory south of Hama, on the city limits, south of the stadium. You can identify it by its smoke stacks, its on the last block on the city.
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
 
 Primary objective: Destroy the factory.

@@ -7,15 +7,15 @@ buildings = {
     {
         ["name"] = "Building 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 85852161,
+        ["id"]   = 81731760,
     },
     {
         ["name"] = "Building 2",
         ["goal"] = "primary destroyed",
-        ["id"]   = 85852160,
+        ["id"]   = 81731759,
     },
 }
-desc = [[%LOCATIONMETHOD% an power plant southwest of Homs, next to a lake, where there are two generator buildings and several secondary structures. The generator buildings stand with their tall smoke stacks, and must be destroyed to cut primary power supply to the local industrial district.
+desc = [[%LOCATIONMETHOD% a power plant southwest of Homs, next to a lake, where there are two generator buildings and several secondary structures. The generator buildings stand with their tall smoke stacks, and must be destroyed to cut primary power supply to the local industrial district.
 
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
 

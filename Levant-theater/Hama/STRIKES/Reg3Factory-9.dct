@@ -7,12 +7,12 @@ buildings = {
     {
         ["name"] = "North Facility",
         ["goal"] = "primary destroyed",
-        ["id"]   = 88114645,
+        ["id"]   = 82585520,
     },
     {
         ["name"] = "South Facility",
         ["goal"] = "primary destroyed",
-        ["id"]   = 88114612,
+        ["id"]   = 82585521,
     },
 }
 desc = [[%LOCATIONMETHOD% a power plant a few miles southwest of Hama, and immediately northwest of Ar Rastan. The two faclities within are the largest industrial buildings in the vicinity, and must be destroyed to ensure our troops have an advantage when attacking at night

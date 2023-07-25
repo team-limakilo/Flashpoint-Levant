@@ -7,13 +7,18 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 115606729,
+        ["id"]   = 82693565,
+    },
+    {
+        ["name"] = "Factory 2",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 82693676,
     },
 }
-desc = [[%LOCATIONMETHOD% a few fuel tanks on the eastern part of Hama north of the river. You can identify it by their concrete base, there's 4 tanks there.
+desc = [[%LOCATIONMETHOD% a group of fuel storage tanks on the eastern part of Hama, north of the river. You can identify them by their concrete base, on top of which there are 4 tanks in total.
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
 
-Primary objective: Destroy the tanks.
+Primary objective: Destroy the fuel tanks.
 
 Threats: AAA, Medium and High altitude SAMs.
 

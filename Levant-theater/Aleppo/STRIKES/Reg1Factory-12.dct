@@ -8,12 +8,12 @@ buildings = {
     {
         ["name"] = "East Group",
         ["goal"] = "primary destroyed",
-        ["id"]   = 122880033,
+        ["id"]   = 84926738,
     },
     {
         ["name"] = "West Group",
         ["goal"] = "primary destroyed",
-        ["id"]   = 122880034,
+        ["id"]   = 84926737,
     },
 }
 desc = [[We have identified several fuel storage tanks south of Jirah airbase, which are being used as backups to the airbase's main fuel storage. They are located in an industrial zone, and are separated in two groups of four tanks, one on the east and another on west sides of the zone, respectively.

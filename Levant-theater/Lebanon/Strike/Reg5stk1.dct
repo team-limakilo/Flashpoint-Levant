@@ -8,11 +8,11 @@ buildings = {
     {
         ["name"] = "Hangar",
         ["goal"] = "primary destroyed",
-        ["id"]   = 181567499,
+        ["id"]   = 100098215,
     },{
         ["name"] = "Warehouse",
         ["goal"] = "primary destroyed",
-        ["id"]   = 181567500,
+        ["id"]   = 81684024,
     },
 }
 desc = [[As soon as Syria moved in Lebanon, most of the military infrastructure fell into Syrian hands, and that includes Rene Mouawad Airport, which despite its small size, its being used by Syria as a staging point for aircraft, both fixed and rotary wing, supporting their ground forces against the coalition push into Damascus and the forces landing to liberate Lebanon. Your task is to destroy the airport storage facilities, there are 2 buildings, just behind the ramp.

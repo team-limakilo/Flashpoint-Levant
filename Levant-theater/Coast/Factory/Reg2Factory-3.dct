@@ -1,28 +1,28 @@
 objtype = "FuelDump"
 intel = 5
-cost = 3
+cost = 8
 name = "Reg2Factory-3"
 coalition = 1
 buildings = {
     {
         ["name"] = "Group 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 119740681,
+        ["id"]   = 83862637,
     },
     {
         ["name"] = "Group 2",
         ["goal"] = "primary destroyed",
-        ["id"]   = 119767285,
+        ["id"]   = 83879723,
     },
     {
         ["name"] = "Group 3",
         ["goal"] = "primary destroyed",
-        ["id"]   = 119770801,
+        ["id"]   = 83886412,
     },
     {
         ["name"] = "Group 4",
         ["goal"] = "primary destroyed",
-        ["id"]   = 119772594,
+        ["id"]   = 83886647,
     },
 }
 desc = [[%LOCATIONMETHOD% several fuel storage tanks in the industrial area east of Latakia. They are used as a buffer between the local port and the Banyias refinery, making them ideal strike targets.
@@ -35,4 +35,6 @@ Primary objective: Destroy all four tank groups.
 
 Threats: AAA, medium and high altitude SAMs.
 
-Recommended pilots: 2]]
+Recommended ordnance: At least four 500 pound bombs.
+
+Recommended pilots: 3]]
