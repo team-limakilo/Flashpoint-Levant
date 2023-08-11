@@ -1,6 +1,7 @@
 # Flashpoint Levant
 
 ## Quick Start
+
 ### Install DCT
 * Download DCT [Dev build](https://nightly.link/team-limakilo/dct/workflows/dev-builds/master)
 * Uncompress the archive in '_Saved Games\DCS.openbeta\_'.
@@ -91,4 +92,13 @@ DCS log file is located at '_C:\Users\%USERPROFILE%\Saved Games\DCS.openbeta\Log
 ### Increase logging level
 To print additional information and error details in dcs.log, you can set the variable 'debug' to 'True' in DCT configuration file '_dct.cfg_':
 ![image](https://github.com/amasu/Flashpoint-Levant/assets/8228208/a0a20a3b-e8fe-4e96-97ad-82963381ea28)
+
+### Errors in dcs.log when resolving filepaths to the configuration 'Can't open file' 
+* Sometimes DCS struggles to resulve the %USERPROFILE% system variable. In that case use the absolute paths with your username in dct.cfg.
+* In some cases, the path to the Config folder is wrongly constructed, due to some scripts appending additional 'backslash' characters.
+![image](https://github.com/amasu/Flashpoint-Levant/assets/8228208/6e3143c6-b15e-413a-8dd5-2c4f16a67b5a)
+
+
+	These can be removed if necessary by deleting the calls to separators in the 'server.lua' script.
+![image](https://github.com/amasu/Flashpoint-Levant/assets/8228208/2218936c-76c5-4748-a1db-7c8cdc48f681)
 
