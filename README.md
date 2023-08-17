@@ -12,7 +12,7 @@ You can find more info on DCT LK fork [here](https://team-limakilo.github.io/dct
 or on the official DCT [repository](https://github.com/jtoppins/dct)
 
 ### Setup FL files
-* Clone of download team-limakilo Flashpoint-Levant (main branch)[https://github.com/team-limakilo/Flashpoint-Levant.git]
+* Clone or download team-limakilo Flashpoint-Levant (main branch)[https://github.com/team-limakilo/Flashpoint-Levant.git]
 ![image](https://github.com/amasu/Flashpoint-Levant/assets/8228208/e8c00b2a-fa13-4306-8c7b-13e9bb01c6e0)
 
 * Copy or extract the content in '_C:\Users\%USERPROFILE%\Saved Games\DCS.openbeta_'. The path to ScriptLoader.lua file should be '_C:\Users\%USERPROFILE%\Saved Games\DCS.openbeta\Scripts\FL-Scripts_':
