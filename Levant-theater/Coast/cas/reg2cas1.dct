@@ -3,7 +3,7 @@ intel = 3
 cost = 2
 ondemand = true
 coalition = 1
-desc = "A few hours ago, elements from the army aviation identified what possibly is a mobile C2 station on the Stadium Youth Care, just a few blocks north of the citadel and east of the train station, as troops started to advence inside the city, they encountered heavy resistence and now are requesting aerial support on the area against the enemy light armor and support vehicles.\
+desc = "A few hours ago, elements from the army aviation identified what possibly is a mobile C2 station on the Stadium Youth Care, just a few blocks north of the citadel and east of the train station, as troops started to advance inside the city, they encountered heavy resistance and now are requesting aerial support on the area against the enemy light armor and support vehicles.\
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.\
 Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
 \
@@ -11,6 +11,6 @@ Primary objective: Clear the path for ground troops storming the city.\
 \
 Secondary objective: N/A.\
 \
-Threats: Small weapons fire, Manpads and AAA.\
+Threats: Small weapons fire, MANPADS and AAA.\
 \
 Recommended pilots: 2."

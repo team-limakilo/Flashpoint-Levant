@@ -3,13 +3,13 @@ intel = 3
 cost = 2
 ondemand = true
 coalition = 1
-desc = "Just a few minute ago, troops pushing towards the Aleppo international airport, and got engaged with troops blocking their way on the Al Sakhour intersection, north east of the Citadel, you can expect at least 3 armored vehicles from what we received from the ground units, expect heavy manpad presence and small gun fire.\
+desc = "Just a few minute ago, troops pushing towards the Aleppo international airport, and got engaged with troops blocking their way on the Al Sakhour intersection, north east of the Citadel, you can expect at least 3 armored vehicles from what we received from the ground units, expect heavy MANPADS presence and small gun fire.\
 Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
 \
 Primary objective: Help the column advance inside Aleppo clearing the intersection.\
 \
 Secondary objective: N/A.\
 \
-Threats: Small weapons fire, Manpads and AAA.\
+Threats: Small weapons fire, MANPADS and AAA.\
 \
 Recommended pilots: 2."

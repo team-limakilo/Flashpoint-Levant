@@ -3,7 +3,7 @@ intel = 3
 cost = 2
 ondemand = true
 coalition = 1
-desc = "During the advance on the 214, Allied forces got pinned by a Syrian position inside just north of the Aleppo industrial district on the north west part of the city, right on the highway, they request immediate air support ot be able to continue the push inside the city.\
+desc = "During the advance on the 214, Allied forces got pinned by a Syrian position inside just north of the Aleppo industrial district on the north west part of the city, right on the highway, they request immediate air support to be able to continue the push inside the city.\
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.\
 Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
 \
@@ -11,6 +11,6 @@ Primary objective: Clear the path for ground troops storming the city.\
 \
 Secondary objective: N/A.\
 \
-Threats: Small weapons fire, Manpads and AAA.\
+Threats: Small weapons fire, MANPADS and AAA.\
 \
 Recommended pilots: 2."

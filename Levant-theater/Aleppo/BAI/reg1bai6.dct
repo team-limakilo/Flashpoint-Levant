@@ -2,7 +2,7 @@ objtype = "logistics"
 intel = 4
 cost = 5
 ondemand = true
-desc = [[%LOCATIONMETHOD% a few units of an amored battalion entrenched on the western outskirts of Aleppo, on the main road leaving the city, those units are in a very strong position and could cause serious damage to our friendly troops, and it will help a lot if they are softened for the main assault.
+desc = [[%LOCATIONMETHOD% a few units of an armored battalion entrenched on the western outskirts of Aleppo, on the main road leaving the city, those units are in a very strong position and could cause serious damage to our friendly troops, and it will help a lot if they are softened for the main assault.
 
 Primary objective: Destroy the enemy forces(8 units).
 

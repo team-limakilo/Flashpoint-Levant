@@ -3,7 +3,7 @@ objtype = "logistics"
 intel = 3
 cost = 5
 ondemand = true
-desc = [[One of our AWACS has spotted a Syrian helicopter flying from Hama and into the valley south-east of Antakya. Intel suggests this helicopter was carrying a variety of munitions, including a significant number of 9K38 Igla MANPADS, destined for troops in the Hatay region. The helicopter is likely offloading somewhere near the border, and this supply operation should should be intecepted immediately. Destroy the helicopter and any nearby ground vehicles that may be used to carry these weapons.
+desc = [[One of our AWACS has spotted a Syrian helicopter flying from Hama and into the valley south-east of Antakya. Intel suggests this helicopter was carrying a variety of munitions, including a significant number of 9K38 Igla MANPADS, destined for troops in the Hatay region. The helicopter is likely offloading somewhere near the border, and this supply operation should be intercepted immediately. Destroy the helicopter and any nearby ground vehicles that may be used to carry these weapons.
 
 Threats: AAA and MANPADS.
 
