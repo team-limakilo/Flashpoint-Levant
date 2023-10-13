@@ -3,13 +3,13 @@ intel = 3
 cost = 2
 ondemand = true
 coalition = 1
-desc = "One of the squadrons part of the detachment tasked to take on the Aleppo power plant encountered resistance on a village just north of the plant, their humvee came into enemy fire and they had to dismount, now they are requesting CAS and Evac for the injured infantry. They are on the north side of the small river crossing the town, the enemies are in the south, in the houses right by the river. This is a !DANGER CLOSE CAS!\
+desc = "One of the squadrons part of the detachment tasked to take on the Aleppo power plant encountered resistance on a village just north of the plant, their Humvee came under enemy fire and they had to dismount, now they are requesting CAS and MEDEVAC for the injured infantry. They are on the north side of the small river crossing the town, the enemies are in the south, in the houses right by the river. This is a !DANGER CLOSE CAS!\
 Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
 \
 Primary objective: Eliminate the enemy infantry.\
 \
 Secondary objective: Evac the troops to FARP Helena.\
 \
-Threats: Enemy CAP and manpads.\
+Threats: Enemy CAP and MANPADS.\
 \
 Recommended pilots: 2 (A transport heli is recommended as the second heli)."

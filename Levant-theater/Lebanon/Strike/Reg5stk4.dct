@@ -5,10 +5,10 @@ name = "Reg5stk4"
 coalition = 1
 priority = 65
 
-desc = [[As a way to do a blow on the enemy morale, the mansion of a high ranking official of the Syrian army, General Abdul El-Abin, responsible to organize the initial occupation of Lebanon, was designated to be bombed. The mansion is located at Al Aabde, northern Lebanon, close to the border with Syria. Your task is quite simple, just drop your ordnance over the mansion, which likely has army units guarding it. So its strongly recommended to maintain altitude to avoid machine gun fire and manpads thich may be defending the area.
+desc = [[As a way to do a blow on the enemy morale, the mansion of a high ranking official of the Syrian army, General Abdul El-Abin, responsible to organize the initial occupation of Lebanon, was designated to be bombed. The mansion is located at Al Aabde, northern Lebanon, close to the border with Syria. Your task is quite simple, just drop your ordnance over the mansion, which likely has army units guarding it. So its strongly recommended to maintain altitude to avoid machine gun fire and MANPADS which may be defending the area.
 
 Primary objective: Destroy the mansion.
 
-Threats: AAA and manpads.
+Threats: AAA and MANPADS.
 
 Recommended pilots: 2]]

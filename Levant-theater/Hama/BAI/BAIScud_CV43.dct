@@ -6,7 +6,7 @@ ondemand = true
 exclusion = "BAIScud_Hama_CV"
 desc = [[We've received intelligence that a Syrian Army unit is preparing to deploy Scud ballistic missiles against friendly positions in Antakya, from roughly 15nm south-southeast of Abu al-Duhur. Search the target grid, find the missile site and destroy the launch vehicles.
 
-Primary Objective: Search and destroy the Scud launchersin grid CV43.
+Primary Objective: Search and destroy the Scud launchers in grid CV43.
 
 Threats: AAA, SA-2, SA-5, and enemy CAP.
 
