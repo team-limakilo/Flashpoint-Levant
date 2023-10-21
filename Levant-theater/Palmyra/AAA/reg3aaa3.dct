@@ -1,4 +1,5 @@
 objtype = "shorad"
+ignore = true
 intel = 4
 cost = 3
 desc = [[The airbase of Palmyra is host to numerous squadrons using a range of aircraft, including MiG-21s, MiG-23s, and MiG-25s. While not modern, they still pose a threat to coalition aircraft, and to deny the use of the airbase, we need to first thin out air defences around the airfield, which will allow it to be striked more precisely in the future.

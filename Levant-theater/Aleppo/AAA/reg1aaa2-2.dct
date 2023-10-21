@@ -1,4 +1,5 @@
 objtype = "shorad"
+ignore = true
 intel = 2
 cost = 6
 priority = 105
