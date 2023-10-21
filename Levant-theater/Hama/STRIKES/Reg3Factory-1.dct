@@ -7,12 +7,12 @@ buildings = {
     {
         ["name"] = "Building 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 83248138,
+        ["id"]   = 75024521,
     },
         {
         ["name"] = "Building 2",
         ["goal"] = "primary destroyed",
-        ["id"]   = 83248184,
+        ["id"]   = 75024562,
     },
 }
 desc = [[One of the main power stations providing power to the Hama region is located between the villages of Muhradah and Halfaya, next to a water reservoir. The complex has two main buildings with a total of four smokestacks, and several fuel storage tanks on the north side.

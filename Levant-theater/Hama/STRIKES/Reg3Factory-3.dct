@@ -7,7 +7,7 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 82673848,
+        ["id"]   = 75097050,
     },
 }
 desc = [[There is a large cement plant located just north of the Hama airbase, easily identifiable by its two smoke stacks. This plant is capable of making large quantities of runway-grade concrete, which allows Syria to repair its airfields with great efficiency.

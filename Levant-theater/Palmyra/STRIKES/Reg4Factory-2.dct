@@ -7,22 +7,22 @@ buildings = {
     {
         ["name"] = "Group 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 84993164,
+        ["id"]   = 83018493,
     },
     {
         ["name"] = "Group 2",
         ["goal"] = "primary destroyed",
-        ["id"]   = 84978804,
+        ["id"]   = 83002348,
     },
     {
         ["name"] = "Group 3",
         ["goal"] = "primary destroyed",
-        ["id"]   = 84994074,
+        ["id"]   = 83018947,
     },
     {
         ["name"] = "Group 4",
         ["goal"] = "primary destroyed",
-        ["id"]   = 84980039,
+        ["id"]   = 83002912,
     },
 }
 desc = [[%LOCATIONMETHOD% several fuel tanks on the northwestern industrial sector of Raqqa, next to the railroad that cuts through the city. You can identify the tanks by their concrete bases, and there are two groups with 4 tanks and two groups with only 2 tanks, for a total of 4 groups of tanks that need to be destroyed.

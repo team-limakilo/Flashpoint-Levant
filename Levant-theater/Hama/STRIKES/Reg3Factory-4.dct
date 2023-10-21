@@ -7,7 +7,7 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 82609827,
+        ["id"]   = 81371651,
     },
 }
 desc = [[%LOCATIONMETHOD% some fuel tanks 2 miles south of the Hama airport. You can identify them by their concrete base, there's 4 tanks there.

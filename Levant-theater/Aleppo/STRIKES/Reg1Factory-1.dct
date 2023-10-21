@@ -8,7 +8,7 @@ buildings = {
     {
         ["name"] = "Factory",
         ["goal"] = "primary destroyed",
-        ["id"]   = 86343698,
+        ["id"]   = 83927046,
     },
 }
 desc = [[Intel shows Syrian forces have established a weapon storage facility about one kilometer south of Minakh, outside of the airbase perimeter. The target is a long white warehouse with a window sticking out of its triangular roof, and it's located next to a single-story office complex.

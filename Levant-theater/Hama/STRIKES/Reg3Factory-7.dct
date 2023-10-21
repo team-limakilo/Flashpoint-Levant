@@ -7,7 +7,7 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 82644678,
+        ["id"]   = 81388735,
     },
 }
 desc = [[%LOCATIONMETHOD% 4 fuel tanks on the south east of Hama, on the city limits, south of the stadium. You can identify them by their concrete base, there's 4 tanks there.

@@ -8,7 +8,7 @@ buildings = {
     {
         ["name"] = "Factory",
         ["goal"] = "primary destroyed",
-        ["id"]   = 84502469,
+        ["id"]   = 82706450,
     },
 }
 desc = [[There's a small fuel depot in the city of Idlib, which is being used to supply the SAA 18th Armored Division in their push towards Turkey. While the depot is not large, it's important that we deny the enemy of all opportunities.

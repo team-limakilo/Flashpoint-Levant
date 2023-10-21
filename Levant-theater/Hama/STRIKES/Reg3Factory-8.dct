@@ -7,7 +7,7 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 82624964,
+        ["id"]   = 75081120,
     },
 }
 desc = [[%LOCATIONMETHOD% a weapons factory south of Hama, on the city limits, south of the stadium. You can identify it by its smoke stacks, its on the last block on the city.

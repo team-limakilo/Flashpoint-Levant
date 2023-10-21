@@ -7,22 +7,22 @@ buildings = {
     {
         ["name"] = "Group 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 83862637,
+        ["id"]   = 82364222,
     },
     {
         ["name"] = "Group 2",
         ["goal"] = "primary destroyed",
-        ["id"]   = 83879723,
+        ["id"]   = 82364792,
     },
     {
         ["name"] = "Group 3",
         ["goal"] = "primary destroyed",
-        ["id"]   = 83886412,
+        ["id"]   = 82365329,
     },
     {
         ["name"] = "Group 4",
         ["goal"] = "primary destroyed",
-        ["id"]   = 83886647,
+        ["id"]   = 82365496,
     },
 }
 desc = [[%LOCATIONMETHOD% several fuel storage tanks in the industrial area east of Latakia. They are used as a buffer between the local port and the Banyias refinery, making them ideal strike targets.

@@ -7,7 +7,7 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 85005383,
+        ["id"]   = 83028407,
     },
 }
 desc = [[%LOCATIONMETHOD% a group of fuel tanks northeast of Raqqa, in an industrial area outside of the city. You can identify the tanks by their concrete bases, and there is only one group of 4 tanks that needs to be destroyed.
