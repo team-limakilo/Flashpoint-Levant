@@ -652,6 +652,28 @@ staticTemplate =
                                         ["heading"] = 5.3407075111026,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [11]
+                                    [12] = 
+                                    {
+                                        ["skill"] = "High",
+                                        ["type"] = "Ural-375 ZU-23",
+                                        ["unitId"] = 106,
+                                        ["y"] = -6909.7587788405,
+                                        ["x"] = 61154.024469981,
+                                        ["name"] = "Checkpoint-15-1",
+                                        ["playerCanDrive"] = false,
+                                        ["heading"] = 0.87266462599716,
+                                    }, -- end of [12]
+                                    [13] = 
+                                    {
+                                        ["skill"] = "High",
+                                        ["type"] = "Ural-375 ZU-23",
+                                        ["unitId"] = 107,
+                                        ["y"] = -6657.1544871214,
+                                        ["x"] = 61200.467411508,
+                                        ["name"] = "Checkpoint-16-1",
+                                        ["playerCanDrive"] = false,
+                                        ["heading"] = 4.0491638646268,
+                                    }, -- end of [13]
                                 }, -- end of ["units"]
                                 ["y"] = -6792.4020363617,
                                 ["x"] = 61181.958186232,
