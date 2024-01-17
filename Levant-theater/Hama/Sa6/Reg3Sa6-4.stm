@@ -592,6 +592,32 @@ staticTemplate =
                                         ["heading"] = 0.034906585039887,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "High",
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 244,
+                                        ["y"] = 69586.990513412,
+                                        ["x"] = -45365.914436988,
+                                        ["name"] = "Sa6 Site-8",
+                                        ["playerCanDrive"] = false,
+                                        ["heading"] = 0.034906585039887,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "High",
+                                        ["AddPropVehicle"] = 
+                                        {
+                                            ["Branches"] = false,
+                                        }, -- end of ["AddPropVehicle"]
+                                        ["type"] = "ZSU_57_2",
+                                        ["unitId"] = 245,
+                                        ["y"] = 69765.091996673,
+                                        ["x"] = -45523.366472914,
+                                        ["name"] = "Sa6 Site-9",
+                                        ["playerCanDrive"] = false,
+                                        ["heading"] = 0.034906585039887,
+                                    }, -- end of [9]
                                 }, -- end of ["units"]
                                 ["y"] = 69691.096526066,
                                 ["x"] = -45452.036053049,
