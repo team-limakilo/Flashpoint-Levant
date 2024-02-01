@@ -1,0 +1,13 @@
+objtype = "shorad"
+ignore = true
+intel = 4
+cost = 3
+desc = [[Syrian forces have positioned several batteries of anti-aircraft artillery along expected ingress routes for allied strike aircraft.your task is to eliminate one such AAA site located in the Damascus region south of the city of Al Zabadani.
+
+The sites are mostly made up of S-60s with potential ZU-23-2s in the area.
+
+Primary objective: Destroy the AAA battery.
+
+Threats: AAA, with MANPADS, SA-2s, and SA-3s in the vicinity.
+
+Recommended pilots: 2]]
