@@ -3,10 +3,16 @@ intel = 3
 cost = 2
 ondemand = true
 coalition = 1
-desc = [[A'zaz is the first major obstacle between our troops and Aleppo. Recon flights have identified heavy Syrian presence in the town, and some of our spearhead elements are already engaged in combat there. You have been tasked with destroying the enemy armor entrenched in the western part of the town. Be careful, while most civilians have already been evacuated, we have reports of a few still present within the combat area, so collateral damage should be minimized.
+extramarks = {
+    { x = 171011, z = 107968, label = "A'zaz" }
+}
+desc = [The town of Azaz controls an important supply route, and is the coalition's first obstacle along the road to Aleppo.
+Syrian Army forces are entrenched along the highway that rings the western edge of the town.
 
-Primary objective: Clear the west side of the town, which overlooks the highway to Aleppo, and avoid collateral damage.
+Most civilians have been evacuated, but there are reports of some still remaining in the town. Avoid effects on civilian structures in the town.
 
-Threats: Enemy AAA and MANPADS, with possible SAMs near Aleppo.
+Primary objective: Destroy enemy vehicles near the highway west of Azaz. Avoid collateral damage.
+
+Threats: Small arms. AAA and MANPADS. Possible SAMs near Aleppo. Possible enemy CAP.
 
 Recommended pilots: 2]]
