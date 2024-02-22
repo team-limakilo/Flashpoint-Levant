@@ -7,7 +7,7 @@ buildings = {
     {
         ["name"] = "Factory",
         ["goal"] = "primary destroyed",
-        ["id"]   = 75900284,
+        ["id"]   = 76932476,
     },
 }
 desc = [[%LOCATIONMETHOD% a power plant in the Al-Safira Military Base, west of the town. Destroy it, and the base will have to run on far less efficient truck-mounted diesel generators, putting more strain on their supply lines.

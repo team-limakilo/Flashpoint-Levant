@@ -7,29 +7,24 @@ buildings = {
     {
         ["name"] = "Group 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 83018493,
+        ["id"]   = 84657343,
     },
     {
         ["name"] = "Group 2",
         ["goal"] = "primary destroyed",
-        ["id"]   = 83002348,
+        ["id"]   = 84657343,
     },
     {
         ["name"] = "Group 3",
         ["goal"] = "primary destroyed",
-        ["id"]   = 83018947,
-    },
-    {
-        ["name"] = "Group 4",
-        ["goal"] = "primary destroyed",
-        ["id"]   = 83002912,
-    },
+        ["id"]   = 84657343,
+    }
 }
-desc = [[%LOCATIONMETHOD% several fuel tanks on the northwestern industrial sector of Raqqa, next to the railroad that cuts through the city. You can identify the tanks by their concrete bases, and there are two groups with 4 tanks and two groups with only 2 tanks, for a total of 4 groups of tanks that need to be destroyed.
+desc = [[%LOCATIONMETHOD% several fuel storage tanks in the northwestern industrial sector of Raqqa, south of the railroad that cuts through the city. You can identify the tanks by their concrete bases.
 
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
 
-Primary objective: Destroy the storage tanks.
+Primary objective: Destroy the marked storage tanks.
 
 Threats: AAA, SAMs, and enemy CAP.
 

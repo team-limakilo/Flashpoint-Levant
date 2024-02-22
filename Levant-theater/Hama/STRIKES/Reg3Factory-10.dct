@@ -7,7 +7,7 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 75032525,
+        ["id"]   = 76064718,
     },
 }
 desc = [[%LOCATIONMETHOD% a high-tech factory of some sort northwest of Homs. Our spies report "warp drives" and "netcode jammers" being made there, and while we have no idea what those are, the high level of security employed in this factory is still reason enough to warrant targeting it. The factory can be identified by its two red smokestacks.
