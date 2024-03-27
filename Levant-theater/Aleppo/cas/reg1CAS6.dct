@@ -3,10 +3,14 @@ intel = 3
 cost = 2
 ondemand = true
 coalition = 1
-desc = [[Advancing troops are requesting CAS in the outskirts of Aleppo, where the Syrians are holding a position north of the city, blocking the main highway. Based on previous recon flights, we know that the enemy has light armor in the area, and likely MANPADS as well. The targets are mixed in with buildings in a sparse residential next to the highway. Due to heavy enemy presence in Aleppo, a northbound approach is highly recommended. Try your best to avoid collateral damage.
+desc = [[Coaltion forces have advanced south from Minakh to the suburbs north of Aleppo. Forward recon reports that Syrian Army forces have established defensive positions in a residential area, where they can control the highway entering Aleppo.
 
-Primary objective: Identify the targets and eliminate them.
+Enemy vehicles and infantry are using the residential buildings as cover. Intel reports that most civilians have evacuated the area, but nevertheless try to limit effects on civilian structures.
 
-Threats: Short-range air defenses in the AO and possible SAMs near Aleppo.
+The Air Operations Center reccomends approaching from and egressing to the north, away from the Aleppo air defense systems.
+
+Primary objective: Identify and destroy Syrian Army forces in the suburb near the highway.
+
+Threats: Small arms. AAA. MANPADS. Possible SAMs near Aleppo. Possible enemy CAP.
 
 Recommended pilots: 2]]
