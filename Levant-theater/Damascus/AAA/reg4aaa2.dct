@@ -1,0 +1,13 @@
+objtype = "shorad"
+ignore = true
+intel = 4
+cost = 3
+desc = [[Syrian forces have positioned several mobile anti-aircraft pieces along expected ingress routes for allied strike aircraft. Your task is to eliminate one such group believed to be operating in the Damascus region around the town of Qatana.
+
+The sites are mostly made up of ZU-23-2s.
+
+Primary objective: Destroy the AAA unit.
+
+Threats: AAA, with MANPADS, SA-2s, SA-3s,and an SA-5 in the vicinity.
+
+Recommended pilots: 2]]
