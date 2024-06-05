@@ -8,6 +8,7 @@ assert(dct and dct.theater, "Could not load ODS-CSAR: DCT not found")
 CSAR.AircraftType["AH-64D_BLK_II"] = 0
 CSAR.AircraftType["Ka-50"] = 0
 CSAR.AircraftType["Ka-50_3"] = 0
+CSAR.AircraftType["OH58D"] = 2
 
 local MOOSE_CSAR = CSAR:New(coalition.side.BLUE, "Blue Pilot")
 MOOSE_CSAR.countryblue = country.id.CJTF_BLUE
