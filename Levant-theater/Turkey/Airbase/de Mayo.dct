@@ -1,0 +1,10 @@
+objtype = "airbase"
+name = "ARA Veinticinco de Mayo"
+coalition = 2
+subordinates = {"3ra"}
+desc = "ARA Veinticinco de Mayo"
+recoverytype = "land"
+takeofftype = "runway"
+tacan = "2X VDM"
+icls = 2
+cost = 20
