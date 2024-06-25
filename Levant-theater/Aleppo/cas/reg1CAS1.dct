@@ -3,10 +3,15 @@ intel = 3
 cost = 2
 ondemand = true
 coalition = 1
-desc = [[Command has given the order to take Aleppo. The main invading force will come from the north, led by the 1st French Armored Brigade, with support from the 11th Marine Battalion. However, forward recon elements have encountered enemy resistance south of Minakh, on the highway leading to Aleppo. The enemy position is comprised of several armored vehicles and artillery pieces, which need to be cleared out before the main push.
+extramarks = {
+    { x = 158880, z = 107140, label = "Crossroad" }
+}
+desc = [[Command has given the order to take Aleppo. The main invading force will advance from the north, led by the 1st French Armored Brigade, with support from the 11th Marine Battalion. Forward recon elements have encountered enemy resistance along the highway leading south from Minakh towards Aleppo.
 
-Primary objective: Clear the highway from any enemy vehicles, and check the surrounding area for hidden hostiles.
+Several armored vehicles along with supporting troops and equipment have been reported 3 miles south of Minakh. The enemy is using a treeline south of an X-shaped crossroad as cover.
 
-Threats: Enemy AAA and MANPADS, with possible SAMs near Aleppo.
+Primary objective: Clear the crossroads and surrounding area of enemy vehicles.
+
+Threats: Small arms. AAA and MANPADS. Possible SAMs near Aleppo. Possible enemy CAP.
 
 Recommended pilots: 2]]
