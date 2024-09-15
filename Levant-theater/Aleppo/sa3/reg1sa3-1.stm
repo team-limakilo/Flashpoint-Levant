@@ -801,6 +801,28 @@ staticTemplate =
                                         ["heading"] = 0.05235987755983,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375 ZU-23",
+                                        ["unitId"] = 36,
+                                        ["y"] = 110154.97796432,
+                                        ["x"] = 130774.30634762,
+                                        ["name"] = "Sa3 1-10",
+                                        ["playerCanDrive"] = false,
+                                        ["heading"] = 0.05235987755983,
+                                    }, -- end of [9]
+                                    [10] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375 ZU-23",
+                                        ["unitId"] = 35,
+                                        ["y"] = 109962.44770887,
+                                        ["x"] = 130827.84862328,
+                                        ["name"] = "Sa3 1-9",
+                                        ["playerCanDrive"] = false,
+                                        ["heading"] = 0.05235987755983,
+                                    }, -- end of [10]
                                 }, -- end of ["units"]
                                 ["y"] = 110088.13792423,
                                 ["x"] = 130821.74120189,
