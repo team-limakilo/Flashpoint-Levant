@@ -6,12 +6,14 @@ coalition = 1
 smoke = {
     { x = 136656, y = 124, z = 64529, color = "Blue" }
 }
-desc = [[Earlier today, rangers from the 1st Cavalry Division landed on Reyhanli, with the mission to block any retreat attempts in the Hatay province. However, one of the squads got involved in heavy combat and is requesting immediate CAS. The Rangers are currently surrounded inside of a city block, with no viable escape route, and have marked their position with blue smoke.
+desc = [[US Army Rangers from the 1st Cavalry Division began an air assault on Reyhanli to block retreating Syrian Army forces. One of the Ranger teams is in contact with Syrian Army mechanized forces. They are surrounded, outnumbered and are requesting immediate air support.
 
-Be advised that friendlies are in close proximity to hostiles, so any use of bombs or air-to-ground missiles within 750ft/250m of the blue smoke is prohibited.
+The Rangers are barricated within a dense block within the city center. They will mark their position with blue smoke.
 
-Primary objective: Eliminate the hostiles surrounding our friendly troops, and avoid friendly fire.
+This will be a danger close mission. The rangers have limited cover, so do not deploy explosive ordnance near the blue smoke. Their lives are in your hands.
 
-Threats: Short-range air defenses and heavy machine gun fire.
+Primary objective: Identify the Ranger team's position. Destroy Syrian army vehicles and infantry forces surrounding the Rangers. Do not cause a blue-on-blue incident.
+
+Threats: Small arms. AAA. MANDPADS. Possible CAP.
 
 Recommended pilots: 2]]
