@@ -7,7 +7,7 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 84666811,
+        ["id"]   = 82495930,
     },
 }
 desc = [[%LOCATIONMETHOD% a group of fuel tanks in an industrial area around the northeast-bound road out of Raqqa. This is an important logistic link between the theater, and paramilitary groups in the east, so it must be severed.

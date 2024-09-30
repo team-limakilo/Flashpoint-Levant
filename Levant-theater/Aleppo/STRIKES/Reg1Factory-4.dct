@@ -7,12 +7,12 @@ buildings = {
     {
         ["name"] = "West Wing",
         ["goal"] = "primary destroyed",
-        ["id"]   = 84533271,
+        ["id"]   = 82362391,
     },
     {
         ["name"] = "East Wing",
         ["goal"] = "primary destroyed",
-        ["id"]   = 84533272,
+        ["id"]   = 82362392,
     },
 }
 desc = [[We have intel on an improvised vehicle maintenance depot located within an industrial complex in the northeastern part of Idlib. This depot has been set up inside of a large double warehouse, located between a black-roofed and a green warehouse, next to the road that divides the industrial complex from the residential district.
