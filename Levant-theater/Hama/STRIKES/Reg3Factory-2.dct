@@ -7,7 +7,7 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 80888205,
+        ["id"]   = 80904592,
     },
 }
 desc = [[%LOCATIONMETHOD% a pair of fuel storage tanks north-west of Hama, in an industrial zone by the city limits. You can identify them by their concrete base.

@@ -7,7 +7,7 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 73385417,
+        ["id"]   = 73393609,
     },
 }
 desc = [[%LOCATIONMETHOD% a weapons factory on the outskirts of Hama. The factory is in an industrial park on the south edge of the city, directly east across the highway from a farm containing greenhouses. The primary facility is the multi-story building in the center of the complex with two smokestacks.

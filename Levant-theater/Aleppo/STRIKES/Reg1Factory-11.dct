@@ -7,14 +7,16 @@ buildings = {
     {
         ["name"] = "Factory",
         ["goal"] = "primary destroyed",
-        ["id"]   = 82395210,
+        ["id"]   = 82411594,
     },
 }
-desc = [[%LOCATIONMETHOD% a power plant in the Al-Safira Military Base, west of the town. Destroy it, and the base will have to run on far less efficient truck-mounted diesel generators, putting more strain on their supply lines.
+desc = [[%LOCATIONMETHOD% a fuel storage facility in the Al-Safira Military Base, west of the town.
+
+Destroy it, and they will need a constant supply of diesel from outside to continue operating the base, putting further strain on their supply lines.
 
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
 
-Primary objective: Destroy the power plant.
+Primary objective: Destroy the fuel tanks.
 
 Threats: AAA, SA-2.
 

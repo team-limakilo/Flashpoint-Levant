@@ -7,17 +7,17 @@ buildings = {
     {
         ["name"] = "Group 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 82470437,
+        ["id"]   = 82502399,
     },
     {
         ["name"] = "Group 2",
         ["goal"] = "primary destroyed",
-        ["id"]   = 82469871,
+        ["id"]   = 82486819,
     },
     {
         ["name"] = "Group 3",
         ["goal"] = "primary destroyed",
-        ["id"]   = 82486466,
+        ["id"]   = 82486819,
     }
 }
 desc = [[%LOCATIONMETHOD% several fuel storage tanks in the northwestern industrial sector of Raqqa, south of the railroad that cuts through the city. You can identify the tanks by their concrete bases.

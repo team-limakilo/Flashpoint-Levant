@@ -7,12 +7,12 @@ buildings = {
     {
         ["name"] = "West Facility",
         ["goal"] = "primary destroyed",
-        ["id"]   = 73295885,
+        ["id"]   = 73304039,
     },
     {
         ["name"] = "East Facility",
         ["goal"] = "primary destroyed",
-        ["id"]   = 73296673,
+        ["id"]   = 73304827,
     },
 }
 desc = [[There is an important oil refinery north of Baniyas which needs to be disabled, and most importantly, you are to destroy the two chemical processing facilities, identifiable by their red and white smoke stacks.
