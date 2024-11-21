@@ -3,10 +3,14 @@ intel = 3
 cost = 2
 ondemand = true
 coalition = 1
-desc = [[As soon the war broke out, Syrian forces tried to push towards a dam on the Euphrates river, just north of the border railroad, likely in the hopes of disrupting power supply in the region. However, elements of the Turkish army managed to intercept the enemy just in time, but were overwhelmed and are now requesting CAS. The enemy troops are lined up on a small road leading up from the border and towards the Dam, and have forest cover.
+desc = [[As soon as the war broke out, Syrian forces attempted  to push towards the Karkamis dam and hydroelectric plant on the Euphrates river, located less than 5 miles from the border. Their likely objective is to disrupt power power infrastructure in Gaziantep Province. 
 
-Primary objective: Identify the targets and eliminate them.
+Elements of the Turkish Land Forces interdicted the enemy about 3.5 miles southeast of the dam, but were overwhelmed and are requesting CAS.
 
-Threats: No expected ground threats, but enemy CAP may be flying in the area.
+An element of enemy mechanised infantry are located about a mile south of Jibnah, on a road that runs east-west along the edge of a field.
+
+Primary objective: Destroy the mechanised infantry element.
+
+Threats: Small arms. Possible enemy CAP.
 
 Recommended pilots: 2]]

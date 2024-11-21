@@ -3,10 +3,10 @@ intel = 3
 cost = 2
 ondemand = true
 coalition = 1
-desc = [[%LOCATIONMETHOD% an enemy formation northwest of Minakh, on the highway, just a few hundred meters from the airport. While coalition forces are able to take care of the T-55s and BMDs there, they've opted for calling an airstrike to soften the front, before pushing into Minakh.
+desc = [[Syrian Army forces are defending Minakh Air Base. %LOCATIONMETHOD% an enemy armor formation about 1 mile northwest of the base, along the main highway.
 
-Primary objective: Clear the enemy formation on and around the highway.
+Primary objective: Destroy the enemy armor formation.
 
-Threats: Enemy AAA and MANPADS.
+Threats: Small arms. AAA. MANPADS. Possible enemy CAP.
 
 Recommended pilots: 2]]
