@@ -7,12 +7,7 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 82693565,
-    },
-    {
-        ["name"] = "Factory 2",
-        ["goal"] = "primary destroyed",
-        ["id"]   = 82693676,
+        ["id"]   = 80922221,
     },
 }
 desc = [[%LOCATIONMETHOD% a group of fuel storage tanks on the eastern part of Hama, north of the river. You can identify them by their concrete base, on top of which there are 4 tanks in total.

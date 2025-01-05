@@ -7,7 +7,7 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 81814217,
+        ["id"]   = 73343302,
     },
 }
 desc = [[%LOCATIONMETHOD% a fuel depot inside Homs, in the industrial sector a bit south-west of the city center, close to the train station and to the large roundabout. You can identify it by its concrete base, where four cylindrical tanks stand on.

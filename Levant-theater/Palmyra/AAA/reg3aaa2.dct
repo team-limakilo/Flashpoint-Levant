@@ -1,4 +1,5 @@
 objtype = "shorad"
+ignore = true
 intel = 4
 cost = 3
 desc = [[The Tabqa airbase is located a few dozen miles south-west of Raqqa and houses a squadron of MiG-17s and MiG-19s, which pose a threat to some of our more isolated ground troops in the region. To deny their strike capability, we must first eliminate AAA south of the runway, allowing the airfield to be taken out of commission by bombers.

@@ -5,13 +5,13 @@ name = "Reg6sa6-1-3"
 exclusion = "Reg6sa6-1"
 coalition = 1
 priority = 50
-desc = [[Earlier today we received reports of an Sa-6 located inside the city of Damascus, due to the mobile nature of the site, we cannot pinpoint the site location, but reports say it was close to the train station on the southern area of the city, as so, your mission is to destroy the radar and launch vehicles, keep in mind that the Sa6 is capable of tracking and firing without a radar vehicle, so be mindful during the engagement.
+desc = [[Earlier today we received reports of an SA-6 located inside the city of Damascus, due to the mobile nature of the site, we cannot pinpoint the site location, but reports say it was close to the train station on the southern area of the city, as so, your mission is to destroy the radar and launch vehicles, keep in mind that the Sa6 is capable of tracking and firing without a radar vehicle, so be mindful during the engagement.
 HARM Codes: (Strait Flush STR - 108)
 
 Primary objective: Destroy the radar and launchers.
 
 Secondary objective: N/A.
 
-Threats: Damascus IADS, MiG29 and 25 interceptors, AAA and Manpads.
+Threats: Damascus IADS, MiG-29 and 25 interceptors, AAA and MANPADS.
 
 Recommended pilots: 2]]

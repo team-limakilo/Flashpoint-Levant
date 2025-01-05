@@ -7,7 +7,7 @@ __Moose = {}
 __Moose.Include = function( IncludeFile )
 	if not __Moose.Includes[ IncludeFile ] then
 		__Moose.Includes[IncludeFile] = IncludeFile
-		local f = assert( base.loadfile( lfs.writedir() .. "/" .. IncludeFile ) )
+		local f = assert( base.loadfile( IncludeFile ) )
 		if f == nil then
 			error ("Moose: Could not load Moose file " .. IncludeFile )
 		else
@@ -18,7 +18,7 @@ __Moose.Include = function( IncludeFile )
 end
 
 __Moose.Includes = {}
-
-__Moose.Include( 'Scripts/Moose/Modules.lua' )
-
-env.info( '*** MOOSE INCLUDE END *** ' )
+if not MOOSE_DEVELOPMENT_FOLDER then
+	MOOSE_DEVELOPMENT_FOLDER=lfs.writedir()..'/Scripts'
+end
+__Moose.Include( MOOSE_DEVELOPMENT_FOLDER..'/Moose/Modules.lua' )

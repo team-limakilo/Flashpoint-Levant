@@ -5,10 +5,10 @@ ondemand = true
 name = "Reg5cas10"
 coalition = 1
 Priority = 60
-desc = [[A small detachment of Marines were responsible to liberate the village of Chim, however, the Syrians established a strong defensive position on the hills overlooking the western approach of the Village; The marines are currently engaged in combat and are requesting immediate air support 1 click east to their position, but be aware there are friendly infantry just 600 metres to the west of the enemy positions on the top of the hill;
+desc = [[A small detachment of Marines were responsible to liberate the village of Chim, however, the Syrians established a strong defensive position on the hills overlooking the western approach of the Village; The marines are currently engaged in combat and are requesting immediate air support 1 klick east to their position, but be aware there are friendly infantry just 600 metres to the west of the enemy positions on the top of the hill;
 
 Primary objective: Eliminate any enemy forces on the top of the hill.
 
-Threats: AAA and possibly manpads.
+Threats: AAA and possibly MANPADS.
 
 Recommended pilots: 2]]

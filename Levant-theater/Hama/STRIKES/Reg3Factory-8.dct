@@ -7,11 +7,11 @@ buildings = {
     {
         ["name"] = "Factory 1",
         ["goal"] = "primary destroyed",
-        ["id"]   = 82624964,
+        ["id"]   = 73393609,
     },
 }
-desc = [[%LOCATIONMETHOD% a weapons factory south of Hama, on the city limits, south of the stadium. You can identify it by its smoke stacks, its on the last block on the city.
-Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
+desc = [[%LOCATIONMETHOD% a weapons factory on the outskirts of Hama. The factory is in an industrial park on the south edge of the city, directly east across the highway from a farm containing greenhouses. The primary facility is the multi-story building in the center of the complex with two smokestacks.
+The target is near suburbs and agricultural fields. Be selective with weapons placement to avoid civilian casualties.
 
 Primary objective: Destroy the factory.
 

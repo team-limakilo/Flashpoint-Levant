@@ -8,14 +8,14 @@ buildings = {
     {
         ["name"] = "Hangar",
         ["goal"] = "primary destroyed",
-        ["id"]   = 100098215,
+        ["id"]   = 95567910,
     },{
         ["name"] = "Warehouse",
         ["goal"] = "primary destroyed",
-        ["id"]   = 81684024,
+        ["id"]   = 95567908,
     },
 }
-desc = [[As soon as Syria moved in Lebanon, most of the military infrastructure fell into Syrian hands, and that includes Rene Mouawad Airport, which despite its small size, its being used by Syria as a staging point for aircraft, both fixed and rotary wing, supporting their ground forces against the coalition push into Damascus and the forces landing to liberate Lebanon. Your task is to destroy the airport storage facilities, there are 2 buildings, just behind the ramp.
+desc = [[As soon as Syria moved in Lebanon, most of the military infrastructure fell into Syrian hands, and that includes Rene Mouawad Airport, which despite its small size, is being used by Syria as a staging point for aircraft, supporting their ground forces against the coalition push into Damascus, and the forces landing to liberate Lebanon. Your task is to destroy the airport storage facilities, there are 2 buildings, just behind the ramp.
 
 Primary objective: Destroy the airport facilities.
 
@@ -23,4 +23,6 @@ Secondary objective: Bomb the runway and destroy the fuel tanks.
 
 Threats: AAA.
 
-Recommended pilots: 2]]
+Recommended pilots: 2
+
+Dev note: The objects used in this mission were modified, and their destructibility is not known. If you cannot destroy the targets, please report it as a bug on the LK Discord, and mention this as the "Rene strike mission"]]

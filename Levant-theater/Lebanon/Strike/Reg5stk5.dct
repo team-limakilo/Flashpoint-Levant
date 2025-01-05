@@ -5,10 +5,10 @@ name = "Reg5stk5"
 coalition = 1
 priority = 65
 
-desc = [[Syria is currently using a Lebanese communication center tower as a comms relay, and so, your mission is to destroy the tower, which is located on the city of Tripoli, on the western side of it. Your mission is to destroy the tower while avoiding damage to the surrounding buildings. Be aware of manpads on the city, as recon elements identified the movement of enemy AAA trucks and also enemy infantry carrying iglas.
+desc = [[Syria is currently using a Lebanese communication center tower as a comms relay, and so, your mission is to destroy the tower, which is located on the city of Tripoli, on the western side of it. Your mission is to destroy the tower while avoiding damage to the surrounding buildings. Be aware of MANPADS on the city, as recon elements identified the movement of enemy AAA trucks and also enemy infantry carrying Iglas.
 
 Primary objective: Destroy the communications tower.
 
-Threats: AAA and manpads.
+Threats: AAA and MANPADS.
 
 Recommended pilots: 2]]

@@ -5,12 +5,12 @@ name = "Reg5stk3"
 coalition = 1
 priority = 65
 
-desc = [[Tripoli, currently under Syrian control, is being used as a secondary port to refuel Syrian ships, recon identified 2 Syrian ships docked, they are both from the Le Combattant class, and are unmaned, so they will not return fire.
+desc = [[Tripoli, currently under Syrian control, is being used as a secondary port to refuel Syrian ships, recon identified 2 Syrian ships docked, they are both from the Le Combattant class, and are unmanned, so they will not return fire.
 
 Primary objective: Sink the ships.
 
-Threats: AAA and manpads.
+Threats: AAA and MANPADS.
 
-Note: If using mavericks, the G or K variants are recommended as the D and H mavs can lack enough killing power to sink the ship. A 2000lbs bomb is more than enough to sink the ship.
+Note: If using Mavericks, the G or K variants are recommended as the D and H variants can lack enough killing power to sink the ship. A 2000lbs bomb is more than enough to sink the ship.
 
 Recommended pilots: 2]]

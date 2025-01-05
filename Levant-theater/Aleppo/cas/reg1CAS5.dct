@@ -6,12 +6,12 @@ coalition = 1
 smoke = {
     { x = 136656, y = 124, z = 64529, color = "Blue" }
 }
-desc = [[Earlier today, rangers from the 1st Cavalry Division landed on Reyhanli, with the mission to block any retreat attempts in the Hatay province. However, one of the squads got involved in heavy combat and is requesting immediate CAS. The rangers are currently surrounded inside of a city block, with no viable escape route, and have marked their position with blue smoke.
+desc = [[Earlier today, rangers from the 1st Cavalry Division landed on Reyhanli, with the mission to block any retreat attempts in the Hatay province. However, one of the squads got involved in heavy combat and is requesting immediate CAS. The Rangers are currently surrounded inside of a city block, with no viable escape route, and have marked their position with blue smoke.
 
 Be advised that friendlies are in close proximity to hostiles, so any use of bombs or air-to-ground missiles within 750ft/250m of the blue smoke is prohibited.
 
 Primary objective: Eliminate the hostiles surrounding our friendly troops, and avoid friendly fire.
 
-Threats: Short-range air defenses and heavy machinegun fire.
+Threats: Short-range air defenses and heavy machine gun fire.
 
 Recommended pilots: 2]]

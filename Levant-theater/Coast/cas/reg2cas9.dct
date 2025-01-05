@@ -3,7 +3,7 @@ intel = 3
 cost = 2
 ondemand = true
 coalition = 1
-desc = "One of our UAVs souting identified a group of enemy vehicles staging for a counter attack north of Aleppo, the vehicles were moving out from the ring road of the city, between the two exits, intel didn't identify any anemy anti air essets alongside the vehicles, and while nothing has been found, manpads can be present on the AO. Your objective is to destroy the enemy vehicles preparing for the attack.\
+desc = "One of our UAVs souting identified a group of enemy vehicles staging for a counter attack north of Aleppo, the vehicles were moving out from the ring road of the city, between the two exits, intel didn't identify any anemy anti air essets alongside the vehicles, and while nothing has been found, MANPADS can be present in the AO. Your objective is to destroy the enemy vehicles preparing for the attack.\
 Anti air and hostile aircraft presence is high in this area. Those are the coordinates: %LOCATION%.\
 \
 Primary objective: Eliminate the enemy vehicles.\
