@@ -3,6 +3,7 @@ intel = 3
 cost = 3
 regenerate = true
 spawnalways = true
+nocull = true
 desc = [[%LOCATIONMETHOD% an SA-2 "Guideline" site in Bassel Al-Assad airbase.
 
 Primary objective: Eliminate the Radars.
