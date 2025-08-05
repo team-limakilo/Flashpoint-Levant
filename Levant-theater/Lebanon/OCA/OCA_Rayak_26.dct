@@ -1,0 +1,12 @@
+-- Submitted by Fuzzle
+objtype = "OCA"
+intel = 4
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[Coalition intelligence has identified Rayak airport in the Beqaa Valley as a critical hub in Syrian frontline logistics operations. There are currently two An-26 and two Mi-8s undergoing maintenance on the main apron. Get in and disable them on the ground before they can disperse.
+
+Primary objective: Destroy all four aircraft.
+
+Recommended pilots: 2]]

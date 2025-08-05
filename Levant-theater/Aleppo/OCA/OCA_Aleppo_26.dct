@@ -1,0 +1,12 @@
+-- Submitted by Fuzzle
+objtype = "OCA"
+intel = 4
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[%LOCATIONMETHOD% a target of opportunity - the Syrian Air Force has had two An-26 transports resupply the airport in Aleppo. Take them out of commission on the ground before they can refuel and leave the area. They are parked on the eastern apron, on the far east side.
+
+Primary objective: Destroy both aircraft.
+
+Recommended pilots: 2]]

@@ -1,0 +1,12 @@
+-- Submitted by Fuzzle
+objtype = "OCA"
+intel = 4
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[%LOCATIONMETHOD% hostile An-26 transports parked at Beirut-Rafic Hariri. Disable them on the ground before they can leave the area. They're currently parked on the northern apron next to the fuel farm.
+
+Primary objective: Destroy all aircraft.
+
+Recommended pilots: 2]]

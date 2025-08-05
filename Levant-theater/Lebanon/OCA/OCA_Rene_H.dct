@@ -1,0 +1,12 @@
+-- Submitted by Fuzzle
+objtype = "OCA"
+intel = 4
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[Coalition intelligence has identified Rene Mouawad airfield as an important hub in Syrian aerial logistics operations. We've identified three Mi-8s and a pair of An-26s that are grounded for maintenance and refuelling on the main apron - disable them before they can leave.
+
+Primary objective: Destroy all aircraft.
+
+Recommended pilots: 2]]

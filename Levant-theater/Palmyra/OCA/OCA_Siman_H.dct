@@ -1,0 +1,12 @@
+-- Submitted by Fuzzle
+objtype = "OCA"
+intel = 4
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[%LOCATIONMETHOD% a Syrian aerial reconnaissance base at Tal Siman. Disable the Gazelle scout helicopters and their Mi-8 logistics support on the ground before they can displace.
+
+Primary objective: Destroy all helicopters.
+
+Recommended pilots: 2]]

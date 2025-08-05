@@ -1,0 +1,12 @@
+-- Submitted by Fuzzle
+objtype = "OCA"
+intel = 4
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[Frontline recon assets have spotted the Syrians pulling their remaining Mi-8 transport helos back to the Army Vehicle Training Ground south of An Nasiriyah. Disable them on the ground before they can displace and scatter.
+
+Primary objective: Destroy the helicopters.
+
+Recommended pilots: 2]]

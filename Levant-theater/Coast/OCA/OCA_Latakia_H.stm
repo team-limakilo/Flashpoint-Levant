@@ -1,0 +1,314 @@
+staticTemplate = 
+{
+	["coalition"] = 
+	{
+		["neutrals"] = 
+		{
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = {},
+		}, -- end of ["blue"]
+		["red"] = 
+		{
+			["name"] = "red",
+			["country"] = 
+			{
+				[1] = 
+				{
+					["helicopter"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["dynSpawnTemplate"] = false,
+								["modulation"] = 0,
+								["tasks"] = {},
+								["radioSet"] = false,
+								["task"] = "Transport",
+								["uncontrolled"] = true,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 342,
+											["action"] = "From Parking Area",
+											["alt_type"] = "BARO",
+											["speed"] = 41.666666666667,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "TakeOffParking",
+											["ETA"] = 0,
+											["ETA_locked"] = true,
+											["y"] = -12288.379882812,
+											["x"] = 60216.75,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+											["airdromeId"] = 141,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 6,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["alt"] = 342,
+										["hardpoint_racks"] = true,
+										["alt_type"] = "BARO",
+										["livery_id"] = "Standard",
+										["skill"] = "High",
+										["parking"] = "0",
+										["ropeLength"] = 15,
+										["speed"] = 41.666666666667,
+										["AddPropAircraft"] = 
+										{
+											["ExhaustScreen"] = true,
+											["CargoHalfdoor"] = true,
+											["GunnersAISkill"] = 90,
+											["AdditionalArmor"] = true,
+											["NS430allow"] = true,
+										}, -- end of ["AddPropAircraft"]
+										["type"] = "Mi-8MT",
+										["unitId"] = 23,
+										["psi"] = 0,
+										["onboard_num"] = "012",
+										["parking_id"] = "01",
+										["x"] = 60216.75,
+										["name"] = "PRIMARY DAMAGED 1",
+										["payload"] = 
+										{
+											["pylons"] = {},
+											["fuel"] = "1929",
+											["flare"] = 128,
+											["chaff"] = 0,
+											["gun"] = 100,
+										}, -- end of ["payload"]
+										["y"] = -12288.379882812,
+										["heading"] = 0,
+										["callsign"] = 
+										{
+											[1] = 2,
+											[2] = 1,
+											[3] = 1,
+											["name"] = "Springfield11",
+										}, -- end of ["callsign"]
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -12288.379882812,
+								["x"] = 60216.75,
+								["name"] = "Rotary-2",
+								["communication"] = true,
+								["start_time"] = 0,
+								["frequency"] = 127.5,
+							}, -- end of [1]
+						}, -- end of ["group"]
+					}, -- end of ["helicopter"]
+					["name"] = "Syria",
+					["id"] = 47,
+					["vehicle"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Ground Nothing",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 9,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -12374.609639574,
+											["x"] = 60217.605983966,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 9,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Ural-375",
+										["unitId"] = 27,
+										["y"] = -12374.609639574,
+										["x"] = 60217.605983966,
+										["name"] = "Ground-1-1",
+										["heading"] = 4.5727626402251,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Ural-375",
+										["unitId"] = 28,
+										["y"] = -12361.952503682,
+										["x"] = 60208.245766705,
+										["name"] = "Ground-1-2",
+										["heading"] = 4.1015237421867,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Ural-375",
+										["unitId"] = 31,
+										["y"] = -12363.348937424,
+										["x"] = 60228.749360923,
+										["name"] = "Ground-1-3",
+										["heading"] = 4.1015237421867,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+								}, -- end of ["units"]
+								["y"] = -12374.609639574,
+								["x"] = 60217.605983966,
+								["name"] = "Ground-1",
+								["start_time"] = 0,
+							}, -- end of [1]
+							[2] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Ground Nothing",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = 
+									{
+										[1] = 
+										{
+											[1] = 
+											{
+												["y"] = -12364.839891932,
+												["x"] = 60255.56096241,
+											}, -- end of [1]
+											[2] = 
+											{
+												["y"] = -12364.839891932,
+												["x"] = 60255.56096241,
+											}, -- end of [2]
+										}, -- end of [1]
+									}, -- end of ["spans"]
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 9,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = -12364.839891932,
+											["x"] = 60255.56096241,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 10,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Ural-375 ZU-23",
+										["unitId"] = 29,
+										["y"] = -12364.839891932,
+										["x"] = 60255.56096241,
+										["name"] = "Ground-2-1",
+										["heading"] = 5.4105206811824,
+										["playerCanDrive"] = true,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Ural-375 ZU-23",
+										["unitId"] = 30,
+										["y"] = -12399.629088836,
+										["x"] = 60210.128495221,
+										["name"] = "Ground-2-2",
+										["heading"] = 4.3982297150257,
+										["playerCanDrive"] = true,
+									}, -- end of [2]
+								}, -- end of ["units"]
+								["y"] = -12364.839891932,
+								["x"] = 60255.56096241,
+								["name"] = "Ground-2",
+								["start_time"] = 0,
+							}, -- end of [2]
+						}, -- end of ["group"]
+					}, -- end of ["vehicle"]
+				}, -- end of [1]
+			}, -- end of ["country"]
+		}, -- end of ["red"]
+	}, -- end of ["coalition"]
+	["name"] = "OCA_Latakia_H",
+	["requiredModules"] = {},
+	["localization"] = 
+	{
+		["DEFAULT"] = 
+		{
+			["DictKey_descriptionNeutralsTask_4"] = "",
+			["DictKey_sortie_5"] = "",
+			["DictKey_descriptionText_1"] = "",
+			["DictKey_descriptionBlueTask_3"] = "",
+			["DictKey_descriptionRedTask_2"] = "",
+		}, -- end of ["DEFAULT"]
+	}, -- end of ["localization"]
+	["theatre"] = "Syria",
+	["desc"] = "",
+} -- end of staticTemplate

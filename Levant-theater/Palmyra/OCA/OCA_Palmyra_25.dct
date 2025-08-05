@@ -1,0 +1,12 @@
+-- Submitted by Fuzzle
+objtype = "OCA"
+intel = 4
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[ISR assets have identified a staging point for the Syrian Air Force's Foxbats - Palmyra Airbase. Take them out of commission on the ground while they're vulnerable. They are parked on the main western apron.
+
+Primary objective: Destroy all four aircraft.
+
+Recommended pilots: 2]]

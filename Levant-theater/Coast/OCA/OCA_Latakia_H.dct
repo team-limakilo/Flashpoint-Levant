@@ -1,0 +1,12 @@
+-- Submitted by Fuzzle
+objtype = "OCA"
+intel = 4
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[Frontline recon assets have spotted the Syrians attempting to set up a FOB in the stadium north-west of Latakia. An Mi-8 is currently bringing supplies in, disable it while it's on the ground to deny the site.
+
+Primary objective: Destroy the helicopter.
+
+Recommended pilots: 2]]

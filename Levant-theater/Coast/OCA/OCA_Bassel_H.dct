@@ -1,0 +1,12 @@
+-- Submitted by Fuzzle
+objtype = "OCA"
+intel = 4
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[%LOCATIONMETHOD% two Syrian Mi-8s landing at a small outpost southwest of Bassel Al-Assad, likely moving supplies for the local IADS. They'll be grounded for some time to refuel; exploit this opening and disable them on the ground.
+
+Primary objective: Destroy both helicopters.
+
+Recommended pilots: 2]]

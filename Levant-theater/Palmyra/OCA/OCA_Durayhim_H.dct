@@ -1,0 +1,12 @@
+-- Submitted by Fuzzle
+objtype = "OCA"
+intel = 4
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[%LOCATIONMETHOD% a Syrian helicopter resupply mission (consisting of two Mi-8s escorted by two Gazelles) landing at Durayhim Military Base halfway between Abu al-Duhur and Tabqa. They'll be grounded for some time to refuel; exploit this opening and disable them on the ground.
+
+Primary objective: Destroy all four helicopters.
+
+Recommended pilots: 2]]

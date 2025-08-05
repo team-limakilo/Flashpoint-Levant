@@ -1,0 +1,12 @@
+-- Submitted by Fuzzle
+objtype = "OCA"
+intel = 4
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[Coalition intelligence has discovered the Syrians are attempting to stage an air-mobile assault across the border into Turkey out of the heliport at Kharab Ishk. Disable the six Mi-8s on the ground to deny their forces air support.
+
+Primary objective: Destroy all six helicopters.
+
+Recommended pilots: 2]]

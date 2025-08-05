@@ -1,0 +1,493 @@
+staticTemplate = 
+{
+	["coalition"] = 
+	{
+		["neutrals"] = 
+		{
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = {},
+		}, -- end of ["blue"]
+		["red"] = 
+		{
+			["name"] = "red",
+			["country"] = 
+			{
+				[1] = 
+				{
+					["id"] = 47,
+					["name"] = "Syria",
+					["plane"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["dynSpawnTemplate"] = false,
+								["modulation"] = 0,
+								["tasks"] = {},
+								["radioSet"] = false,
+								["task"] = "SEAD",
+								["uncontrolled"] = true,
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 804,
+											["action"] = "From Parking Area",
+											["alt_type"] = "BARO",
+											["speed"] = 138.88888888889,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["key"] = "SEAD",
+															["id"] = "EngageTargets",
+															["enabled"] = true,
+															["auto"] = true,
+															["params"] = 
+															{
+																["targetTypes"] = 
+																{
+																	[1] = "Air Defence",
+																}, -- end of ["targetTypes"]
+																["priority"] = 0,
+															}, -- end of ["params"]
+														}, -- end of [1]
+														[2] = 
+														{
+															["number"] = 2,
+															["auto"] = true,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 2,
+																		["name"] = 1,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [2]
+														[3] = 
+														{
+															["number"] = 3,
+															["auto"] = true,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 2,
+																		["name"] = 13,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [3]
+														[4] = 
+														{
+															["number"] = 4,
+															["auto"] = true,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = true,
+																		["name"] = 19,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [4]
+														[5] = 
+														{
+															["number"] = 5,
+															["auto"] = true,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["targetTypes"] = 
+																		{
+																			[1] = "Air Defence",
+																		}, -- end of ["targetTypes"]
+																		["name"] = 21,
+																		["value"] = "Air Defence;",
+																		["noTargetTypes"] = 
+																		{
+																			[1] = "Fighters",
+																			[2] = "Multirole fighters",
+																			[3] = "Bombers",
+																			[4] = "Helicopters",
+																			[5] = "UAVs",
+																			[6] = "Infantry",
+																			[7] = "Fortifications",
+																			[8] = "Tanks",
+																			[9] = "IFV",
+																			[10] = "APC",
+																			[11] = "Artillery",
+																			[12] = "Unarmed vehicles",
+																			[13] = "Aircraft Carriers",
+																			[14] = "Cruisers",
+																			[15] = "Destroyers",
+																			[16] = "Frigates",
+																			[17] = "Corvettes",
+																			[18] = "Light armed ships",
+																			[19] = "Unarmed ships",
+																			[20] = "Submarines",
+																			[21] = "Cruise missiles",
+																			[22] = "Antiship Missiles",
+																			[23] = "AA Missiles",
+																			[24] = "AG Missiles",
+																			[25] = "SA Missiles",
+																		}, -- end of ["noTargetTypes"]
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [5]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "TakeOffParking",
+											["ETA"] = 0,
+											["ETA_locked"] = true,
+											["y"] = 245010.1431965,
+											["x"] = 77161.007021348,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+											["airdromeId"] = 37,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 4,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["alt"] = 804,
+										["hardpoint_racks"] = true,
+										["alt_type"] = "BARO",
+										["skill"] = "High",
+										["parking"] = 30,
+										["speed"] = 138.88888888889,
+										["type"] = "Su-17M4",
+										["unitId"] = 17,
+										["psi"] = 0,
+										["onboard_num"] = "010",
+										["parking_id"] = "19",
+										["x"] = 77161.007021348,
+										["name"] = "PRIMARY DAMAGED 1",
+										["payload"] = 
+										{
+											["pylons"] = 
+											{
+												[1] = 
+												{
+													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
+												}, -- end of [1]
+												[2] = 
+												{
+													["CLSID"] = "{APU-60-1_R_60M}",
+												}, -- end of [2]
+												[3] = 
+												{
+													["CLSID"] = "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}",
+												}, -- end of [3]
+												[4] = 
+												{
+													["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+												}, -- end of [4]
+												[5] = 
+												{
+													["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+												}, -- end of [5]
+												[6] = 
+												{
+													["CLSID"] = "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}",
+												}, -- end of [6]
+												[7] = 
+												{
+													["CLSID"] = "{APU-60-1_R_60M}",
+												}, -- end of [7]
+												[8] = 
+												{
+													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
+												}, -- end of [8]
+											}, -- end of ["pylons"]
+											["fuel"] = "3770",
+											["flare"] = 64,
+											["chaff"] = 64,
+											["gun"] = 100,
+										}, -- end of ["payload"]
+										["y"] = 245010.1431965,
+										["heading"] = 0,
+										["callsign"] = 
+										{
+											[1] = 1,
+											[2] = 1,
+											[3] = 1,
+											["name"] = "Enfield11",
+										}, -- end of ["callsign"]
+									}, -- end of [1]
+									[2] = 
+									{
+										["alt"] = 804,
+										["hardpoint_racks"] = true,
+										["alt_type"] = "BARO",
+										["skill"] = "High",
+										["parking"] = 29,
+										["speed"] = 138.88888888889,
+										["type"] = "Su-17M4",
+										["unitId"] = 18,
+										["psi"] = 0,
+										["onboard_num"] = "011",
+										["parking_id"] = "18",
+										["x"] = 77162.012855968,
+										["name"] = "PRIMARY DAMAGED 2",
+										["payload"] = 
+										{
+											["pylons"] = 
+											{
+												[1] = 
+												{
+													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
+												}, -- end of [1]
+												[2] = 
+												{
+													["CLSID"] = "{APU-60-1_R_60M}",
+												}, -- end of [2]
+												[3] = 
+												{
+													["CLSID"] = "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}",
+												}, -- end of [3]
+												[4] = 
+												{
+													["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+												}, -- end of [4]
+												[5] = 
+												{
+													["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+												}, -- end of [5]
+												[6] = 
+												{
+													["CLSID"] = "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}",
+												}, -- end of [6]
+												[7] = 
+												{
+													["CLSID"] = "{APU-60-1_R_60M}",
+												}, -- end of [7]
+												[8] = 
+												{
+													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
+												}, -- end of [8]
+											}, -- end of ["pylons"]
+											["fuel"] = "3770",
+											["flare"] = 64,
+											["chaff"] = 64,
+											["gun"] = 100,
+										}, -- end of ["payload"]
+										["y"] = 244984.90051474,
+										["heading"] = 0,
+										["callsign"] = 
+										{
+											[1] = 1,
+											[2] = 1,
+											[3] = 2,
+											["name"] = "Enfield12",
+										}, -- end of ["callsign"]
+									}, -- end of [2]
+									[3] = 
+									{
+										["alt"] = 804,
+										["hardpoint_racks"] = true,
+										["alt_type"] = "BARO",
+										["skill"] = "High",
+										["parking"] = "27",
+										["speed"] = 138.88888888889,
+										["type"] = "Su-17M4",
+										["unitId"] = 19,
+										["psi"] = 0,
+										["onboard_num"] = "012",
+										["parking_id"] = "16",
+										["x"] = 77165.372791381,
+										["name"] = "PRIMARY DAMAGED 3",
+										["payload"] = 
+										{
+											["pylons"] = 
+											{
+												[1] = 
+												{
+													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
+												}, -- end of [1]
+												[2] = 
+												{
+													["CLSID"] = "{APU-60-1_R_60M}",
+												}, -- end of [2]
+												[3] = 
+												{
+													["CLSID"] = "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}",
+												}, -- end of [3]
+												[4] = 
+												{
+													["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+												}, -- end of [4]
+												[5] = 
+												{
+													["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+												}, -- end of [5]
+												[6] = 
+												{
+													["CLSID"] = "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}",
+												}, -- end of [6]
+												[7] = 
+												{
+													["CLSID"] = "{APU-60-1_R_60M}",
+												}, -- end of [7]
+												[8] = 
+												{
+													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
+												}, -- end of [8]
+											}, -- end of ["pylons"]
+											["fuel"] = "3770",
+											["flare"] = 64,
+											["chaff"] = 64,
+											["gun"] = 100,
+										}, -- end of ["payload"]
+										["y"] = 244928.01377977,
+										["heading"] = 0,
+										["callsign"] = 
+										{
+											[1] = 1,
+											[2] = 1,
+											[3] = 3,
+											["name"] = "Enfield13",
+										}, -- end of ["callsign"]
+									}, -- end of [3]
+									[4] = 
+									{
+										["alt"] = 804,
+										["hardpoint_racks"] = true,
+										["alt_type"] = "BARO",
+										["skill"] = "High",
+										["parking"] = 28,
+										["speed"] = 138.88888888889,
+										["type"] = "Su-17M4",
+										["unitId"] = 20,
+										["psi"] = 0,
+										["onboard_num"] = "013",
+										["parking_id"] = "17",
+										["x"] = 77163.075355968,
+										["name"] = "PRIMARY DAMAGED 4",
+										["payload"] = 
+										{
+											["pylons"] = 
+											{
+												[1] = 
+												{
+													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
+												}, -- end of [1]
+												[2] = 
+												{
+													["CLSID"] = "{APU-60-1_R_60M}",
+												}, -- end of [2]
+												[3] = 
+												{
+													["CLSID"] = "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}",
+												}, -- end of [3]
+												[4] = 
+												{
+													["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+												}, -- end of [4]
+												[5] = 
+												{
+													["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+												}, -- end of [5]
+												[6] = 
+												{
+													["CLSID"] = "{E86C5AA5-6D49-4F00-AD2E-79A62D6DDE26}",
+												}, -- end of [6]
+												[7] = 
+												{
+													["CLSID"] = "{APU-60-1_R_60M}",
+												}, -- end of [7]
+												[8] = 
+												{
+													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
+												}, -- end of [8]
+											}, -- end of ["pylons"]
+											["fuel"] = "3770",
+											["flare"] = 64,
+											["chaff"] = 64,
+											["gun"] = 100,
+										}, -- end of ["payload"]
+										["y"] = 244959.49584738,
+										["heading"] = 0,
+										["callsign"] = 
+										{
+											[1] = 1,
+											[2] = 1,
+											[3] = 4,
+											["name"] = "Enfield14",
+										}, -- end of ["callsign"]
+									}, -- end of [4]
+								}, -- end of ["units"]
+								["y"] = 245010.1431965,
+								["x"] = 77161.007021348,
+								["name"] = "Aerial-1",
+								["communication"] = true,
+								["start_time"] = 0,
+								["frequency"] = 251,
+							}, -- end of [1]
+						}, -- end of ["group"]
+					}, -- end of ["plane"]
+				}, -- end of [1]
+			}, -- end of ["country"]
+		}, -- end of ["red"]
+	}, -- end of ["coalition"]
+	["name"] = "OCA_Tabqa_17",
+	["requiredModules"] = {},
+	["localization"] = 
+	{
+		["DEFAULT"] = 
+		{
+			["DictKey_descriptionNeutralsTask_4"] = "",
+			["DictKey_sortie_5"] = "",
+			["DictKey_descriptionText_1"] = "",
+			["DictKey_descriptionBlueTask_3"] = "",
+			["DictKey_descriptionRedTask_2"] = "",
+		}, -- end of ["DEFAULT"]
+	}, -- end of ["localization"]
+	["theatre"] = "Syria",
+	["desc"] = "",
+} -- end of staticTemplate

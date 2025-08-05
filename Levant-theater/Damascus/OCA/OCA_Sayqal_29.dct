@@ -1,0 +1,12 @@
+-- Submitted by Fuzzle
+objtype = "OCA"
+intel = 4
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[ISR assets have locked down Sayqal Airbase as one of the launch locations for the Syrian Air Force's MiG-29 fighters. They are currently servicing some of the aircraft in the open on the northeastern apron - take them out of commission on the ground while they're vulnerable.
+
+Primary objective: Destroy all fighters.
+
+Recommended pilots: 2]]

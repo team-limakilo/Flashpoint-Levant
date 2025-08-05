@@ -1,0 +1,12 @@
+-- Submitted by Fuzzle
+objtype = "OCA"
+intel = 4
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[ISR assets have spotted Syrian rotary moving to the chemical weapons storage area north of Palmyra Airbase, and intelligence indicates they may be planning to move chemical agents for use in the AO. Disable the three Mi-8s on the pad before they can move the weapons.
+
+Primary objective: Destroy the three helicopters.
+
+Recommended pilots: 2]]

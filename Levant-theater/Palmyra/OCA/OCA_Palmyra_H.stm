@@ -1,0 +1,227 @@
+staticTemplate = 
+{
+	["coalition"] = 
+	{
+		["neutrals"] = 
+		{
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = {},
+		}, -- end of ["blue"]
+		["red"] = 
+		{
+			["name"] = "red",
+			["country"] = 
+			{
+				[1] = 
+				{
+					["id"] = 47,
+					["name"] = "Syria",
+					["helicopter"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["dynSpawnTemplate"] = false,
+								["modulation"] = 0,
+								["tasks"] = {},
+								["radioSet"] = false,
+								["task"] = "Transport",
+								["uncontrolled"] = true,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 907,
+											["action"] = "From Parking Area",
+											["alt_type"] = "BARO",
+											["speed"] = 41.666666666667,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "TakeOffParking",
+											["ETA"] = 0,
+											["ETA_locked"] = true,
+											["y"] = 213333.84375,
+											["x"] = -47939.578125,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+											["airdromeId"] = 100,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 23,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["alt"] = 907,
+										["hardpoint_racks"] = true,
+										["alt_type"] = "BARO",
+										["livery_id"] = "Standard",
+										["skill"] = "High",
+										["parking"] = "1",
+										["ropeLength"] = 15,
+										["speed"] = 41.666666666667,
+										["AddPropAircraft"] = 
+										{
+											["ExhaustScreen"] = true,
+											["CargoHalfdoor"] = true,
+											["GunnersAISkill"] = 90,
+											["AdditionalArmor"] = true,
+											["NS430allow"] = true,
+										}, -- end of ["AddPropAircraft"]
+										["type"] = "Mi-8MT",
+										["unitId"] = 63,
+										["psi"] = 0,
+										["onboard_num"] = "012",
+										["parking_id"] = "01",
+										["x"] = -47939.578125,
+										["name"] = "PRIMARY DAMAGED 3",
+										["payload"] = 
+										{
+											["pylons"] = {},
+											["fuel"] = "1929",
+											["flare"] = 128,
+											["chaff"] = 0,
+											["gun"] = 100,
+										}, -- end of ["payload"]
+										["y"] = 213333.84375,
+										["heading"] = 0,
+										["callsign"] = 
+										{
+											[1] = 2,
+											[2] = 1,
+											[3] = 1,
+											["name"] = "Springfield11",
+										}, -- end of ["callsign"]
+									}, -- end of [1]
+									[2] = 
+									{
+										["alt"] = 907,
+										["hardpoint_racks"] = true,
+										["alt_type"] = "BARO",
+										["livery_id"] = "Standard",
+										["skill"] = "High",
+										["parking"] = "2",
+										["ropeLength"] = 15,
+										["speed"] = 41.666666666667,
+										["AddPropAircraft"] = 
+										{
+											["ExhaustScreen"] = true,
+											["CargoHalfdoor"] = true,
+											["GunnersAISkill"] = 90,
+											["AdditionalArmor"] = true,
+											["NS430allow"] = true,
+										}, -- end of ["AddPropAircraft"]
+										["type"] = "Mi-8MT",
+										["unitId"] = 65,
+										["psi"] = 0,
+										["onboard_num"] = "013",
+										["parking_id"] = "02",
+										["x"] = -47920.48828125,
+										["name"] = "PRIMARY DAMAGED 4",
+										["payload"] = 
+										{
+											["pylons"] = {},
+											["fuel"] = "1929",
+											["flare"] = 128,
+											["chaff"] = 0,
+											["gun"] = 100,
+										}, -- end of ["payload"]
+										["y"] = 213406.25,
+										["heading"] = 0,
+										["callsign"] = 
+										{
+											[1] = 2,
+											[2] = 1,
+											[3] = 2,
+											["name"] = "Springfield12",
+										}, -- end of ["callsign"]
+									}, -- end of [2]
+									[3] = 
+									{
+										["alt"] = 907,
+										["hardpoint_racks"] = true,
+										["alt_type"] = "BARO",
+										["livery_id"] = "Standard",
+										["skill"] = "High",
+										["parking"] = "0",
+										["ropeLength"] = 15,
+										["speed"] = 41.666666666667,
+										["AddPropAircraft"] = 
+										{
+											["ExhaustScreen"] = true,
+											["CargoHalfdoor"] = true,
+											["GunnersAISkill"] = 90,
+											["AdditionalArmor"] = true,
+											["NS430allow"] = true,
+										}, -- end of ["AddPropAircraft"]
+										["type"] = "Mi-8MT",
+										["unitId"] = 66,
+										["psi"] = 0,
+										["onboard_num"] = "014",
+										["parking_id"] = "03",
+										["x"] = -47900.68359375,
+										["name"] = "PRIMARY DAMAGED 1",
+										["payload"] = 
+										{
+											["pylons"] = {},
+											["fuel"] = "1929",
+											["flare"] = 128,
+											["chaff"] = 0,
+											["gun"] = 100,
+										}, -- end of ["payload"]
+										["y"] = 213478.171875,
+										["heading"] = 0,
+										["callsign"] = 
+										{
+											[1] = 2,
+											[2] = 1,
+											[3] = 3,
+											["name"] = "Springfield13",
+										}, -- end of ["callsign"]
+									}, -- end of [3]
+								}, -- end of ["units"]
+								["y"] = 213333.84375,
+								["x"] = -47939.578125,
+								["name"] = "Rotary-1",
+								["communication"] = true,
+								["start_time"] = 0,
+								["frequency"] = 127.5,
+							}, -- end of [1]
+						}, -- end of ["group"]
+					}, -- end of ["helicopter"]
+				}, -- end of [1]
+			}, -- end of ["country"]
+		}, -- end of ["red"]
+	}, -- end of ["coalition"]
+	["name"] = "OCA_Palmyra_H",
+	["requiredModules"] = {},
+	["localization"] = 
+	{
+		["DEFAULT"] = 
+		{
+			["DictKey_descriptionNeutralsTask_4"] = "",
+			["DictKey_sortie_5"] = "",
+			["DictKey_descriptionText_1"] = "",
+			["DictKey_descriptionBlueTask_3"] = "",
+			["DictKey_descriptionRedTask_2"] = "",
+		}, -- end of ["DEFAULT"]
+	}, -- end of ["localization"]
+	["theatre"] = "Syria",
+	["desc"] = "",
+} -- end of staticTemplate

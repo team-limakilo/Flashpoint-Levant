@@ -1,0 +1,12 @@
+-- Submitted by Fuzzle
+objtype = "OCA"
+intel = 4
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[%LOCATIONMETHOD% a target of opportunity - the Syrian Air Force has staged four Floggers at the lightly defended Abu al-Duhur airbase. Take them out of commission on the ground before they commence air operations. They are parked on the western apron.
+
+Primary objective: Destroy all four aircraft.
+
+Recommended pilots: 2]]
