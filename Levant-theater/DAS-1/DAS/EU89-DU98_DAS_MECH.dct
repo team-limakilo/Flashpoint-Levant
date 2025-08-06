@@ -1,0 +1,25 @@
+-- Submitted by Fuzzle
+objtype = "DAS"
+intel = 0
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[Command has received intel that additional elements of the SAA's 17th Division are being redeployed from Deir ez-Zor towards our lines. %LOCATIONMETHOD% a mechanized column departing west of Deir ez-Zor at EV89 via the road south of Jabal Al Buliyah. They are expected to move towards At Tayyibah at DU98 to disembark troops. Search along this route then engage and destroy the convoy. Note that your local chart may provide better road references than the topographical map.
+
+Primary objective: Destroy the convoy.
+
+Recommended pilots: 2]]
+
+extramarks = {
+	{
+		label = "%TARGET%: EU89",
+		x = 15139,
+		z = 367798
+	},
+	{
+		label = "%TARGET%: DU98",
+		x = 5138,
+		z = 227785
+	}
+}

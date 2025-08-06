@@ -1,0 +1,25 @@
+-- Submitted by Fuzzle
+objtype = "DAS"
+intel = 0
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[With Syrian Army forces heavily diminished in the northern AO, reserve units are being raised to guard strategic installations. %LOCATIONMETHOD% a tank platoon of the SAA's 21st Reserve Division accompanied by support elements departing from grid square DT71, near At Tanf, towards the north through the desert. They are expected to turn west at Dar al 'Abid as Sud to follow the pipeline before establishing defensive positions near Palmyra at DU42. Search along this route to engage and destroy the convoy. Note that your local chart may provide better road references than the topographical map.
+
+Primary objective: Destroy the convoy.
+
+Recommended pilots: 2]]
+
+extramarks = {
+	{
+		label = "%TARGET%: DT71",
+		x = -164864,
+		z = 257801
+	},
+	{
+		label = "%TARGET%: DU42",
+		x = -54866,
+		z = 227801
+	}
+}

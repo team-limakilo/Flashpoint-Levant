@@ -1,0 +1,25 @@
+-- Submitted by Fuzzle
+objtype = "DAS"
+intel = 0
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[As a result of losses sustained against coalition forces, the SAA is redeploying elements of its 17th Division from Deir ez-Zor towards the combat area. %LOCATIONMETHOD% a tank platoon with support assets departing from EV90 along the Euphrates river. They are anticipated to head west at Hawijat Shunan to redeploy in the vicinity of Taqba at DV74. Search along this route then engage and destroy the convoy. Note that your local chart may provide better road references than the topographical map.
+
+Primary objective: Destroy the convoy.
+
+Recommended pilots: 2]]
+
+extramarks = {
+	{
+		label = "%TARGET%: EV90",
+		x = 25134,
+		z = 377804
+	},
+	{
+		label = "%TARGET%: DV74",
+		x = 65151,
+		z = 257803
+	}
+}

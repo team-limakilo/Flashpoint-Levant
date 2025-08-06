@@ -1,0 +1,25 @@
+-- Submitted by Fuzzle
+objtype = "DAS"
+intel = 0
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[Coalition advances along the Turkish border have forced the withdrawal of Syran Army units to the south. %LOCATIONMETHOD% a mechanized column of SAA 3rd Corps troops departing the oil field in DV42. Intel expects them to pass Al Qudayr, At Tayyibah and As Sukhnah on the way south to Dar al 'Abid as Sud. Search along this route to engage and destroy the convoy. Note that your local chart may provide better road references than the topographical map.
+
+Primary objective: Destroy the convoy.
+
+Recommended pilots: 2]]
+
+extramarks = {
+	{
+		label = "%TARGET%: DV52",
+		x = 45135,
+		z = 237793
+	},
+	{
+		label = "%TARGET%: DU72",
+		x = -54859,
+		z = 257794
+	}
+}

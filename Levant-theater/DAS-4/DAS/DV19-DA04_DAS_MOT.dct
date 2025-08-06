@@ -1,0 +1,25 @@
+-- Submitted by Fuzzle
+objtype = "DAS"
+intel = 0
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[With coalition forces pushing over the Turkish border, Syrian reinforcements are being brought forward to establish blocking positions. %LOCATIONMETHOD% a motorized column of the SAA's 17th Division is departing from the hydroelectric station at DV19. They are expected to transit past Khafsah Kabir northwest towards Abu Khattar to embark infantry, then deploy north to Manbij in grid DA04. Search along this route to engage and destroy the convoy. Note that your local chart may provide better road references than the topographical map.
+
+Primary objective: Destroy the convoy.
+
+Recommended pilots: 2]]
+
+extramarks = {
+	{
+		label = "%TARGET%: DV19",
+		x = 115130,
+		z = 197797
+	},
+	{
+		label = "%TARGET%: DA04",
+		x = 165130,
+		z = 187796
+	}
+}

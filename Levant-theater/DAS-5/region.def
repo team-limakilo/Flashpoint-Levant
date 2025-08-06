@@ -1,0 +1,8 @@
+name = "DAS-5"
+priority = 158
+airspace = false
+links = {
+    air    = { "Palmyra" },
+    ground = { "Palmyra" },
+    sea    = {},
+}
