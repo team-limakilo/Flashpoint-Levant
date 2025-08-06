@@ -2,6 +2,8 @@ objtype = "ewr"
 intel = 4
 cost = 2
 priority = 5
+nocull = true
+
 desc = [[%LOCATIONMETHOD% an EWR site northeast of Hama, which gives enemy forces a complete air picture of the region. If we take it out, Syrian ground intercept controllers assigned to Hama airspace will have less information to work with, allowing our flights in the region to loiter for longer.
 
 Primary objective: Eliminate the EWR near Hama.

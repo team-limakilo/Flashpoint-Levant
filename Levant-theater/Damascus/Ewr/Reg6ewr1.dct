@@ -3,6 +3,8 @@ intel = 4
 cost = 2
 name = "reg6ewr1"
 priority = 25
+nocull = true
+
 desc = [[Command is tasking you to take out a known EWR installation just east of the Mezzeh airbase, in Damascus, said site has a range bigger than 200nm, and so, command deemed necessary the destruction of the instalation.
 
 Primary objective: Eliminate the EWR.

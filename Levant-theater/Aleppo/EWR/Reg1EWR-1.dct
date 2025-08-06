@@ -2,6 +2,8 @@ objtype = "ewr"
 intel = 4
 cost = 2
 priority = 1
+nocull = true
+
 desc = [[%LOCATIONMETHOD% an EWR northeast of Aleppo, which is strategically placed to survey both Syrian and Turkish airspace. That makes it a top priority target, and its destruction will greatly reduce the enemy's interception capability.
 
 Primary objective: Eliminate the EWR.
