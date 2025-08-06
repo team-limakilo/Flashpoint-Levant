@@ -1,0 +1,12 @@
+-- Submitted by Fuzzle
+objtype = "OCA"
+intel = 4
+cost = 2
+coalition = 1
+ondemand = true
+
+desc = [[%LOCATIONMETHOD% three Syrian Mi-8 Hip helicopters landed at a facility west of Bent Jbail. We suspect they are to be used to support special forces operations in the SAA's 2nd Corps area of operations. Attack and destroy them before they are able to take off again.
+
+Primary objective: Destroy all three helicopters.
+
+Recommended pilots: 2]]
