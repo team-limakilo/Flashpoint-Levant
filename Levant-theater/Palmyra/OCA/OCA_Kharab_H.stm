@@ -2,16 +2,16 @@ staticTemplate =
 {
 	["coalition"] = 
 	{
-		["blue"] = 
-		{
-			["name"] = "blue",
-			["country"] = {},
-		}, -- end of ["blue"]
 		["neutrals"] = 
 		{
 			["name"] = "neutrals",
 			["country"] = {},
 		}, -- end of ["neutrals"]
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = {},
+		}, -- end of ["blue"]
 		["red"] = 
 		{
 			["name"] = "red",
@@ -19,520 +19,260 @@ staticTemplate =
 			{
 				[1] = 
 				{
-					["helicopter"] = 
+					["name"] = "Syria",
+					["id"] = 47,
+					["static"] = 
 					{
 						["group"] = 
 						{
 							[1] = 
 							{
-								["dynSpawnTemplate"] = false,
-								["modulation"] = 0,
-								["tasks"] = {},
-								["radioSet"] = false,
-								["task"] = "CAS",
-								["uncontrolled"] = false,
-								["taskSelected"] = true,
+								["heading"] = 4.7822021504645,
 								["route"] = 
 								{
 									["points"] = 
 									{
 										[1] = 
 										{
-											["alt"] = 431,
-											["action"] = "From Parking Area",
-											["alt_type"] = "BARO",
-											["speed"] = 41.666666666667,
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["enabled"] = true,
-															["key"] = "CAS",
-															["id"] = "EngageTargets",
-															["number"] = 1,
-															["auto"] = true,
-															["params"] = 
-															{
-																["targetTypes"] = 
-																{
-																	[1] = "Helicopters",
-																	[2] = "Ground Units",
-																	[3] = "Light armed ships",
-																}, -- end of ["targetTypes"]
-																["priority"] = 0,
-															}, -- end of ["params"]
-														}, -- end of [1]
-													}, -- end of ["tasks"]
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["type"] = "TakeOffParking",
-											["ETA"] = 0,
-											["ETA_locked"] = true,
-											["y"] = 245663.32278414,
-											["x"] = 164920.66613623,
-											["speed_locked"] = true,
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 245651.59253719,
+											["speed"] = 0,
+											["x"] = 164715.10216778,
 											["formation_template"] = "",
-											["airdromeId"] = 59,
+											["action"] = "",
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 11,
-								["hidden"] = false,
+								["groupId"] = 15,
 								["units"] = 
 								{
 									[1] = 
 									{
-										["alt"] = 431,
-										["hardpoint_racks"] = true,
-										["alt_type"] = "BARO",
-										["livery_id"] = "Standard",
-										["skill"] = "High",
-										["parking"] = "5",
-										["ropeLength"] = 15,
-										["speed"] = 41.666666666667,
-										["AddPropAircraft"] = 
-										{
-											["ExhaustScreen"] = true,
-											["CargoHalfdoor"] = true,
-											["GunnersAISkill"] = 90,
-											["AdditionalArmor"] = true,
-											["NS430allow"] = true,
-										}, -- end of ["AddPropAircraft"]
+										["livery_id"] = "standard",
+										["category"] = "Helicopters",
 										["type"] = "Mi-8MT",
-										["unitId"] = 32,
-										["psi"] = 0,
-										["onboard_num"] = "010",
-										["parking_id"] = "06",
-										["x"] = 164920.66613623,
+										["unitId"] = 42,
+										["rate"] = "30",
+										["y"] = 245651.59253719,
+										["x"] = 164715.10216778,
 										["name"] = "PRIMARY DAMAGED 1",
-										["payload"] = 
-										{
-											["pylons"] = 
-											{
-												[5] = 
-												{
-													["CLSID"] = "GUV_YakB_GSHP",
-												}, -- end of [5]
-												[2] = 
-												{
-													["CLSID"] = "GUV_YakB_GSHP",
-												}, -- end of [2]
-												[4] = 
-												{
-													["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-												}, -- end of [4]
-												[3] = 
-												{
-													["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-												}, -- end of [3]
-											}, -- end of ["pylons"]
-											["fuel"] = "1929",
-											["flare"] = 128,
-											["chaff"] = 0,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 245663.32278414,
-										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 1,
-											[2] = 1,
-											[3] = 1,
-											["name"] = "Enfield11",
-										}, -- end of ["callsign"]
+										["heading"] = 4.7822021504645,
 									}, -- end of [1]
-									[2] = 
-									{
-										["alt"] = 431,
-										["hardpoint_racks"] = true,
-										["alt_type"] = "BARO",
-										["livery_id"] = "Standard",
-										["skill"] = "High",
-										["parking"] = "6",
-										["ropeLength"] = 15,
-										["speed"] = 41.666666666667,
-										["AddPropAircraft"] = 
-										{
-											["ExhaustScreen"] = true,
-											["CargoHalfdoor"] = true,
-											["GunnersAISkill"] = 90,
-											["AdditionalArmor"] = true,
-											["NS430allow"] = true,
-										}, -- end of ["AddPropAircraft"]
-										["type"] = "Mi-8MT",
-										["unitId"] = 33,
-										["psi"] = 0,
-										["onboard_num"] = "011",
-										["parking_id"] = "07",
-										["x"] = 164878.0082365,
-										["name"] = "PRIMARY DAMAGED 2",
-										["payload"] = 
-										{
-											["pylons"] = 
-											{
-												[5] = 
-												{
-													["CLSID"] = "GUV_YakB_GSHP",
-												}, -- end of [5]
-												[2] = 
-												{
-													["CLSID"] = "GUV_YakB_GSHP",
-												}, -- end of [2]
-												[4] = 
-												{
-													["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-												}, -- end of [4]
-												[3] = 
-												{
-													["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-												}, -- end of [3]
-											}, -- end of ["pylons"]
-											["fuel"] = "1929",
-											["flare"] = 128,
-											["chaff"] = 0,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 245660.6101447,
-										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 1,
-											[2] = 1,
-											[3] = 2,
-											["name"] = "Enfield12",
-										}, -- end of ["callsign"]
-									}, -- end of [2]
-									[3] = 
-									{
-										["alt"] = 431,
-										["hardpoint_racks"] = true,
-										["alt_type"] = "BARO",
-										["livery_id"] = "Standard",
-										["skill"] = "High",
-										["parking"] = "7",
-										["ropeLength"] = 15,
-										["speed"] = 41.666666666667,
-										["AddPropAircraft"] = 
-										{
-											["ExhaustScreen"] = true,
-											["CargoHalfdoor"] = true,
-											["GunnersAISkill"] = 90,
-											["AdditionalArmor"] = true,
-											["NS430allow"] = true,
-										}, -- end of ["AddPropAircraft"]
-										["type"] = "Mi-8MT",
-										["unitId"] = 34,
-										["psi"] = 0,
-										["onboard_num"] = "012",
-										["parking_id"] = "08",
-										["x"] = 164836.24561995,
-										["name"] = "PRIMARY DAMAGED 3",
-										["payload"] = 
-										{
-											["pylons"] = 
-											{
-												[5] = 
-												{
-													["CLSID"] = "GUV_YakB_GSHP",
-												}, -- end of [5]
-												[2] = 
-												{
-													["CLSID"] = "GUV_YakB_GSHP",
-												}, -- end of [2]
-												[4] = 
-												{
-													["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-												}, -- end of [4]
-												[3] = 
-												{
-													["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-												}, -- end of [3]
-											}, -- end of ["pylons"]
-											["fuel"] = "1929",
-											["flare"] = 128,
-											["chaff"] = 0,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 245658.51382871,
-										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 1,
-											[2] = 1,
-											[3] = 3,
-											["name"] = "Enfield13",
-										}, -- end of ["callsign"]
-									}, -- end of [3]
-									[4] = 
-									{
-										["alt"] = 431,
-										["hardpoint_racks"] = true,
-										["alt_type"] = "BARO",
-										["livery_id"] = "Standard",
-										["skill"] = "High",
-										["parking"] = "8",
-										["ropeLength"] = 15,
-										["speed"] = 41.666666666667,
-										["AddPropAircraft"] = 
-										{
-											["ExhaustScreen"] = true,
-											["CargoHalfdoor"] = true,
-											["GunnersAISkill"] = 90,
-											["AdditionalArmor"] = true,
-											["NS430allow"] = true,
-										}, -- end of ["AddPropAircraft"]
-										["type"] = "Mi-8MT",
-										["unitId"] = 35,
-										["psi"] = 0,
-										["onboard_num"] = "013",
-										["parking_id"] = "09",
-										["x"] = 164795.93917044,
-										["name"] = "PRIMARY DAMAGED 4",
-										["payload"] = 
-										{
-											["pylons"] = 
-											{
-												[5] = 
-												{
-													["CLSID"] = "GUV_YakB_GSHP",
-												}, -- end of [5]
-												[2] = 
-												{
-													["CLSID"] = "GUV_YakB_GSHP",
-												}, -- end of [2]
-												[4] = 
-												{
-													["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-												}, -- end of [4]
-												[3] = 
-												{
-													["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-												}, -- end of [3]
-											}, -- end of ["pylons"]
-											["fuel"] = "1929",
-											["flare"] = 128,
-											["chaff"] = 0,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 245655.14146898,
-										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 1,
-											[2] = 1,
-											[3] = 4,
-											["name"] = "Enfield14",
-										}, -- end of ["callsign"]
-									}, -- end of [4]
 								}, -- end of ["units"]
-								["y"] = 245663.32278414,
-								["x"] = 164920.66613623,
-								["name"] = "Rotary-1",
-								["communication"] = true,
-								["start_time"] = 0,
-								["frequency"] = 127.5,
+								["y"] = 245651.59253719,
+								["x"] = 164715.10216778,
+								["name"] = "PRIMARY DAMAGED 1",
+								["dead"] = false,
 							}, -- end of [1]
 							[2] = 
 							{
-								["dynSpawnTemplate"] = false,
-								["modulation"] = 0,
-								["tasks"] = {},
-								["radioSet"] = false,
-								["task"] = "CAS",
-								["uncontrolled"] = false,
-								["taskSelected"] = true,
+								["heading"] = 4.7822021504645,
 								["route"] = 
 								{
 									["points"] = 
 									{
 										[1] = 
 										{
-											["alt"] = 431,
-											["action"] = "From Parking Area",
-											["alt_type"] = "BARO",
-											["speed"] = 41.666666666667,
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["enabled"] = true,
-															["key"] = "CAS",
-															["id"] = "EngageTargets",
-															["number"] = 1,
-															["auto"] = true,
-															["params"] = 
-															{
-																["targetTypes"] = 
-																{
-																	[1] = "Helicopters",
-																	[2] = "Ground Units",
-																	[3] = "Light armed ships",
-																}, -- end of ["targetTypes"]
-																["priority"] = 0,
-															}, -- end of ["params"]
-														}, -- end of [1]
-													}, -- end of ["tasks"]
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["type"] = "TakeOffParking",
-											["ETA"] = 0,
-											["ETA_locked"] = true,
-											["y"] = 245652.76039633,
-											["x"] = 164755.83561733,
-											["speed_locked"] = true,
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 245655.10321382,
+											["speed"] = 0,
+											["x"] = 164795.92751846,
 											["formation_template"] = "",
-											["airdromeId"] = 59,
+											["action"] = "",
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 12,
-								["hidden"] = false,
+								["groupId"] = 18,
 								["units"] = 
 								{
 									[1] = 
 									{
-										["alt"] = 431,
-										["hardpoint_racks"] = true,
-										["alt_type"] = "BARO",
-										["livery_id"] = "Standard",
-										["skill"] = "High",
-										["parking"] = "9",
-										["ropeLength"] = 15,
-										["speed"] = 41.666666666667,
-										["AddPropAircraft"] = 
-										{
-											["ExhaustScreen"] = true,
-											["CargoHalfdoor"] = true,
-											["GunnersAISkill"] = 90,
-											["AdditionalArmor"] = true,
-											["NS430allow"] = true,
-										}, -- end of ["AddPropAircraft"]
+										["livery_id"] = "standard",
+										["category"] = "Helicopters",
 										["type"] = "Mi-8MT",
-										["unitId"] = 36,
-										["psi"] = 0,
-										["onboard_num"] = "014",
-										["parking_id"] = "10",
-										["x"] = 164755.83561733,
-										["name"] = "PRIMARY DAMAGED 5",
-										["payload"] = 
-										{
-											["pylons"] = 
-											{
-												[5] = 
-												{
-													["CLSID"] = "GUV_YakB_GSHP",
-												}, -- end of [5]
-												[2] = 
-												{
-													["CLSID"] = "GUV_YakB_GSHP",
-												}, -- end of [2]
-												[4] = 
-												{
-													["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-												}, -- end of [4]
-												[3] = 
-												{
-													["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-												}, -- end of [3]
-											}, -- end of ["pylons"]
-											["fuel"] = "1929",
-											["flare"] = 128,
-											["chaff"] = 0,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 245652.76039633,
-										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 2,
-											[2] = 1,
-											[3] = 1,
-											["name"] = "Springfield11",
-										}, -- end of ["callsign"]
+										["unitId"] = 45,
+										["rate"] = "30",
+										["y"] = 245655.10321382,
+										["x"] = 164795.92751846,
+										["name"] = "PRIMARY DAMAGED 3",
+										["heading"] = 4.7822021504645,
 									}, -- end of [1]
-									[2] = 
-									{
-										["alt"] = 431,
-										["hardpoint_racks"] = true,
-										["alt_type"] = "BARO",
-										["livery_id"] = "Standard",
-										["skill"] = "High",
-										["parking"] = "10",
-										["ropeLength"] = 15,
-										["speed"] = 41.666666666667,
-										["AddPropAircraft"] = 
-										{
-											["ExhaustScreen"] = true,
-											["CargoHalfdoor"] = true,
-											["GunnersAISkill"] = 90,
-											["AdditionalArmor"] = true,
-											["NS430allow"] = true,
-										}, -- end of ["AddPropAircraft"]
-										["type"] = "Mi-8MT",
-										["unitId"] = 37,
-										["psi"] = 0,
-										["onboard_num"] = "015",
-										["parking_id"] = "11",
-										["x"] = 164715.10897693,
-										["name"] = "PRIMARY DAMAGED 6",
-										["payload"] = 
-										{
-											["pylons"] = 
-											{
-												[5] = 
-												{
-													["CLSID"] = "GUV_YakB_GSHP",
-												}, -- end of [5]
-												[2] = 
-												{
-													["CLSID"] = "GUV_YakB_GSHP",
-												}, -- end of [2]
-												[4] = 
-												{
-													["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-												}, -- end of [4]
-												[3] = 
-												{
-													["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-												}, -- end of [3]
-											}, -- end of ["pylons"]
-											["fuel"] = "1929",
-											["flare"] = 128,
-											["chaff"] = 0,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 245651.61403031,
-										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 2,
-											[2] = 1,
-											[3] = 2,
-											["name"] = "Springfield12",
-										}, -- end of ["callsign"]
-									}, -- end of [2]
 								}, -- end of ["units"]
-								["y"] = 245652.76039633,
-								["x"] = 164755.83561733,
-								["name"] = "Rotary-2",
-								["communication"] = true,
-								["start_time"] = 0,
-								["frequency"] = 127.5,
+								["y"] = 245655.10321382,
+								["x"] = 164795.92751846,
+								["name"] = "PRIMARY DAMAGED 3",
+								["dead"] = false,
 							}, -- end of [2]
+							[3] = 
+							{
+								["heading"] = 4.7822021504645,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 245658.54597482,
+											["speed"] = 0,
+											["x"] = 164836.23496128,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 19,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "standard",
+										["category"] = "Helicopters",
+										["type"] = "Mi-8MT",
+										["unitId"] = 46,
+										["rate"] = "30",
+										["y"] = 245658.54597482,
+										["x"] = 164836.23496128,
+										["name"] = "PRIMARY DAMAGED 4",
+										["heading"] = 4.7822021504645,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 245658.54597482,
+								["x"] = 164836.23496128,
+								["name"] = "PRIMARY DAMAGED 4",
+								["dead"] = false,
+							}, -- end of [3]
+							[4] = 
+							{
+								["heading"] = 4.7822021504645,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 245660.64869459,
+											["speed"] = 0,
+											["x"] = 164877.93890338,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 20,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "standard",
+										["category"] = "Helicopters",
+										["type"] = "Mi-8MT",
+										["unitId"] = 47,
+										["rate"] = "30",
+										["y"] = 245660.64869459,
+										["x"] = 164877.93890338,
+										["name"] = "PRIMARY DAMAGED 5",
+										["heading"] = 4.7822021504645,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 245660.64869459,
+								["x"] = 164877.93890338,
+								["name"] = "PRIMARY DAMAGED 5",
+								["dead"] = false,
+							}, -- end of [4]
+							[5] = 
+							{
+								["heading"] = 4.7822021504645,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 245663.33550319,
+											["speed"] = 0,
+											["x"] = 164920.81102313,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 21,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "standard",
+										["category"] = "Helicopters",
+										["type"] = "Mi-8MT",
+										["unitId"] = 48,
+										["rate"] = "30",
+										["y"] = 245663.33550319,
+										["x"] = 164920.81102313,
+										["name"] = "PRIMARY DAMAGED 6",
+										["heading"] = 4.7822021504645,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 245663.33550319,
+								["x"] = 164920.81102313,
+								["name"] = "PRIMARY DAMAGED 6",
+								["dead"] = false,
+							}, -- end of [5]
+							[6] = 
+							{
+								["heading"] = 4.7822021504645,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 245652.96393193,
+											["speed"] = 0,
+											["x"] = 164755.67208413,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 22,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "standard",
+										["category"] = "Helicopters",
+										["type"] = "Mi-8MT",
+										["unitId"] = 49,
+										["rate"] = "30",
+										["y"] = 245652.96393193,
+										["x"] = 164755.67208413,
+										["name"] = "PRIMARY DAMAGED 2",
+										["heading"] = 4.7822021504645,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 245652.96393193,
+								["x"] = 164755.67208413,
+								["name"] = "PRIMARY DAMAGED 2",
+								["dead"] = false,
+							}, -- end of [6]
 						}, -- end of ["group"]
-					}, -- end of ["helicopter"]
-					["name"] = "Syria",
-					["id"] = 47,
+					}, -- end of ["static"]
 					["vehicle"] = 
 					{
 						["group"] = 

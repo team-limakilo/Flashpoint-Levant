@@ -2,16 +2,16 @@ staticTemplate =
 {
 	["coalition"] = 
 	{
-		["neutrals"] = 
-		{
-			["name"] = "neutrals",
-			["country"] = {},
-		}, -- end of ["neutrals"]
 		["blue"] = 
 		{
 			["name"] = "blue",
 			["country"] = {},
 		}, -- end of ["blue"]
+		["neutrals"] = 
+		{
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
 		["red"] = 
 		{
 			["name"] = "red",
@@ -20,127 +20,93 @@ staticTemplate =
 				[1] = 
 				{
 					["id"] = 47,
-					["name"] = "Syria",
-					["plane"] = 
+					["static"] = 
 					{
 						["group"] = 
 						{
 							[1] = 
 							{
-								["dynSpawnTemplate"] = false,
-								["modulation"] = 0,
-								["tasks"] = {},
-								["radioSet"] = false,
-								["task"] = "Transport",
-								["uncontrolled"] = true,
+								["heading"] = 0,
 								["route"] = 
 								{
 									["points"] = 
 									{
 										[1] = 
 										{
-											["alt"] = 382,
-											["action"] = "From Parking Area",
-											["alt_type"] = "BARO",
-											["speed"] = 138.88888888889,
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = {},
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["type"] = "TakeOffParking",
-											["ETA"] = 0,
-											["ETA_locked"] = true,
-											["y"] = 123620.9296875,
-											["x"] = 125903.2265625,
-											["speed_locked"] = true,
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 123610.6930764,
+											["speed"] = 0,
+											["x"] = 125843.46990567,
 											["formation_template"] = "",
-											["airdromeId"] = 27,
+											["action"] = "",
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 3,
-								["hidden"] = false,
+								["groupId"] = 4,
 								["units"] = 
 								{
 									[1] = 
 									{
-										["alt"] = 382,
-										["hardpoint_racks"] = true,
-										["alt_type"] = "BARO",
-										["skill"] = "High",
-										["parking"] = 15,
-										["speed"] = 138.88888888889,
+										["category"] = "Planes",
 										["type"] = "An-26B",
-										["unitId"] = 9,
-										["psi"] = 0,
-										["onboard_num"] = "010",
-										["parking_id"] = "07",
-										["x"] = 125903.2265625,
-										["name"] = "PRIMARY DAMAGED 1",
-										["payload"] = 
-										{
-											["pylons"] = {},
-											["fuel"] = 2750,
-											["flare"] = 384,
-											["chaff"] = 384,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 123620.9296875,
-										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 1,
-											[2] = 1,
-											[3] = 1,
-											["name"] = "Enfield11",
-										}, -- end of ["callsign"]
-									}, -- end of [1]
-									[2] = 
-									{
-										["alt"] = 382,
-										["alt_type"] = "BARO",
-										["skill"] = "High",
-										["parking"] = 14,
-										["speed"] = 138.88888888889,
-										["type"] = "An-26B",
-										["unitId"] = 16,
-										["psi"] = 0,
-										["onboard_num"] = "011",
-										["parking_id"] = "08",
-										["x"] = 125843.4921875,
+										["unitId"] = 17,
+										["rate"] = "50",
+										["y"] = 123610.6930764,
+										["x"] = 125843.46990567,
 										["name"] = "PRIMARY DAMAGED 2",
-										["payload"] = 
-										{
-											["pylons"] = {},
-											["fuel"] = 2750,
-											["flare"] = 384,
-											["chaff"] = 384,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 123610.6328125,
 										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 1,
-											[2] = 1,
-											[3] = 2,
-											["name"] = "Enfield12",
-										}, -- end of ["callsign"]
-									}, -- end of [2]
+									}, -- end of [1]
 								}, -- end of ["units"]
-								["y"] = 123620.9296875,
-								["x"] = 125903.2265625,
-								["name"] = "Aerial-1",
-								["communication"] = true,
-								["start_time"] = 0,
-								["frequency"] = 251,
+								["y"] = 123610.6930764,
+								["x"] = 125843.46990567,
+								["name"] = "PRIMARY DAMAGED 2",
+								["dead"] = false,
 							}, -- end of [1]
+							[2] = 
+							{
+								["heading"] = 0,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 123620.86700853,
+											["speed"] = 0,
+											["x"] = 125903.22157056,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 6,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["category"] = "Planes",
+										["type"] = "An-26B",
+										["unitId"] = 19,
+										["rate"] = "50",
+										["y"] = 123620.86700853,
+										["x"] = 125903.22157056,
+										["name"] = "PRIMARY DAMAGED 1",
+										["heading"] = 0,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 123620.86700853,
+								["x"] = 125903.22157056,
+								["name"] = "PRIMARY DAMAGED 1",
+								["dead"] = false,
+							}, -- end of [2]
 						}, -- end of ["group"]
-					}, -- end of ["plane"]
+					}, -- end of ["static"]
+					["name"] = "Syria",
 				}, -- end of [1]
 			}, -- end of ["country"]
 		}, -- end of ["red"]

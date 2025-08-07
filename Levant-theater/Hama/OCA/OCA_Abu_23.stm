@@ -2,16 +2,16 @@ staticTemplate =
 {
 	["coalition"] = 
 	{
-		["blue"] = 
-		{
-			["name"] = "blue",
-			["country"] = {},
-		}, -- end of ["blue"]
 		["neutrals"] = 
 		{
 			["name"] = "neutrals",
 			["country"] = {},
 		}, -- end of ["neutrals"]
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = {},
+		}, -- end of ["blue"]
 		["red"] = 
 		{
 			["name"] = "red",
@@ -20,406 +20,173 @@ staticTemplate =
 				[1] = 
 				{
 					["id"] = 47,
-					["name"] = "Syria",
-					["plane"] = 
+					["static"] = 
 					{
 						["group"] = 
 						{
 							[1] = 
 							{
-								["dynSpawnTemplate"] = false,
-								["modulation"] = 0,
-								["tasks"] = {},
-								["radioSet"] = false,
-								["task"] = "CAP",
-								["uncontrolled"] = true,
+								["heading"] = 0,
 								["route"] = 
 								{
 									["points"] = 
 									{
 										[1] = 
 										{
-											["alt"] = 250,
-											["action"] = "From Parking Area",
-											["alt_type"] = "BARO",
-											["speed"] = 138.88888888889,
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["enabled"] = true,
-															["key"] = "CAP",
-															["id"] = "EngageTargets",
-															["number"] = 1,
-															["auto"] = true,
-															["params"] = 
-															{
-																["targetTypes"] = 
-																{
-																	[1] = "Air",
-																}, -- end of ["targetTypes"]
-																["priority"] = 0,
-															}, -- end of ["params"]
-														}, -- end of [1]
-														[2] = 
-														{
-															["enabled"] = true,
-															["auto"] = true,
-															["id"] = "WrappedAction",
-															["number"] = 2,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["value"] = true,
-																		["name"] = 17,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [2]
-														[3] = 
-														{
-															["enabled"] = true,
-															["auto"] = true,
-															["id"] = "WrappedAction",
-															["number"] = 3,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["value"] = 4,
-																		["name"] = 18,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [3]
-														[4] = 
-														{
-															["enabled"] = true,
-															["auto"] = true,
-															["id"] = "WrappedAction",
-															["number"] = 4,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["value"] = true,
-																		["name"] = 19,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [4]
-														[5] = 
-														{
-															["enabled"] = true,
-															["auto"] = true,
-															["id"] = "WrappedAction",
-															["number"] = 5,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["targetTypes"] = {},
-																		["name"] = 21,
-																		["value"] = "none;",
-																		["noTargetTypes"] = 
-																		{
-																			[1] = "Fighters",
-																			[2] = "Multirole fighters",
-																			[3] = "Bombers",
-																			[4] = "Helicopters",
-																			[5] = "UAVs",
-																			[6] = "Infantry",
-																			[7] = "Fortifications",
-																			[8] = "Tanks",
-																			[9] = "IFV",
-																			[10] = "APC",
-																			[11] = "Artillery",
-																			[12] = "Unarmed vehicles",
-																			[13] = "AAA",
-																			[14] = "SR SAM",
-																			[15] = "MR SAM",
-																			[16] = "LR SAM",
-																			[17] = "Aircraft Carriers",
-																			[18] = "Cruisers",
-																			[19] = "Destroyers",
-																			[20] = "Frigates",
-																			[21] = "Corvettes",
-																			[22] = "Light armed ships",
-																			[23] = "Unarmed ships",
-																			[24] = "Submarines",
-																			[25] = "Cruise missiles",
-																			[26] = "Antiship Missiles",
-																			[27] = "AA Missiles",
-																			[28] = "AG Missiles",
-																			[29] = "SA Missiles",
-																		}, -- end of ["noTargetTypes"]
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [5]
-													}, -- end of ["tasks"]
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["type"] = "TakeOffParking",
-											["ETA"] = 0,
-											["ETA_locked"] = true,
-											["y"] = 110599.65625,
-											["x"] = 76400.609375,
-											["speed_locked"] = true,
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 110499.94706544,
+											["speed"] = 0,
+											["x"] = 76406.881084418,
 											["formation_template"] = "",
-											["airdromeId"] = 1,
+											["action"] = "",
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 4,
-								["hidden"] = false,
+								["groupId"] = 5,
 								["units"] = 
 								{
 									[1] = 
 									{
-										["alt"] = 250,
-										["hardpoint_racks"] = true,
-										["alt_type"] = "BARO",
-										["skill"] = "High",
-										["parking"] = "6",
-										["speed"] = 138.88888888889,
+										["category"] = "Planes",
 										["type"] = "MiG-23MLD",
-										["unitId"] = 17,
-										["psi"] = 0,
-										["onboard_num"] = "010",
-										["parking_id"] = "20",
-										["x"] = 76400.609375,
+										["unitId"] = 21,
+										["rate"] = "30",
+										["y"] = 110499.94706544,
+										["x"] = 76406.881084418,
 										["name"] = "PRIMARY DAMAGED 1",
-										["payload"] = 
-										{
-											["pylons"] = 
-											{
-												[2] = 
-												{
-													["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
-												}, -- end of [2]
-												[3] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [3]
-												[4] = 
-												{
-													["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
-												}, -- end of [4]
-												[5] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [5]
-												[6] = 
-												{
-													["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
-												}, -- end of [6]
-											}, -- end of ["pylons"]
-											["fuel"] = "3800",
-											["flare"] = 60,
-											["chaff"] = 60,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 110599.65625,
 										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 1,
-											[2] = 1,
-											[3] = 1,
-											["name"] = "Enfield11",
-										}, -- end of ["callsign"]
 									}, -- end of [1]
-									[2] = 
-									{
-										["alt"] = 250,
-										["alt_type"] = "BARO",
-										["skill"] = "High",
-										["parking"] = "7",
-										["speed"] = 138.88888888889,
-										["type"] = "MiG-23MLD",
-										["unitId"] = 18,
-										["psi"] = 0,
-										["onboard_num"] = "011",
-										["parking_id"] = "19",
-										["x"] = 76402.859375,
-										["name"] = "PRIMARY DAMAGED 2",
-										["payload"] = 
-										{
-											["pylons"] = 
-											{
-												[2] = 
-												{
-													["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
-												}, -- end of [2]
-												[3] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [3]
-												[4] = 
-												{
-													["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
-												}, -- end of [4]
-												[5] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [5]
-												[6] = 
-												{
-													["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
-												}, -- end of [6]
-											}, -- end of ["pylons"]
-											["fuel"] = "3800",
-											["flare"] = 60,
-											["chaff"] = 60,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 110567.171875,
-										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 1,
-											[2] = 1,
-											[3] = 2,
-											["name"] = "Enfield12",
-										}, -- end of ["callsign"]
-									}, -- end of [2]
-									[3] = 
-									{
-										["alt"] = 250,
-										["alt_type"] = "BARO",
-										["skill"] = "High",
-										["parking"] = "8",
-										["speed"] = 138.88888888889,
-										["type"] = "MiG-23MLD",
-										["unitId"] = 19,
-										["psi"] = 0,
-										["onboard_num"] = "012",
-										["parking_id"] = "18",
-										["x"] = 76404.890625,
-										["name"] = "PRIMARY DAMAGED 3",
-										["payload"] = 
-										{
-											["pylons"] = 
-											{
-												[2] = 
-												{
-													["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
-												}, -- end of [2]
-												[3] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [3]
-												[4] = 
-												{
-													["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
-												}, -- end of [4]
-												[5] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [5]
-												[6] = 
-												{
-													["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
-												}, -- end of [6]
-											}, -- end of ["pylons"]
-											["fuel"] = "3800",
-											["flare"] = 60,
-											["chaff"] = 60,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 110536.2734375,
-										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 1,
-											[2] = 1,
-											[3] = 3,
-											["name"] = "Enfield13",
-										}, -- end of ["callsign"]
-									}, -- end of [3]
-									[4] = 
-									{
-										["alt"] = 250,
-										["alt_type"] = "BARO",
-										["skill"] = "High",
-										["parking"] = "9",
-										["speed"] = 138.88888888889,
-										["type"] = "MiG-23MLD",
-										["unitId"] = 20,
-										["psi"] = 0,
-										["onboard_num"] = "013",
-										["parking_id"] = "17",
-										["x"] = 76406.9296875,
-										["name"] = "PRIMARY DAMAGED 4",
-										["payload"] = 
-										{
-											["pylons"] = 
-											{
-												[2] = 
-												{
-													["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
-												}, -- end of [2]
-												[3] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [3]
-												[4] = 
-												{
-													["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
-												}, -- end of [4]
-												[5] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [5]
-												[6] = 
-												{
-													["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
-												}, -- end of [6]
-											}, -- end of ["pylons"]
-											["fuel"] = "3800",
-											["flare"] = 60,
-											["chaff"] = 60,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 110499.9375,
-										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 1,
-											[2] = 1,
-											[3] = 4,
-											["name"] = "Enfield14",
-										}, -- end of ["callsign"]
-									}, -- end of [4]
 								}, -- end of ["units"]
-								["y"] = 110599.65625,
-								["x"] = 76400.609375,
-								["name"] = "Aerial-1",
-								["communication"] = true,
-								["start_time"] = 0,
-								["frequency"] = 251,
+								["y"] = 110499.94706544,
+								["x"] = 76406.881084418,
+								["name"] = "Static MiG-23MLD-1",
+								["dead"] = false,
 							}, -- end of [1]
+							[2] = 
+							{
+								["heading"] = 0,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 110536.29033229,
+											["speed"] = 0,
+											["x"] = 76404.86760703,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 6,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["category"] = "Planes",
+										["type"] = "MiG-23MLD",
+										["unitId"] = 22,
+										["rate"] = "30",
+										["y"] = 110536.29033229,
+										["x"] = 76404.86760703,
+										["name"] = "PRIMARY DAMAGED 2",
+										["heading"] = 0,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 110536.29033229,
+								["x"] = 76404.86760703,
+								["name"] = "Static MiG-23MLD-2",
+								["dead"] = false,
+							}, -- end of [2]
+							[3] = 
+							{
+								["heading"] = 0,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 110567.09653633,
+											["speed"] = 0,
+											["x"] = 76402.954803511,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 7,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["category"] = "Planes",
+										["type"] = "MiG-23MLD",
+										["unitId"] = 23,
+										["rate"] = "30",
+										["y"] = 110567.09653633,
+										["x"] = 76402.954803511,
+										["name"] = "PRIMARY DAMAGED 3",
+										["heading"] = 0,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 110567.09653633,
+								["x"] = 76402.954803511,
+								["name"] = "Static MiG-23MLD-3",
+								["dead"] = false,
+							}, -- end of [3]
+							[4] = 
+							{
+								["heading"] = 0,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 110599.61419615,
+											["speed"] = 0,
+											["x"] = 76400.639304514,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 8,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["category"] = "Planes",
+										["type"] = "MiG-23MLD",
+										["unitId"] = 24,
+										["rate"] = "30",
+										["y"] = 110599.61419615,
+										["x"] = 76400.639304514,
+										["name"] = "PRIMARY DAMAGED 4",
+										["heading"] = 0,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 110599.61419615,
+								["x"] = 76400.639304514,
+								["name"] = "Static MiG-23MLD-4",
+								["dead"] = false,
+							}, -- end of [4]
 						}, -- end of ["group"]
-					}, -- end of ["plane"]
+					}, -- end of ["static"]
+					["name"] = "Syria",
 				}, -- end of [1]
 			}, -- end of ["country"]
 		}, -- end of ["red"]

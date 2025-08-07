@@ -2,16 +2,16 @@ staticTemplate =
 {
 	["coalition"] = 
 	{
-		["blue"] = 
-		{
-			["name"] = "blue",
-			["country"] = {},
-		}, -- end of ["blue"]
 		["neutrals"] = 
 		{
 			["name"] = "neutrals",
 			["country"] = {},
 		}, -- end of ["neutrals"]
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = {},
+		}, -- end of ["blue"]
 		["red"] = 
 		{
 			["name"] = "red",
@@ -20,447 +20,173 @@ staticTemplate =
 				[1] = 
 				{
 					["id"] = 47,
-					["name"] = "Syria",
-					["plane"] = 
+					["static"] = 
 					{
 						["group"] = 
 						{
 							[1] = 
 							{
-								["dynSpawnTemplate"] = false,
-								["modulation"] = 0,
-								["tasks"] = {},
-								["radioSet"] = false,
-								["task"] = "Antiship Strike",
-								["uncontrolled"] = true,
-								["taskSelected"] = true,
+								["heading"] = 3.8746309394274,
 								["route"] = 
 								{
 									["points"] = 
 									{
 										[1] = 
 										{
-											["alt"] = 804,
-											["action"] = "From Parking Area",
-											["alt_type"] = "BARO",
-											["speed"] = 138.88888888889,
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = 
-													{
-														[1] = 
-														{
-															["number"] = 1,
-															["key"] = "AntiShip",
-															["id"] = "EngageTargets",
-															["enabled"] = true,
-															["auto"] = true,
-															["params"] = 
-															{
-																["targetTypes"] = 
-																{
-																	[1] = "Ships",
-																}, -- end of ["targetTypes"]
-																["priority"] = 0,
-															}, -- end of ["params"]
-														}, -- end of [1]
-														[2] = 
-														{
-															["number"] = 2,
-															["auto"] = true,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["value"] = 1,
-																		["name"] = 1,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [2]
-														[3] = 
-														{
-															["number"] = 3,
-															["auto"] = true,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["value"] = 1,
-																		["name"] = 3,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [3]
-														[4] = 
-														{
-															["number"] = 4,
-															["auto"] = true,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["variantIndex"] = 2,
-																		["name"] = 5,
-																		["formationIndex"] = 2,
-																		["value"] = 131074,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [4]
-														[5] = 
-														{
-															["number"] = 5,
-															["auto"] = true,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["value"] = true,
-																		["name"] = 15,
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [5]
-														[6] = 
-														{
-															["number"] = 6,
-															["auto"] = true,
-															["id"] = "WrappedAction",
-															["enabled"] = true,
-															["params"] = 
-															{
-																["action"] = 
-																{
-																	["id"] = "Option",
-																	["params"] = 
-																	{
-																		["targetTypes"] = {},
-																		["name"] = 21,
-																		["value"] = "none;",
-																		["noTargetTypes"] = 
-																		{
-																			[1] = "Fighters",
-																			[2] = "Multirole fighters",
-																			[3] = "Bombers",
-																			[4] = "Helicopters",
-																			[5] = "UAVs",
-																			[6] = "Infantry",
-																			[7] = "Fortifications",
-																			[8] = "Tanks",
-																			[9] = "IFV",
-																			[10] = "APC",
-																			[11] = "Artillery",
-																			[12] = "Unarmed vehicles",
-																			[13] = "AAA",
-																			[14] = "SR SAM",
-																			[15] = "MR SAM",
-																			[16] = "LR SAM",
-																			[17] = "Aircraft Carriers",
-																			[18] = "Cruisers",
-																			[19] = "Destroyers",
-																			[20] = "Frigates",
-																			[21] = "Corvettes",
-																			[22] = "Light armed ships",
-																			[23] = "Unarmed ships",
-																			[24] = "Submarines",
-																			[25] = "Cruise missiles",
-																			[26] = "Antiship Missiles",
-																			[27] = "AA Missiles",
-																			[28] = "AG Missiles",
-																			[29] = "SA Missiles",
-																		}, -- end of ["noTargetTypes"]
-																	}, -- end of ["params"]
-																}, -- end of ["action"]
-															}, -- end of ["params"]
-														}, -- end of [6]
-													}, -- end of ["tasks"]
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["type"] = "TakeOffParking",
-											["ETA"] = 0,
-											["ETA_locked"] = true,
-											["y"] = 92098.116759482,
-											["x"] = -61765.418051466,
-											["speed_locked"] = true,
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 92178.712727181,
+											["speed"] = 0,
+											["x"] = -61822.320848551,
 											["formation_template"] = "",
-											["airdromeId"] = 36,
+											["action"] = "",
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 4,
-								["hidden"] = false,
+								["groupId"] = 5,
 								["units"] = 
 								{
 									[1] = 
 									{
-										["alt"] = 804,
-										["hardpoint_racks"] = true,
-										["alt_type"] = "BARO",
-										["skill"] = "High",
-										["parking"] = "48",
-										["speed"] = 138.88888888889,
+										["category"] = "Planes",
 										["type"] = "Su-17M4",
-										["unitId"] = 17,
-										["psi"] = 0,
-										["onboard_num"] = "010",
-										["parking_id"] = "39",
-										["x"] = -61765.418051466,
+										["unitId"] = 21,
+										["rate"] = "40",
+										["y"] = 92178.712727181,
+										["x"] = -61822.320848551,
 										["name"] = "PRIMARY DAMAGED 1",
-										["payload"] = 
-										{
-											["pylons"] = 
-											{
-												[1] = 
-												{
-													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
-												}, -- end of [1]
-												[2] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [2]
-												[3] = 
-												{
-													["CLSID"] = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
-												}, -- end of [3]
-												[6] = 
-												{
-													["CLSID"] = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
-												}, -- end of [6]
-												[7] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [7]
-												[8] = 
-												{
-													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
-												}, -- end of [8]
-											}, -- end of ["pylons"]
-											["fuel"] = "3770",
-											["flare"] = 64,
-											["chaff"] = 64,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 92098.116759482,
-										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 1,
-											[2] = 1,
-											[3] = 1,
-											["name"] = "Enfield11",
-										}, -- end of ["callsign"]
+										["heading"] = 3.8746309394274,
 									}, -- end of [1]
-									[2] = 
-									{
-										["alt"] = 804,
-										["hardpoint_racks"] = true,
-										["alt_type"] = "BARO",
-										["skill"] = "High",
-										["parking"] = "49",
-										["speed"] = 138.88888888889,
-										["type"] = "Su-17M4",
-										["unitId"] = 18,
-										["psi"] = 0,
-										["onboard_num"] = "011",
-										["parking_id"] = "40",
-										["x"] = -61787.201078019,
-										["name"] = "PRIMARY DAMAGED 2",
-										["payload"] = 
-										{
-											["pylons"] = 
-											{
-												[1] = 
-												{
-													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
-												}, -- end of [1]
-												[2] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [2]
-												[3] = 
-												{
-													["CLSID"] = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
-												}, -- end of [3]
-												[6] = 
-												{
-													["CLSID"] = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
-												}, -- end of [6]
-												[7] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [7]
-												[8] = 
-												{
-													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
-												}, -- end of [8]
-											}, -- end of ["pylons"]
-											["fuel"] = "3770",
-											["flare"] = 64,
-											["chaff"] = 64,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 92125.689139634,
-										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 1,
-											[2] = 1,
-											[3] = 2,
-											["name"] = "Enfield12",
-										}, -- end of ["callsign"]
-									}, -- end of [2]
-									[3] = 
-									{
-										["alt"] = 804,
-										["hardpoint_racks"] = true,
-										["alt_type"] = "BARO",
-										["skill"] = "High",
-										["parking"] = 51,
-										["speed"] = 138.88888888889,
-										["type"] = "Su-17M4",
-										["unitId"] = 19,
-										["psi"] = 0,
-										["onboard_num"] = "012",
-										["parking_id"] = "42",
-										["x"] = -61822.355501616,
-										["name"] = "PRIMARY DAMAGED 3",
-										["payload"] = 
-										{
-											["pylons"] = 
-											{
-												[1] = 
-												{
-													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
-												}, -- end of [1]
-												[2] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [2]
-												[3] = 
-												{
-													["CLSID"] = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
-												}, -- end of [3]
-												[6] = 
-												{
-													["CLSID"] = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
-												}, -- end of [6]
-												[7] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [7]
-												[8] = 
-												{
-													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
-												}, -- end of [8]
-											}, -- end of ["pylons"]
-											["fuel"] = "3770",
-											["flare"] = 64,
-											["chaff"] = 64,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 92178.631923005,
-										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 1,
-											[2] = 1,
-											[3] = 3,
-											["name"] = "Enfield13",
-										}, -- end of ["callsign"]
-									}, -- end of [3]
-									[4] = 
-									{
-										["alt"] = 804,
-										["hardpoint_racks"] = true,
-										["alt_type"] = "BARO",
-										["skill"] = "High",
-										["parking"] = "50",
-										["speed"] = 138.88888888889,
-										["type"] = "Su-17M4",
-										["unitId"] = 20,
-										["psi"] = 0,
-										["onboard_num"] = "013",
-										["parking_id"] = "41",
-										["x"] = -61803.659562971,
-										["name"] = "PRIMARY DAMAGED 4",
-										["payload"] = 
-										{
-											["pylons"] = 
-											{
-												[1] = 
-												{
-													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
-												}, -- end of [1]
-												[2] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [2]
-												[3] = 
-												{
-													["CLSID"] = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
-												}, -- end of [3]
-												[6] = 
-												{
-													["CLSID"] = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
-												}, -- end of [6]
-												[7] = 
-												{
-													["CLSID"] = "{APU-60-1_R_60M}",
-												}, -- end of [7]
-												[8] = 
-												{
-													["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
-												}, -- end of [8]
-											}, -- end of ["pylons"]
-											["fuel"] = "3770",
-											["flare"] = 64,
-											["chaff"] = 64,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 92147.577531721,
-										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 1,
-											[2] = 1,
-											[3] = 4,
-											["name"] = "Enfield14",
-										}, -- end of ["callsign"]
-									}, -- end of [4]
 								}, -- end of ["units"]
-								["y"] = 92098.116759482,
-								["x"] = -61765.418051466,
-								["name"] = "Aerial-1",
-								["communication"] = true,
-								["start_time"] = 0,
-								["frequency"] = 251,
+								["y"] = 92178.712727181,
+								["x"] = -61822.320848551,
+								["name"] = "PRIMARY DAMAGED 1",
+								["dead"] = false,
 							}, -- end of [1]
+							[2] = 
+							{
+								["heading"] = 3.8746309394274,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 92147.6387004,
+											["speed"] = 0,
+											["x"] = -61803.811536946,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 6,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["category"] = "Planes",
+										["type"] = "Su-17M4",
+										["unitId"] = 22,
+										["rate"] = "40",
+										["y"] = 92147.6387004,
+										["x"] = -61803.811536946,
+										["name"] = "PRIMARY DAMAGED 2",
+										["heading"] = 3.8746309394274,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 92147.6387004,
+								["x"] = -61803.811536946,
+								["name"] = "PRIMARY DAMAGED 2",
+								["dead"] = false,
+							}, -- end of [2]
+							[3] = 
+							{
+								["heading"] = 3.8746309394274,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 92125.751777188,
+											["speed"] = 0,
+											["x"] = -61787.193687841,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 7,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["category"] = "Planes",
+										["type"] = "Su-17M4",
+										["unitId"] = 23,
+										["rate"] = "40",
+										["y"] = 92125.751777188,
+										["x"] = -61787.193687841,
+										["name"] = "PRIMARY DAMAGED 3",
+										["heading"] = 3.8746309394274,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 92125.751777188,
+								["x"] = -61787.193687841,
+								["name"] = "PRIMARY DAMAGED 3",
+								["dead"] = false,
+							}, -- end of [3]
+							[4] = 
+							{
+								["heading"] = 3.8746309394274,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 92098.055362013,
+											["speed"] = 0,
+											["x"] = -61765.576973558,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 8,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["category"] = "Planes",
+										["type"] = "Su-17M4",
+										["unitId"] = 24,
+										["rate"] = "40",
+										["y"] = 92098.055362013,
+										["x"] = -61765.576973558,
+										["name"] = "PRIMARY DAMAGED 4",
+										["heading"] = 3.8746309394274,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 92098.055362013,
+								["x"] = -61765.576973558,
+								["name"] = "PRIMARY DAMAGED 4",
+								["dead"] = false,
+							}, -- end of [4]
 						}, -- end of ["group"]
-					}, -- end of ["plane"]
+					}, -- end of ["static"]
+					["name"] = "Syria",
 				}, -- end of [1]
 			}, -- end of ["country"]
 		}, -- end of ["red"]

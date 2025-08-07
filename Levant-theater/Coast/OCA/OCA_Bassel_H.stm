@@ -2,16 +2,16 @@ staticTemplate =
 {
 	["coalition"] = 
 	{
-		["blue"] = 
-		{
-			["name"] = "blue",
-			["country"] = {},
-		}, -- end of ["blue"]
 		["neutrals"] = 
 		{
 			["name"] = "neutrals",
 			["country"] = {},
 		}, -- end of ["neutrals"]
+		["blue"] = 
+		{
+			["name"] = "blue",
+			["country"] = {},
+		}, -- end of ["blue"]
 		["red"] = 
 		{
 			["name"] = "red",
@@ -20,148 +20,95 @@ staticTemplate =
 				[1] = 
 				{
 					["id"] = 47,
-					["name"] = "Syria",
-					["helicopter"] = 
+					["static"] = 
 					{
 						["group"] = 
 						{
 							[1] = 
 							{
-								["dynSpawnTemplate"] = false,
-								["modulation"] = 0,
-								["tasks"] = {},
-								["radioSet"] = false,
-								["task"] = "Transport",
-								["uncontrolled"] = true,
+								["heading"] = 0,
 								["route"] = 
 								{
 									["points"] = 
 									{
 										[1] = 
 										{
-											["alt"] = 342,
-											["action"] = "From Parking Area",
-											["alt_type"] = "BARO",
-											["speed"] = 41.666666666667,
-											["task"] = 
-											{
-												["id"] = "ComboTask",
-												["params"] = 
-												{
-													["tasks"] = {},
-												}, -- end of ["params"]
-											}, -- end of ["task"]
-											["type"] = "TakeOffParking",
-											["ETA"] = 0,
-											["ETA_locked"] = true,
-											["y"] = 16871.43359375,
-											["x"] = 34647.21875,
-											["speed_locked"] = true,
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 16871.53612817,
+											["speed"] = 0,
+											["x"] = 34647.582850573,
 											["formation_template"] = "",
-											["airdromeId"] = 89,
+											["action"] = "",
 										}, -- end of [1]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
-								["groupId"] = 6,
-								["hidden"] = false,
+								["groupId"] = 7,
 								["units"] = 
 								{
 									[1] = 
 									{
-										["alt"] = 342,
-										["hardpoint_racks"] = true,
-										["alt_type"] = "BARO",
-										["livery_id"] = "Standard",
-										["skill"] = "High",
-										["parking"] = "0",
-										["ropeLength"] = 15,
-										["speed"] = 41.666666666667,
-										["AddPropAircraft"] = 
-										{
-											["ExhaustScreen"] = true,
-											["CargoHalfdoor"] = true,
-											["GunnersAISkill"] = 90,
-											["AdditionalArmor"] = true,
-											["NS430allow"] = true,
-										}, -- end of ["AddPropAircraft"]
+										["livery_id"] = "standard",
+										["category"] = "Helicopters",
 										["type"] = "Mi-8MT",
-										["unitId"] = 23,
-										["psi"] = 0,
-										["onboard_num"] = "012",
-										["parking_id"] = "01",
-										["x"] = 34647.21875,
-										["name"] = "PRIMARY DAMAGED 3",
-										["payload"] = 
-										{
-											["pylons"] = {},
-											["fuel"] = "1929",
-											["flare"] = 128,
-											["chaff"] = 0,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 16871.43359375,
+										["unitId"] = 25,
+										["rate"] = "30",
+										["y"] = 16871.53612817,
+										["x"] = 34647.582850573,
+										["name"] = "PRIMARY DAMAGED 1",
 										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 2,
-											[2] = 1,
-											[3] = 1,
-											["name"] = "Springfield11",
-										}, -- end of ["callsign"]
 									}, -- end of [1]
-									[2] = 
-									{
-										["alt"] = 342,
-										["hardpoint_racks"] = true,
-										["alt_type"] = "BARO",
-										["livery_id"] = "Standard",
-										["skill"] = "High",
-										["parking"] = "1",
-										["ropeLength"] = 15,
-										["speed"] = 41.666666666667,
-										["AddPropAircraft"] = 
-										{
-											["ExhaustScreen"] = true,
-											["CargoHalfdoor"] = true,
-											["GunnersAISkill"] = 90,
-											["AdditionalArmor"] = true,
-											["NS430allow"] = true,
-										}, -- end of ["AddPropAircraft"]
-										["type"] = "Mi-8MT",
-										["unitId"] = 24,
-										["psi"] = 0,
-										["onboard_num"] = "013",
-										["parking_id"] = "02",
-										["x"] = 34654.609375,
-										["name"] = "PRIMARY DAMAGED 4",
-										["payload"] = 
-										{
-											["pylons"] = {},
-											["fuel"] = "1929",
-											["flare"] = 128,
-											["chaff"] = 0,
-											["gun"] = 100,
-										}, -- end of ["payload"]
-										["y"] = 16913.509765625,
-										["heading"] = 0,
-										["callsign"] = 
-										{
-											[1] = 2,
-											[2] = 1,
-											[3] = 2,
-											["name"] = "Springfield12",
-										}, -- end of ["callsign"]
-									}, -- end of [2]
 								}, -- end of ["units"]
-								["y"] = 16871.43359375,
-								["x"] = 34647.21875,
-								["name"] = "Rotary-2",
-								["communication"] = true,
-								["start_time"] = 0,
-								["frequency"] = 127.5,
+								["y"] = 16871.53612817,
+								["x"] = 34647.582850573,
+								["name"] = "PRIMARY DAMAGED 1",
+								["dead"] = false,
 							}, -- end of [1]
+							[2] = 
+							{
+								["heading"] = 0,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 0,
+											["type"] = "",
+											["name"] = "",
+											["y"] = 16913.467800751,
+											["speed"] = 0,
+											["x"] = 34654.614870198,
+											["formation_template"] = "",
+											["action"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 8,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["livery_id"] = "standard",
+										["category"] = "Helicopters",
+										["type"] = "Mi-8MT",
+										["unitId"] = 26,
+										["rate"] = "30",
+										["y"] = 16913.467800751,
+										["x"] = 34654.614870198,
+										["name"] = "PRIMARY DAMAGED 2",
+										["heading"] = 0,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 16913.467800751,
+								["x"] = 34654.614870198,
+								["name"] = "PRIMARY DAMAGED 2",
+								["dead"] = false,
+							}, -- end of [2]
 						}, -- end of ["group"]
-					}, -- end of ["helicopter"]
+					}, -- end of ["static"]
+					["name"] = "Syria",
 				}, -- end of [1]
 			}, -- end of ["country"]
 		}, -- end of ["red"]
