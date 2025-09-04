@@ -1,0 +1,179 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 47,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 243,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = 111345.94658446,
+                                            ["x"] = 95379.531569266,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 13,
+                                        ["y"] = 111345.94658446,
+                                        ["x"] = 95379.531569266,
+                                        ["name"] = "-4",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 12,
+                                        ["y"] = 111095.4462043,
+                                        ["x"] = 95511.237954712,
+                                        ["name"] = "-3",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 11,
+                                        ["y"] = 111228.30035781,
+                                        ["x"] = 95157.725390723,
+                                        ["name"] = "-2",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "ZU-23 Emplacement Closed",
+                                        ["unitId"] = 15,
+                                        ["y"] = 110853.2671426,
+                                        ["x"] = 95302.459226645,
+                                        ["name"] = "-6",
+                                        ["heading"] = 0,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 14,
+                                        ["y"] = 111310.54330262,
+                                        ["x"] = 95266.848831168,
+                                        ["name"] = "-5",
+                                        ["heading"] = 5.2010811709431,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["skill"] = "Average",
+                                        ["coldAtStart"] = false,
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 16,
+                                        ["y"] = 111027.53903201,
+                                        ["x"] = 95345.78777744,
+                                        ["name"] = "-1",
+                                        ["heading"] = 5.2010811709431,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                }, -- end of ["units"]
+                                ["y"] = 111345.94658446,
+                                ["x"] = 95379.531569266,
+                                ["name"] = "",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "Syria",
+                }, -- end of [1]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "Aleppo Bridge Target 1",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "Syria",
+    ["desc"] = "",
+} -- end of staticTemplate
