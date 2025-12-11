@@ -592,6 +592,28 @@ staticTemplate =
                                         ["heading"] = 6.2641478001644,
                                         ["playerCanDrive"] = false,
                                     }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["skill"] = "High",
+                                        ["type"] = "Ural-375 ZU-23",
+                                        ["unitId"] = 203,
+                                        ["y"] = 4257.536627866,
+                                        ["x"] = 48965.329299136,
+                                        ["name"] = "Sa-3-8",
+                                        ["playerCanDrive"] = false,
+                                        ["heading"] = 3.1241393610699,
+                                    }, -- end of [8]
+                                    [9] = 
+                                    {
+                                        ["skill"] = "High",
+                                        ["type"] = "Ural-375 ZU-23",
+                                        ["unitId"] = 204,
+                                        ["y"] = 4260.3677603751,
+                                        ["x"] = 48860.908773143,
+                                        ["name"] = "Sa-3-9",
+                                        ["playerCanDrive"] = false,
+                                        ["heading"] = 0,
+                                    }, -- end of [9]
                                 }, -- end of ["units"]
                                 ["y"] = 4257.1072263719,
                                 ["x"] = 48941.134977291,
