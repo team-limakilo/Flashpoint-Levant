@@ -22,6 +22,9 @@ local SRS_FREQUENCIES = {
 -- Track which players have been sent reminders (cleared on respawn)
 local playersReminded = {}
 
+-- Track pending reminder timers for each player (so we can check if still valid)
+local pendingReminders = {}
+
 -- Pre-build the reminder message at module load time
 local REMINDER_MESSAGE = (function()
     local message = ""
@@ -41,42 +44,48 @@ local REMINDER_MESSAGE = (function()
     return message
 end)()
 
--- Send reminder to grounded players
-local function sendReminderToGroundedPlayers()
-    local totalSent = 0
+-- Send reminder to a specific player by unit name
+local function sendReminderToPlayer(unitName)
+    -- Clear the pending reminder tracking
+    pendingReminders[unitName] = nil
 
-    -- Check players from both coalitions
-    local coalitions = { coalition.side.BLUE, coalition.side.RED }
-    for _, side in ipairs(coalitions) do
-        local players = coalition.getPlayers(side)
-        for _, unit in ipairs(players) do
-            if unit and unit:isExist() then
-                local unitName = unit:getName()
-
-                -- Only send reminder if player is on the ground (not in air)
-                if not unit:inAir() and not playersReminded[unitName] then
-                    trigger.action.outTextForUnit(unit:getID(), REMINDER_MESSAGE, MESSAGE_DURATION_SECONDS, false)
-                    playersReminded[unitName] = true
-                    totalSent = totalSent + 1
-                end
-            end
-        end
+    -- Find the unit
+    local unit = Unit.getByName(unitName)
+    if not unit or not unit:isExist() then
+        env.info(string.format("SRS-Reminder: Unit %s no longer exists, skipping reminder", unitName))
+        return nil
     end
 
-    -- Log how many reminders were sent
-    if totalSent > 0 then
-        env.info(string.format("SRS-Reminder: Sent reminder to %d grounded player(s)", totalSent))
+    -- Check if this is still a player-controlled unit
+    local playerName = unit:getPlayerName()
+    if not playerName then
+        env.info(string.format("SRS-Reminder: Unit %s is no longer player-controlled, skipping reminder", unitName))
+        return nil
     end
 
-    -- Schedule the next reminder
-    return timer.getTime() + REMINDER_INTERVAL_SECONDS
+    -- Only send reminder if player is on the ground (not in air) and hasn't been reminded
+    if not unit:inAir() and not playersReminded[unitName] then
+        trigger.action.outTextForUnit(unit:getID(), REMINDER_MESSAGE, MESSAGE_DURATION_SECONDS, false)
+        playersReminded[unitName] = true
+        env.info(string.format("SRS-Reminder: Sent reminder to player %s in %s", playerName, unitName))
+
+        -- Schedule subsequent reminder
+        pendingReminders[unitName] = true
+        timer.scheduleFunction(function() return sendReminderToPlayer(unitName) end, nil, timer.getTime() + REMINDER_INTERVAL_SECONDS)
+    elseif unit:inAir() then
+        -- Player took off before reminder, schedule next check at the regular interval
+        pendingReminders[unitName] = true
+        timer.scheduleFunction(function() return sendReminderToPlayer(unitName) end, nil, timer.getTime() + REMINDER_INTERVAL_SECONDS)
+    end
+
+    return nil
 end
 
 -- Event handler to track player spawns/respawns
 local eventHandler = {}
 
 function eventHandler:onEvent(event)
-    -- Clear the reminded flag when a player spawns/respawns
+    -- Handle player spawn/respawn
     -- S_EVENT_BIRTH is more reliable than S_EVENT_PLAYER_ENTER_UNIT
     if event.id == world.event.S_EVENT_BIRTH then
         local unit = event.initiator
@@ -84,9 +93,14 @@ function eventHandler:onEvent(event)
             local playerName = unit:getPlayerName()
             if playerName then
                 local unitName = unit:getName()
-                -- Clear the flag so they can receive reminders again if on ground
+                -- Clear the flag so they can receive reminders again
                 playersReminded[unitName] = nil
-                env.info(string.format("SRS-Reminder: Player %s spawned in %s", playerName, unitName))
+                pendingReminders[unitName] = nil
+                env.info(string.format("SRS-Reminder: Player %s spawned in %s, scheduling reminder in %d seconds", playerName, unitName, INITIAL_DELAY_SECONDS))
+
+                -- Schedule the initial reminder for this player after the delay
+                pendingReminders[unitName] = true
+                timer.scheduleFunction(function() return sendReminderToPlayer(unitName) end, nil, timer.getTime() + INITIAL_DELAY_SECONDS)
             end
         end
     end
@@ -97,10 +111,7 @@ local function initialize()
     -- Register event handler
     world.addEventHandler(eventHandler)
 
-    -- Schedule the first reminder
-    timer.scheduleFunction(sendReminderToGroundedPlayers, nil, timer.getTime() + INITIAL_DELAY_SECONDS)
-
-    env.info("SRS-Reminder: Script initialized. First reminder in " .. INITIAL_DELAY_SECONDS .. " seconds.")
+    env.info("SRS-Reminder: Script initialized. Reminders will be sent " .. INITIAL_DELAY_SECONDS .. " seconds after each player spawns.")
 end
 
 -- Wrap initialization in pcall for error handling
