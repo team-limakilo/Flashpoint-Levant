@@ -1,0 +1,19 @@
+objtype = "Facility"
+intel = 5
+cost = 2
+name = "Reg2Bridge-1"
+coalition = 1
+buildings = {
+    {
+        ["name"] = "Bridge",
+        ["goal"] = "primary destroyed",
+        ["id"] = 120588285,
+    },
+}
+desc = [[Local resistance efforts have reported trains loaded with SHORAD and additional air defense assets departing the Aleppo rail station headed for the port at Latakia. In order to prevent these supplies from reaching their destination, a strike against a railway bridge south of Jisr Ash-Shughur has been ordered.
+
+Primary objective: Destroy the railway bridge.
+
+Threats: AAA, MANPADs.
+
+Reccomended pilots: 2]]

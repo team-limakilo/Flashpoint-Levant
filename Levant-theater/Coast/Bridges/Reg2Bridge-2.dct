@@ -1,0 +1,22 @@
+objtype = "Facility"
+intel = 5
+cost = 2
+name = "Reg2Bridge-2"
+coalition = 1
+buildings = {
+    {
+        ["name"] = "North Bridge",
+        ["goal"] = "primary destroyed",
+        ["id"] = 117380464,
+    },
+    {
+        ["name"] = "Sorth Bridge",
+        ["goal"] = "primary destroyed",
+        ["id"] = 117380461,
+    }
+}
+desc = [[Intelligence efforts have identified a flow of supplies northward along the railway supporting enemy efforts to hold the port of Latakia and the airfield at Bassel Al-Assad. Your target is a pair of railway bridges along the coast, approximately 3 miles north of Baniyas. 
+
+Primary objective: Destroy the railway bridge.
+
+Threats: AAA, heavy SAM coverage IVO Bassel Al-Assad.]]
