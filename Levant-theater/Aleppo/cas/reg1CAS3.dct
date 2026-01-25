@@ -6,15 +6,16 @@ coalition = 1
 extramarks = {
     { x = 171011, z = 107968, label = "A'zaz" }
 }
-desc = [[A small detachment of British forces, Anvil, recently moved to secure a hill south of the Syrian border, with intel that enemy forces would not put up a fight this far from Aleppo, but had their advance interrupted by enemy tanks, and have requested close air support to deal with this threat.
+desc = [[A British Army unit, callsign ANVIL, is occypying a position on a hill about 1.5 miles west of the border crossing. They are in contact with a Syrian Army armor element with multiple T-55s and are requesting close air support.
+We also have intelligence that a motorized convoy is moving north from Azaz along an auxillary road west of the main highway. We expect these forces to reinforce the Syrian tanks and engage ANVIL in +30 minutes.
 
-We have also received info on more enemy reinforcements coming from A'zaz via a secondary road west of the main highway, and we expect them to reach the AO in 25 to 35 minutes.
+A US Army JTAC, callsign EYEBALL, has crossed the border to coordinate support.
 
-In the meantime, a JTAC from the US Army, Eyeball, has infiltrated the AO and will provide support from the ground. As there are multiple T-55s engaged with Anvil, you should load up with anti-tank weapons, as well as provisions to deal with soft vehicles and infantry.
+This may be a danger close mission. Postiveily ID the Syrian T-55s before engaging. Do not fire on ANVIL's Chieftain tanks.
 
-Primary objective: Help Anvil clear out the enemy vehicles.
+Primary objective: Provide CAS for EYEBALL and ANVIL. Destroy the T-55s. Interdict the reinforcements.
 
-Threats: MANPADS and heavy machine gun fire.
+Threats: Small arms. MANPADS. Possible CAP.
 
 Recommended pilots: 1
 
