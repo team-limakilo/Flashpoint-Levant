@@ -6,7 +6,7 @@ coalition = 1
 extramarks = {
     { x = 171011, z = 107968, label = "A'zaz" }
 }
-desc = [The town of Azaz controls an important supply route, and is the coalition's first obstacle along the road to Aleppo.
+desc = [[The town of Azaz controls an important supply route, and is the coalition's first obstacle along the road to Aleppo.
 Syrian Army forces are entrenched along the highway that rings the western edge of the town.
 
 Most civilians have been evacuated, but there are reports of some still remaining in the town. Avoid effects on civilian structures in the town.
