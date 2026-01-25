@@ -40,6 +40,10 @@ local aircraftParameters = {
 			["standardAltitude"] = 2438.4,
 			["standardSpeed"] = 149
 		},
+		["A6E"] = {
+			["standardAltitude"] = 2438.4,
+			["standardSpeed"] = 149
+		},
 		["E-3A"] = {
 			["standardAltitude"] = 7620,
 			["standardSpeed"] = 205.4
@@ -232,7 +236,8 @@ local orbits = {
 			["Texaco"] = 1
 		},
 		["airframes"] = {
-			["S-3B Tanker"] = true
+			["S-3B Tanker"] = true,
+			["A6E"] = true
 		}
 	},
 	["Darkstar"] = {
@@ -1347,6 +1352,53 @@ local OOB = {
 							{
 							},
 							["fuel"] = 7813,
+							["flare"] = 30,
+							["chaff"] = 30,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Texaco"] = 1
+				}
+			},
+			["VA34"] = {
+				["name"] = "VA-34",
+				["country"] = country.USA,
+				["type"] = "A6E",
+				["skill"] = "High",
+				["livery"] = "va34-500-1987",
+				["baseFlightSize"] = 1,
+				["missions"] = {
+					[defs.missionType.Tanker] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.Support] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{HB_A6E_AERO1D}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{HB_A6E_AERO1D}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{HB_A6E_D704}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{HB_A6E_AERO1D}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{HB_A6E_AERO1D}",
+								},
+							},
+							["fuel"] = 7229.8,
 							["flare"] = 30,
 							["chaff"] = 30,
 							["gun"] = 100,
