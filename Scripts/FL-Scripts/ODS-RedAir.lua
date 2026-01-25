@@ -1,316 +1,1683 @@
--- Setting areas to CAP
-CAPZone1 = ZONE_POLYGON:New("CapZone1", GROUP:FindByName("CapZone1"))
-CAPZone2 = ZONE_POLYGON:New("CapZone2", GROUP:FindByName("CapZone2"))
-CAPZone3 = ZONE_POLYGON:New("CapZone3", GROUP:FindByName("CapZone3"))
-CAPZone4 = ZONE_POLYGON:New("CapZone4", GROUP:FindByName("CapZone4"))
-BluCap   = ZONE_POLYGON:New("BluCap", GROUP:FindByName("BluCap"))
-FleetCAP = ZONE_POLYGON:New("FleetCAP", GROUP:FindByName("FleetCAP"))
+local scriptPath = lfs.writedir() .. "Scripts\\AirCommand"
+package.path = package.path .. ";" .. scriptPath .. "\\?.lua;"
+---------------------------------------------------------------------------------------------------------------------------
+local AirCommand = require("AirCommand")
+local defs = require("Defs")
 
--- Now setting blue
-EWR_Blue = SET_GROUP:New()
-EWR_Blue:FilterCoalitions("blue")
-EWR_Blue:FilterPrefixes({ "WIZARD", "DARKSTAR", "SAM" })
-EWR_Blue:FilterActive()
-EWR_Blue:FilterStart()
-Detection_Blue = DETECTION_AREAS:New(EWR_Blue, 10000)   -- 10km grouping
-Detection_Blue:InitDetectRadar(true)
-Detection_Blue:InitDetectVisual(true)
-Detection_Blue:InitDetectOptical(true)
-A2ADispatcher_Blue = AI_A2A_DISPATCHER:New(Detection_Blue)
-A2ADispatcher_Blue:SetEngageRadius(75000)                 -- CAP engagement radius of 75km
-A2ADispatcher_Blue:SetDefaultCapRacetrack(30000, 40000)   -- 30-40km racetracks
-A2ADispatcher_Blue:SetDefaultFuelThreshold(0.3)           -- RTB early to prevent auto-AAR
-A2ADispatcher_Blue:SetIntercept(60)                       -- Interception delay in seconds
-A2ADispatcher_Blue:SetGciRadius(90000)                    -- Intercept targets less than 90km away from airbases
-A2ADispatcher_Blue:SetBorderZone({ BluCap, FleetCAP })
+-- parameters
+local parameters = {
+	["minPackageTime"] = 600,
+	["maxPackageTime"] = 2400,
+	["preparationTime"] = 2400,
+	["CAPChance"] = 70,
+ 	["AMBUSHChance"] = 75
+}
 
--- Blue F-4E CAP
-A2ADispatcher_Blue:SetSquadron("Incirlik F4E", AIRBASE.Syria.Incirlik, { "F4" })
-A2ADispatcher_Blue:SetSquadronTakeoffInAir("Incirlik F4E")
-A2ADispatcher_Blue:SetSquadronLandingNearAirbase("Incirlik F4E")
-A2ADispatcher_Blue:SetSquadronOverhead("Incirlik F4E", 1)
-A2ADispatcher_Blue:SetSquadronGrouping("Incirlik F4E", 2, true)
-A2ADispatcher_Blue:SetSquadronCap("Incirlik F4E", BluCap, 6000, 8000, 460, 900, 800, 1600)
+-- parameters for aircraft
+local aircraftParameters = {
+	[Unit.Category.AIRPLANE] = {
+		["commitRange"] = 90000,
+		["maxAltitude"] = 10000,
+		["standardAltitude"] = 7500,
+		["returnAltitude"] = 9000,
+		["ambushAltitude"] = 180,
+		["standardSpeed"] = 250,
+		["ambushSpeed"] = 250,
+		["MiG-19P"] = {
+			["preferredTactic"] = defs.interceptTactic.Stern,
+			["radarRange"] = 12000
+		},
+		["MiG-21Bis"] = {
+			["preferredTactic"] = defs.interceptTactic.Stern,
+			["radarRange"] = 12000
+		},
+		["MiG-23MLD"] = {
+			["preferredTactic"] = defs.interceptTactic.Beam,
+			["radarRange"] = 24000
+		},
+		["MiG-25PD"] = {
+			["preferredTactic"] = defs.interceptTactic.LeadHigh,
+			["commitRange"] = 120000,
+			["radarRange"] = 30000,
+			["standardAltitude"] = 10000,
+			["returnAltitude"] = 10000,
+			["maxAltitude"] = 16000,
+		},
+		["MiG-29A"] = {
+			["radarRange"] = 40000
+		},
+	}
+}
 
--- Blue F-5E CAP
-A2ADispatcher_Blue:SetSquadron("Incirlik F5E", AIRBASE.Syria.Incirlik, { "F5" })
-A2ADispatcher_Blue:SetSquadronTakeoffInAir("Incirlik F5E")
-A2ADispatcher_Blue:SetSquadronLandingNearAirbase("Incirlik F5E")
-A2ADispatcher_Blue:SetSquadronOverhead("Incirlik F5E", 1)
-A2ADispatcher_Blue:SetSquadronGrouping("Incirlik F5E", 2, true)
-A2ADispatcher_Blue:SetSquadronCap("Incirlik F5E", BluCap, 4000, 6000, 460, 900, 800, 1200)
+-- table defining aircraft threat types, any not defined is assumed to be standard
+local threatTypes = {
+	["MiG-29A"] = defs.threatType.High,
+	["MiG-29S"] = defs.threatType.High,
+	["Su-27"] = defs.threatType.High,
+	["Su-33"] = defs.threatType.High,
+	["M-2000C"] = defs.threatType.High,
+	["F-14A-135-GR"] = defs.threatType.High,
+	["F-14B"] = defs.threatType.High,
+	["FA-18C_hornet"] = defs.threatType.High,
+	["F-16C_50"] = defs.threatType.High,
+	["F-15ESE"] = defs.threatType.High,
+	["F-15C"] = defs.threatType.High,
+	["JF-17"] = defs.threatType.High,
+	["Tornado GR4"] = defs.threatType.High,
+	["Tornado IDS"] = defs.threatType.High,
+	["OH58D"] = defs.threatType.High,
+	["SA342M"] = defs.threatType.High,
+	["SA342Mistral"] = defs.threatType.High,
+	["Mi-24P"] = defs.threatType.High,
+	["Ka-50"] = defs.threatType.High,
+	["Ka-50_3"] = defs.threatType.High,
+	["AH-64D_BLK_II"] = defs.threatType.High
+}
 
--- Blue F-15c CAP
-A2ADispatcher_Blue:SetSquadron("Incirlik F15C", AIRBASE.Syria.Incirlik, { "F15C" })
-A2ADispatcher_Blue:SetSquadronTakeoffInAir("Incirlik F15C")
-A2ADispatcher_Blue:SetSquadronLandingNearAirbase("Incirlik F15C")
-A2ADispatcher_Blue:SetSquadronOverhead("Incirlik F15C", 1)
-A2ADispatcher_Blue:SetSquadronGrouping("Incirlik F15C", 2, true)
-A2ADispatcher_Blue:SetSquadronCap("Incirlik F15C", BluCap, 6000, 8000, 460, 900, 800, 1800)
+-- support aircraft orbits
+local orbits = {
+}
 
--- Blue Mirage CAP
-A2ADispatcher_Blue:SetSquadron("Incirlik M2000C", AIRBASE.Syria.Incirlik, { "M2000" })
-A2ADispatcher_Blue:SetSquadronTakeoffInAir("Incirlik M2000C")
-A2ADispatcher_Blue:SetSquadronLandingNearAirbase("Incirlik M2000C")
-A2ADispatcher_Blue:SetSquadronOverhead("Incirlik M2000C", 1)
-A2ADispatcher_Blue:SetSquadronGrouping("Incirlik M2000C", 2, true)
-A2ADispatcher_Blue:SetSquadronCap("Incirlik M2000C", BluCap, 6000, 8000, 460, 900, 800, 1600)
+local CAPZones = {
+	-- Aleppo Helicopter CAP
+	[1] = {
+		["x"] = 125605,
+		["y"] = 123184,
+		["radius"] = 100000,
+		["reference"] = {
+			-- FARP Helena
+			["x"] = 183764,
+			["y"] = 114062
+		},
+		["airframes"] = {
+			["SA342L"] = true,
+		}
+	},
+	-- Al-Duhur
+	[2] = {
+		["x"] = 76303,
+		["y"] = 111292,
+		["radius"] = 100000,
+		["reference"] = {
+			["x"] = 235725,
+			["y"] = 47650
+		},
+		["airframes"] = {
+			["MiG-19P"] = true,
+			["MiG-21Bis"] = true,
+			["MiG-23MLD"] = true,
+			["MiG-25PD"] = true,
+			["MiG-29A"] = true
+		}
+	},
+	-- Shayrat
+	[3] = {
+		["x"] = -61330,
+		["y"] = 90350,
+		["radius"] = 120000,
+		["reference"] = {
+			["x"] = -35862,
+			["y"] = -269000
+		},
+		["airframes"] = {
+			["MiG-19P"] = true,
+			["MiG-21Bis"] = true,
+			["MiG-23MLD"] = true,
+			["MiG-25PD"] = true,
+			["MiG-29A"] = true
+		}
+	},
+}
 
--- Blue F-14 CAP
-A2ADispatcher_Blue:SetSquadron("Fleet F14", "CVN-75 Harry S. Truman", { "F14" })
-A2ADispatcher_Blue:SetSquadronTakeoffFromParkingHot("Fleet F14")
-A2ADispatcher_Blue:SetSquadronLandingNearAirbase("Fleet F14")
-A2ADispatcher_Blue:SetSquadronOverhead("Fleet F14", 1)
-A2ADispatcher_Blue:SetSquadronGrouping("Fleet F14", 2, true)
-A2ADispatcher_Blue:SetSquadronCap("Fleet F14", FleetCAP, 6000, 8000, 460, 900, 800, 1800)
+-- any zones where interception will not be launched even if in range of a squadron
+local ADZExclusion = {
+	-- Shell tanker area
+	[1] = {
+		["x"] = 202344,
+		["y"] = 117806,
+		["radius"] = 40000
+	},
+	[2] = {
+		["x"] = 197791,
+		["y"] = 168145,
+		["radius"] = 40000
+	},
+}
 
--- Blue F-18 CAP
-A2ADispatcher_Blue:SetSquadron("Fleet F18", "CVN-75 Harry S. Truman", { "F18" })
-A2ADispatcher_Blue:SetSquadronTakeoffFromParkingHot("Fleet F18")
-A2ADispatcher_Blue:SetSquadronLandingNearAirbase("Fleet F18")
-A2ADispatcher_Blue:SetSquadronOverhead("Fleet F18", 1)
-A2ADispatcher_Blue:SetSquadronGrouping("Fleet F18", 2, true)
-A2ADispatcher_Blue:SetSquadronCap("Fleet F18", FleetCAP, 6000, 8000, 460, 900, 800, 1400)
+-- airbases and squadrons
+local OOB = {
+	["Aleppo"] = {
+		name = "Aleppo", -- DCS name
+		takeoffHeading = 4.852, -- in radians
+		squadrons = {
+			["AleppoMiG21"] = {
+				["name"] = "Aleppo MiG-21",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-21Bis",
+				["skill"] = "High",
+				["livery"] = "syria (2)",
+				["allWeatherAA"] = defs.capability.Limited,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 80000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 2,
+				["maxFlightSize"] = 4,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.CAP] = true,
+					[defs.missionType.AMBUSHCAP] = true,
+					[defs.missionType.Escort] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.Standard] = true,
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{PTB_800_MIG21}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{ASO-2}",
+								},
+							},
+							["fuel"] = 2280,
+							["flare"] = 40,
+							["ammo_type"] = 1,
+							["chaff"] = 18,
+							["gun"] = 100,
+						},
+						[defs.missionType.QRA] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{ASO-2}",
+								},
+							},
+							["fuel"] = 2280,
+							["flare"] = 40,
+							["ammo_type"] = 1,
+							["chaff"] = 18,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			},
+			["AleppoSA342"] = {
+				["name"] = "Aleppo SA 342",
+				["country"] = country.SYRIA,
+				["type"] = "SA342L",
+				["skill"] = "High",
+				["livery"] = "syr airforce st",
+				["allWeatherAA"] = defs.capability.None,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 40000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 1,
+				["maxFlightSize"] = 2,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.CAP] = true,
+					[defs.missionType.AMBUSHCAP] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.HELICOPTER] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{SA342_Mistral_R1}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{SA342_Mistral_L1}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{FAS}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{IR_Deflector}",
+								},
+							},
+							["fuel"] = 416.33,
+							["flare"] = 32,
+							["chaff"] = 0,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			}
+		}
+	},
+	["Kuweires"] = {
+		name = "Kuweires", -- DCS name
+		takeoffHeading = 4.904, -- in radians
+		squadrons = {
+			["KuweiresMiG21"] = {
+				["name"] = "Aleppo MiG-21",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-21Bis",
+				["skill"] = "High",
+				["livery"] = "syria (2)",
+				["allWeatherAA"] = defs.capability.Limited,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 80000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 2,
+				["maxFlightSize"] = 4,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.CAP] = true,
+					[defs.missionType.AMBUSHCAP] = true,
+					[defs.missionType.Escort] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.Standard] = true,
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{PTB_800_MIG21}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{ASO-2}",
+								},
+							},
+							["fuel"] = 2280,
+							["flare"] = 40,
+							["ammo_type"] = 1,
+							["chaff"] = 18,
+							["gun"] = 100,
+						},
+						[defs.missionType.QRA] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{ASO-2}",
+								},
+							},
+							["fuel"] = 2280,
+							["flare"] = 40,
+							["ammo_type"] = 1,
+							["chaff"] = 18,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			}
+		}
+	},
+	["Taftanaz"] = {
+		name = "Taftanaz", -- DCS name
+		takeoffHeading = 0.085, -- in radians
+		squadrons = {
+			["TaftanazSA342"] = {
+				["name"] = "Taftanaz SA 342",
+				["country"] = country.SYRIA,
+				["type"] = "SA342L",
+				["skill"] = "High",
+				["livery"] = "syr airforce st",
+				["allWeatherAA"] = defs.capability.None,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 40000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 1,
+				["maxFlightSize"] = 2,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.CAP] = true,
+					[defs.missionType.AMBUSHCAP] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.HELICOPTER] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{SA342_Mistral_R1}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{SA342_Mistral_L1}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{FAS}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{IR_Deflector}",
+								},
+							},
+							["fuel"] = 416.33,
+							["flare"] = 32,
+							["chaff"] = 0,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			}
+		}
+	},
+	["Jirah"] = {
+		name = "Jirah", -- DCS name
+		takeoffHeading = 4.887, -- in radians
+		squadrons = {
+			["JirahMiG19"] = {
+				["name"] = "Jirah MiG-19",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-19P",
+				["skill"] = "High",
+				["livery"] = "default",
+				["allWeatherAA"] = defs.capability.Limited,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 40000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 2,
+				["maxFlightSize"] = 4,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.Standard] = true,
+					[defs.threatType.High] = false
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{K-13A}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{K-13A}",
+								},
+							},
+							["fuel"] = 1800,
+							["flare"] = 0,
+							["ammo_type"] = 1,
+							["chaff"] = 0,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			},
+			["JirahMiG21"] = {
+				["name"] = "Jirah MiG-21",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-21Bis",
+				["skill"] = "High",
+				["livery"] = "syria (2)",
+				["allWeatherAA"] = defs.capability.Limited,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 80000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 2,
+				["maxFlightSize"] = 4,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.CAP] = true,
+					[defs.missionType.AMBUSHCAP] = true,
+					[defs.missionType.Escort] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.Standard] = true,
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{PTB_800_MIG21}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{ASO-2}",
+								},
+							},
+							["fuel"] = 2280,
+							["flare"] = 40,
+							["ammo_type"] = 1,
+							["chaff"] = 18,
+							["gun"] = 100,
+						},
+						[defs.missionType.QRA] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{ASO-2}",
+								},
+							},
+							["fuel"] = 2280,
+							["flare"] = 40,
+							["ammo_type"] = 1,
+							["chaff"] = 18,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			}
+		}
+	},
+	["Duhur"] = {
+		name = "Abu al-Duhur", -- DCS name
+		takeoffHeading = 6.262, -- in radians
+		squadrons = {
+			["DuhurMiG23"] = {
+				["name"] = "Al-Duhur MiG-23",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-23MLD",
+				["skill"] = "High",
+				["livery"] = "default",
+				["allWeatherAA"] = defs.capability.Full,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 100000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 2,
+				["maxFlightSize"] = 4,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.CAP] = true,
+					[defs.missionType.AMBUSHCAP] = true,
+					[defs.missionType.Escort] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.Standard] = true,
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[2] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+							},
+							["fuel"] = 3800,
+							["flare"] = 60,
+							["chaff"] = 60,
+							["gun"] = 100,
+						},
+						[defs.missionType.QRA] = {
+							["pylons"] =
+							{
+								[2] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+							},
+							["fuel"] = 3800,
+							["flare"] = 60,
+							["chaff"] = 60,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			}
+		}
+	},
+	["Tabqa"] = {
+		name = "Tabqa", -- DCS name
+		takeoffHeading = 4.765, -- in radians
+		squadrons = {
+			["TabqaMiG25"] = {
+				["name"] = "Tabqa MiG-25",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-25PD",
+				["skill"] = "Excellent",
+				["livery"] = "default",
+				["allWeatherAA"] = defs.capability.Full,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 160000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 1,
+				["maxFlightSize"] = 2,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.CAP] = true,
+					[defs.missionType.Escort] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{5F26DBC2-FB43-4153-92DE-6BBCE26CB0FF}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{4EDBA993-2E34-444C-95FB-549300BF7CAF}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{4EDBA993-2E34-444C-95FB-549300BF7CAF}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{5F26DBC2-FB43-4153-92DE-6BBCE26CB0FF}",
+								},
+							},
+							["fuel"] = "15245",
+							["flare"] = 64,
+							["chaff"] = 64,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			},
+			["TabqaMiG23"] = {
+				["name"] = "Tabqa MiG-23",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-23MLD",
+				["skill"] = "High",
+				["livery"] = "default",
+				["allWeatherAA"] = defs.capability.Full,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 100000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 2,
+				["maxFlightSize"] = 4,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.CAP] = true,
+					[defs.missionType.AMBUSHCAP] = true,
+					[defs.missionType.Escort] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.Standard] = true,
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[2] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+							},
+							["fuel"] = 3800,
+							["flare"] = 60,
+							["chaff"] = 60,
+							["gun"] = 100,
+						},
+						[defs.missionType.QRA] = {
+							["pylons"] =
+							{
+								[2] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+							},
+							["fuel"] = 3800,
+							["flare"] = 60,
+							["chaff"] = 60,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			}
+		}
+	},
+	["Bassel"] = {
+		name = "Bassel Al-Assad", -- DCS name
+		takeoffHeading = 6.262, -- in radians
+		squadrons = {
+			["BasselMiG21"] = {
+				["name"] = "Bassel MiG-21",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-21Bis",
+				["skill"] = "High",
+				["livery"] = "syria (2)",
+				["allWeatherAA"] = defs.capability.Limited,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 80000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 2,
+				["maxFlightSize"] = 4,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.CAP] = true,
+					[defs.missionType.AMBUSHCAP] = true,
+					[defs.missionType.Escort] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.Standard] = true,
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{PTB_800_MIG21}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{ASO-2}",
+								},
+							},
+							["fuel"] = 2280,
+							["flare"] = 40,
+							["ammo_type"] = 1,
+							["chaff"] = 18,
+							["gun"] = 100,
+						},
+						[defs.missionType.QRA] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{ASO-2}",
+								},
+							},
+							["fuel"] = 2280,
+							["flare"] = 40,
+							["ammo_type"] = 1,
+							["chaff"] = 18,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			},
+			["BasselMiG23"] = {
+				["name"] = "Bassel MiG-23",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-23MLD",
+				["skill"] = "High",
+				["livery"] = "default",
+				["allWeatherAA"] = defs.capability.Full,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 80000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 2,
+				["maxFlightSize"] = 4,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.CAP] = true,
+					[defs.missionType.AMBUSHCAP] = true,
+					[defs.missionType.Escort] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.Standard] = true,
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[2] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+							},
+							["fuel"] = 3800,
+							["flare"] = 60,
+							["chaff"] = 60,
+							["gun"] = 100,
+						},
+						[defs.missionType.QRA] = {
+							["pylons"] =
+							{
+								[2] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+							},
+							["fuel"] = 3800,
+							["flare"] = 60,
+							["chaff"] = 60,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			}
+		}
+	},
+	["Hama"] = {
+		name = "Hama", -- DCS name
+		takeoffHeading = 4.887, -- in radians
+		squadrons = {
+			["HamaMiG29"] = {
+				["name"] = "Hama MiG-29",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-29A",
+				["skill"] = "High",
+				["livery"] = "SyAAF",
+				["allWeatherAA"] = defs.capability.Full,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 120000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 2,
+				["maxFlightSize"] = 4,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.Escort] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+								},
+								[7] =
+								{
+									["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+								},
+							},
+							["fuel"] = "3376",
+							["flare"] = 30,
+							["chaff"] = 30,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			},
+			["HamaMiG21"] = {
+				["name"] = "Hama MiG-21",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-21Bis",
+				["skill"] = "High",
+				["livery"] = "syria (2)",
+				["allWeatherAA"] = defs.capability.Limited,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 80000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 2,
+				["maxFlightSize"] = 4,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.CAP] = true,
+					[defs.missionType.AMBUSHCAP] = true,
+					[defs.missionType.Escort] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.Standard] = true,
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{PTB_800_MIG21}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{ASO-2}",
+								},
+							},
+							["fuel"] = 2280,
+							["flare"] = 40,
+							["ammo_type"] = 1,
+							["chaff"] = 18,
+							["gun"] = 100,
+						},
+						[defs.missionType.QRA] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{ASO-2}",
+								},
+							},
+							["fuel"] = 2280,
+							["flare"] = 40,
+							["ammo_type"] = 1,
+							["chaff"] = 18,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			},
+		}
+	},
+	["Shayrat"] = {
+		name = "Shayrat", -- DCS name
+		takeoffHeading = 5.096, -- in radians
+		squadrons = {
+			["ShayratMiG19"] = {
+				["name"] = "Shayrat MiG-19",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-19P",
+				["skill"] = "High",
+				["livery"] = "default",
+				["allWeatherAA"] = defs.capability.Limited,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 40000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 2,
+				["maxFlightSize"] = 4,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.Standard] = true,
+					[defs.threatType.High] = false
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{K-13A}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{K-13A}",
+								},
+							},
+							["fuel"] = 1800,
+							["flare"] = 0,
+							["ammo_type"] = 1,
+							["chaff"] = 0,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			}
+		}
+	},
+	["Tiyas"] = {
+		name = "Tiyas", -- DCS name
+		takeoffHeading = 4.712, -- in radians
+		squadrons = {
+			["TiyasMiG25"] = {
+				["name"] = "Tiyas MiG-25",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-25PD",
+				["skill"] = "Excellent",
+				["livery"] = "default",
+				["allWeatherAA"] = defs.capability.Full,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 200000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 1,
+				["maxFlightSize"] = 2,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.CAP] = true,
+					[defs.missionType.Escort] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{5F26DBC2-FB43-4153-92DE-6BBCE26CB0FF}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{4EDBA993-2E34-444C-95FB-549300BF7CAF}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{4EDBA993-2E34-444C-95FB-549300BF7CAF}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{5F26DBC2-FB43-4153-92DE-6BBCE26CB0FF}",
+								},
+							},
+							["fuel"] = "15245",
+							["flare"] = 64,
+							["chaff"] = 64,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			}
+		}
+	},
+	["Palmyra"] = {
+		name = "Palmyra", -- DCS name
+		takeoffHeading = 4.625, -- in radians
+		squadrons = {
+			["PalmyraMiG21"] = {
+				["name"] = "Palmyra MiG-21",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-21Bis",
+				["skill"] = "High",
+				["livery"] = "syria (2)",
+				["allWeatherAA"] = defs.capability.Limited,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 80000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 2,
+				["maxFlightSize"] = 4,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.CAP] = true,
+					[defs.missionType.AMBUSHCAP] = true,
+					[defs.missionType.Escort] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.Standard] = true,
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{PTB_800_MIG21}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{ASO-2}",
+								},
+							},
+							["fuel"] = 2280,
+							["flare"] = 40,
+							["ammo_type"] = 1,
+							["chaff"] = 18,
+							["gun"] = 100,
+						},
+						[defs.missionType.QRA] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{R-3R}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{R-60M}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{ASO-2}",
+								},
+							},
+							["fuel"] = 2280,
+							["flare"] = 40,
+							["ammo_type"] = 1,
+							["chaff"] = 18,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			}
+		}
+	},
+	["Dumayr"] = {
+		name = "Al-Dumayr", -- DCS name
+		takeoffHeading = 6.262, -- in radians
+		squadrons = {
+			["DumayrMiG23"] = {
+				["name"] = "Al-Dumayr MiG-23",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-23MLD",
+				["skill"] = "High",
+				["livery"] = "default",
+				["allWeatherAA"] = defs.capability.Full,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 100000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 2,
+				["maxFlightSize"] = 4,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.CAP] = true,
+					[defs.missionType.AMBUSHCAP] = true,
+					[defs.missionType.Escort] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.Standard] = true,
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[2] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}",
+								},
+								[4] =
+								{
+									["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+							},
+							["fuel"] = 3800,
+							["flare"] = 60,
+							["chaff"] = 60,
+							["gun"] = 100,
+						},
+						[defs.missionType.QRA] = {
+							["pylons"] =
+							{
+								[2] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
+								},
+							},
+							["fuel"] = 3800,
+							["flare"] = 60,
+							["chaff"] = 60,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			}
+		}
+	},
+	["Sayqal"] = {
+		name = "Sayqal", -- DCS name
+		takeoffHeading = 4.712, -- in radians
+		squadrons = {
+			["SayqalMiG29"] = {
+				["name"] = "Sayqal MiG-29",
+				["country"] = country.SYRIA,
+				["type"] = "MiG-29A",
+				["skill"] = "Excellent",
+				["livery"] = "SyAAF",
+				["allWeatherAA"] = defs.capability.Full,
+				["allWeatherAG"] = defs.capability.None,
+				["interceptRadius"] = 140000, -- radius of action around the airbase for interceptors from this squadron in meters
+				["baseFlightSize"] = 2,
+				["maxFlightSize"] = 4,
+				["missions"] = {
+					[defs.missionType.Intercept] = true,
+					[defs.missionType.QRA] = true,
+					[defs.missionType.Escort] = true,
+				},
+				["targetCategories"] = {
+					[Unit.Category.AIRPLANE] = true
+				},
+				["threatTypes"] = {
+					[defs.threatType.Standard] = true,
+					[defs.threatType.High] = true
+				},
+				["loadouts"] = {
+					[defs.roleCategory.AA] = {
+						[defs.missionType.General] = {
+							["pylons"] =
+							{
+								[1] =
+								{
+									["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+								},
+								[2] =
+								{
+									["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+								},
+								[3] =
+								{
+									["CLSID"] = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
+								},
+								[5] =
+								{
+									["CLSID"] = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
+								},
+								[6] =
+								{
+									["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+								},
+								[7] =
+								{
+									["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+								},
+							},
+							["fuel"] = "3376",
+							["flare"] = 30,
+							["chaff"] = 30,
+							["gun"] = 100,
+						}
+					}
+				},
+				["callsigns"] = {
+					["Crimson"] = 0,
+					["Amber"] = 0,
+					["Indigo"] = 0,
+					["Emerald"] = 0,
+					["Azure"] = 0
+				}
+			}
+		}
+	}
+}
 
--- Blue Incirlik Intercept
-A2ADispatcher_Blue:SetSquadron("Incirlik Intercept", AIRBASE.Syria.Incirlik, { "F15C", "M2000" })
-A2ADispatcher_Blue:SetSquadronTakeoffInAir("Incirlik Intercept")
-A2ADispatcher_Blue:SetSquadronLandingNearAirbase("Incirlik Intercept")
-A2ADispatcher_Blue:SetSquadronOverhead("Incirlik Intercept", 1)
-A2ADispatcher_Blue:SetSquadronGrouping("Incirlik Intercept", 2, true)
-A2ADispatcher_Blue:SetSquadronGci("Incirlik Intercept", 800, 1200, 2, 120, 240)
-
--- Blue Gaziantep Intercept
-A2ADispatcher_Blue:SetSquadron("Gaziantep Intercept", AIRBASE.Syria.Gaziantep, { "F4", "F5" })
-A2ADispatcher_Blue:SetSquadronTakeoffInAir("Gaziantep Intercept")
-A2ADispatcher_Blue:SetSquadronLandingNearAirbase("Gaziantep Intercept")
-A2ADispatcher_Blue:SetSquadronOverhead("Gaziantep Intercept", 1)
-A2ADispatcher_Blue:SetSquadronGrouping("Gaziantep Intercept", 2, true)
-A2ADispatcher_Blue:SetSquadronGci("Gaziantep Intercept", 800, 1200, 2, 120, 240)
-
-
--- Setting red dispatcher
-EWR_Red = SET_GROUP:New()
-EWR_Red:FilterCoalitions("red")
-EWR_Red:FilterPrefixes({ "sa2", "sa3", "sa5", "sa6", "aaa", "SAM", "EWR", "Intercept" })
-EWR_Red:FilterActive()
-EWR_Red:FilterStart()
-Detection_Red = DETECTION_AREAS:New(EWR_Red, 10000)   -- 10km grouping
-Detection_Red:SetAlphaAngleProbability(0.1, 1 / 3)    -- 10% chance of engaging targets detected at 0º, with cubic probability curve up to 90º
-Detection_Red:InitDetectRadar(true)
-Detection_Red:InitDetectVisual(true)
-Detection_Red:InitDetectOptical(true)
-A2ADispatcher_Red = AI_A2A_DISPATCHER:New(Detection_Red)
-A2ADispatcher_Red:SetEngageRadius(75000)                 -- CAP engagement radius of 75km
-A2ADispatcher_Red:SetDefaultCapRacetrack(30000, 40000)   -- 30-40km racetracks
-A2ADispatcher_Red:SetDefaultFuelThreshold(0.3)           -- RTB early to prevent out of fuel ejections
-A2ADispatcher_Red:SetIntercept(180)                      -- Interception delay in seconds
-A2ADispatcher_Red:SetGciRadius(180000)                   -- Intercept targets less than 180km away from airbases
-A2ADispatcher_Red:SetBorderZone({ CAPZone1, CAPZone2, CAPZone3, CAPZone4 })
-
--- Aleppo CAP
-A2ADispatcher_Red:SetSquadron("Aleppo", AIRBASE.Syria.Aleppo, { "M19" })
-A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot("Aleppo")
-A2ADispatcher_Red:SetSquadronLandingAtRunway("Aleppo")
-A2ADispatcher_Red:SetSquadronOverhead("Aleppo", 1)
-A2ADispatcher_Red:SetSquadronGrouping("Aleppo", 2, true)
-A2ADispatcher_Red:SetSquadronCap("Aleppo", CAPZone1, 4000, 7000, 460, 900, 600, 1200)
-A2ADispatcher_Red:SetSquadronCapInterval("Aleppo", 1, 700, 1400)
--- CAP parameters: area, min alt, max alt, min speed patrol, max speed patrol, min speed engage, max speed engage)
--- CAP interval parameters: max groups, min regen interval, max regen interval
-
--- Aleppo GCI
-A2ADispatcher_Red:SetSquadron("Aleppo GCI", AIRBASE.Syria.Aleppo, { "M21Easy", "M19" })
-A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot("Aleppo GCI")
-A2ADispatcher_Red:SetSquadronLandingAtRunway("Aleppo GCI")
-A2ADispatcher_Red:SetSquadronOverhead("Aleppo GCI", 1)
-A2ADispatcher_Red:SetSquadronGrouping("Aleppo GCI", 2, true)
-A2ADispatcher_Red:SetSquadronGci("Aleppo GCI", 800, 1200, 4, 900, 1200)
--- GCI parameters: min engage speed, max engage speed, max airborne aircraft, min regen interval, max regen interval
-
--- Airspawn 1 CAP (Disabled)
--- A2ADispatcher_Red:SetSquadron( "39th", "Airspawn 1", { "M21", "M19" } )
--- A2ADispatcher_Red:SetSquadronTakeoffInAir( "39th" )
--- A2ADispatcher_Red:SetSquadronLandingNearAirbase( "39th" )
--- A2ADispatcher_Red:SetSquadronOverhead( "39th", 1 )
--- A2ADispatcher_Red:SetSquadronGrouping( "39th", 2, true )
--- A2ADispatcher_Red:SetSquadronCap( "39th", CAPZone1, 4000, 7000, 500, 900, 600, 1200 )
--- A2ADispatcher_Red:SetSquadronCapInterval( "39th", 0, 350, 1400 )
-
--- Kuweires GCI
-A2ADispatcher_Red:SetSquadron("Kuweires GCI", AIRBASE.Syria.Kuweires, { "M21Easy", "M19" })
-A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot("Kuweires GCI")
-A2ADispatcher_Red:SetSquadronLandingAtRunway("Kuweires GCI")
-A2ADispatcher_Red:SetSquadronOverhead("Kuweires GCI", 1)
-A2ADispatcher_Red:SetSquadronGrouping("Kuweires GCI", 2, true)
-A2ADispatcher_Red:SetSquadronGci("Kuweires GCI", 800, 1200, 4, 900, 1200)
-
--- Abu al-Duhur CAP
-A2ADispatcher_Red:SetSquadron("Abu CAP", AIRBASE.Syria.Abu_al_Duhur, { "M23" })
-A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot("Abu CAP")
-A2ADispatcher_Red:SetSquadronLandingAtRunway("Abu CAP")
-A2ADispatcher_Red:SetSquadronOverhead("Abu CAP", 1)
-A2ADispatcher_Red:SetSquadronGrouping("Abu CAP", 2, true)
-A2ADispatcher_Red:SetSquadronCap("Abu CAP", CAPZone2, 4000, 7000, 500, 900, 600, 1200)
-A2ADispatcher_Red:SetSquadronCapInterval("Abu CAP", 1, 450, 600)
-
--- Abu al-Duhur GCI
-A2ADispatcher_Red:SetSquadron("Abu GCI", AIRBASE.Syria.Abu_al_Duhur, { "M23" })
-A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot("Abu GCI")
-A2ADispatcher_Red:SetSquadronLandingAtRunway("Abu GCI")
-A2ADispatcher_Red:SetSquadronOverhead("Abu GCI", 1)
-A2ADispatcher_Red:SetSquadronGrouping("Abu GCI", 2, true)
-A2ADispatcher_Red:SetSquadronGci("Abu GCI", 800, 1200, 4, 750, 1000)
-
--- Bassel GCI
-A2ADispatcher_Red:SetSquadron("Bassel GCI", AIRBASE.Syria.Bassel_Al_Assad, { "M21", "M23" })
-A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot("Bassel GCI")
-A2ADispatcher_Red:SetSquadronLandingAtRunway("Bassel GCI")
-A2ADispatcher_Red:SetSquadronOverhead("Bassel GCI", 1)
-A2ADispatcher_Red:SetSquadronGrouping("Bassel GCI", 2, true)
-A2ADispatcher_Red:SetSquadronGci("Bassel GCI", 800, 1500, 4, 750, 1000)
-
--- Hama GCI
-A2ADispatcher_Red:SetSquadron("Hama GCI", AIRBASE.Syria.Hama, { "M29Easy" })
-A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot("Hama GCI")
-A2ADispatcher_Red:SetSquadronLandingAtRunway("Hama GCI")
-A2ADispatcher_Red:SetSquadronOverhead("Hama GCI", 1)
-A2ADispatcher_Red:SetSquadronGrouping("Hama GCI", 2, true)
-A2ADispatcher_Red:SetSquadronGci("Hama GCI", 1000, 1500, 2, 600, 1000)
-
--- Hama GCI (MiG-21)
-A2ADispatcher_Red:SetSquadron("Hama GCI M21", AIRBASE.Syria.Hama, { "M21Easy" })
-A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot("Hama GCI M21")
-A2ADispatcher_Red:SetSquadronLandingAtRunway("Hama GCI M21")
-A2ADispatcher_Red:SetSquadronOverhead("Hama GCI M21", 1)
-A2ADispatcher_Red:SetSquadronGrouping("Hama GCI M21", 2, true)
-A2ADispatcher_Red:SetSquadronGci("Hama GCI M21", 800, 1500, 2, 400, 600)
-
--- Airspawn 2 CAP (Disabled)
--- A2ADispatcher_Red:SetSquadron( "77th", "Airspawn 2", { "M21", "M23", "M25" } )
--- A2ADispatcher_Red:SetSquadronTakeoffInAir( "77th" )
--- A2ADispatcher_Red:SetSquadronLandingNearAirbase( "77th" )
--- A2ADispatcher_Red:SetSquadronOverhead( "77th", 1 )
--- A2ADispatcher_Red:SetSquadronGrouping( "77th", 2, true )
--- A2ADispatcher_Red:SetSquadronCap( "77th", CAPZone2, 4000, 7000, 500, 900, 900, 1500 )
--- A2ADispatcher_Red:SetSquadronCapInterval( "77th", 0, 350, 1400 )
-
--- Palmyra CAP
-A2ADispatcher_Red:SetSquadron("Palmyra", AIRBASE.Syria.Palmyra, { "M21" })
-A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot("Palmyra")
-A2ADispatcher_Red:SetSquadronLandingAtRunway("Palmyra")
-A2ADispatcher_Red:SetSquadronOverhead("Palmyra", 1)
-A2ADispatcher_Red:SetSquadronGrouping("Palmyra", 2, true)
-A2ADispatcher_Red:SetSquadronCap("Palmyra", CAPZone4, 7000, 10000, 500, 900, 900, 1800)
-A2ADispatcher_Red:SetSquadronCapInterval("Palmyra", 1, 600, 900)
-
--- Palmyra GCI
-A2ADispatcher_Red:SetSquadron("Palmyra GCI", AIRBASE.Syria.Palmyra, { "M21", "M21Easy" })
-A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot("Palmyra GCI")
-A2ADispatcher_Red:SetSquadronLandingAtRunway("Palmyra GCI")
-A2ADispatcher_Red:SetSquadronOverhead("Palmyra GCI", 1)
-A2ADispatcher_Red:SetSquadronGrouping("Palmyra GCI", 2, true)
-A2ADispatcher_Red:SetSquadronGci("Palmyra GCI", 800, 1500, 2, 900, 1200)
-
--- Tiyas GCI
-A2ADispatcher_Red:SetSquadron("Tiyas GCI", AIRBASE.Syria.Tiyas, { "M25" })
-A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot("Tiyas GCI")
-A2ADispatcher_Red:SetSquadronLandingAtRunway("Tiyas GCI")
-A2ADispatcher_Red:SetSquadronOverhead("Tiyas GCI", 1)
-A2ADispatcher_Red:SetSquadronGrouping("Tiyas GCI", 2, true)
-A2ADispatcher_Red:SetSquadronGci("Tiyas GCI", 1200, 1800, 4, 900, 1200)
-
--- Airspawn 3 CAP (Disabled)
--- A2ADispatcher_Red:SetSquadron( "38th", "Airspawn 3", { "M23", "M25", "M29" } )
--- A2ADispatcher_Red:SetSquadronTakeoffInAir( "38th" )
--- A2ADispatcher_Red:SetSquadronLandingNearAirbase( "38th" )
--- A2ADispatcher_Red:SetSquadronOverhead( "38th", 1 )
--- A2ADispatcher_Red:SetSquadronGrouping( "38th", 2, true )
--- A2ADispatcher_Red:SetSquadronCap( "38th", CAPZone3, 4000, 7000, 500, 900, 900, 1500 )
--- A2ADispatcher_Red:SetSquadronCapInterval( "38th", 0, 350, 1400 )
-
--- Damascus CAP
-A2ADispatcher_Red:SetSquadron("Damascus", AIRBASE.Syria.Sayqal, { "M29" })
-A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot("Damascus")
-A2ADispatcher_Red:SetSquadronLandingAtRunway("Damascus")
-A2ADispatcher_Red:SetSquadronOverhead("Damascus", 1)
-A2ADispatcher_Red:SetSquadronGrouping("Damascus", 2, true)
-A2ADispatcher_Red:SetSquadronCap("Damascus", CAPZone3, 4000, 7000, 500, 900, 900, 1500)
-A2ADispatcher_Red:SetSquadronCapInterval("Damascus", 1, 300, 500)
-
--- Damascus GCI
-A2ADispatcher_Red:SetSquadron("Damascus GCI", AIRBASE.Syria.Sayqal, { "M29" })
-A2ADispatcher_Red:SetSquadronTakeoffFromParkingHot("Damascus GCI")
-A2ADispatcher_Red:SetSquadronLandingAtRunway("Damascus GCI")
-A2ADispatcher_Red:SetSquadronOverhead("Damascus GCI", 1)
-A2ADispatcher_Red:SetSquadronGrouping("Damascus GCI", 2, true)
-A2ADispatcher_Red:SetSquadronGci("Damascus GCI", 800, 1500, 6, 500, 800)
-
-
--- Debug messages
--- A2ADispatcher_Red:SetTacticalDisplay(true)
--- A2ADispatcher_Blue:SetTacticalDisplay(true)
-
-A2ADispatcher_Red:Start()
-A2ADispatcher_Blue:Start()
-
-local CAP_Level = 0
-
--- Dynamically adjust blue CAP according to player count
--- Note: the CAP amounts are *groups*, so 1x CAP = 2 planes
--- Note: existing aircraft are not removed from CAP duty until they RTB
-local PlayerCheck = TIMER:New(function()
-    local numPlayers = #coalition.getPlayers(coalition.side.BLUE)
-    if numPlayers < 5 then
-        -- 0-4 players
-        if CAP_Level ~= 4 then
-            CAP_Level = 4
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik F4E", 0, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik F5E", 1, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik F15C", 1, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik M2000C", 1, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Fleet F18", 1, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Fleet F14", 1, 120, 180)
-            env.info("Setting blue CAP level to 4 (maximum)")
-        end
-    elseif numPlayers < 10 then
-        -- 5-9 players
-        if CAP_Level ~= 3 then
-            CAP_Level = 3
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik F4E", 1, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik F5E", 1, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik F15C", 0, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik M2000C", 1, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Fleet F18", 1, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Fleet F14", 1, 120, 180)
-            env.info("Setting blue CAP level to 3 (strong)")
-        end
-    elseif numPlayers < 15 then
-        -- 10-14 players
-        if CAP_Level ~= 2 then
-            CAP_Level = 2
-            -- 10-14 players
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik F4E", 1, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik F5E", 1, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik F15C", 0, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik M2000C", 0, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Fleet F18", 1, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Fleet F14", 0, 120, 180)
-            env.info("Setting blue CAP level to 2 (medium)")
-        end
-    else
-        -- 15+ players
-        if CAP_Level ~= 1 then
-            CAP_Level = 1
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik F4E", 0, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik F5E", 1, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik F15C", 0, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Incirlik M2000C", 0, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Fleet F18", 1, 120, 180)
-            A2ADispatcher_Blue:SetSquadronCapInterval("Fleet F14", 0, 120, 180)
-            env.info("Setting blue CAP level to 1 (weak)")
-        end
-    end
-end)
-
-PlayerCheck:Start(nil, 60)
+local ODSRed = AirCommand:new(coalition.side.RED, "SAAF")
+ODSRed:setParameters(parameters)
+ODSRed:setAircraftParameters(aircraftParameters)
+ODSRed:setThreatTypes(threatTypes)
+ODSRed:activate(OOB, orbits, CAPZones, ADZExclusion, false)
+ODSRed:enableDebug()

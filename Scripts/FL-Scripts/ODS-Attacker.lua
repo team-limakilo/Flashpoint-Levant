@@ -1,45 +1,3 @@
-local function LogisticsAssets()
-	SPAWN:NewWithAlias("ARCO", "ARCO")
-		:InitLimit(1, 0)
-		:SpawnScheduled(10, 0)
-		:InitRepeatOnLanding()
-
-	SPAWN:NewWithAlias("Petrol", "PETROL")
-		:InitLimit(1, 0)
-		:SpawnScheduled(10, 0)
-		:InitRepeatOnLanding()
-
-	SPAWN:NewWithAlias("SHELL", "SHELL")
-		:InitLimit(1, 0)
-		:SpawnScheduled(10, 0)
-		:InitRepeatOnLanding()
-
-	SPAWN:NewWithAlias("TEXACO", "TEXACO")
-		:InitLimit(1, 0)
-		:SpawnScheduled(10, 0)
-		:InitRepeatOnLanding()
-
-	SPAWN:NewWithAlias("DARKSTAR", "DARKSTAR")
-		:InitLimit(1, 0)
-		:SpawnScheduled(10, 0)
-		:InitRepeatOnLanding()
-
-	SPAWN:NewWithAlias("WIZARD", "WIZARD")
-		:InitLimit(1, 0)
-		:SpawnScheduled(10, 0)
-		:InitRepeatOnLanding()
-
-	SPAWN:NewWithAlias("IMAGE", "IMAGE")
-		:InitLimit(1, 0)
-		:SpawnScheduled(10, 0)
-		:InitRepeatOnLanding()
-
-	SPAWN:NewWithAlias("Recovery Tanker", "Recovery Tanker")
-		:InitLimit(1, 0)
-		:SpawnScheduled(10, 0)
-		:InitRepeatOnLanding()
-end
-
 local function EnemyAttackers()
 	-- SPAWN:New('CASrandom1'):InitDelayOn():InitLimit(2, 0):SpawnScheduled(3600, 0.3):InitRepeatOnLanding()
 
@@ -60,5 +18,4 @@ local function EnemyAttackers()
 	SPAWN:NewWithAlias('TND2', '[Italy] Legion 15 Tornado'):InitLimit(2, 16):SpawnScheduled(1300, 0.3):InitRepeatOnLanding()
 end
 
-LogisticsAssets()
 EnemyAttackers()
