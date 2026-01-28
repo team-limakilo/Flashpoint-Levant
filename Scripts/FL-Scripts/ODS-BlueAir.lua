@@ -222,7 +222,7 @@ local orbits = {
 		["speed"] = 149,
 		["alt"] = 2438.4,
 		["comm"] = {
-			["frequency"] = 355500000,
+			["frequency"] = 335500000,
 			["modulation"] = 0
 		},
 		["beacon"] = {
