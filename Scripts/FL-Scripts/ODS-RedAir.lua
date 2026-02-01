@@ -8,7 +8,7 @@ local defs = require("Defs")
 local parameters = {
 	["minPackageTime"] = 600,
 	["maxPackageTime"] = 2400,
-	["preparationTime"] = 2400,
+	["preparationTime"] = 2100,
 	["CAPChance"] = 70,
  	["AMBUSHChance"] = 75
 }

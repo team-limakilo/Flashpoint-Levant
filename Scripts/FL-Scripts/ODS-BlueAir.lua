@@ -10,8 +10,11 @@ local parameters = {
 	["maxPackageTime"] = 240,
 	["tankerChance"] = 100,
 	["AEWChance"] = 100,
-	["CAPChance"] = 5,
- 	["AMBUSHChance"] = 0
+	["CAPChance"] = 10,
+ 	["AMBUSHChance"] = 0,
+	["maxPlayerModifier"] = 4,
+	["modifierPlayerFloor"] = 5,
+	["modifierPlayerCeiling"] = 20
 }
 
 -- parameters for aircraft
@@ -316,7 +319,8 @@ local CAPZones = {
 		["reference"] = { -- Aleppo
 			["x"] = 125616,
 			["y"] = 123191
-		}
+		},
+		["minPlayers"] = 16
 	},
 	[2] = {
 		["x"] = 103600,
@@ -325,7 +329,8 @@ local CAPZones = {
 		["reference"] = { -- Hama
 			["x"] = 8700,
 			["y"] = 74388
-		}
+		},
+		["minPlayers"] = 16
 	},
 	[3] = {
 		["x"] = -81500,
@@ -335,6 +340,17 @@ local CAPZones = {
 			["x"] = -151713,
 			["y"] = 117655
 		}
+	},
+	-- special CAP zone for low player counts inside Syria
+	[4] = {
+		["x"] = 22964,
+		["y"] = 127942,
+		["radius"] = 160000,
+		["reference"] = { -- Sayqal
+			["x"] = -151713,
+			["y"] = 117655
+		},
+		["maxPlayers"] = 15
 	},
 }
 
