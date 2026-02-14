@@ -1,0 +1,17 @@
+objtype = "Facility"
+intel = 5
+cost = 2
+name = "Reg1Bridge-1"
+coalition = 1
+buildings = {
+    {
+        ["name"] = "Bridge",
+        ["goal"] = "primary destroyed",
+        ["id"] = 121472974,
+    },
+}
+desc = [[Reconaissance flights have shown trains being loaded with supplies in the city, presumably headed southwards to more secure depots. A strike has been ordered on a railway bridge along the tracks leading to Hama. Your target is a bridge approximately 10 miles north of the city Abu Ad Duhur.
+
+Primary objective: Destroy the railway bridge.
+
+Threats: AAA, SAM emplacements IVO Aleppo]]
