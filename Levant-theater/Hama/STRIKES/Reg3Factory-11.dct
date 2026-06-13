@@ -5,15 +5,16 @@ name = "Reg3Factory-11"
 coalition = 1
 buildings = {
     {
-        ["name"] = "Factory 1",
+        ["name"] = "Warehouse",
         ["goal"] = "primary destroyed",
         ["id"]   = 73343302,
     },
 }
-desc = [[%LOCATIONMETHOD% a factory building north of Homs on the industrial sector by the city limits, a bit south of a cloverleaf intersection. You can identify it by its smoke stacks.
-Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
+desc = [[%LOCATIONMETHOD% a warehouse containing military industrial material northwest of Homs. The warehouse can be identified by its grey and orange roof. You are to strike and destroy it.
 
-Primary objective: Destroy the factory.
+Caution: Any damage to the nearby hospital is to be avoided at all costs.
+
+Primary objective: Destroy the warehouse.
 
 Threats: AAA, Medium and High altitude SAMs.
 

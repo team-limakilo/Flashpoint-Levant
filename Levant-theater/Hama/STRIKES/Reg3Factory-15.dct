@@ -1,0 +1,21 @@
+objtype = "Factory"
+intel = 5
+cost = 3
+name = "Reg3Factory-15"
+coalition = 1
+buildings = {
+    {
+        ["name"] = "Factory",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 73064625,
+    },
+}
+desc = [[%LOCATIONMETHOD% a chemical processing plant located west of Homs. High command has deemed this facility to be critical to Syrian military industry in the region and a priority target. The main processing plant is located near a large grouping of fluid tanks and can be identified by two large red and white smoke stacks; you are to strike and destroy it.
+
+Caution: This target is located in a populated area, be selective with weapons placement to prevent civilian casualties.
+
+Primary objective: Destroy the chemical plant.
+
+Threats: AAA, Medium and High altitude SAMs.
+
+Recommended pilots: 2]]

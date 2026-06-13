@@ -5,10 +5,10 @@ name = "Reg3Factory-5"
 coalition = 1
 buildings = {
     {
-        ["name"] = "Factory 1",
+        ["name"] = "West Tanks",
         ["goal"] = "primary destroyed",
-        ["id"]   = 80922221,
-    },
+        ["id"]   = 82273909,
+    }
 }
 desc = [[%LOCATIONMETHOD% a group of fuel storage tanks on the eastern part of Hama, north of the river. You can identify them by their concrete base, on top of which there are 4 tanks in total.
 Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.

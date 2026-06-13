@@ -5,21 +5,28 @@ name = "Reg2Factory-1"
 coalition = 1
 buildings = {
     {
-        ["name"] = "West Facility",
+        ["name"] = "Main Facility",
         ["goal"] = "primary destroyed",
-        ["id"]   = 73304039,
+        ["id"]   = 73656878,
     },
     {
-        ["name"] = "East Facility",
+        ["name"] = "Sub-Facility A",
         ["goal"] = "primary destroyed",
-        ["id"]   = 73304827,
+        ["id"]   = 107187695,
+    },
+    {
+        ["name"] = "Sub-Facility B",
+        ["goal"] = "primary destroyed",
+        ["id"]   = 107187698,
     },
 }
-desc = [[There is an important oil refinery north of Baniyas which needs to be disabled, and most importantly, you are to destroy the two chemical processing facilities, identifiable by their red and white smoke stacks.
+desc = [[There is a large oil refinery located north of Baniyas. Coalition high command has made it a priority target in order to hinder the logistics of the Syrian army.
 
-Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
+You are to strike the refinery: The main processing plant is located south of the main fluid storage area and can be identified by its two large red and white smoke stacks. Two additional processing units are located just to the northeast, near a large grouping of smaller fluid tanks. Destroy all three of these facilities.
 
-Primary objective: Destroy both processing facilities.
+Caution: This target is located in a populated area, be selective with weapons placement to prevent civilian casualties.
+
+Primary objective: Destroy the three processing facilities.
 
 Threats: AAA, medium and high altitude SAMs.
 

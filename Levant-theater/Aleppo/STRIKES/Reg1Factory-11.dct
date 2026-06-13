@@ -7,16 +7,18 @@ buildings = {
     {
         ["name"] = "Factory",
         ["goal"] = "primary destroyed",
-        ["id"]   = 82411594,
+        ["id"]   = 224207550,
     },
 }
 desc = [[%LOCATIONMETHOD% a fuel storage facility in the Al-Safira Military Base, west of the town.
 
-Destroy it, and they will need a constant supply of diesel from outside to continue operating the base, putting further strain on their supply lines.
+The target consists of six large fluid tanks in the industrial zone north of the base, which can be identified by the blue rings on their roofs; you are to destroy as many of them as possible. Two further groups of small fuel tanks are also present and should be considered secondary targets.
 
-Caution, this target is in a populated area, be selective with weapons placement to prevent civilian casualties.
+Caution: This target is located in a populated area, be selective with weapons placement to prevent civilian casualties.
 
-Primary objective: Destroy the fuel tanks.
+Primary objective: Destroy the six large fluid tanks.
+
+Secondary objective: Inflict additional damage to fuel storage facilities.
 
 Threats: AAA, SA-2.
 
