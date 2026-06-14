@@ -1,4 +1,3 @@
-
 objtype = "airbase"
 name = "Incirlik"
 coalition = 2
@@ -16,7 +15,7 @@ subordinates = {
 "VF21",
 "VF101",
 "VMA311",
-"131."
+"131.",
 "Patreon",
 }
 players = {
