@@ -7,7 +7,7 @@ buildings = {
     {
         ["name"] = "Warehouse",
         ["goal"] = "primary destroyed",
-        ["id"]   = 73343302,
+        ["id"]   = 81479579,
     },
 }
 desc = [[%LOCATIONMETHOD% a warehouse containing military industrial material northwest of Homs. The warehouse can be identified by its grey and orange roof. You are to strike and destroy it.
